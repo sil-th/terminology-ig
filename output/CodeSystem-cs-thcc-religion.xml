@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cs-thcc-religion"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://terms.sil-th.org/Codesystem/cs-thcc-religion defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">01<a name="cs-thcc-religion-01"> </a></td><td>ศาสนาพุทธ</td><td>เถรวาท มหายาน</td></tr><tr><td style="white-space:nowrap">02<a name="cs-thcc-religion-02"> </a></td><td>ศาสนาอิสลาม</td><td>สุหนี ชีอะห์</td></tr><tr><td style="white-space:nowrap">03<a name="cs-thcc-religion-03"> </a></td><td>ศาสนาคริสต์</td><td>โรมันคาทอลิก โปรเตสแตนต์ ออร์ทอดอกซ์</td></tr><tr><td style="white-space:nowrap">04<a name="cs-thcc-religion-04"> </a></td><td>ศาสนาพราหมณ์-ฮินดู</td><td>ไศวะ ไวษณพ ศักติ</td></tr><tr><td style="white-space:nowrap">05<a name="cs-thcc-religion-05"> </a></td><td>ศาสนาซิกข์</td><td>นานักปันถิ ขาลสา</td></tr><tr><td style="white-space:nowrap">06<a name="cs-thcc-religion-06"> </a></td><td>ศาสนายิว</td><td>ออร์ทอดอกซ์ (ฟาริซี) โปรเกรสซีฟ (ซัดดูคูส) นักพรต (เอสเซเนส)</td></tr><tr><td style="white-space:nowrap">07<a name="cs-thcc-religion-07"> </a></td><td>ศาสนาเชน</td><td>ทิคัมพร เศวตัมพร</td></tr><tr><td style="white-space:nowrap">08<a name="cs-thcc-religion-08"> </a></td><td>ศาสนาโซโรอัสเตอร์</td><td>กัทมิส ชหันชหิส</td></tr><tr><td style="white-space:nowrap">09<a name="cs-thcc-religion-09"> </a></td><td>ศาสนาบาไฮ</td><td/></tr><tr><td style="white-space:nowrap">00<a name="cs-thcc-religion-00"> </a></td><td>อศาสนา/ไม่นับถือศาสนา</td><td/></tr><tr><td style="white-space:nowrap">99<a name="cs-thcc-religion-99"> </a></td><td>ไม่ระบุ</td><td/></tr></table></div>
+  </text>
+  <url value="http://terms.sil-th.org/Codesystem/cs-thcc-religion"/>
+  <version value="0.1.0"/>
+  <name value="CS_THCC_Religion"/>
+  <title value="ชุดรหัสศาสนา"/>
+  <status value="active"/>
+  <date value="2022-07-30T17:25:25+07:00"/>
+  <description value="ชุดรหัสศาสนา จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="TH"/>
+    </coding>
+  </jurisdiction>
+  <content value="complete"/>
+  <count value="11"/>
+  <concept>
+    <code value="01"/>
+    <display value="ศาสนาพุทธ"/>
+    <definition value="เถรวาท มหายาน"/>
+  </concept>
+  <concept>
+    <code value="02"/>
+    <display value="ศาสนาอิสลาม"/>
+    <definition value="สุหนี ชีอะห์"/>
+  </concept>
+  <concept>
+    <code value="03"/>
+    <display value="ศาสนาคริสต์"/>
+    <definition value="โรมันคาทอลิก โปรเตสแตนต์ ออร์ทอดอกซ์"/>
+  </concept>
+  <concept>
+    <code value="04"/>
+    <display value="ศาสนาพราหมณ์-ฮินดู"/>
+    <definition value="ไศวะ ไวษณพ ศักติ"/>
+  </concept>
+  <concept>
+    <code value="05"/>
+    <display value="ศาสนาซิกข์"/>
+    <definition value="นานักปันถิ ขาลสา"/>
+  </concept>
+  <concept>
+    <code value="06"/>
+    <display value="ศาสนายิว"/>
+    <definition value="ออร์ทอดอกซ์ (ฟาริซี) โปรเกรสซีฟ (ซัดดูคูส) นักพรต (เอสเซเนส)"/>
+  </concept>
+  <concept>
+    <code value="07"/>
+    <display value="ศาสนาเชน"/>
+    <definition value="ทิคัมพร เศวตัมพร"/>
+  </concept>
+  <concept>
+    <code value="08"/>
+    <display value="ศาสนาโซโรอัสเตอร์"/>
+    <definition value="กัทมิส ชหันชหิส"/>
+  </concept>
+  <concept>
+    <code value="09"/>
+    <display value="ศาสนาบาไฮ"/>
+  </concept>
+  <concept>
+    <code value="00"/>
+    <display value="อศาสนา/ไม่นับถือศาสนา"/>
+  </concept>
+  <concept>
+    <code value="99"/>
+    <display value="ไม่ระบุ"/>
+  </concept>
+</CodeSystem>

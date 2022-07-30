@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+  <id value="sil-th-terminology"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>SilTHTerminology</h2><p>The official URL for this implementation guide is: </p><pre>https://terms.sil-th.org/ImplementationGuide/sil-th-terminology</pre><div><p>A terminology registry which an be cited by FHIR artifacts</p>
+</div></div>
+  </text>
+  <url value="https://terms.sil-th.org/ImplementationGuide/sil-th-terminology"/>
+  <version value="0.1.0"/>
+  <name value="SilTHTerminology"/>
+  <title value="SIL-TH Terminology"/>
+  <status value="draft"/>
+  <date value="2022-07-30T17:25:25+07:00"/>
+  <description value="A terminology registry which an be cited by FHIR artifacts"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="TH"/>
+    </coding>
+  </jurisdiction>
+  <packageId value="sil-th-terminology"/>
+  <license value="CC0-1.0"/>
+  <fhirVersion value="4.3.0"/>
+  <dependsOn id="hl7tx">
+    <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
+    <packageId value="hl7.terminology.r4"/>
+    <version value="3.1.0"/>
+  </dependsOn>
+  <definition>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-dopa-location"/>
+      </reference>
+      <name value="รหัสสถานที่"/>
+      <description value="รหัสสถานที่ อ้างอิงตามรหัสกรมการปกครอง"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-dopa-nameprefix"/>
+      </reference>
+      <name value="รหัสคำนำหน้าชื่อ"/>
+      <description value="รหัสคำนำหน้าชื่อ จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม อ้างอิงตามรหัสกรมการปกครอง"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-thcc-43filetype"/>
+      </reference>
+      <name value="รายการโครงสร้างข้อมูล 43 แฟ้ม plus"/>
+      <description value="เกิดจากการบูรณาการของโครงสร้างข้อมูล 43 แฟ้มเดิมและโครงสร้างอื่น ๆ"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-thcc-educationlevel"/>
+      </reference>
+      <name value="ชุดรหัสการศึกษา"/>
+      <description value="ชุดรหัสการศึกษา จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-thcc-marital"/>
+      </reference>
+      <name value="สถานะการสมรส"/>
+      <description value="สถานะการสมรส จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-thcc-nationality"/>
+      </reference>
+      <name value="ชุดรหัสเชื้อชาติ-สัญชาติ"/>
+      <description value="ชุดรหัสเชื้อชาติ-สัญชาติ จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-thcc-religion"/>
+      </reference>
+      <name value="ชุดรหัสศาสนา"/>
+      <description value="ชุดรหัสศาสนา จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/isced-1997-education"/>
+      </reference>
+      <name value="ชุดรหัสการศึกษา ISCED 1997"/>
+      <description value="รหัสมาตรฐานระดับการศึกษา พัฒนาโดยสำนักงานสถิติแห่งชาติ (สสช) โดยอ้างอิงมาตรฐานจำแนกการศึกษาสากล (International Standard Classification of Education: ISCED 1997) ของ UNESCO และนำมาประยุกต์เพิ่มรายละเอียดให้เหมาะสมกับระบบการศึกษาของประเทศไทย"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <page>
+      <nameUrl value="toc.html"/>
+      <title value="Table of Contents"/>
+      <generation value="html"/>
+      <page>
+        <nameUrl value="index.html"/>
+        <title value="Home"/>
+        <generation value="markdown"/>
+      </page>
+    </page>
+    <parameter>
+      <code value="copyrightyear"/>
+      <value value="2022+"/>
+    </parameter>
+    <parameter>
+      <code value="releaselabel"/>
+      <value value="ci-build"/>
+    </parameter>
+    <parameter>
+      <code value="apply-publisher"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="apply-contact"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="show-inherited-invariants"/>
+      <value value="false"/>
+    </parameter>
+    <parameter>
+      <code value="autoload-resources"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/capabilities"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/examples"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/extensions"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/models"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/operations"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/profiles"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/resources"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/vocabulary"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/maps"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/testing"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/history"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="fsh-generated/resources"/>
+    </parameter>
+    <parameter>
+      <code value="path-pages"/>
+      <value value="template/config"/>
+    </parameter>
+    <parameter>
+      <code value="path-pages"/>
+      <value value="input/images"/>
+    </parameter>
+    <parameter>
+      <code value="path-liquid"/>
+      <value value="template/liquid"/>
+    </parameter>
+    <parameter>
+      <code value="path-liquid"/>
+      <value value="input/liquid"/>
+    </parameter>
+    <parameter>
+      <code value="path-qa"/>
+      <value value="temp/qa"/>
+    </parameter>
+    <parameter>
+      <code value="path-temp"/>
+      <value value="temp/pages"/>
+    </parameter>
+    <parameter>
+      <code value="path-output"/>
+      <value value="output"/>
+    </parameter>
+    <parameter>
+      <code value="path-tx-cache"/>
+      <value value="input-cache/txcache"/>
+    </parameter>
+    <parameter>
+      <code value="path-suppressed-warnings"/>
+      <value value="input/ignoreWarnings.txt"/>
+    </parameter>
+    <parameter>
+      <code value="path-history"/>
+      <value value="https://terms.sil-th.org/history.html"/>
+    </parameter>
+    <parameter>
+      <code value="template-html"/>
+      <value value="template-page.html"/>
+    </parameter>
+    <parameter>
+      <code value="template-md"/>
+      <value value="template-page-md.html"/>
+    </parameter>
+    <parameter>
+      <code value="apply-context"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="apply-copyright"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="apply-jurisdiction"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="apply-license"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="apply-version"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="active-tables"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="fmm-definition"/>
+      <value value="http://hl7.org/fhir/versions.html#maturity"/>
+    </parameter>
+    <parameter>
+      <code value="propagate-status"/>
+      <value value="true"/>
+    </parameter>
+    <parameter>
+      <code value="excludelogbinaryformat"/>
+      <value value="true"/>
+    </parameter>
+  </definition>
+</ImplementationGuide>

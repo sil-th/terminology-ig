@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>SIL-TH-TERMINOLOGY\ชุดรหัสเชื้อชาติ-สัญชาติ - FHIR v4.3.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+<!-- Placeholder for child template CSS declarations -->
+<link href="assets/css/colors.css" rel="stylesheet" />
+
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"2.6"}
+    h3,h4,h5,h6{--heading-prefix:"2.6"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Left logo - typically the publisher's logo - project or affiliate -->
+<div id="project-nav">
+  <a id="project-logo" no-external="true" href="http://hl7.be">
+    <img
+      height="40"
+      alt="Project home"
+      src="assets/images/SIL-TH-logo.png"
+    />
+  </a>
+</div>
+<!-- Right logo - for example the FHIR logo -->
+<!-- Make sure you have authorization to use the FHIR logo -->
+<!-- <div id="family-nav">
+  <a id="family-logo" no-external="true" href="http://hl7.org/fhir"><img height="70" alt="FHIR website" src="assets/images/fire.png"/> </a>
+</div> -->
+
+<!-- search icon - if you want -->
+<!--
+<div id="hl7-search">
+  <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+</div>
+-->
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">SIL-TH Terminology</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - ci-build
+
+
+
+  <img alt="Thailand flag" src="assets/images/tha.svg" height="16" title="Thailand"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://build.fhir.org/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">IG Home</a>
+  </li>
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts Summary</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ชุดรหัสเชื้อชาติ-สัญชาติ</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">SIL-TH Terminology - Local Development build (v0.1.0). See the <a href="https://terms.sil-th.org/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+  
+    <li>
+      <a href="CodeSystem-cs-thcc-nationality.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-cs-thcc-nationality.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-cs-thcc-nationality.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+  <h2 id="root">CodeSystem: ชุดรหัสเชื้อชาติ-สัญชาติ
+
+  </h2>
+
+  <table class="colsi">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://terms.sil-th.org/Codesystem/cs-thcc-nationality<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://terms.sil-th.org/Codesystem/cs-thcc-nationality"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.1.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://terms.sil-th.org/Codesystem/cs-thcc-nationality|0.1.0"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Active
+          
+            as of 2022-07-30
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">CS_THCC_Nationality</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+<p>
+<p>ชุดรหัสเชื้อชาติ-สัญชาติ จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม</p>
+
+</p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <p>
+  This Code system is referenced in the content logical definition of the following value sets:
+  </p>
+
+  
+<p>This CodeSystem is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)</p>
+
+
+  <div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://terms.sil-th.org/Codesystem/cs-thcc-nationality defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">002<a name="cs-thcc-nationality-002"> </a></td><td>โปรตุเกส</td></tr><tr><td style="white-space:nowrap">003<a name="cs-thcc-nationality-003"> </a></td><td>ดัตช์</td></tr><tr><td style="white-space:nowrap">004<a name="cs-thcc-nationality-004"> </a></td><td>เยอรมัน</td></tr><tr><td style="white-space:nowrap">005<a name="cs-thcc-nationality-005"> </a></td><td>ฝรั่งเศส</td></tr><tr><td style="white-space:nowrap">006<a name="cs-thcc-nationality-006"> </a></td><td>เดนมาร์ก</td></tr><tr><td style="white-space:nowrap">007<a name="cs-thcc-nationality-007"> </a></td><td>สวีเดน</td></tr><tr><td style="white-space:nowrap">008<a name="cs-thcc-nationality-008"> </a></td><td>สวิส</td></tr><tr><td style="white-space:nowrap">009<a name="cs-thcc-nationality-009"> </a></td><td>อิตาลี</td></tr><tr><td style="white-space:nowrap">010<a name="cs-thcc-nationality-010"> </a></td><td>นอร์เวย์</td></tr><tr><td style="white-space:nowrap">011<a name="cs-thcc-nationality-011"> </a></td><td>ออสเตรีย</td></tr><tr><td style="white-space:nowrap">012<a name="cs-thcc-nationality-012"> </a></td><td>ไอริช</td></tr><tr><td style="white-space:nowrap">013<a name="cs-thcc-nationality-013"> </a></td><td>ฟินแลนด์</td></tr><tr><td style="white-space:nowrap">014<a name="cs-thcc-nationality-014"> </a></td><td>เบลเยียม</td></tr><tr><td style="white-space:nowrap">015<a name="cs-thcc-nationality-015"> </a></td><td>สเปน</td></tr><tr><td style="white-space:nowrap">016<a name="cs-thcc-nationality-016"> </a></td><td>รัสเซีย</td></tr><tr><td style="white-space:nowrap">017<a name="cs-thcc-nationality-017"> </a></td><td>โปแลนด์</td></tr><tr><td style="white-space:nowrap">018<a name="cs-thcc-nationality-018"> </a></td><td>เช็ก</td></tr><tr><td style="white-space:nowrap">019<a name="cs-thcc-nationality-019"> </a></td><td>ฮังการี</td></tr><tr><td style="white-space:nowrap">020<a name="cs-thcc-nationality-020"> </a></td><td>กรีก</td></tr><tr><td style="white-space:nowrap">021<a name="cs-thcc-nationality-021"> </a></td><td>ยูโกสลาฟ</td></tr><tr><td style="white-space:nowrap">022<a name="cs-thcc-nationality-022"> </a></td><td>ลักเซมเบิร์ก</td></tr><tr><td style="white-space:nowrap">023<a name="cs-thcc-nationality-023"> </a></td><td>วาติกัน</td></tr><tr><td style="white-space:nowrap">024<a name="cs-thcc-nationality-024"> </a></td><td>มอลตา</td></tr><tr><td style="white-space:nowrap">025<a name="cs-thcc-nationality-025"> </a></td><td>ลีซู</td></tr><tr><td style="white-space:nowrap">026<a name="cs-thcc-nationality-026"> </a></td><td>บัลแกเรีย</td></tr><tr><td style="white-space:nowrap">027<a name="cs-thcc-nationality-027"> </a></td><td>โรมาเนีย</td></tr><tr><td style="white-space:nowrap">028<a name="cs-thcc-nationality-028"> </a></td><td>ไซปรัส</td></tr><tr><td style="white-space:nowrap">029<a name="cs-thcc-nationality-029"> </a></td><td>อเมริกัน</td></tr><tr><td style="white-space:nowrap">030<a name="cs-thcc-nationality-030"> </a></td><td>แคนาดา</td></tr><tr><td style="white-space:nowrap">031<a name="cs-thcc-nationality-031"> </a></td><td>เม็กซิกัน</td></tr><tr><td style="white-space:nowrap">032<a name="cs-thcc-nationality-032"> </a></td><td>คิวบา</td></tr><tr><td style="white-space:nowrap">033<a name="cs-thcc-nationality-033"> </a></td><td>อาร์เจนตินา</td></tr><tr><td style="white-space:nowrap">034<a name="cs-thcc-nationality-034"> </a></td><td>บราซิล</td></tr><tr><td style="white-space:nowrap">035<a name="cs-thcc-nationality-035"> </a></td><td>ชิลี</td></tr><tr><td style="white-space:nowrap">036<a name="cs-thcc-nationality-036"> </a></td><td>อาข่า</td></tr><tr><td style="white-space:nowrap">037<a name="cs-thcc-nationality-037"> </a></td><td>โคลัมเบีย</td></tr><tr><td style="white-space:nowrap">038<a name="cs-thcc-nationality-038"> </a></td><td>ลั๊ว</td></tr><tr><td style="white-space:nowrap">039<a name="cs-thcc-nationality-039"> </a></td><td>เปรู</td></tr><tr><td style="white-space:nowrap">040<a name="cs-thcc-nationality-040"> </a></td><td>ปานามา</td></tr><tr><td style="white-space:nowrap">041<a name="cs-thcc-nationality-041"> </a></td><td>อุรุกวัย</td></tr><tr><td style="white-space:nowrap">042<a name="cs-thcc-nationality-042"> </a></td><td>เวเนซุเอลา</td></tr><tr><td style="white-space:nowrap">043<a name="cs-thcc-nationality-043"> </a></td><td>เปอร์โตริโก้ (ยกเลิก)</td></tr><tr><td style="white-space:nowrap">044<a name="cs-thcc-nationality-044"> </a></td><td>จีน</td></tr><tr><td style="white-space:nowrap">045<a name="cs-thcc-nationality-045"> </a></td><td>อินเดีย</td></tr><tr><td style="white-space:nowrap">046<a name="cs-thcc-nationality-046"> </a></td><td>เวียดนาม</td></tr><tr><td style="white-space:nowrap">047<a name="cs-thcc-nationality-047"> </a></td><td>ญี่ปุ่น</td></tr><tr><td style="white-space:nowrap">048<a name="cs-thcc-nationality-048"> </a></td><td>เมียนมา</td></tr><tr><td style="white-space:nowrap">049<a name="cs-thcc-nationality-049"> </a></td><td>ฟิลิปปิน</td></tr><tr><td style="white-space:nowrap">050<a name="cs-thcc-nationality-050"> </a></td><td>มาเลเซีย</td></tr><tr><td style="white-space:nowrap">051<a name="cs-thcc-nationality-051"> </a></td><td>อินโดนีเซีย</td></tr><tr><td style="white-space:nowrap">052<a name="cs-thcc-nationality-052"> </a></td><td>ปากีสถาน</td></tr><tr><td style="white-space:nowrap">053<a name="cs-thcc-nationality-053"> </a></td><td>เกาหลีใต้</td></tr><tr><td style="white-space:nowrap">054<a name="cs-thcc-nationality-054"> </a></td><td>สิงคโปร์</td></tr><tr><td style="white-space:nowrap">055<a name="cs-thcc-nationality-055"> </a></td><td>เนปาล</td></tr><tr><td style="white-space:nowrap">056<a name="cs-thcc-nationality-056"> </a></td><td>ลาว</td></tr><tr><td style="white-space:nowrap">057<a name="cs-thcc-nationality-057"> </a></td><td>กัมพูชา</td></tr><tr><td style="white-space:nowrap">058<a name="cs-thcc-nationality-058"> </a></td><td>ศรีลังกา</td></tr><tr><td style="white-space:nowrap">059<a name="cs-thcc-nationality-059"> </a></td><td>ซาอุดีอาระเบีย</td></tr><tr><td style="white-space:nowrap">060<a name="cs-thcc-nationality-060"> </a></td><td>อิสราเอล</td></tr><tr><td style="white-space:nowrap">061<a name="cs-thcc-nationality-061"> </a></td><td>เลบานอน</td></tr><tr><td style="white-space:nowrap">062<a name="cs-thcc-nationality-062"> </a></td><td>อิหร่าน</td></tr><tr><td style="white-space:nowrap">063<a name="cs-thcc-nationality-063"> </a></td><td>ตุรกี</td></tr><tr><td style="white-space:nowrap">064<a name="cs-thcc-nationality-064"> </a></td><td>บังกลาเทศ</td></tr><tr><td style="white-space:nowrap">065<a name="cs-thcc-nationality-065"> </a></td><td>ถูกถอนสัญชาติ</td></tr><tr><td style="white-space:nowrap">066<a name="cs-thcc-nationality-066"> </a></td><td>ซีเรีย</td></tr><tr><td style="white-space:nowrap">067<a name="cs-thcc-nationality-067"> </a></td><td>อิรัก</td></tr><tr><td style="white-space:nowrap">068<a name="cs-thcc-nationality-068"> </a></td><td>คูเวต</td></tr><tr><td style="white-space:nowrap">069<a name="cs-thcc-nationality-069"> </a></td><td>บรูไน</td></tr><tr><td style="white-space:nowrap">070<a name="cs-thcc-nationality-070"> </a></td><td>แอฟริกาใต้</td></tr><tr><td style="white-space:nowrap">071<a name="cs-thcc-nationality-071"> </a></td><td>กะเหรี่ยง</td></tr><tr><td style="white-space:nowrap">072<a name="cs-thcc-nationality-072"> </a></td><td>ลาหู่</td></tr><tr><td style="white-space:nowrap">073<a name="cs-thcc-nationality-073"> </a></td><td>เคนยา</td></tr><tr><td style="white-space:nowrap">074<a name="cs-thcc-nationality-074"> </a></td><td>อียิปต์</td></tr><tr><td style="white-space:nowrap">075<a name="cs-thcc-nationality-075"> </a></td><td>เอธิโอเปีย</td></tr><tr><td style="white-space:nowrap">076<a name="cs-thcc-nationality-076"> </a></td><td>ไนจีเรีย</td></tr><tr><td style="white-space:nowrap">077<a name="cs-thcc-nationality-077"> </a></td><td>สหรัฐอาหรับเอมิเรตส์</td></tr><tr><td style="white-space:nowrap">078<a name="cs-thcc-nationality-078"> </a></td><td>กินี</td></tr><tr><td style="white-space:nowrap">079<a name="cs-thcc-nationality-079"> </a></td><td>ออสเตรเลีย</td></tr><tr><td style="white-space:nowrap">080<a name="cs-thcc-nationality-080"> </a></td><td>นิวซีแลนด์</td></tr><tr><td style="white-space:nowrap">081<a name="cs-thcc-nationality-081"> </a></td><td>ปาปัวนิวกินี</td></tr><tr><td style="white-space:nowrap">082<a name="cs-thcc-nationality-082"> </a></td><td>ม้ง</td></tr><tr><td style="white-space:nowrap">083<a name="cs-thcc-nationality-083"> </a></td><td>เมี่ยน</td></tr><tr><td style="white-space:nowrap">084<a name="cs-thcc-nationality-084"> </a></td><td>ชาวเขาที่ไม่ได้รับสัญขาติไทย (ยกเลิก)</td></tr><tr><td style="white-space:nowrap">085<a name="cs-thcc-nationality-085"> </a></td><td>- (ฐานชุดเก่า,ใหม่ไม่มีข้อมูล)</td></tr><tr><td style="white-space:nowrap">086<a name="cs-thcc-nationality-086"> </a></td><td>จีนฮ่อ</td></tr><tr><td style="white-space:nowrap">087<a name="cs-thcc-nationality-087"> </a></td><td>จีน (อดีตทหารจีนคณะชาติ ,อดีตทหารจีนชาติ)</td></tr><tr><td style="white-space:nowrap">088<a name="cs-thcc-nationality-088"> </a></td><td>ผู้พลัดถิ่นสัญชาติพม่า</td></tr><tr><td style="white-space:nowrap">089<a name="cs-thcc-nationality-089"> </a></td><td>ผู้อพยพเชื้อสายจากกัมพูชา</td></tr><tr><td style="white-space:nowrap">090<a name="cs-thcc-nationality-090"> </a></td><td>ลาว (ลาวอพยพ)</td></tr><tr><td style="white-space:nowrap">091<a name="cs-thcc-nationality-091"> </a></td><td>เขมรอพยพ</td></tr><tr><td style="white-space:nowrap">092<a name="cs-thcc-nationality-092"> </a></td><td>ผู้อพยพอินโดจีนสัญชาติเวียดนาม (ยกเลิก  ไปใช้รหัส 046 แทน)</td></tr><tr><td style="white-space:nowrap">093<a name="cs-thcc-nationality-093"> </a></td><td>รอให้สัญชาติไทย (ยกเลิก)</td></tr><tr><td style="white-space:nowrap">094<a name="cs-thcc-nationality-094"> </a></td><td>ไทย-อิสลาม,อิสลาม-ไทย (ยกเลิก)</td></tr><tr><td style="white-space:nowrap">095<a name="cs-thcc-nationality-095"> </a></td><td>ไทย-จีน,จีน-ไทย (ยกเลิก)</td></tr><tr><td style="white-space:nowrap">096<a name="cs-thcc-nationality-096"> </a></td><td>ไร้สัญชาติ</td></tr><tr><td style="white-space:nowrap">097<a name="cs-thcc-nationality-097"> </a></td><td>อื่นๆ</td></tr><tr><td style="white-space:nowrap">098<a name="cs-thcc-nationality-098"> </a></td><td>ไม่ได้สัญชาติไทย</td></tr><tr><td style="white-space:nowrap">099<a name="cs-thcc-nationality-099"> </a></td><td>ไทย</td></tr><tr><td style="white-space:nowrap">100<a name="cs-thcc-nationality-100"> </a></td><td>อัฟกัน</td></tr><tr><td style="white-space:nowrap">101<a name="cs-thcc-nationality-101"> </a></td><td>บาห์เรน</td></tr><tr><td style="white-space:nowrap">102<a name="cs-thcc-nationality-102"> </a></td><td>ภูฏาน</td></tr><tr><td style="white-space:nowrap">103<a name="cs-thcc-nationality-103"> </a></td><td>จอร์แดน</td></tr><tr><td style="white-space:nowrap">104<a name="cs-thcc-nationality-104"> </a></td><td>เกาหลีเหนือ</td></tr><tr><td style="white-space:nowrap">105<a name="cs-thcc-nationality-105"> </a></td><td>มัลดีฟ</td></tr><tr><td style="white-space:nowrap">106<a name="cs-thcc-nationality-106"> </a></td><td>มองโกเลีย</td></tr><tr><td style="white-space:nowrap">107<a name="cs-thcc-nationality-107"> </a></td><td>โอมาน</td></tr><tr><td style="white-space:nowrap">108<a name="cs-thcc-nationality-108"> </a></td><td>กาตาร์</td></tr><tr><td style="white-space:nowrap">109<a name="cs-thcc-nationality-109"> </a></td><td>เยเมน</td></tr><tr><td style="white-space:nowrap">110<a name="cs-thcc-nationality-110"> </a></td><td>เยเมน(ใต้)** (ยกเลิก  ไปใช้รหัส 109 แทน)</td></tr><tr><td style="white-space:nowrap">111<a name="cs-thcc-nationality-111"> </a></td><td>หมู่เกาะฟิจิ</td></tr><tr><td style="white-space:nowrap">112<a name="cs-thcc-nationality-112"> </a></td><td>คิริบาส</td></tr><tr><td style="white-space:nowrap">113<a name="cs-thcc-nationality-113"> </a></td><td>นาอูรู</td></tr><tr><td style="white-space:nowrap">114<a name="cs-thcc-nationality-114"> </a></td><td>หมู่เกาะโซโลมอน</td></tr><tr><td style="white-space:nowrap">115<a name="cs-thcc-nationality-115"> </a></td><td>ตองก้า</td></tr><tr><td style="white-space:nowrap">116<a name="cs-thcc-nationality-116"> </a></td><td>ตูวาลู</td></tr><tr><td style="white-space:nowrap">117<a name="cs-thcc-nationality-117"> </a></td><td>วานูอาตู</td></tr><tr><td style="white-space:nowrap">118<a name="cs-thcc-nationality-118"> </a></td><td>ซามัว</td></tr><tr><td style="white-space:nowrap">119<a name="cs-thcc-nationality-119"> </a></td><td>แอลเบเนีย</td></tr><tr><td style="white-space:nowrap">120<a name="cs-thcc-nationality-120"> </a></td><td>อันดอร์รา</td></tr><tr><td style="white-space:nowrap">121<a name="cs-thcc-nationality-121"> </a></td><td>เยอรมนีตะวันออก** (ยกเลิก  ไปใช้รหัส 004 แทน)</td></tr><tr><td style="white-space:nowrap">122<a name="cs-thcc-nationality-122"> </a></td><td>ไอซ์แลนด์</td></tr><tr><td style="white-space:nowrap">123<a name="cs-thcc-nationality-123"> </a></td><td>ลิกเตนสไตน์</td></tr><tr><td style="white-space:nowrap">124<a name="cs-thcc-nationality-124"> </a></td><td>โมนาโก</td></tr><tr><td style="white-space:nowrap">125<a name="cs-thcc-nationality-125"> </a></td><td>ซานมารีโน</td></tr><tr><td style="white-space:nowrap">126<a name="cs-thcc-nationality-126"> </a></td><td>บริติช  (อังกฤษ, สก็อตแลนด์)</td></tr><tr><td style="white-space:nowrap">127<a name="cs-thcc-nationality-127"> </a></td><td>แอลจีเรีย</td></tr><tr><td style="white-space:nowrap">128<a name="cs-thcc-nationality-128"> </a></td><td>แองโกลา</td></tr><tr><td style="white-space:nowrap">129<a name="cs-thcc-nationality-129"> </a></td><td>เบนิน</td></tr><tr><td style="white-space:nowrap">130<a name="cs-thcc-nationality-130"> </a></td><td>บอตสวานา</td></tr><tr><td style="white-space:nowrap">131<a name="cs-thcc-nationality-131"> </a></td><td>บูร์กินาฟาโซ</td></tr><tr><td style="white-space:nowrap">132<a name="cs-thcc-nationality-132"> </a></td><td>บุรุนดี</td></tr><tr><td style="white-space:nowrap">133<a name="cs-thcc-nationality-133"> </a></td><td>แคเมอรูน</td></tr><tr><td style="white-space:nowrap">134<a name="cs-thcc-nationality-134"> </a></td><td>เคปเวิร์ด</td></tr><tr><td style="white-space:nowrap">135<a name="cs-thcc-nationality-135"> </a></td><td>แอฟริกากลาง</td></tr><tr><td style="white-space:nowrap">136<a name="cs-thcc-nationality-136"> </a></td><td>ชาด</td></tr><tr><td style="white-space:nowrap">137<a name="cs-thcc-nationality-137"> </a></td><td>คอโมโรส</td></tr><tr><td style="white-space:nowrap">138<a name="cs-thcc-nationality-138"> </a></td><td>คองโก</td></tr><tr><td style="white-space:nowrap">139<a name="cs-thcc-nationality-139"> </a></td><td>ไอโวเรี่ยน</td></tr><tr><td style="white-space:nowrap">140<a name="cs-thcc-nationality-140"> </a></td><td>จิบูตี</td></tr><tr><td style="white-space:nowrap">141<a name="cs-thcc-nationality-141"> </a></td><td>อิเควทอเรียลกินี</td></tr><tr><td style="white-space:nowrap">142<a name="cs-thcc-nationality-142"> </a></td><td>กาบอง</td></tr><tr><td style="white-space:nowrap">143<a name="cs-thcc-nationality-143"> </a></td><td>แกมเบีย</td></tr><tr><td style="white-space:nowrap">144<a name="cs-thcc-nationality-144"> </a></td><td>กานา</td></tr><tr><td style="white-space:nowrap">145<a name="cs-thcc-nationality-145"> </a></td><td>กินีบีสเซา</td></tr><tr><td style="white-space:nowrap">146<a name="cs-thcc-nationality-146"> </a></td><td>เลโซโท</td></tr><tr><td style="white-space:nowrap">147<a name="cs-thcc-nationality-147"> </a></td><td>ไลบีเรีย</td></tr><tr><td style="white-space:nowrap">148<a name="cs-thcc-nationality-148"> </a></td><td>ลิเบีย</td></tr><tr><td style="white-space:nowrap">149<a name="cs-thcc-nationality-149"> </a></td><td>มาลากาซี</td></tr><tr><td style="white-space:nowrap">150<a name="cs-thcc-nationality-150"> </a></td><td>มาลาวี</td></tr><tr><td style="white-space:nowrap">151<a name="cs-thcc-nationality-151"> </a></td><td>มาลี</td></tr><tr><td style="white-space:nowrap">152<a name="cs-thcc-nationality-152"> </a></td><td>มอริเตเนีย</td></tr><tr><td style="white-space:nowrap">153<a name="cs-thcc-nationality-153"> </a></td><td>มอริเชียส</td></tr><tr><td style="white-space:nowrap">154<a name="cs-thcc-nationality-154"> </a></td><td>โมร็อกโก</td></tr><tr><td style="white-space:nowrap">155<a name="cs-thcc-nationality-155"> </a></td><td>โมซัมบิก</td></tr><tr><td style="white-space:nowrap">156<a name="cs-thcc-nationality-156"> </a></td><td>ไนเจอร์</td></tr><tr><td style="white-space:nowrap">157<a name="cs-thcc-nationality-157"> </a></td><td>รวันดา</td></tr><tr><td style="white-space:nowrap">158<a name="cs-thcc-nationality-158"> </a></td><td>เซาโตเมและปรินซิเป</td></tr><tr><td style="white-space:nowrap">159<a name="cs-thcc-nationality-159"> </a></td><td>เซเนกัล</td></tr><tr><td style="white-space:nowrap">160<a name="cs-thcc-nationality-160"> </a></td><td>เซเชลส์</td></tr><tr><td style="white-space:nowrap">161<a name="cs-thcc-nationality-161"> </a></td><td>เซียร์ราลีโอน</td></tr><tr><td style="white-space:nowrap">162<a name="cs-thcc-nationality-162"> </a></td><td>โซมาลี</td></tr><tr><td style="white-space:nowrap">163<a name="cs-thcc-nationality-163"> </a></td><td>ซูดาน</td></tr><tr><td style="white-space:nowrap">164<a name="cs-thcc-nationality-164"> </a></td><td>สวาซี</td></tr><tr><td style="white-space:nowrap">165<a name="cs-thcc-nationality-165"> </a></td><td>แทนซาเนีย</td></tr><tr><td style="white-space:nowrap">166<a name="cs-thcc-nationality-166"> </a></td><td>โตโก</td></tr><tr><td style="white-space:nowrap">167<a name="cs-thcc-nationality-167"> </a></td><td>ตูนิเซีย</td></tr><tr><td style="white-space:nowrap">168<a name="cs-thcc-nationality-168"> </a></td><td>ยูกันดา</td></tr><tr><td style="white-space:nowrap">169<a name="cs-thcc-nationality-169"> </a></td><td>ซาอีร์</td></tr><tr><td style="white-space:nowrap">170<a name="cs-thcc-nationality-170"> </a></td><td>แซมเบีย</td></tr><tr><td style="white-space:nowrap">171<a name="cs-thcc-nationality-171"> </a></td><td>ซิมบับเว</td></tr><tr><td style="white-space:nowrap">172<a name="cs-thcc-nationality-172"> </a></td><td>แอนติกาและบาร์บูดา</td></tr><tr><td style="white-space:nowrap">173<a name="cs-thcc-nationality-173"> </a></td><td>บาฮามาส</td></tr><tr><td style="white-space:nowrap">174<a name="cs-thcc-nationality-174"> </a></td><td>บาร์เบโดส</td></tr><tr><td style="white-space:nowrap">175<a name="cs-thcc-nationality-175"> </a></td><td>เบลิซ</td></tr><tr><td style="white-space:nowrap">176<a name="cs-thcc-nationality-176"> </a></td><td>คอสตาริกา</td></tr><tr><td style="white-space:nowrap">177<a name="cs-thcc-nationality-177"> </a></td><td>โดมินิกา</td></tr><tr><td style="white-space:nowrap">178<a name="cs-thcc-nationality-178"> </a></td><td>โดมินิกัน</td></tr><tr><td style="white-space:nowrap">179<a name="cs-thcc-nationality-179"> </a></td><td>เอลซัลวาดอร์</td></tr><tr><td style="white-space:nowrap">180<a name="cs-thcc-nationality-180"> </a></td><td>เกรเนดา</td></tr><tr><td style="white-space:nowrap">181<a name="cs-thcc-nationality-181"> </a></td><td>กัวเตมาลา</td></tr><tr><td style="white-space:nowrap">182<a name="cs-thcc-nationality-182"> </a></td><td>เฮติ</td></tr><tr><td style="white-space:nowrap">183<a name="cs-thcc-nationality-183"> </a></td><td>ฮอนดูรัส</td></tr><tr><td style="white-space:nowrap">184<a name="cs-thcc-nationality-184"> </a></td><td>จาเมกา</td></tr><tr><td style="white-space:nowrap">185<a name="cs-thcc-nationality-185"> </a></td><td>นิการากัว</td></tr><tr><td style="white-space:nowrap">186<a name="cs-thcc-nationality-186"> </a></td><td>เซนต์คิตส์และเนวิส</td></tr><tr><td style="white-space:nowrap">187<a name="cs-thcc-nationality-187"> </a></td><td>เซนต์ลูเซีย</td></tr><tr><td style="white-space:nowrap">188<a name="cs-thcc-nationality-188"> </a></td><td>เซนต์วินเซนต์และเกรนาดีนส์</td></tr><tr><td style="white-space:nowrap">189<a name="cs-thcc-nationality-189"> </a></td><td>ตรินิแดดและโตเบโก</td></tr><tr><td style="white-space:nowrap">190<a name="cs-thcc-nationality-190"> </a></td><td>โบลีเวีย</td></tr><tr><td style="white-space:nowrap">191<a name="cs-thcc-nationality-191"> </a></td><td>เอกวาดอร์</td></tr><tr><td style="white-space:nowrap">192<a name="cs-thcc-nationality-192"> </a></td><td>กายอานา</td></tr><tr><td style="white-space:nowrap">193<a name="cs-thcc-nationality-193"> </a></td><td>ปารากวัย</td></tr><tr><td style="white-space:nowrap">194<a name="cs-thcc-nationality-194"> </a></td><td>ซูรินาเม</td></tr><tr><td style="white-space:nowrap">195<a name="cs-thcc-nationality-195"> </a></td><td>อาหรับ</td></tr><tr><td style="white-space:nowrap">196<a name="cs-thcc-nationality-196"> </a></td><td>คะฉิ่น</td></tr><tr><td style="white-space:nowrap">197<a name="cs-thcc-nationality-197"> </a></td><td>ว้า</td></tr><tr><td style="white-space:nowrap">198<a name="cs-thcc-nationality-198"> </a></td><td>ไทยใหญ่</td></tr><tr><td style="white-space:nowrap">199<a name="cs-thcc-nationality-199"> </a></td><td>ไทยลื้อ</td></tr><tr><td style="white-space:nowrap">200<a name="cs-thcc-nationality-200"> </a></td><td>ขมุ</td></tr><tr><td style="white-space:nowrap">201<a name="cs-thcc-nationality-201"> </a></td><td>ตองสู</td></tr><tr><td style="white-space:nowrap">202<a name="cs-thcc-nationality-202"> </a></td><td>เงี้ยว** (ยกเลิก)</td></tr><tr><td style="white-space:nowrap">203<a name="cs-thcc-nationality-203"> </a></td><td>ละว้า</td></tr><tr><td style="white-space:nowrap">204<a name="cs-thcc-nationality-204"> </a></td><td>แม้ว (ยกเลิก  ไปใช้รหัส 082 แทน)</td></tr><tr><td style="white-space:nowrap">205<a name="cs-thcc-nationality-205"> </a></td><td>ปะหร่อง</td></tr><tr><td style="white-space:nowrap">206<a name="cs-thcc-nationality-206"> </a></td><td>ถิ่น</td></tr><tr><td style="white-space:nowrap">207<a name="cs-thcc-nationality-207"> </a></td><td>ปะโอ</td></tr><tr><td style="white-space:nowrap">208<a name="cs-thcc-nationality-208"> </a></td><td>มอญ</td></tr><tr><td style="white-space:nowrap">209<a name="cs-thcc-nationality-209"> </a></td><td>มลาบรี</td></tr><tr><td style="white-space:nowrap">210<a name="cs-thcc-nationality-210"> </a></td><td>เฮาะ** (ยกเลิก)</td></tr><tr><td style="white-space:nowrap">211<a name="cs-thcc-nationality-211"> </a></td><td>สก็อตแลน์** (ยกเลิก  ไปใช้รหัส  126 แทน)</td></tr><tr><td style="white-space:nowrap">212<a name="cs-thcc-nationality-212"> </a></td><td>จีน (จีนฮ่ออิสระ)</td></tr><tr><td style="white-space:nowrap">213<a name="cs-thcc-nationality-213"> </a></td><td>จีนอพยพ** (ยกเลิก)</td></tr><tr><td style="white-space:nowrap">214<a name="cs-thcc-nationality-214"> </a></td><td>จีน (จีนฮ่ออพยพ)</td></tr><tr><td style="white-space:nowrap">215<a name="cs-thcc-nationality-215"> </a></td><td>ไต้หวัน** (ยกเลิก ไปใช้รหัส 220 แทน)</td></tr><tr><td style="white-space:nowrap">216<a name="cs-thcc-nationality-216"> </a></td><td>ยูเครน</td></tr><tr><td style="white-space:nowrap">217<a name="cs-thcc-nationality-217"> </a></td><td>อาณานิคมอังกฤษ** (ยกเลิก ไปใช้รหัส 126 แทน)</td></tr><tr><td style="white-space:nowrap">218<a name="cs-thcc-nationality-218"> </a></td><td>ดูไบ** (ยกเลิก ไปใช้รหัส 077 แทน)</td></tr><tr><td style="white-space:nowrap">219<a name="cs-thcc-nationality-219"> </a></td><td>จีน(ฮ่องกง)</td></tr><tr><td style="white-space:nowrap">220<a name="cs-thcc-nationality-220"> </a></td><td>จีน(ไต้หวัน)</td></tr><tr><td style="white-space:nowrap">221<a name="cs-thcc-nationality-221"> </a></td><td>โครเอเชีย</td></tr><tr><td style="white-space:nowrap">223<a name="cs-thcc-nationality-223"> </a></td><td>คาซัค</td></tr><tr><td style="white-space:nowrap">222<a name="cs-thcc-nationality-222"> </a></td><td>บริทิธ** (ยกเลิก ไปใช้รหัส 126 แทน)</td></tr><tr><td style="white-space:nowrap">224<a name="cs-thcc-nationality-224"> </a></td><td>อาร์เมเนีย</td></tr><tr><td style="white-space:nowrap">225<a name="cs-thcc-nationality-225"> </a></td><td>อาเซอร์ไบจาน</td></tr><tr><td style="white-space:nowrap">226<a name="cs-thcc-nationality-226"> </a></td><td>จอร์เจีย</td></tr><tr><td style="white-space:nowrap">227<a name="cs-thcc-nationality-227"> </a></td><td>คีร์กีซ</td></tr><tr><td style="white-space:nowrap">228<a name="cs-thcc-nationality-228"> </a></td><td>ทาจิก</td></tr><tr><td style="white-space:nowrap">229<a name="cs-thcc-nationality-229"> </a></td><td>อุซเบก</td></tr><tr><td style="white-space:nowrap">230<a name="cs-thcc-nationality-230"> </a></td><td>หมู่เกาะมาร์แชลล์</td></tr><tr><td style="white-space:nowrap">231<a name="cs-thcc-nationality-231"> </a></td><td>ไมโครนีเซีย</td></tr><tr><td style="white-space:nowrap">232<a name="cs-thcc-nationality-232"> </a></td><td>ปาเลา</td></tr><tr><td style="white-space:nowrap">233<a name="cs-thcc-nationality-233"> </a></td><td>เบลารุส</td></tr><tr><td style="white-space:nowrap">234<a name="cs-thcc-nationality-234"> </a></td><td>บอสเนียและเฮอร์เซโกวีนา</td></tr><tr><td style="white-space:nowrap">235<a name="cs-thcc-nationality-235"> </a></td><td>เติร์กเมน</td></tr><tr><td style="white-space:nowrap">236<a name="cs-thcc-nationality-236"> </a></td><td>เอสโตเนีย</td></tr><tr><td style="white-space:nowrap">237<a name="cs-thcc-nationality-237"> </a></td><td>ลัตเวีย</td></tr><tr><td style="white-space:nowrap">238<a name="cs-thcc-nationality-238"> </a></td><td>ลิทัวเนีย</td></tr><tr><td style="white-space:nowrap">239<a name="cs-thcc-nationality-239"> </a></td><td>มาซิโดเนีย</td></tr><tr><td style="white-space:nowrap">240<a name="cs-thcc-nationality-240"> </a></td><td>มอลโดวา</td></tr><tr><td style="white-space:nowrap">241<a name="cs-thcc-nationality-241"> </a></td><td>สโลวัก</td></tr><tr><td style="white-space:nowrap">242<a name="cs-thcc-nationality-242"> </a></td><td>สโลวีน</td></tr><tr><td style="white-space:nowrap">243<a name="cs-thcc-nationality-243"> </a></td><td>เอริเทรีย</td></tr><tr><td style="white-space:nowrap">244<a name="cs-thcc-nationality-244"> </a></td><td>นามิเบีย</td></tr><tr><td style="white-space:nowrap">245<a name="cs-thcc-nationality-245"> </a></td><td>โบลิเวีย</td></tr><tr><td style="white-space:nowrap">246<a name="cs-thcc-nationality-246"> </a></td><td>หมู่เกาะคุก</td></tr><tr><td style="white-space:nowrap">247<a name="cs-thcc-nationality-247"> </a></td><td>เนปาล (เนปาลอพยพ)</td></tr><tr><td style="white-space:nowrap">248<a name="cs-thcc-nationality-248"> </a></td><td>มอญ  (ผู้พลัดถิ่นสัญชาติพม่า)</td></tr><tr><td style="white-space:nowrap">249<a name="cs-thcc-nationality-249"> </a></td><td>ไทยใหญ่  (ผู้พลัดถิ่นสัญชาติพม่า)</td></tr><tr><td style="white-space:nowrap">250<a name="cs-thcc-nationality-250"> </a></td><td>เวียดนาม  (ญวนอพยพ)</td></tr><tr><td style="white-space:nowrap">251<a name="cs-thcc-nationality-251"> </a></td><td>มาเลเชีย  (อดีต จีนคอมมิวนิสต์)</td></tr><tr><td style="white-space:nowrap">252<a name="cs-thcc-nationality-252"> </a></td><td>จีน  (อดีต จีนคอมมิวนิสต์)</td></tr><tr><td style="white-space:nowrap">253<a name="cs-thcc-nationality-253"> </a></td><td>สิงคโปร์  (อดีต จีนคอมมิวนิสต์)</td></tr><tr><td style="white-space:nowrap">254<a name="cs-thcc-nationality-254"> </a></td><td>กะเหรี่ยง  (ผู้หลบหนีเข้าเมือง)</td></tr><tr><td style="white-space:nowrap">255<a name="cs-thcc-nationality-255"> </a></td><td>มอญ  (ผู้หลบหนีเข้าเมือง)</td></tr><tr><td style="white-space:nowrap">256<a name="cs-thcc-nationality-256"> </a></td><td>ไทยใหญ่  (ผู้หลบหนีเข้าเมือง)</td></tr><tr><td style="white-space:nowrap">257<a name="cs-thcc-nationality-257"> </a></td><td>กัมพูชา  (ผู้หลบหนีเข้าเมือง)</td></tr><tr><td style="white-space:nowrap">258<a name="cs-thcc-nationality-258"> </a></td><td>มอญ  (ชุมชนบนพื้นที่สูง)</td></tr><tr><td style="white-space:nowrap">259<a name="cs-thcc-nationality-259"> </a></td><td>กะเหรี่ยง  (ชุมชนบนพื้นที่สูง)</td></tr><tr><td style="white-space:nowrap">260<a name="cs-thcc-nationality-260"> </a></td><td>ปาเลสไตน์</td></tr><tr><td style="white-space:nowrap">261<a name="cs-thcc-nationality-261"> </a></td><td>ติมอร์-เลสเต</td></tr><tr><td style="white-space:nowrap">262<a name="cs-thcc-nationality-262"> </a></td><td>สละสัญชาติไทย</td></tr><tr><td style="white-space:nowrap">263<a name="cs-thcc-nationality-263"> </a></td><td>เซอร์เบีย แอนด์ มอนเตเนโกร</td></tr><tr><td style="white-space:nowrap">264<a name="cs-thcc-nationality-264"> </a></td><td>กัมพูชา(แรงงาน)</td></tr><tr><td style="white-space:nowrap">265<a name="cs-thcc-nationality-265"> </a></td><td>เมียนมา(แรงงาน)</td></tr><tr><td style="white-space:nowrap">266<a name="cs-thcc-nationality-266"> </a></td><td>ลาว(แรงงาน)</td></tr><tr><td style="white-space:nowrap">267<a name="cs-thcc-nationality-267"> </a></td><td>เซอร์เบียน</td></tr><tr><td style="white-space:nowrap">270<a name="cs-thcc-nationality-270"> </a></td><td>กาบูเวอร์ดี</td></tr><tr><td style="white-space:nowrap">271<a name="cs-thcc-nationality-271"> </a></td><td>คอซอวอ</td></tr><tr><td style="white-space:nowrap">272<a name="cs-thcc-nationality-272"> </a></td><td>เซาท์ซูดาน</td></tr><tr><td style="white-space:nowrap">268<a name="cs-thcc-nationality-268"> </a></td><td>มอนเตเนกริน</td></tr><tr><td style="white-space:nowrap">989<a name="cs-thcc-nationality-989"> </a></td><td>บุคคลที่ไม่มีสถานะทางทะเบียน</td></tr><tr><td style="white-space:nowrap">999<a name="cs-thcc-nationality-999"> </a></td><td>ไม่ระบุ</td></tr></table></div>
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package sil-th-terminology#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://build.fhir.org/">FHIR 4.3.0</a>. Generated <span title="Sat, Jul 30, 2022 17:25+0700">2022-07-30</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)"></span>
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

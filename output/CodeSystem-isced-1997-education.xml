@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="isced-1997-education"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://terms.sil-th.org/Codesystem/isced-97 defines the following codes:</p><table class="codes"><tr><td><b>Lvl</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>1</td><td style="white-space:nowrap">1<a name="isced-1997-education-1"> </a></td><td>ระดับก่อนประถมศึกษา</td></tr><tr><td>2</td><td style="white-space:nowrap">  11<a name="isced-1997-education-11"> </a></td><td>สามัญศึกษา</td></tr><tr><td>1</td><td style="white-space:nowrap">2<a name="isced-1997-education-2"> </a></td><td>ระดับประถมศึกษา</td></tr><tr><td>2</td><td style="white-space:nowrap">  21<a name="isced-1997-education-21"> </a></td><td>สามัญศึกษา</td></tr><tr><td>2</td><td style="white-space:nowrap">  24<a name="isced-1997-education-24"> </a></td><td>การศึกษาทางศาสนา : พุทธศึกษา พระปริยัติธรรม แผนกธรรม</td></tr><tr><td>2</td><td style="white-space:nowrap">  25<a name="isced-1997-education-25"> </a></td><td>การศึกษาทางศาสนา :อิสลามศึกษาแผนกสามัญศึกษา</td></tr><tr><td>1</td><td style="white-space:nowrap">3<a name="isced-1997-education-3"> </a></td><td>ระดับมัธยมศึกษาตอนต้น</td></tr><tr><td>2</td><td style="white-space:nowrap">  31<a name="isced-1997-education-31"> </a></td><td>สามัญศึกษา</td></tr><tr><td>2</td><td style="white-space:nowrap">  32<a name="isced-1997-education-32"> </a></td><td>อาชีวศึกษา</td></tr><tr><td>2</td><td style="white-space:nowrap">  33<a name="isced-1997-education-33"> </a></td><td>การศึกษาทางศาสนา : พุทธศึกษา พระปริยัติธรรม แผนกสามัญศึกษา</td></tr><tr><td>2</td><td style="white-space:nowrap">  34<a name="isced-1997-education-34"> </a></td><td>การศึกษาทางศาสนา : พุทธศึกษา พระปริยัติธรรม แผนกบาลี</td></tr><tr><td>2</td><td style="white-space:nowrap">  35<a name="isced-1997-education-35"> </a></td><td>การศึกษาทางศาสนา : อิสลามศึกษาแผนกสามัญศึกษา</td></tr><tr><td>1</td><td style="white-space:nowrap">4<a name="isced-1997-education-4"> </a></td><td>ระดับมัธยมศึกษาตอนปลาย</td></tr><tr><td>2</td><td style="white-space:nowrap">  41<a name="isced-1997-education-41"> </a></td><td>สามัญศึกษา</td></tr><tr><td>2</td><td style="white-space:nowrap">  42<a name="isced-1997-education-42"> </a></td><td>อาชีวศึกษา</td></tr><tr><td>2</td><td style="white-space:nowrap">  43<a name="isced-1997-education-43"> </a></td><td>การศึกษาทางศาสนา : พุทธศึกษา พระปริยัติธรรม แผนกสามัญศึกษา</td></tr><tr><td>2</td><td style="white-space:nowrap">  44<a name="isced-1997-education-44"> </a></td><td>การศึกษาทางศาสนา : พุทธศึกษา พระปริยัติธรรม แผนกบาลี</td></tr><tr><td>2</td><td style="white-space:nowrap">  45<a name="isced-1997-education-45"> </a></td><td>การศึกษาทางศาสนา : อิสลามศึกษาแผนกสามัญศึกษา</td></tr><tr><td>2</td><td style="white-space:nowrap">  46<a name="isced-1997-education-46"> </a></td><td>ประกาศนียบัตรระดับสูงกว่ามัธยมศึกษาตอนปลายแต่ต่ำกว่าอนุปริญญา (ประกาศนียบัตรวิชาชีพพิเศษ : รับผู้จบ ม.6 หรือ ปวช. เรียนต่อสายวิชาชีพ 1-1.5 ปี)</td></tr><tr><td>1</td><td style="white-space:nowrap">5<a name="isced-1997-education-5"> </a></td><td>ระดับสูงกว่ามัธยมศึกษาตอนปลาย (อนุปริญญา)</td></tr><tr><td>2</td><td style="white-space:nowrap">  51<a name="isced-1997-education-51"> </a></td><td>สามัญศึกษา</td></tr><tr><td>2</td><td style="white-space:nowrap">  52<a name="isced-1997-education-52"> </a></td><td>อาชีวศึกษา</td></tr><tr><td>1</td><td style="white-space:nowrap">6<a name="isced-1997-education-6"> </a></td><td>ระดับปริญญาตรี</td></tr><tr><td>2</td><td style="white-space:nowrap">  61<a name="isced-1997-education-61"> </a></td><td>ปริญญาตรี</td></tr><tr><td>2</td><td style="white-space:nowrap">  63<a name="isced-1997-education-63"> </a></td><td>การศึกษาทางศาสนา : พุทธศึกษา</td></tr><tr><td>2</td><td style="white-space:nowrap">  64<a name="isced-1997-education-64"> </a></td><td>การศึกษาทางศาสนา : พุทธศึกษา พระปริยัติธรรม แผนกบาลี</td></tr><tr><td>2</td><td style="white-space:nowrap">  65<a name="isced-1997-education-65"> </a></td><td>การศึกษาทางศาสนา : อิสลามศึกษา</td></tr><tr><td>2</td><td style="white-space:nowrap">  66<a name="isced-1997-education-66"> </a></td><td>ประกาศนียบัตรระดับสูงกว่าปริญญาตรี (ประกาศนียบัตรบัณฑิต)</td></tr><tr><td>1</td><td style="white-space:nowrap">7<a name="isced-1997-education-7"> </a></td><td>ระดับปริญญาตรี</td></tr><tr><td>2</td><td style="white-space:nowrap">  71<a name="isced-1997-education-71"> </a></td><td>ปริญญาโท</td></tr><tr><td>2</td><td style="white-space:nowrap">  73<a name="isced-1997-education-73"> </a></td><td>การศึกษาทางศาสนา : พุทธศึกษา</td></tr><tr><td>2</td><td style="white-space:nowrap">  75<a name="isced-1997-education-75"> </a></td><td>การศึกษาทางศาสนา : อิสลามศึกษา</td></tr><tr><td>2</td><td style="white-space:nowrap">  76<a name="isced-1997-education-76"> </a></td><td>ประกาศนียบัตรระดับสูงกว่าปริญญาโท (ประกาศนียบัตรบัณฑิตชั้นสูง)</td></tr><tr><td>1</td><td style="white-space:nowrap">8<a name="isced-1997-education-8"> </a></td><td>ระดับปริญญาเอก</td></tr><tr><td>2</td><td style="white-space:nowrap">  81<a name="isced-1997-education-81"> </a></td><td>ปริญญาเอก</td></tr><tr><td>2</td><td style="white-space:nowrap">  83<a name="isced-1997-education-83"> </a></td><td>การศึกษาทางศาสนา : พุทธศึกษา</td></tr><tr><td>2</td><td style="white-space:nowrap">  85<a name="isced-1997-education-85"> </a></td><td>การศึกษาทางศาสนา : อิสลามศึกษา</td></tr><tr><td>2</td><td style="white-space:nowrap">  86<a name="isced-1997-education-86"> </a></td><td>ประกาศนียบัตรระดับสูงกว่าปริญญาเอก</td></tr><tr><td>2</td><td style="white-space:nowrap">  87<a name="isced-1997-education-87"> </a></td><td>ประกาศนียบัตรแพทย์เฉพาะทาง</td></tr><tr><td>1</td><td style="white-space:nowrap">9<a name="isced-1997-education-9"> </a></td><td>การศึกษาอื่นๆ</td></tr><tr><td>2</td><td style="white-space:nowrap">  91<a name="isced-1997-education-91"> </a></td><td>หลักสูตรที่ไม่ได้วุฒิการศึกษา</td></tr><tr><td>2</td><td style="white-space:nowrap">  92<a name="isced-1997-education-92"> </a></td><td>การศึกษาที่เทียบระดับไม่ได้</td></tr><tr><td>2</td><td style="white-space:nowrap">  98<a name="isced-1997-education-98"> </a></td><td>เรียนแต่ไม่ทราบระดับการศึกษา</td></tr></table></div>
+  </text>
+  <url value="http://terms.sil-th.org/Codesystem/isced-97"/>
+  <version value="0.1.0"/>
+  <name value="ISCED1997Education"/>
+  <title value="ชุดรหัสการศึกษา ISCED 1997"/>
+  <status value="active"/>
+  <date value="2022-07-30T17:25:25+07:00"/>
+  <description value="รหัสมาตรฐานระดับการศึกษา พัฒนาโดยสำนักงานสถิติแห่งชาติ (สสช) โดยอ้างอิงมาตรฐานจำแนกการศึกษาสากล (International Standard Classification of Education: ISCED 1997) ของ UNESCO และนำมาประยุกต์เพิ่มรายละเอียดให้เหมาะสมกับระบบการศึกษาของประเทศไทย"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="TH"/>
+    </coding>
+  </jurisdiction>
+  <content value="complete"/>
+  <count value="43"/>
+  <concept>
+    <code value="1"/>
+    <display value="ระดับก่อนประถมศึกษา"/>
+    <concept>
+      <code value="11"/>
+      <display value="สามัญศึกษา"/>
+    </concept>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="ระดับประถมศึกษา"/>
+    <concept>
+      <code value="21"/>
+      <display value="สามัญศึกษา"/>
+    </concept>
+    <concept>
+      <code value="24"/>
+      <display value="การศึกษาทางศาสนา : พุทธศึกษา พระปริยัติธรรม แผนกธรรม"/>
+    </concept>
+    <concept>
+      <code value="25"/>
+      <display value="การศึกษาทางศาสนา :อิสลามศึกษาแผนกสามัญศึกษา"/>
+    </concept>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="ระดับมัธยมศึกษาตอนต้น"/>
+    <concept>
+      <code value="31"/>
+      <display value="สามัญศึกษา"/>
+    </concept>
+    <concept>
+      <code value="32"/>
+      <display value="อาชีวศึกษา"/>
+    </concept>
+    <concept>
+      <code value="33"/>
+      <display value="การศึกษาทางศาสนา : พุทธศึกษา พระปริยัติธรรม แผนกสามัญศึกษา"/>
+    </concept>
+    <concept>
+      <code value="34"/>
+      <display value="การศึกษาทางศาสนา : พุทธศึกษา พระปริยัติธรรม แผนกบาลี"/>
+    </concept>
+    <concept>
+      <code value="35"/>
+      <display value="การศึกษาทางศาสนา : อิสลามศึกษาแผนกสามัญศึกษา"/>
+    </concept>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="ระดับมัธยมศึกษาตอนปลาย"/>
+    <concept>
+      <code value="41"/>
+      <display value="สามัญศึกษา"/>
+    </concept>
+    <concept>
+      <code value="42"/>
+      <display value="อาชีวศึกษา"/>
+    </concept>
+    <concept>
+      <code value="43"/>
+      <display value="การศึกษาทางศาสนา : พุทธศึกษา พระปริยัติธรรม แผนกสามัญศึกษา"/>
+    </concept>
+    <concept>
+      <code value="44"/>
+      <display value="การศึกษาทางศาสนา : พุทธศึกษา พระปริยัติธรรม แผนกบาลี"/>
+    </concept>
+    <concept>
+      <code value="45"/>
+      <display value="การศึกษาทางศาสนา : อิสลามศึกษาแผนกสามัญศึกษา"/>
+    </concept>
+    <concept>
+      <code value="46"/>
+      <display value="ประกาศนียบัตรระดับสูงกว่ามัธยมศึกษาตอนปลายแต่ต่ำกว่าอนุปริญญา (ประกาศนียบัตรวิชาชีพพิเศษ : รับผู้จบ ม.6 หรือ ปวช. เรียนต่อสายวิชาชีพ 1-1.5 ปี)"/>
+    </concept>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="ระดับสูงกว่ามัธยมศึกษาตอนปลาย (อนุปริญญา)"/>
+    <concept>
+      <code value="51"/>
+      <display value="สามัญศึกษา"/>
+    </concept>
+    <concept>
+      <code value="52"/>
+      <display value="อาชีวศึกษา"/>
+    </concept>
+  </concept>
+  <concept>
+    <code value="6"/>
+    <display value="ระดับปริญญาตรี"/>
+    <concept>
+      <code value="61"/>
+      <display value="ปริญญาตรี"/>
+    </concept>
+    <concept>
+      <code value="63"/>
+      <display value="การศึกษาทางศาสนา : พุทธศึกษา"/>
+    </concept>
+    <concept>
+      <code value="64"/>
+      <display value="การศึกษาทางศาสนา : พุทธศึกษา พระปริยัติธรรม แผนกบาลี"/>
+    </concept>
+    <concept>
+      <code value="65"/>
+      <display value="การศึกษาทางศาสนา : อิสลามศึกษา"/>
+    </concept>
+    <concept>
+      <code value="66"/>
+      <display value="ประกาศนียบัตรระดับสูงกว่าปริญญาตรี (ประกาศนียบัตรบัณฑิต)"/>
+    </concept>
+  </concept>
+  <concept>
+    <code value="7"/>
+    <display value="ระดับปริญญาตรี"/>
+    <concept>
+      <code value="71"/>
+      <display value="ปริญญาโท"/>
+    </concept>
+    <concept>
+      <code value="73"/>
+      <display value="การศึกษาทางศาสนา : พุทธศึกษา"/>
+    </concept>
+    <concept>
+      <code value="75"/>
+      <display value="การศึกษาทางศาสนา : อิสลามศึกษา"/>
+    </concept>
+    <concept>
+      <code value="76"/>
+      <display value="ประกาศนียบัตรระดับสูงกว่าปริญญาโท (ประกาศนียบัตรบัณฑิตชั้นสูง)"/>
+    </concept>
+  </concept>
+  <concept>
+    <code value="8"/>
+    <display value="ระดับปริญญาเอก"/>
+    <concept>
+      <code value="81"/>
+      <display value="ปริญญาเอก"/>
+    </concept>
+    <concept>
+      <code value="83"/>
+      <display value="การศึกษาทางศาสนา : พุทธศึกษา"/>
+    </concept>
+    <concept>
+      <code value="85"/>
+      <display value="การศึกษาทางศาสนา : อิสลามศึกษา"/>
+    </concept>
+    <concept>
+      <code value="86"/>
+      <display value="ประกาศนียบัตรระดับสูงกว่าปริญญาเอก"/>
+    </concept>
+    <concept>
+      <code value="87"/>
+      <display value="ประกาศนียบัตรแพทย์เฉพาะทาง"/>
+    </concept>
+  </concept>
+  <concept>
+    <code value="9"/>
+    <display value="การศึกษาอื่นๆ"/>
+    <concept>
+      <code value="91"/>
+      <display value="หลักสูตรที่ไม่ได้วุฒิการศึกษา"/>
+    </concept>
+    <concept>
+      <code value="92"/>
+      <display value="การศึกษาที่เทียบระดับไม่ได้"/>
+    </concept>
+    <concept>
+      <code value="98"/>
+      <display value="เรียนแต่ไม่ทราบระดับการศึกษา"/>
+    </concept>
+  </concept>
+</CodeSystem>

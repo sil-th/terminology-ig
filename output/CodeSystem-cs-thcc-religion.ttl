@@ -1,0 +1,92 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://terms.sil-th.org/CodeSystem/cs-thcc-religion> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "cs-thcc-religion"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://terms.sil-th.org/Codesystem/cs-thcc-religion defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"cs-thcc-religion-01\"> </a></td><td>ศาสนาพุทธ</td><td>เถรวาท มหายาน</td></tr><tr><td style=\"white-space:nowrap\">02<a name=\"cs-thcc-religion-02\"> </a></td><td>ศาสนาอิสลาม</td><td>สุหนี ชีอะห์</td></tr><tr><td style=\"white-space:nowrap\">03<a name=\"cs-thcc-religion-03\"> </a></td><td>ศาสนาคริสต์</td><td>โรมันคาทอลิก โปรเตสแตนต์ ออร์ทอดอกซ์</td></tr><tr><td style=\"white-space:nowrap\">04<a name=\"cs-thcc-religion-04\"> </a></td><td>ศาสนาพราหมณ์-ฮินดู</td><td>ไศวะ ไวษณพ ศักติ</td></tr><tr><td style=\"white-space:nowrap\">05<a name=\"cs-thcc-religion-05\"> </a></td><td>ศาสนาซิกข์</td><td>นานักปันถิ ขาลสา</td></tr><tr><td style=\"white-space:nowrap\">06<a name=\"cs-thcc-religion-06\"> </a></td><td>ศาสนายิว</td><td>ออร์ทอดอกซ์ (ฟาริซี) โปรเกรสซีฟ (ซัดดูคูส) นักพรต (เอสเซเนส)</td></tr><tr><td style=\"white-space:nowrap\">07<a name=\"cs-thcc-religion-07\"> </a></td><td>ศาสนาเชน</td><td>ทิคัมพร เศวตัมพร</td></tr><tr><td style=\"white-space:nowrap\">08<a name=\"cs-thcc-religion-08\"> </a></td><td>ศาสนาโซโรอัสเตอร์</td><td>กัทมิส ชหันชหิส</td></tr><tr><td style=\"white-space:nowrap\">09<a name=\"cs-thcc-religion-09\"> </a></td><td>ศาสนาบาไฮ</td><td/></tr><tr><td style=\"white-space:nowrap\">00<a name=\"cs-thcc-religion-00\"> </a></td><td>อศาสนา/ไม่นับถือศาสนา</td><td/></tr><tr><td style=\"white-space:nowrap\">99<a name=\"cs-thcc-religion-99\"> </a></td><td>ไม่ระบุ</td><td/></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://terms.sil-th.org/Codesystem/cs-thcc-religion"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.name [ fhir:value "CS_THCC_Religion"];
+  fhir:CodeSystem.title [ fhir:value "ชุดรหัสศาสนา"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2022-07-30T17:25:25+07:00"^^xsd:dateTime];
+  fhir:CodeSystem.description [ fhir:value "ชุดรหัสศาสนา จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม"];
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "TH" ]
+     ]
+  ];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "11"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "01" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ศาสนาพุทธ" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "เถรวาท มหายาน" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "02" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ศาสนาอิสลาม" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "สุหนี ชีอะห์" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "03" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ศาสนาคริสต์" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "โรมันคาทอลิก โปรเตสแตนต์ ออร์ทอดอกซ์" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "04" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ศาสนาพราหมณ์-ฮินดู" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "ไศวะ ไวษณพ ศักติ" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "05" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ศาสนาซิกข์" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "นานักปันถิ ขาลสา" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "06" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ศาสนายิว" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "ออร์ทอดอกซ์ (ฟาริซี) โปรเกรสซีฟ (ซัดดูคูส) นักพรต (เอสเซเนส)" ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "07" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ศาสนาเชน" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "ทิคัมพร เศวตัมพร" ]
+  ], [
+     fhir:index 7;
+     fhir:CodeSystem.concept.code [ fhir:value "08" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ศาสนาโซโรอัสเตอร์" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "กัทมิส ชหันชหิส" ]
+  ], [
+     fhir:index 8;
+     fhir:CodeSystem.concept.code [ fhir:value "09" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ศาสนาบาไฮ" ]
+  ], [
+     fhir:index 9;
+     fhir:CodeSystem.concept.code [ fhir:value "00" ];
+     fhir:CodeSystem.concept.display [ fhir:value "อศาสนา/ไม่นับถือศาสนา" ]
+  ], [
+     fhir:index 10;
+     fhir:CodeSystem.concept.code [ fhir:value "99" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ไม่ระบุ" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://terms.sil-th.org/CodeSystem/cs-thcc-religion.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

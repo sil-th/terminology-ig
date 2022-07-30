@@ -1,0 +1,65 @@
+[
+  {
+    "id": "cs-dopa-location",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/Codesystem/cs-dopa-location",
+    "version": "0.1.0",
+    "name": "CS_DOPA_Location"
+  },
+  {
+    "id": "cs-dopa-nameprefix",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/Codesystem/cs-dopa-nameprefix",
+    "version": "0.1.0",
+    "name": "CS_DOPA_NamePrefix"
+  },
+  {
+    "id": "cs-thcc-43filetype",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/Codesystem/cs-thcc-43filetype",
+    "version": "0.1.0",
+    "name": "CS_THCC_43fileType"
+  },
+  {
+    "id": "cs-thcc-marital",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/Codesystem/cs-thcc-marital",
+    "version": "0.1.0",
+    "name": "CS_THCC_Marital"
+  },
+  {
+    "id": "cs-thcc-nationality",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/Codesystem/cs-thcc-nationality",
+    "version": "0.1.0",
+    "name": "CS_THCC_Nationality"
+  },
+  {
+    "id": "cs-thcc-religion",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/Codesystem/cs-thcc-religion",
+    "version": "0.1.0",
+    "name": "CS_THCC_Religion"
+  },
+  {
+    "id": "isced-1997-education",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/Codesystem/isced-97",
+    "version": "0.1.0",
+    "name": "ISCED1997Education"
+  },
+  {
+    "id": "cs-thcc-educationlevel",
+    "type": "CodeSystem",
+    "url": "https://terms.sil-th.org/Codesystem/cs-thcc-educationlevel",
+    "version": "0.1.0",
+    "name": "CS_THCC_EducationLevel"
+  },
+  {
+    "id": "sil-th-terminology",
+    "type": "ImplementationGuide",
+    "url": "https://terms.sil-th.org/ImplementationGuide/sil-th-terminology",
+    "version": "0.1.0",
+    "name": "SilTHTerminology"
+  }
+]

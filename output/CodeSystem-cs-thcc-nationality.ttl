@@ -1,0 +1,1128 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://terms.sil-th.org/CodeSystem/cs-thcc-nationality> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "cs-thcc-nationality"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://terms.sil-th.org/Codesystem/cs-thcc-nationality defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">002<a name=\"cs-thcc-nationality-002\"> </a></td><td>โปรตุเกส</td></tr><tr><td style=\"white-space:nowrap\">003<a name=\"cs-thcc-nationality-003\"> </a></td><td>ดัตช์</td></tr><tr><td style=\"white-space:nowrap\">004<a name=\"cs-thcc-nationality-004\"> </a></td><td>เยอรมัน</td></tr><tr><td style=\"white-space:nowrap\">005<a name=\"cs-thcc-nationality-005\"> </a></td><td>ฝรั่งเศส</td></tr><tr><td style=\"white-space:nowrap\">006<a name=\"cs-thcc-nationality-006\"> </a></td><td>เดนมาร์ก</td></tr><tr><td style=\"white-space:nowrap\">007<a name=\"cs-thcc-nationality-007\"> </a></td><td>สวีเดน</td></tr><tr><td style=\"white-space:nowrap\">008<a name=\"cs-thcc-nationality-008\"> </a></td><td>สวิส</td></tr><tr><td style=\"white-space:nowrap\">009<a name=\"cs-thcc-nationality-009\"> </a></td><td>อิตาลี</td></tr><tr><td style=\"white-space:nowrap\">010<a name=\"cs-thcc-nationality-010\"> </a></td><td>นอร์เวย์</td></tr><tr><td style=\"white-space:nowrap\">011<a name=\"cs-thcc-nationality-011\"> </a></td><td>ออสเตรีย</td></tr><tr><td style=\"white-space:nowrap\">012<a name=\"cs-thcc-nationality-012\"> </a></td><td>ไอริช</td></tr><tr><td style=\"white-space:nowrap\">013<a name=\"cs-thcc-nationality-013\"> </a></td><td>ฟินแลนด์</td></tr><tr><td style=\"white-space:nowrap\">014<a name=\"cs-thcc-nationality-014\"> </a></td><td>เบลเยียม</td></tr><tr><td style=\"white-space:nowrap\">015<a name=\"cs-thcc-nationality-015\"> </a></td><td>สเปน</td></tr><tr><td style=\"white-space:nowrap\">016<a name=\"cs-thcc-nationality-016\"> </a></td><td>รัสเซีย</td></tr><tr><td style=\"white-space:nowrap\">017<a name=\"cs-thcc-nationality-017\"> </a></td><td>โปแลนด์</td></tr><tr><td style=\"white-space:nowrap\">018<a name=\"cs-thcc-nationality-018\"> </a></td><td>เช็ก</td></tr><tr><td style=\"white-space:nowrap\">019<a name=\"cs-thcc-nationality-019\"> </a></td><td>ฮังการี</td></tr><tr><td style=\"white-space:nowrap\">020<a name=\"cs-thcc-nationality-020\"> </a></td><td>กรีก</td></tr><tr><td style=\"white-space:nowrap\">021<a name=\"cs-thcc-nationality-021\"> </a></td><td>ยูโกสลาฟ</td></tr><tr><td style=\"white-space:nowrap\">022<a name=\"cs-thcc-nationality-022\"> </a></td><td>ลักเซมเบิร์ก</td></tr><tr><td style=\"white-space:nowrap\">023<a name=\"cs-thcc-nationality-023\"> </a></td><td>วาติกัน</td></tr><tr><td style=\"white-space:nowrap\">024<a name=\"cs-thcc-nationality-024\"> </a></td><td>มอลตา</td></tr><tr><td style=\"white-space:nowrap\">025<a name=\"cs-thcc-nationality-025\"> </a></td><td>ลีซู</td></tr><tr><td style=\"white-space:nowrap\">026<a name=\"cs-thcc-nationality-026\"> </a></td><td>บัลแกเรีย</td></tr><tr><td style=\"white-space:nowrap\">027<a name=\"cs-thcc-nationality-027\"> </a></td><td>โรมาเนีย</td></tr><tr><td style=\"white-space:nowrap\">028<a name=\"cs-thcc-nationality-028\"> </a></td><td>ไซปรัส</td></tr><tr><td style=\"white-space:nowrap\">029<a name=\"cs-thcc-nationality-029\"> </a></td><td>อเมริกัน</td></tr><tr><td style=\"white-space:nowrap\">030<a name=\"cs-thcc-nationality-030\"> </a></td><td>แคนาดา</td></tr><tr><td style=\"white-space:nowrap\">031<a name=\"cs-thcc-nationality-031\"> </a></td><td>เม็กซิกัน</td></tr><tr><td style=\"white-space:nowrap\">032<a name=\"cs-thcc-nationality-032\"> </a></td><td>คิวบา</td></tr><tr><td style=\"white-space:nowrap\">033<a name=\"cs-thcc-nationality-033\"> </a></td><td>อาร์เจนตินา</td></tr><tr><td style=\"white-space:nowrap\">034<a name=\"cs-thcc-nationality-034\"> </a></td><td>บราซิล</td></tr><tr><td style=\"white-space:nowrap\">035<a name=\"cs-thcc-nationality-035\"> </a></td><td>ชิลี</td></tr><tr><td style=\"white-space:nowrap\">036<a name=\"cs-thcc-nationality-036\"> </a></td><td>อาข่า</td></tr><tr><td style=\"white-space:nowrap\">037<a name=\"cs-thcc-nationality-037\"> </a></td><td>โคลัมเบีย</td></tr><tr><td style=\"white-space:nowrap\">038<a name=\"cs-thcc-nationality-038\"> </a></td><td>ลั๊ว</td></tr><tr><td style=\"white-space:nowrap\">039<a name=\"cs-thcc-nationality-039\"> </a></td><td>เปรู</td></tr><tr><td style=\"white-space:nowrap\">040<a name=\"cs-thcc-nationality-040\"> </a></td><td>ปานามา</td></tr><tr><td style=\"white-space:nowrap\">041<a name=\"cs-thcc-nationality-041\"> </a></td><td>อุรุกวัย</td></tr><tr><td style=\"white-space:nowrap\">042<a name=\"cs-thcc-nationality-042\"> </a></td><td>เวเนซุเอลา</td></tr><tr><td style=\"white-space:nowrap\">043<a name=\"cs-thcc-nationality-043\"> </a></td><td>เปอร์โตริโก้ (ยกเลิก)</td></tr><tr><td style=\"white-space:nowrap\">044<a name=\"cs-thcc-nationality-044\"> </a></td><td>จีน</td></tr><tr><td style=\"white-space:nowrap\">045<a name=\"cs-thcc-nationality-045\"> </a></td><td>อินเดีย</td></tr><tr><td style=\"white-space:nowrap\">046<a name=\"cs-thcc-nationality-046\"> </a></td><td>เวียดนาม</td></tr><tr><td style=\"white-space:nowrap\">047<a name=\"cs-thcc-nationality-047\"> </a></td><td>ญี่ปุ่น</td></tr><tr><td style=\"white-space:nowrap\">048<a name=\"cs-thcc-nationality-048\"> </a></td><td>เมียนมา</td></tr><tr><td style=\"white-space:nowrap\">049<a name=\"cs-thcc-nationality-049\"> </a></td><td>ฟิลิปปิน</td></tr><tr><td style=\"white-space:nowrap\">050<a name=\"cs-thcc-nationality-050\"> </a></td><td>มาเลเซีย</td></tr><tr><td style=\"white-space:nowrap\">051<a name=\"cs-thcc-nationality-051\"> </a></td><td>อินโดนีเซีย</td></tr><tr><td style=\"white-space:nowrap\">052<a name=\"cs-thcc-nationality-052\"> </a></td><td>ปากีสถาน</td></tr><tr><td style=\"white-space:nowrap\">053<a name=\"cs-thcc-nationality-053\"> </a></td><td>เกาหลีใต้</td></tr><tr><td style=\"white-space:nowrap\">054<a name=\"cs-thcc-nationality-054\"> </a></td><td>สิงคโปร์</td></tr><tr><td style=\"white-space:nowrap\">055<a name=\"cs-thcc-nationality-055\"> </a></td><td>เนปาล</td></tr><tr><td style=\"white-space:nowrap\">056<a name=\"cs-thcc-nationality-056\"> </a></td><td>ลาว</td></tr><tr><td style=\"white-space:nowrap\">057<a name=\"cs-thcc-nationality-057\"> </a></td><td>กัมพูชา</td></tr><tr><td style=\"white-space:nowrap\">058<a name=\"cs-thcc-nationality-058\"> </a></td><td>ศรีลังกา</td></tr><tr><td style=\"white-space:nowrap\">059<a name=\"cs-thcc-nationality-059\"> </a></td><td>ซาอุดีอาระเบีย</td></tr><tr><td style=\"white-space:nowrap\">060<a name=\"cs-thcc-nationality-060\"> </a></td><td>อิสราเอล</td></tr><tr><td style=\"white-space:nowrap\">061<a name=\"cs-thcc-nationality-061\"> </a></td><td>เลบานอน</td></tr><tr><td style=\"white-space:nowrap\">062<a name=\"cs-thcc-nationality-062\"> </a></td><td>อิหร่าน</td></tr><tr><td style=\"white-space:nowrap\">063<a name=\"cs-thcc-nationality-063\"> </a></td><td>ตุรกี</td></tr><tr><td style=\"white-space:nowrap\">064<a name=\"cs-thcc-nationality-064\"> </a></td><td>บังกลาเทศ</td></tr><tr><td style=\"white-space:nowrap\">065<a name=\"cs-thcc-nationality-065\"> </a></td><td>ถูกถอนสัญชาติ</td></tr><tr><td style=\"white-space:nowrap\">066<a name=\"cs-thcc-nationality-066\"> </a></td><td>ซีเรีย</td></tr><tr><td style=\"white-space:nowrap\">067<a name=\"cs-thcc-nationality-067\"> </a></td><td>อิรัก</td></tr><tr><td style=\"white-space:nowrap\">068<a name=\"cs-thcc-nationality-068\"> </a></td><td>คูเวต</td></tr><tr><td style=\"white-space:nowrap\">069<a name=\"cs-thcc-nationality-069\"> </a></td><td>บรูไน</td></tr><tr><td style=\"white-space:nowrap\">070<a name=\"cs-thcc-nationality-070\"> </a></td><td>แอฟริกาใต้</td></tr><tr><td style=\"white-space:nowrap\">071<a name=\"cs-thcc-nationality-071\"> </a></td><td>กะเหรี่ยง</td></tr><tr><td style=\"white-space:nowrap\">072<a name=\"cs-thcc-nationality-072\"> </a></td><td>ลาหู่</td></tr><tr><td style=\"white-space:nowrap\">073<a name=\"cs-thcc-nationality-073\"> </a></td><td>เคนยา</td></tr><tr><td style=\"white-space:nowrap\">074<a name=\"cs-thcc-nationality-074\"> </a></td><td>อียิปต์</td></tr><tr><td style=\"white-space:nowrap\">075<a name=\"cs-thcc-nationality-075\"> </a></td><td>เอธิโอเปีย</td></tr><tr><td style=\"white-space:nowrap\">076<a name=\"cs-thcc-nationality-076\"> </a></td><td>ไนจีเรีย</td></tr><tr><td style=\"white-space:nowrap\">077<a name=\"cs-thcc-nationality-077\"> </a></td><td>สหรัฐอาหรับเอมิเรตส์</td></tr><tr><td style=\"white-space:nowrap\">078<a name=\"cs-thcc-nationality-078\"> </a></td><td>กินี</td></tr><tr><td style=\"white-space:nowrap\">079<a name=\"cs-thcc-nationality-079\"> </a></td><td>ออสเตรเลีย</td></tr><tr><td style=\"white-space:nowrap\">080<a name=\"cs-thcc-nationality-080\"> </a></td><td>นิวซีแลนด์</td></tr><tr><td style=\"white-space:nowrap\">081<a name=\"cs-thcc-nationality-081\"> </a></td><td>ปาปัวนิวกินี</td></tr><tr><td style=\"white-space:nowrap\">082<a name=\"cs-thcc-nationality-082\"> </a></td><td>ม้ง</td></tr><tr><td style=\"white-space:nowrap\">083<a name=\"cs-thcc-nationality-083\"> </a></td><td>เมี่ยน</td></tr><tr><td style=\"white-space:nowrap\">084<a name=\"cs-thcc-nationality-084\"> </a></td><td>ชาวเขาที่ไม่ได้รับสัญขาติไทย (ยกเลิก)</td></tr><tr><td style=\"white-space:nowrap\">085<a name=\"cs-thcc-nationality-085\"> </a></td><td>- (ฐานชุดเก่า,ใหม่ไม่มีข้อมูล)</td></tr><tr><td style=\"white-space:nowrap\">086<a name=\"cs-thcc-nationality-086\"> </a></td><td>จีนฮ่อ</td></tr><tr><td style=\"white-space:nowrap\">087<a name=\"cs-thcc-nationality-087\"> </a></td><td>จีน (อดีตทหารจีนคณะชาติ ,อดีตทหารจีนชาติ)</td></tr><tr><td style=\"white-space:nowrap\">088<a name=\"cs-thcc-nationality-088\"> </a></td><td>ผู้พลัดถิ่นสัญชาติพม่า</td></tr><tr><td style=\"white-space:nowrap\">089<a name=\"cs-thcc-nationality-089\"> </a></td><td>ผู้อพยพเชื้อสายจากกัมพูชา</td></tr><tr><td style=\"white-space:nowrap\">090<a name=\"cs-thcc-nationality-090\"> </a></td><td>ลาว (ลาวอพยพ)</td></tr><tr><td style=\"white-space:nowrap\">091<a name=\"cs-thcc-nationality-091\"> </a></td><td>เขมรอพยพ</td></tr><tr><td style=\"white-space:nowrap\">092<a name=\"cs-thcc-nationality-092\"> </a></td><td>ผู้อพยพอินโดจีนสัญชาติเวียดนาม (ยกเลิก  ไปใช้รหัส 046 แทน)</td></tr><tr><td style=\"white-space:nowrap\">093<a name=\"cs-thcc-nationality-093\"> </a></td><td>รอให้สัญชาติไทย (ยกเลิก)</td></tr><tr><td style=\"white-space:nowrap\">094<a name=\"cs-thcc-nationality-094\"> </a></td><td>ไทย-อิสลาม,อิสลาม-ไทย (ยกเลิก)</td></tr><tr><td style=\"white-space:nowrap\">095<a name=\"cs-thcc-nationality-095\"> </a></td><td>ไทย-จีน,จีน-ไทย (ยกเลิก)</td></tr><tr><td style=\"white-space:nowrap\">096<a name=\"cs-thcc-nationality-096\"> </a></td><td>ไร้สัญชาติ</td></tr><tr><td style=\"white-space:nowrap\">097<a name=\"cs-thcc-nationality-097\"> </a></td><td>อื่นๆ</td></tr><tr><td style=\"white-space:nowrap\">098<a name=\"cs-thcc-nationality-098\"> </a></td><td>ไม่ได้สัญชาติไทย</td></tr><tr><td style=\"white-space:nowrap\">099<a name=\"cs-thcc-nationality-099\"> </a></td><td>ไทย</td></tr><tr><td style=\"white-space:nowrap\">100<a name=\"cs-thcc-nationality-100\"> </a></td><td>อัฟกัน</td></tr><tr><td style=\"white-space:nowrap\">101<a name=\"cs-thcc-nationality-101\"> </a></td><td>บาห์เรน</td></tr><tr><td style=\"white-space:nowrap\">102<a name=\"cs-thcc-nationality-102\"> </a></td><td>ภูฏาน</td></tr><tr><td style=\"white-space:nowrap\">103<a name=\"cs-thcc-nationality-103\"> </a></td><td>จอร์แดน</td></tr><tr><td style=\"white-space:nowrap\">104<a name=\"cs-thcc-nationality-104\"> </a></td><td>เกาหลีเหนือ</td></tr><tr><td style=\"white-space:nowrap\">105<a name=\"cs-thcc-nationality-105\"> </a></td><td>มัลดีฟ</td></tr><tr><td style=\"white-space:nowrap\">106<a name=\"cs-thcc-nationality-106\"> </a></td><td>มองโกเลีย</td></tr><tr><td style=\"white-space:nowrap\">107<a name=\"cs-thcc-nationality-107\"> </a></td><td>โอมาน</td></tr><tr><td style=\"white-space:nowrap\">108<a name=\"cs-thcc-nationality-108\"> </a></td><td>กาตาร์</td></tr><tr><td style=\"white-space:nowrap\">109<a name=\"cs-thcc-nationality-109\"> </a></td><td>เยเมน</td></tr><tr><td style=\"white-space:nowrap\">110<a name=\"cs-thcc-nationality-110\"> </a></td><td>เยเมน(ใต้)** (ยกเลิก  ไปใช้รหัส 109 แทน)</td></tr><tr><td style=\"white-space:nowrap\">111<a name=\"cs-thcc-nationality-111\"> </a></td><td>หมู่เกาะฟิจิ</td></tr><tr><td style=\"white-space:nowrap\">112<a name=\"cs-thcc-nationality-112\"> </a></td><td>คิริบาส</td></tr><tr><td style=\"white-space:nowrap\">113<a name=\"cs-thcc-nationality-113\"> </a></td><td>นาอูรู</td></tr><tr><td style=\"white-space:nowrap\">114<a name=\"cs-thcc-nationality-114\"> </a></td><td>หมู่เกาะโซโลมอน</td></tr><tr><td style=\"white-space:nowrap\">115<a name=\"cs-thcc-nationality-115\"> </a></td><td>ตองก้า</td></tr><tr><td style=\"white-space:nowrap\">116<a name=\"cs-thcc-nationality-116\"> </a></td><td>ตูวาลู</td></tr><tr><td style=\"white-space:nowrap\">117<a name=\"cs-thcc-nationality-117\"> </a></td><td>วานูอาตู</td></tr><tr><td style=\"white-space:nowrap\">118<a name=\"cs-thcc-nationality-118\"> </a></td><td>ซามัว</td></tr><tr><td style=\"white-space:nowrap\">119<a name=\"cs-thcc-nationality-119\"> </a></td><td>แอลเบเนีย</td></tr><tr><td style=\"white-space:nowrap\">120<a name=\"cs-thcc-nationality-120\"> </a></td><td>อันดอร์รา</td></tr><tr><td style=\"white-space:nowrap\">121<a name=\"cs-thcc-nationality-121\"> </a></td><td>เยอรมนีตะวันออก** (ยกเลิก  ไปใช้รหัส 004 แทน)</td></tr><tr><td style=\"white-space:nowrap\">122<a name=\"cs-thcc-nationality-122\"> </a></td><td>ไอซ์แลนด์</td></tr><tr><td style=\"white-space:nowrap\">123<a name=\"cs-thcc-nationality-123\"> </a></td><td>ลิกเตนสไตน์</td></tr><tr><td style=\"white-space:nowrap\">124<a name=\"cs-thcc-nationality-124\"> </a></td><td>โมนาโก</td></tr><tr><td style=\"white-space:nowrap\">125<a name=\"cs-thcc-nationality-125\"> </a></td><td>ซานมารีโน</td></tr><tr><td style=\"white-space:nowrap\">126<a name=\"cs-thcc-nationality-126\"> </a></td><td>บริติช  (อังกฤษ, สก็อตแลนด์)</td></tr><tr><td style=\"white-space:nowrap\">127<a name=\"cs-thcc-nationality-127\"> </a></td><td>แอลจีเรีย</td></tr><tr><td style=\"white-space:nowrap\">128<a name=\"cs-thcc-nationality-128\"> </a></td><td>แองโกลา</td></tr><tr><td style=\"white-space:nowrap\">129<a name=\"cs-thcc-nationality-129\"> </a></td><td>เบนิน</td></tr><tr><td style=\"white-space:nowrap\">130<a name=\"cs-thcc-nationality-130\"> </a></td><td>บอตสวานา</td></tr><tr><td style=\"white-space:nowrap\">131<a name=\"cs-thcc-nationality-131\"> </a></td><td>บูร์กินาฟาโซ</td></tr><tr><td style=\"white-space:nowrap\">132<a name=\"cs-thcc-nationality-132\"> </a></td><td>บุรุนดี</td></tr><tr><td style=\"white-space:nowrap\">133<a name=\"cs-thcc-nationality-133\"> </a></td><td>แคเมอรูน</td></tr><tr><td style=\"white-space:nowrap\">134<a name=\"cs-thcc-nationality-134\"> </a></td><td>เคปเวิร์ด</td></tr><tr><td style=\"white-space:nowrap\">135<a name=\"cs-thcc-nationality-135\"> </a></td><td>แอฟริกากลาง</td></tr><tr><td style=\"white-space:nowrap\">136<a name=\"cs-thcc-nationality-136\"> </a></td><td>ชาด</td></tr><tr><td style=\"white-space:nowrap\">137<a name=\"cs-thcc-nationality-137\"> </a></td><td>คอโมโรส</td></tr><tr><td style=\"white-space:nowrap\">138<a name=\"cs-thcc-nationality-138\"> </a></td><td>คองโก</td></tr><tr><td style=\"white-space:nowrap\">139<a name=\"cs-thcc-nationality-139\"> </a></td><td>ไอโวเรี่ยน</td></tr><tr><td style=\"white-space:nowrap\">140<a name=\"cs-thcc-nationality-140\"> </a></td><td>จิบูตี</td></tr><tr><td style=\"white-space:nowrap\">141<a name=\"cs-thcc-nationality-141\"> </a></td><td>อิเควทอเรียลกินี</td></tr><tr><td style=\"white-space:nowrap\">142<a name=\"cs-thcc-nationality-142\"> </a></td><td>กาบอง</td></tr><tr><td style=\"white-space:nowrap\">143<a name=\"cs-thcc-nationality-143\"> </a></td><td>แกมเบีย</td></tr><tr><td style=\"white-space:nowrap\">144<a name=\"cs-thcc-nationality-144\"> </a></td><td>กานา</td></tr><tr><td style=\"white-space:nowrap\">145<a name=\"cs-thcc-nationality-145\"> </a></td><td>กินีบีสเซา</td></tr><tr><td style=\"white-space:nowrap\">146<a name=\"cs-thcc-nationality-146\"> </a></td><td>เลโซโท</td></tr><tr><td style=\"white-space:nowrap\">147<a name=\"cs-thcc-nationality-147\"> </a></td><td>ไลบีเรีย</td></tr><tr><td style=\"white-space:nowrap\">148<a name=\"cs-thcc-nationality-148\"> </a></td><td>ลิเบีย</td></tr><tr><td style=\"white-space:nowrap\">149<a name=\"cs-thcc-nationality-149\"> </a></td><td>มาลากาซี</td></tr><tr><td style=\"white-space:nowrap\">150<a name=\"cs-thcc-nationality-150\"> </a></td><td>มาลาวี</td></tr><tr><td style=\"white-space:nowrap\">151<a name=\"cs-thcc-nationality-151\"> </a></td><td>มาลี</td></tr><tr><td style=\"white-space:nowrap\">152<a name=\"cs-thcc-nationality-152\"> </a></td><td>มอริเตเนีย</td></tr><tr><td style=\"white-space:nowrap\">153<a name=\"cs-thcc-nationality-153\"> </a></td><td>มอริเชียส</td></tr><tr><td style=\"white-space:nowrap\">154<a name=\"cs-thcc-nationality-154\"> </a></td><td>โมร็อกโก</td></tr><tr><td style=\"white-space:nowrap\">155<a name=\"cs-thcc-nationality-155\"> </a></td><td>โมซัมบิก</td></tr><tr><td style=\"white-space:nowrap\">156<a name=\"cs-thcc-nationality-156\"> </a></td><td>ไนเจอร์</td></tr><tr><td style=\"white-space:nowrap\">157<a name=\"cs-thcc-nationality-157\"> </a></td><td>รวันดา</td></tr><tr><td style=\"white-space:nowrap\">158<a name=\"cs-thcc-nationality-158\"> </a></td><td>เซาโตเมและปรินซิเป</td></tr><tr><td style=\"white-space:nowrap\">159<a name=\"cs-thcc-nationality-159\"> </a></td><td>เซเนกัล</td></tr><tr><td style=\"white-space:nowrap\">160<a name=\"cs-thcc-nationality-160\"> </a></td><td>เซเชลส์</td></tr><tr><td style=\"white-space:nowrap\">161<a name=\"cs-thcc-nationality-161\"> </a></td><td>เซียร์ราลีโอน</td></tr><tr><td style=\"white-space:nowrap\">162<a name=\"cs-thcc-nationality-162\"> </a></td><td>โซมาลี</td></tr><tr><td style=\"white-space:nowrap\">163<a name=\"cs-thcc-nationality-163\"> </a></td><td>ซูดาน</td></tr><tr><td style=\"white-space:nowrap\">164<a name=\"cs-thcc-nationality-164\"> </a></td><td>สวาซี</td></tr><tr><td style=\"white-space:nowrap\">165<a name=\"cs-thcc-nationality-165\"> </a></td><td>แทนซาเนีย</td></tr><tr><td style=\"white-space:nowrap\">166<a name=\"cs-thcc-nationality-166\"> </a></td><td>โตโก</td></tr><tr><td style=\"white-space:nowrap\">167<a name=\"cs-thcc-nationality-167\"> </a></td><td>ตูนิเซีย</td></tr><tr><td style=\"white-space:nowrap\">168<a name=\"cs-thcc-nationality-168\"> </a></td><td>ยูกันดา</td></tr><tr><td style=\"white-space:nowrap\">169<a name=\"cs-thcc-nationality-169\"> </a></td><td>ซาอีร์</td></tr><tr><td style=\"white-space:nowrap\">170<a name=\"cs-thcc-nationality-170\"> </a></td><td>แซมเบีย</td></tr><tr><td style=\"white-space:nowrap\">171<a name=\"cs-thcc-nationality-171\"> </a></td><td>ซิมบับเว</td></tr><tr><td style=\"white-space:nowrap\">172<a name=\"cs-thcc-nationality-172\"> </a></td><td>แอนติกาและบาร์บูดา</td></tr><tr><td style=\"white-space:nowrap\">173<a name=\"cs-thcc-nationality-173\"> </a></td><td>บาฮามาส</td></tr><tr><td style=\"white-space:nowrap\">174<a name=\"cs-thcc-nationality-174\"> </a></td><td>บาร์เบโดส</td></tr><tr><td style=\"white-space:nowrap\">175<a name=\"cs-thcc-nationality-175\"> </a></td><td>เบลิซ</td></tr><tr><td style=\"white-space:nowrap\">176<a name=\"cs-thcc-nationality-176\"> </a></td><td>คอสตาริกา</td></tr><tr><td style=\"white-space:nowrap\">177<a name=\"cs-thcc-nationality-177\"> </a></td><td>โดมินิกา</td></tr><tr><td style=\"white-space:nowrap\">178<a name=\"cs-thcc-nationality-178\"> </a></td><td>โดมินิกัน</td></tr><tr><td style=\"white-space:nowrap\">179<a name=\"cs-thcc-nationality-179\"> </a></td><td>เอลซัลวาดอร์</td></tr><tr><td style=\"white-space:nowrap\">180<a name=\"cs-thcc-nationality-180\"> </a></td><td>เกรเนดา</td></tr><tr><td style=\"white-space:nowrap\">181<a name=\"cs-thcc-nationality-181\"> </a></td><td>กัวเตมาลา</td></tr><tr><td style=\"white-space:nowrap\">182<a name=\"cs-thcc-nationality-182\"> </a></td><td>เฮติ</td></tr><tr><td style=\"white-space:nowrap\">183<a name=\"cs-thcc-nationality-183\"> </a></td><td>ฮอนดูรัส</td></tr><tr><td style=\"white-space:nowrap\">184<a name=\"cs-thcc-nationality-184\"> </a></td><td>จาเมกา</td></tr><tr><td style=\"white-space:nowrap\">185<a name=\"cs-thcc-nationality-185\"> </a></td><td>นิการากัว</td></tr><tr><td style=\"white-space:nowrap\">186<a name=\"cs-thcc-nationality-186\"> </a></td><td>เซนต์คิตส์และเนวิส</td></tr><tr><td style=\"white-space:nowrap\">187<a name=\"cs-thcc-nationality-187\"> </a></td><td>เซนต์ลูเซีย</td></tr><tr><td style=\"white-space:nowrap\">188<a name=\"cs-thcc-nationality-188\"> </a></td><td>เซนต์วินเซนต์และเกรนาดีนส์</td></tr><tr><td style=\"white-space:nowrap\">189<a name=\"cs-thcc-nationality-189\"> </a></td><td>ตรินิแดดและโตเบโก</td></tr><tr><td style=\"white-space:nowrap\">190<a name=\"cs-thcc-nationality-190\"> </a></td><td>โบลีเวีย</td></tr><tr><td style=\"white-space:nowrap\">191<a name=\"cs-thcc-nationality-191\"> </a></td><td>เอกวาดอร์</td></tr><tr><td style=\"white-space:nowrap\">192<a name=\"cs-thcc-nationality-192\"> </a></td><td>กายอานา</td></tr><tr><td style=\"white-space:nowrap\">193<a name=\"cs-thcc-nationality-193\"> </a></td><td>ปารากวัย</td></tr><tr><td style=\"white-space:nowrap\">194<a name=\"cs-thcc-nationality-194\"> </a></td><td>ซูรินาเม</td></tr><tr><td style=\"white-space:nowrap\">195<a name=\"cs-thcc-nationality-195\"> </a></td><td>อาหรับ</td></tr><tr><td style=\"white-space:nowrap\">196<a name=\"cs-thcc-nationality-196\"> </a></td><td>คะฉิ่น</td></tr><tr><td style=\"white-space:nowrap\">197<a name=\"cs-thcc-nationality-197\"> </a></td><td>ว้า</td></tr><tr><td style=\"white-space:nowrap\">198<a name=\"cs-thcc-nationality-198\"> </a></td><td>ไทยใหญ่</td></tr><tr><td style=\"white-space:nowrap\">199<a name=\"cs-thcc-nationality-199\"> </a></td><td>ไทยลื้อ</td></tr><tr><td style=\"white-space:nowrap\">200<a name=\"cs-thcc-nationality-200\"> </a></td><td>ขมุ</td></tr><tr><td style=\"white-space:nowrap\">201<a name=\"cs-thcc-nationality-201\"> </a></td><td>ตองสู</td></tr><tr><td style=\"white-space:nowrap\">202<a name=\"cs-thcc-nationality-202\"> </a></td><td>เงี้ยว** (ยกเลิก)</td></tr><tr><td style=\"white-space:nowrap\">203<a name=\"cs-thcc-nationality-203\"> </a></td><td>ละว้า</td></tr><tr><td style=\"white-space:nowrap\">204<a name=\"cs-thcc-nationality-204\"> </a></td><td>แม้ว (ยกเลิก  ไปใช้รหัส 082 แทน)</td></tr><tr><td style=\"white-space:nowrap\">205<a name=\"cs-thcc-nationality-205\"> </a></td><td>ปะหร่อง</td></tr><tr><td style=\"white-space:nowrap\">206<a name=\"cs-thcc-nationality-206\"> </a></td><td>ถิ่น</td></tr><tr><td style=\"white-space:nowrap\">207<a name=\"cs-thcc-nationality-207\"> </a></td><td>ปะโอ</td></tr><tr><td style=\"white-space:nowrap\">208<a name=\"cs-thcc-nationality-208\"> </a></td><td>มอญ</td></tr><tr><td style=\"white-space:nowrap\">209<a name=\"cs-thcc-nationality-209\"> </a></td><td>มลาบรี</td></tr><tr><td style=\"white-space:nowrap\">210<a name=\"cs-thcc-nationality-210\"> </a></td><td>เฮาะ** (ยกเลิก)</td></tr><tr><td style=\"white-space:nowrap\">211<a name=\"cs-thcc-nationality-211\"> </a></td><td>สก็อตแลน์** (ยกเลิก  ไปใช้รหัส  126 แทน)</td></tr><tr><td style=\"white-space:nowrap\">212<a name=\"cs-thcc-nationality-212\"> </a></td><td>จีน (จีนฮ่ออิสระ)</td></tr><tr><td style=\"white-space:nowrap\">213<a name=\"cs-thcc-nationality-213\"> </a></td><td>จีนอพยพ** (ยกเลิก)</td></tr><tr><td style=\"white-space:nowrap\">214<a name=\"cs-thcc-nationality-214\"> </a></td><td>จีน (จีนฮ่ออพยพ)</td></tr><tr><td style=\"white-space:nowrap\">215<a name=\"cs-thcc-nationality-215\"> </a></td><td>ไต้หวัน** (ยกเลิก ไปใช้รหัส 220 แทน)</td></tr><tr><td style=\"white-space:nowrap\">216<a name=\"cs-thcc-nationality-216\"> </a></td><td>ยูเครน</td></tr><tr><td style=\"white-space:nowrap\">217<a name=\"cs-thcc-nationality-217\"> </a></td><td>อาณานิคมอังกฤษ** (ยกเลิก ไปใช้รหัส 126 แทน)</td></tr><tr><td style=\"white-space:nowrap\">218<a name=\"cs-thcc-nationality-218\"> </a></td><td>ดูไบ** (ยกเลิก ไปใช้รหัส 077 แทน)</td></tr><tr><td style=\"white-space:nowrap\">219<a name=\"cs-thcc-nationality-219\"> </a></td><td>จีน(ฮ่องกง)</td></tr><tr><td style=\"white-space:nowrap\">220<a name=\"cs-thcc-nationality-220\"> </a></td><td>จีน(ไต้หวัน)</td></tr><tr><td style=\"white-space:nowrap\">221<a name=\"cs-thcc-nationality-221\"> </a></td><td>โครเอเชีย</td></tr><tr><td style=\"white-space:nowrap\">223<a name=\"cs-thcc-nationality-223\"> </a></td><td>คาซัค</td></tr><tr><td style=\"white-space:nowrap\">222<a name=\"cs-thcc-nationality-222\"> </a></td><td>บริทิธ** (ยกเลิก ไปใช้รหัส 126 แทน)</td></tr><tr><td style=\"white-space:nowrap\">224<a name=\"cs-thcc-nationality-224\"> </a></td><td>อาร์เมเนีย</td></tr><tr><td style=\"white-space:nowrap\">225<a name=\"cs-thcc-nationality-225\"> </a></td><td>อาเซอร์ไบจาน</td></tr><tr><td style=\"white-space:nowrap\">226<a name=\"cs-thcc-nationality-226\"> </a></td><td>จอร์เจีย</td></tr><tr><td style=\"white-space:nowrap\">227<a name=\"cs-thcc-nationality-227\"> </a></td><td>คีร์กีซ</td></tr><tr><td style=\"white-space:nowrap\">228<a name=\"cs-thcc-nationality-228\"> </a></td><td>ทาจิก</td></tr><tr><td style=\"white-space:nowrap\">229<a name=\"cs-thcc-nationality-229\"> </a></td><td>อุซเบก</td></tr><tr><td style=\"white-space:nowrap\">230<a name=\"cs-thcc-nationality-230\"> </a></td><td>หมู่เกาะมาร์แชลล์</td></tr><tr><td style=\"white-space:nowrap\">231<a name=\"cs-thcc-nationality-231\"> </a></td><td>ไมโครนีเซีย</td></tr><tr><td style=\"white-space:nowrap\">232<a name=\"cs-thcc-nationality-232\"> </a></td><td>ปาเลา</td></tr><tr><td style=\"white-space:nowrap\">233<a name=\"cs-thcc-nationality-233\"> </a></td><td>เบลารุส</td></tr><tr><td style=\"white-space:nowrap\">234<a name=\"cs-thcc-nationality-234\"> </a></td><td>บอสเนียและเฮอร์เซโกวีนา</td></tr><tr><td style=\"white-space:nowrap\">235<a name=\"cs-thcc-nationality-235\"> </a></td><td>เติร์กเมน</td></tr><tr><td style=\"white-space:nowrap\">236<a name=\"cs-thcc-nationality-236\"> </a></td><td>เอสโตเนีย</td></tr><tr><td style=\"white-space:nowrap\">237<a name=\"cs-thcc-nationality-237\"> </a></td><td>ลัตเวีย</td></tr><tr><td style=\"white-space:nowrap\">238<a name=\"cs-thcc-nationality-238\"> </a></td><td>ลิทัวเนีย</td></tr><tr><td style=\"white-space:nowrap\">239<a name=\"cs-thcc-nationality-239\"> </a></td><td>มาซิโดเนีย</td></tr><tr><td style=\"white-space:nowrap\">240<a name=\"cs-thcc-nationality-240\"> </a></td><td>มอลโดวา</td></tr><tr><td style=\"white-space:nowrap\">241<a name=\"cs-thcc-nationality-241\"> </a></td><td>สโลวัก</td></tr><tr><td style=\"white-space:nowrap\">242<a name=\"cs-thcc-nationality-242\"> </a></td><td>สโลวีน</td></tr><tr><td style=\"white-space:nowrap\">243<a name=\"cs-thcc-nationality-243\"> </a></td><td>เอริเทรีย</td></tr><tr><td style=\"white-space:nowrap\">244<a name=\"cs-thcc-nationality-244\"> </a></td><td>นามิเบีย</td></tr><tr><td style=\"white-space:nowrap\">245<a name=\"cs-thcc-nationality-245\"> </a></td><td>โบลิเวีย</td></tr><tr><td style=\"white-space:nowrap\">246<a name=\"cs-thcc-nationality-246\"> </a></td><td>หมู่เกาะคุก</td></tr><tr><td style=\"white-space:nowrap\">247<a name=\"cs-thcc-nationality-247\"> </a></td><td>เนปาล (เนปาลอพยพ)</td></tr><tr><td style=\"white-space:nowrap\">248<a name=\"cs-thcc-nationality-248\"> </a></td><td>มอญ  (ผู้พลัดถิ่นสัญชาติพม่า)</td></tr><tr><td style=\"white-space:nowrap\">249<a name=\"cs-thcc-nationality-249\"> </a></td><td>ไทยใหญ่  (ผู้พลัดถิ่นสัญชาติพม่า)</td></tr><tr><td style=\"white-space:nowrap\">250<a name=\"cs-thcc-nationality-250\"> </a></td><td>เวียดนาม  (ญวนอพยพ)</td></tr><tr><td style=\"white-space:nowrap\">251<a name=\"cs-thcc-nationality-251\"> </a></td><td>มาเลเชีย  (อดีต จีนคอมมิวนิสต์)</td></tr><tr><td style=\"white-space:nowrap\">252<a name=\"cs-thcc-nationality-252\"> </a></td><td>จีน  (อดีต จีนคอมมิวนิสต์)</td></tr><tr><td style=\"white-space:nowrap\">253<a name=\"cs-thcc-nationality-253\"> </a></td><td>สิงคโปร์  (อดีต จีนคอมมิวนิสต์)</td></tr><tr><td style=\"white-space:nowrap\">254<a name=\"cs-thcc-nationality-254\"> </a></td><td>กะเหรี่ยง  (ผู้หลบหนีเข้าเมือง)</td></tr><tr><td style=\"white-space:nowrap\">255<a name=\"cs-thcc-nationality-255\"> </a></td><td>มอญ  (ผู้หลบหนีเข้าเมือง)</td></tr><tr><td style=\"white-space:nowrap\">256<a name=\"cs-thcc-nationality-256\"> </a></td><td>ไทยใหญ่  (ผู้หลบหนีเข้าเมือง)</td></tr><tr><td style=\"white-space:nowrap\">257<a name=\"cs-thcc-nationality-257\"> </a></td><td>กัมพูชา  (ผู้หลบหนีเข้าเมือง)</td></tr><tr><td style=\"white-space:nowrap\">258<a name=\"cs-thcc-nationality-258\"> </a></td><td>มอญ  (ชุมชนบนพื้นที่สูง)</td></tr><tr><td style=\"white-space:nowrap\">259<a name=\"cs-thcc-nationality-259\"> </a></td><td>กะเหรี่ยง  (ชุมชนบนพื้นที่สูง)</td></tr><tr><td style=\"white-space:nowrap\">260<a name=\"cs-thcc-nationality-260\"> </a></td><td>ปาเลสไตน์</td></tr><tr><td style=\"white-space:nowrap\">261<a name=\"cs-thcc-nationality-261\"> </a></td><td>ติมอร์-เลสเต</td></tr><tr><td style=\"white-space:nowrap\">262<a name=\"cs-thcc-nationality-262\"> </a></td><td>สละสัญชาติไทย</td></tr><tr><td style=\"white-space:nowrap\">263<a name=\"cs-thcc-nationality-263\"> </a></td><td>เซอร์เบีย แอนด์ มอนเตเนโกร</td></tr><tr><td style=\"white-space:nowrap\">264<a name=\"cs-thcc-nationality-264\"> </a></td><td>กัมพูชา(แรงงาน)</td></tr><tr><td style=\"white-space:nowrap\">265<a name=\"cs-thcc-nationality-265\"> </a></td><td>เมียนมา(แรงงาน)</td></tr><tr><td style=\"white-space:nowrap\">266<a name=\"cs-thcc-nationality-266\"> </a></td><td>ลาว(แรงงาน)</td></tr><tr><td style=\"white-space:nowrap\">267<a name=\"cs-thcc-nationality-267\"> </a></td><td>เซอร์เบียน</td></tr><tr><td style=\"white-space:nowrap\">270<a name=\"cs-thcc-nationality-270\"> </a></td><td>กาบูเวอร์ดี</td></tr><tr><td style=\"white-space:nowrap\">271<a name=\"cs-thcc-nationality-271\"> </a></td><td>คอซอวอ</td></tr><tr><td style=\"white-space:nowrap\">272<a name=\"cs-thcc-nationality-272\"> </a></td><td>เซาท์ซูดาน</td></tr><tr><td style=\"white-space:nowrap\">268<a name=\"cs-thcc-nationality-268\"> </a></td><td>มอนเตเนกริน</td></tr><tr><td style=\"white-space:nowrap\">989<a name=\"cs-thcc-nationality-989\"> </a></td><td>บุคคลที่ไม่มีสถานะทางทะเบียน</td></tr><tr><td style=\"white-space:nowrap\">999<a name=\"cs-thcc-nationality-999\"> </a></td><td>ไม่ระบุ</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://terms.sil-th.org/Codesystem/cs-thcc-nationality"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.name [ fhir:value "CS_THCC_Nationality"];
+  fhir:CodeSystem.title [ fhir:value "ชุดรหัสเชื้อชาติ-สัญชาติ"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2022-07-30T17:25:25+07:00"^^xsd:dateTime];
+  fhir:CodeSystem.description [ fhir:value "ชุดรหัสเชื้อชาติ-สัญชาติ จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม"];
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "TH" ]
+     ]
+  ];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "272"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "002" ];
+     fhir:CodeSystem.concept.display [ fhir:value "โปรตุเกส" ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "003" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ดัตช์" ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "004" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เยอรมัน" ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "005" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ฝรั่งเศส" ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "006" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เดนมาร์ก" ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "007" ];
+     fhir:CodeSystem.concept.display [ fhir:value "สวีเดน" ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "008" ];
+     fhir:CodeSystem.concept.display [ fhir:value "สวิส" ]
+  ], [
+     fhir:index 7;
+     fhir:CodeSystem.concept.code [ fhir:value "009" ];
+     fhir:CodeSystem.concept.display [ fhir:value "อิตาลี" ]
+  ], [
+     fhir:index 8;
+     fhir:CodeSystem.concept.code [ fhir:value "010" ];
+     fhir:CodeSystem.concept.display [ fhir:value "นอร์เวย์" ]
+  ], [
+     fhir:index 9;
+     fhir:CodeSystem.concept.code [ fhir:value "011" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ออสเตรีย" ]
+  ], [
+     fhir:index 10;
+     fhir:CodeSystem.concept.code [ fhir:value "012" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ไอริช" ]
+  ], [
+     fhir:index 11;
+     fhir:CodeSystem.concept.code [ fhir:value "013" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ฟินแลนด์" ]
+  ], [
+     fhir:index 12;
+     fhir:CodeSystem.concept.code [ fhir:value "014" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เบลเยียม" ]
+  ], [
+     fhir:index 13;
+     fhir:CodeSystem.concept.code [ fhir:value "015" ];
+     fhir:CodeSystem.concept.display [ fhir:value "สเปน" ]
+  ], [
+     fhir:index 14;
+     fhir:CodeSystem.concept.code [ fhir:value "016" ];
+     fhir:CodeSystem.concept.display [ fhir:value "รัสเซีย" ]
+  ], [
+     fhir:index 15;
+     fhir:CodeSystem.concept.code [ fhir:value "017" ];
+     fhir:CodeSystem.concept.display [ fhir:value "โปแลนด์" ]
+  ], [
+     fhir:index 16;
+     fhir:CodeSystem.concept.code [ fhir:value "018" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เช็ก" ]
+  ], [
+     fhir:index 17;
+     fhir:CodeSystem.concept.code [ fhir:value "019" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ฮังการี" ]
+  ], [
+     fhir:index 18;
+     fhir:CodeSystem.concept.code [ fhir:value "020" ];
+     fhir:CodeSystem.concept.display [ fhir:value "กรีก" ]
+  ], [
+     fhir:index 19;
+     fhir:CodeSystem.concept.code [ fhir:value "021" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ยูโกสลาฟ" ]
+  ], [
+     fhir:index 20;
+     fhir:CodeSystem.concept.code [ fhir:value "022" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ลักเซมเบิร์ก" ]
+  ], [
+     fhir:index 21;
+     fhir:CodeSystem.concept.code [ fhir:value "023" ];
+     fhir:CodeSystem.concept.display [ fhir:value "วาติกัน" ]
+  ], [
+     fhir:index 22;
+     fhir:CodeSystem.concept.code [ fhir:value "024" ];
+     fhir:CodeSystem.concept.display [ fhir:value "มอลตา" ]
+  ], [
+     fhir:index 23;
+     fhir:CodeSystem.concept.code [ fhir:value "025" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ลีซู" ]
+  ], [
+     fhir:index 24;
+     fhir:CodeSystem.concept.code [ fhir:value "026" ];
+     fhir:CodeSystem.concept.display [ fhir:value "บัลแกเรีย" ]
+  ], [
+     fhir:index 25;
+     fhir:CodeSystem.concept.code [ fhir:value "027" ];
+     fhir:CodeSystem.concept.display [ fhir:value "โรมาเนีย" ]
+  ], [
+     fhir:index 26;
+     fhir:CodeSystem.concept.code [ fhir:value "028" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ไซปรัส" ]
+  ], [
+     fhir:index 27;
+     fhir:CodeSystem.concept.code [ fhir:value "029" ];
+     fhir:CodeSystem.concept.display [ fhir:value "อเมริกัน" ]
+  ], [
+     fhir:index 28;
+     fhir:CodeSystem.concept.code [ fhir:value "030" ];
+     fhir:CodeSystem.concept.display [ fhir:value "แคนาดา" ]
+  ], [
+     fhir:index 29;
+     fhir:CodeSystem.concept.code [ fhir:value "031" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เม็กซิกัน" ]
+  ], [
+     fhir:index 30;
+     fhir:CodeSystem.concept.code [ fhir:value "032" ];
+     fhir:CodeSystem.concept.display [ fhir:value "คิวบา" ]
+  ], [
+     fhir:index 31;
+     fhir:CodeSystem.concept.code [ fhir:value "033" ];
+     fhir:CodeSystem.concept.display [ fhir:value "อาร์เจนตินา" ]
+  ], [
+     fhir:index 32;
+     fhir:CodeSystem.concept.code [ fhir:value "034" ];
+     fhir:CodeSystem.concept.display [ fhir:value "บราซิล" ]
+  ], [
+     fhir:index 33;
+     fhir:CodeSystem.concept.code [ fhir:value "035" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ชิลี" ]
+  ], [
+     fhir:index 34;
+     fhir:CodeSystem.concept.code [ fhir:value "036" ];
+     fhir:CodeSystem.concept.display [ fhir:value "อาข่า" ]
+  ], [
+     fhir:index 35;
+     fhir:CodeSystem.concept.code [ fhir:value "037" ];
+     fhir:CodeSystem.concept.display [ fhir:value "โคลัมเบีย" ]
+  ], [
+     fhir:index 36;
+     fhir:CodeSystem.concept.code [ fhir:value "038" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ลั๊ว" ]
+  ], [
+     fhir:index 37;
+     fhir:CodeSystem.concept.code [ fhir:value "039" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เปรู" ]
+  ], [
+     fhir:index 38;
+     fhir:CodeSystem.concept.code [ fhir:value "040" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ปานามา" ]
+  ], [
+     fhir:index 39;
+     fhir:CodeSystem.concept.code [ fhir:value "041" ];
+     fhir:CodeSystem.concept.display [ fhir:value "อุรุกวัย" ]
+  ], [
+     fhir:index 40;
+     fhir:CodeSystem.concept.code [ fhir:value "042" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เวเนซุเอลา" ]
+  ], [
+     fhir:index 41;
+     fhir:CodeSystem.concept.code [ fhir:value "043" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เปอร์โตริโก้ (ยกเลิก)" ]
+  ], [
+     fhir:index 42;
+     fhir:CodeSystem.concept.code [ fhir:value "044" ];
+     fhir:CodeSystem.concept.display [ fhir:value "จีน" ]
+  ], [
+     fhir:index 43;
+     fhir:CodeSystem.concept.code [ fhir:value "045" ];
+     fhir:CodeSystem.concept.display [ fhir:value "อินเดีย" ]
+  ], [
+     fhir:index 44;
+     fhir:CodeSystem.concept.code [ fhir:value "046" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เวียดนาม" ]
+  ], [
+     fhir:index 45;
+     fhir:CodeSystem.concept.code [ fhir:value "047" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ญี่ปุ่น" ]
+  ], [
+     fhir:index 46;
+     fhir:CodeSystem.concept.code [ fhir:value "048" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เมียนมา" ]
+  ], [
+     fhir:index 47;
+     fhir:CodeSystem.concept.code [ fhir:value "049" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ฟิลิปปิน" ]
+  ], [
+     fhir:index 48;
+     fhir:CodeSystem.concept.code [ fhir:value "050" ];
+     fhir:CodeSystem.concept.display [ fhir:value "มาเลเซีย" ]
+  ], [
+     fhir:index 49;
+     fhir:CodeSystem.concept.code [ fhir:value "051" ];
+     fhir:CodeSystem.concept.display [ fhir:value "อินโดนีเซีย" ]
+  ], [
+     fhir:index 50;
+     fhir:CodeSystem.concept.code [ fhir:value "052" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ปากีสถาน" ]
+  ], [
+     fhir:index 51;
+     fhir:CodeSystem.concept.code [ fhir:value "053" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เกาหลีใต้" ]
+  ], [
+     fhir:index 52;
+     fhir:CodeSystem.concept.code [ fhir:value "054" ];
+     fhir:CodeSystem.concept.display [ fhir:value "สิงคโปร์" ]
+  ], [
+     fhir:index 53;
+     fhir:CodeSystem.concept.code [ fhir:value "055" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เนปาล" ]
+  ], [
+     fhir:index 54;
+     fhir:CodeSystem.concept.code [ fhir:value "056" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ลาว" ]
+  ], [
+     fhir:index 55;
+     fhir:CodeSystem.concept.code [ fhir:value "057" ];
+     fhir:CodeSystem.concept.display [ fhir:value "กัมพูชา" ]
+  ], [
+     fhir:index 56;
+     fhir:CodeSystem.concept.code [ fhir:value "058" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ศรีลังกา" ]
+  ], [
+     fhir:index 57;
+     fhir:CodeSystem.concept.code [ fhir:value "059" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ซาอุดีอาระเบีย" ]
+  ], [
+     fhir:index 58;
+     fhir:CodeSystem.concept.code [ fhir:value "060" ];
+     fhir:CodeSystem.concept.display [ fhir:value "อิสราเอล" ]
+  ], [
+     fhir:index 59;
+     fhir:CodeSystem.concept.code [ fhir:value "061" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เลบานอน" ]
+  ], [
+     fhir:index 60;
+     fhir:CodeSystem.concept.code [ fhir:value "062" ];
+     fhir:CodeSystem.concept.display [ fhir:value "อิหร่าน" ]
+  ], [
+     fhir:index 61;
+     fhir:CodeSystem.concept.code [ fhir:value "063" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ตุรกี" ]
+  ], [
+     fhir:index 62;
+     fhir:CodeSystem.concept.code [ fhir:value "064" ];
+     fhir:CodeSystem.concept.display [ fhir:value "บังกลาเทศ" ]
+  ], [
+     fhir:index 63;
+     fhir:CodeSystem.concept.code [ fhir:value "065" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ถูกถอนสัญชาติ" ]
+  ], [
+     fhir:index 64;
+     fhir:CodeSystem.concept.code [ fhir:value "066" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ซีเรีย" ]
+  ], [
+     fhir:index 65;
+     fhir:CodeSystem.concept.code [ fhir:value "067" ];
+     fhir:CodeSystem.concept.display [ fhir:value "อิรัก" ]
+  ], [
+     fhir:index 66;
+     fhir:CodeSystem.concept.code [ fhir:value "068" ];
+     fhir:CodeSystem.concept.display [ fhir:value "คูเวต" ]
+  ], [
+     fhir:index 67;
+     fhir:CodeSystem.concept.code [ fhir:value "069" ];
+     fhir:CodeSystem.concept.display [ fhir:value "บรูไน" ]
+  ], [
+     fhir:index 68;
+     fhir:CodeSystem.concept.code [ fhir:value "070" ];
+     fhir:CodeSystem.concept.display [ fhir:value "แอฟริกาใต้" ]
+  ], [
+     fhir:index 69;
+     fhir:CodeSystem.concept.code [ fhir:value "071" ];
+     fhir:CodeSystem.concept.display [ fhir:value "กะเหรี่ยง" ]
+  ], [
+     fhir:index 70;
+     fhir:CodeSystem.concept.code [ fhir:value "072" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ลาหู่" ]
+  ], [
+     fhir:index 71;
+     fhir:CodeSystem.concept.code [ fhir:value "073" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เคนยา" ]
+  ], [
+     fhir:index 72;
+     fhir:CodeSystem.concept.code [ fhir:value "074" ];
+     fhir:CodeSystem.concept.display [ fhir:value "อียิปต์" ]
+  ], [
+     fhir:index 73;
+     fhir:CodeSystem.concept.code [ fhir:value "075" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เอธิโอเปีย" ]
+  ], [
+     fhir:index 74;
+     fhir:CodeSystem.concept.code [ fhir:value "076" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ไนจีเรีย" ]
+  ], [
+     fhir:index 75;
+     fhir:CodeSystem.concept.code [ fhir:value "077" ];
+     fhir:CodeSystem.concept.display [ fhir:value "สหรัฐอาหรับเอมิเรตส์" ]
+  ], [
+     fhir:index 76;
+     fhir:CodeSystem.concept.code [ fhir:value "078" ];
+     fhir:CodeSystem.concept.display [ fhir:value "กินี" ]
+  ], [
+     fhir:index 77;
+     fhir:CodeSystem.concept.code [ fhir:value "079" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ออสเตรเลีย" ]
+  ], [
+     fhir:index 78;
+     fhir:CodeSystem.concept.code [ fhir:value "080" ];
+     fhir:CodeSystem.concept.display [ fhir:value "นิวซีแลนด์" ]
+  ], [
+     fhir:index 79;
+     fhir:CodeSystem.concept.code [ fhir:value "081" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ปาปัวนิวกินี" ]
+  ], [
+     fhir:index 80;
+     fhir:CodeSystem.concept.code [ fhir:value "082" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ม้ง" ]
+  ], [
+     fhir:index 81;
+     fhir:CodeSystem.concept.code [ fhir:value "083" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เมี่ยน" ]
+  ], [
+     fhir:index 82;
+     fhir:CodeSystem.concept.code [ fhir:value "084" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ชาวเขาที่ไม่ได้รับสัญขาติไทย (ยกเลิก)" ]
+  ], [
+     fhir:index 83;
+     fhir:CodeSystem.concept.code [ fhir:value "085" ];
+     fhir:CodeSystem.concept.display [ fhir:value "- (ฐานชุดเก่า,ใหม่ไม่มีข้อมูล)" ]
+  ], [
+     fhir:index 84;
+     fhir:CodeSystem.concept.code [ fhir:value "086" ];
+     fhir:CodeSystem.concept.display [ fhir:value "จีนฮ่อ" ]
+  ], [
+     fhir:index 85;
+     fhir:CodeSystem.concept.code [ fhir:value "087" ];
+     fhir:CodeSystem.concept.display [ fhir:value "จีน (อดีตทหารจีนคณะชาติ ,อดีตทหารจีนชาติ)" ]
+  ], [
+     fhir:index 86;
+     fhir:CodeSystem.concept.code [ fhir:value "088" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ผู้พลัดถิ่นสัญชาติพม่า" ]
+  ], [
+     fhir:index 87;
+     fhir:CodeSystem.concept.code [ fhir:value "089" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ผู้อพยพเชื้อสายจากกัมพูชา" ]
+  ], [
+     fhir:index 88;
+     fhir:CodeSystem.concept.code [ fhir:value "090" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ลาว (ลาวอพยพ)" ]
+  ], [
+     fhir:index 89;
+     fhir:CodeSystem.concept.code [ fhir:value "091" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เขมรอพยพ" ]
+  ], [
+     fhir:index 90;
+     fhir:CodeSystem.concept.code [ fhir:value "092" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ผู้อพยพอินโดจีนสัญชาติเวียดนาม (ยกเลิก  ไปใช้รหัส 046 แทน)" ]
+  ], [
+     fhir:index 91;
+     fhir:CodeSystem.concept.code [ fhir:value "093" ];
+     fhir:CodeSystem.concept.display [ fhir:value "รอให้สัญชาติไทย (ยกเลิก)" ]
+  ], [
+     fhir:index 92;
+     fhir:CodeSystem.concept.code [ fhir:value "094" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ไทย-อิสลาม,อิสลาม-ไทย (ยกเลิก)" ]
+  ], [
+     fhir:index 93;
+     fhir:CodeSystem.concept.code [ fhir:value "095" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ไทย-จีน,จีน-ไทย (ยกเลิก)" ]
+  ], [
+     fhir:index 94;
+     fhir:CodeSystem.concept.code [ fhir:value "096" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ไร้สัญชาติ" ]
+  ], [
+     fhir:index 95;
+     fhir:CodeSystem.concept.code [ fhir:value "097" ];
+     fhir:CodeSystem.concept.display [ fhir:value "อื่นๆ" ]
+  ], [
+     fhir:index 96;
+     fhir:CodeSystem.concept.code [ fhir:value "098" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ไม่ได้สัญชาติไทย" ]
+  ], [
+     fhir:index 97;
+     fhir:CodeSystem.concept.code [ fhir:value "099" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ไทย" ]
+  ], [
+     fhir:index 98;
+     fhir:CodeSystem.concept.code [ fhir:value "100" ];
+     fhir:CodeSystem.concept.display [ fhir:value "อัฟกัน" ]
+  ], [
+     fhir:index 99;
+     fhir:CodeSystem.concept.code [ fhir:value "101" ];
+     fhir:CodeSystem.concept.display [ fhir:value "บาห์เรน" ]
+  ], [
+     fhir:index 100;
+     fhir:CodeSystem.concept.code [ fhir:value "102" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ภูฏาน" ]
+  ], [
+     fhir:index 101;
+     fhir:CodeSystem.concept.code [ fhir:value "103" ];
+     fhir:CodeSystem.concept.display [ fhir:value "จอร์แดน" ]
+  ], [
+     fhir:index 102;
+     fhir:CodeSystem.concept.code [ fhir:value "104" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เกาหลีเหนือ" ]
+  ], [
+     fhir:index 103;
+     fhir:CodeSystem.concept.code [ fhir:value "105" ];
+     fhir:CodeSystem.concept.display [ fhir:value "มัลดีฟ" ]
+  ], [
+     fhir:index 104;
+     fhir:CodeSystem.concept.code [ fhir:value "106" ];
+     fhir:CodeSystem.concept.display [ fhir:value "มองโกเลีย" ]
+  ], [
+     fhir:index 105;
+     fhir:CodeSystem.concept.code [ fhir:value "107" ];
+     fhir:CodeSystem.concept.display [ fhir:value "โอมาน" ]
+  ], [
+     fhir:index 106;
+     fhir:CodeSystem.concept.code [ fhir:value "108" ];
+     fhir:CodeSystem.concept.display [ fhir:value "กาตาร์" ]
+  ], [
+     fhir:index 107;
+     fhir:CodeSystem.concept.code [ fhir:value "109" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เยเมน" ]
+  ], [
+     fhir:index 108;
+     fhir:CodeSystem.concept.code [ fhir:value "110" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เยเมน(ใต้)** (ยกเลิก  ไปใช้รหัส 109 แทน)" ]
+  ], [
+     fhir:index 109;
+     fhir:CodeSystem.concept.code [ fhir:value "111" ];
+     fhir:CodeSystem.concept.display [ fhir:value "หมู่เกาะฟิจิ" ]
+  ], [
+     fhir:index 110;
+     fhir:CodeSystem.concept.code [ fhir:value "112" ];
+     fhir:CodeSystem.concept.display [ fhir:value "คิริบาส" ]
+  ], [
+     fhir:index 111;
+     fhir:CodeSystem.concept.code [ fhir:value "113" ];
+     fhir:CodeSystem.concept.display [ fhir:value "นาอูรู" ]
+  ], [
+     fhir:index 112;
+     fhir:CodeSystem.concept.code [ fhir:value "114" ];
+     fhir:CodeSystem.concept.display [ fhir:value "หมู่เกาะโซโลมอน" ]
+  ], [
+     fhir:index 113;
+     fhir:CodeSystem.concept.code [ fhir:value "115" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ตองก้า" ]
+  ], [
+     fhir:index 114;
+     fhir:CodeSystem.concept.code [ fhir:value "116" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ตูวาลู" ]
+  ], [
+     fhir:index 115;
+     fhir:CodeSystem.concept.code [ fhir:value "117" ];
+     fhir:CodeSystem.concept.display [ fhir:value "วานูอาตู" ]
+  ], [
+     fhir:index 116;
+     fhir:CodeSystem.concept.code [ fhir:value "118" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ซามัว" ]
+  ], [
+     fhir:index 117;
+     fhir:CodeSystem.concept.code [ fhir:value "119" ];
+     fhir:CodeSystem.concept.display [ fhir:value "แอลเบเนีย" ]
+  ], [
+     fhir:index 118;
+     fhir:CodeSystem.concept.code [ fhir:value "120" ];
+     fhir:CodeSystem.concept.display [ fhir:value "อันดอร์รา" ]
+  ], [
+     fhir:index 119;
+     fhir:CodeSystem.concept.code [ fhir:value "121" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เยอรมนีตะวันออก** (ยกเลิก  ไปใช้รหัส 004 แทน)" ]
+  ], [
+     fhir:index 120;
+     fhir:CodeSystem.concept.code [ fhir:value "122" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ไอซ์แลนด์" ]
+  ], [
+     fhir:index 121;
+     fhir:CodeSystem.concept.code [ fhir:value "123" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ลิกเตนสไตน์" ]
+  ], [
+     fhir:index 122;
+     fhir:CodeSystem.concept.code [ fhir:value "124" ];
+     fhir:CodeSystem.concept.display [ fhir:value "โมนาโก" ]
+  ], [
+     fhir:index 123;
+     fhir:CodeSystem.concept.code [ fhir:value "125" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ซานมารีโน" ]
+  ], [
+     fhir:index 124;
+     fhir:CodeSystem.concept.code [ fhir:value "126" ];
+     fhir:CodeSystem.concept.display [ fhir:value "บริติช  (อังกฤษ, สก็อตแลนด์)" ]
+  ], [
+     fhir:index 125;
+     fhir:CodeSystem.concept.code [ fhir:value "127" ];
+     fhir:CodeSystem.concept.display [ fhir:value "แอลจีเรีย" ]
+  ], [
+     fhir:index 126;
+     fhir:CodeSystem.concept.code [ fhir:value "128" ];
+     fhir:CodeSystem.concept.display [ fhir:value "แองโกลา" ]
+  ], [
+     fhir:index 127;
+     fhir:CodeSystem.concept.code [ fhir:value "129" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เบนิน" ]
+  ], [
+     fhir:index 128;
+     fhir:CodeSystem.concept.code [ fhir:value "130" ];
+     fhir:CodeSystem.concept.display [ fhir:value "บอตสวานา" ]
+  ], [
+     fhir:index 129;
+     fhir:CodeSystem.concept.code [ fhir:value "131" ];
+     fhir:CodeSystem.concept.display [ fhir:value "บูร์กินาฟาโซ" ]
+  ], [
+     fhir:index 130;
+     fhir:CodeSystem.concept.code [ fhir:value "132" ];
+     fhir:CodeSystem.concept.display [ fhir:value "บุรุนดี" ]
+  ], [
+     fhir:index 131;
+     fhir:CodeSystem.concept.code [ fhir:value "133" ];
+     fhir:CodeSystem.concept.display [ fhir:value "แคเมอรูน" ]
+  ], [
+     fhir:index 132;
+     fhir:CodeSystem.concept.code [ fhir:value "134" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เคปเวิร์ด" ]
+  ], [
+     fhir:index 133;
+     fhir:CodeSystem.concept.code [ fhir:value "135" ];
+     fhir:CodeSystem.concept.display [ fhir:value "แอฟริกากลาง" ]
+  ], [
+     fhir:index 134;
+     fhir:CodeSystem.concept.code [ fhir:value "136" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ชาด" ]
+  ], [
+     fhir:index 135;
+     fhir:CodeSystem.concept.code [ fhir:value "137" ];
+     fhir:CodeSystem.concept.display [ fhir:value "คอโมโรส" ]
+  ], [
+     fhir:index 136;
+     fhir:CodeSystem.concept.code [ fhir:value "138" ];
+     fhir:CodeSystem.concept.display [ fhir:value "คองโก" ]
+  ], [
+     fhir:index 137;
+     fhir:CodeSystem.concept.code [ fhir:value "139" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ไอโวเรี่ยน" ]
+  ], [
+     fhir:index 138;
+     fhir:CodeSystem.concept.code [ fhir:value "140" ];
+     fhir:CodeSystem.concept.display [ fhir:value "จิบูตี" ]
+  ], [
+     fhir:index 139;
+     fhir:CodeSystem.concept.code [ fhir:value "141" ];
+     fhir:CodeSystem.concept.display [ fhir:value "อิเควทอเรียลกินี" ]
+  ], [
+     fhir:index 140;
+     fhir:CodeSystem.concept.code [ fhir:value "142" ];
+     fhir:CodeSystem.concept.display [ fhir:value "กาบอง" ]
+  ], [
+     fhir:index 141;
+     fhir:CodeSystem.concept.code [ fhir:value "143" ];
+     fhir:CodeSystem.concept.display [ fhir:value "แกมเบีย" ]
+  ], [
+     fhir:index 142;
+     fhir:CodeSystem.concept.code [ fhir:value "144" ];
+     fhir:CodeSystem.concept.display [ fhir:value "กานา" ]
+  ], [
+     fhir:index 143;
+     fhir:CodeSystem.concept.code [ fhir:value "145" ];
+     fhir:CodeSystem.concept.display [ fhir:value "กินีบีสเซา" ]
+  ], [
+     fhir:index 144;
+     fhir:CodeSystem.concept.code [ fhir:value "146" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เลโซโท" ]
+  ], [
+     fhir:index 145;
+     fhir:CodeSystem.concept.code [ fhir:value "147" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ไลบีเรีย" ]
+  ], [
+     fhir:index 146;
+     fhir:CodeSystem.concept.code [ fhir:value "148" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ลิเบีย" ]
+  ], [
+     fhir:index 147;
+     fhir:CodeSystem.concept.code [ fhir:value "149" ];
+     fhir:CodeSystem.concept.display [ fhir:value "มาลากาซี" ]
+  ], [
+     fhir:index 148;
+     fhir:CodeSystem.concept.code [ fhir:value "150" ];
+     fhir:CodeSystem.concept.display [ fhir:value "มาลาวี" ]
+  ], [
+     fhir:index 149;
+     fhir:CodeSystem.concept.code [ fhir:value "151" ];
+     fhir:CodeSystem.concept.display [ fhir:value "มาลี" ]
+  ], [
+     fhir:index 150;
+     fhir:CodeSystem.concept.code [ fhir:value "152" ];
+     fhir:CodeSystem.concept.display [ fhir:value "มอริเตเนีย" ]
+  ], [
+     fhir:index 151;
+     fhir:CodeSystem.concept.code [ fhir:value "153" ];
+     fhir:CodeSystem.concept.display [ fhir:value "มอริเชียส" ]
+  ], [
+     fhir:index 152;
+     fhir:CodeSystem.concept.code [ fhir:value "154" ];
+     fhir:CodeSystem.concept.display [ fhir:value "โมร็อกโก" ]
+  ], [
+     fhir:index 153;
+     fhir:CodeSystem.concept.code [ fhir:value "155" ];
+     fhir:CodeSystem.concept.display [ fhir:value "โมซัมบิก" ]
+  ], [
+     fhir:index 154;
+     fhir:CodeSystem.concept.code [ fhir:value "156" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ไนเจอร์" ]
+  ], [
+     fhir:index 155;
+     fhir:CodeSystem.concept.code [ fhir:value "157" ];
+     fhir:CodeSystem.concept.display [ fhir:value "รวันดา" ]
+  ], [
+     fhir:index 156;
+     fhir:CodeSystem.concept.code [ fhir:value "158" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เซาโตเมและปรินซิเป" ]
+  ], [
+     fhir:index 157;
+     fhir:CodeSystem.concept.code [ fhir:value "159" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เซเนกัล" ]
+  ], [
+     fhir:index 158;
+     fhir:CodeSystem.concept.code [ fhir:value "160" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เซเชลส์" ]
+  ], [
+     fhir:index 159;
+     fhir:CodeSystem.concept.code [ fhir:value "161" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เซียร์ราลีโอน" ]
+  ], [
+     fhir:index 160;
+     fhir:CodeSystem.concept.code [ fhir:value "162" ];
+     fhir:CodeSystem.concept.display [ fhir:value "โซมาลี" ]
+  ], [
+     fhir:index 161;
+     fhir:CodeSystem.concept.code [ fhir:value "163" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ซูดาน" ]
+  ], [
+     fhir:index 162;
+     fhir:CodeSystem.concept.code [ fhir:value "164" ];
+     fhir:CodeSystem.concept.display [ fhir:value "สวาซี" ]
+  ], [
+     fhir:index 163;
+     fhir:CodeSystem.concept.code [ fhir:value "165" ];
+     fhir:CodeSystem.concept.display [ fhir:value "แทนซาเนีย" ]
+  ], [
+     fhir:index 164;
+     fhir:CodeSystem.concept.code [ fhir:value "166" ];
+     fhir:CodeSystem.concept.display [ fhir:value "โตโก" ]
+  ], [
+     fhir:index 165;
+     fhir:CodeSystem.concept.code [ fhir:value "167" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ตูนิเซีย" ]
+  ], [
+     fhir:index 166;
+     fhir:CodeSystem.concept.code [ fhir:value "168" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ยูกันดา" ]
+  ], [
+     fhir:index 167;
+     fhir:CodeSystem.concept.code [ fhir:value "169" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ซาอีร์" ]
+  ], [
+     fhir:index 168;
+     fhir:CodeSystem.concept.code [ fhir:value "170" ];
+     fhir:CodeSystem.concept.display [ fhir:value "แซมเบีย" ]
+  ], [
+     fhir:index 169;
+     fhir:CodeSystem.concept.code [ fhir:value "171" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ซิมบับเว" ]
+  ], [
+     fhir:index 170;
+     fhir:CodeSystem.concept.code [ fhir:value "172" ];
+     fhir:CodeSystem.concept.display [ fhir:value "แอนติกาและบาร์บูดา" ]
+  ], [
+     fhir:index 171;
+     fhir:CodeSystem.concept.code [ fhir:value "173" ];
+     fhir:CodeSystem.concept.display [ fhir:value "บาฮามาส" ]
+  ], [
+     fhir:index 172;
+     fhir:CodeSystem.concept.code [ fhir:value "174" ];
+     fhir:CodeSystem.concept.display [ fhir:value "บาร์เบโดส" ]
+  ], [
+     fhir:index 173;
+     fhir:CodeSystem.concept.code [ fhir:value "175" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เบลิซ" ]
+  ], [
+     fhir:index 174;
+     fhir:CodeSystem.concept.code [ fhir:value "176" ];
+     fhir:CodeSystem.concept.display [ fhir:value "คอสตาริกา" ]
+  ], [
+     fhir:index 175;
+     fhir:CodeSystem.concept.code [ fhir:value "177" ];
+     fhir:CodeSystem.concept.display [ fhir:value "โดมินิกา" ]
+  ], [
+     fhir:index 176;
+     fhir:CodeSystem.concept.code [ fhir:value "178" ];
+     fhir:CodeSystem.concept.display [ fhir:value "โดมินิกัน" ]
+  ], [
+     fhir:index 177;
+     fhir:CodeSystem.concept.code [ fhir:value "179" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เอลซัลวาดอร์" ]
+  ], [
+     fhir:index 178;
+     fhir:CodeSystem.concept.code [ fhir:value "180" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เกรเนดา" ]
+  ], [
+     fhir:index 179;
+     fhir:CodeSystem.concept.code [ fhir:value "181" ];
+     fhir:CodeSystem.concept.display [ fhir:value "กัวเตมาลา" ]
+  ], [
+     fhir:index 180;
+     fhir:CodeSystem.concept.code [ fhir:value "182" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เฮติ" ]
+  ], [
+     fhir:index 181;
+     fhir:CodeSystem.concept.code [ fhir:value "183" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ฮอนดูรัส" ]
+  ], [
+     fhir:index 182;
+     fhir:CodeSystem.concept.code [ fhir:value "184" ];
+     fhir:CodeSystem.concept.display [ fhir:value "จาเมกา" ]
+  ], [
+     fhir:index 183;
+     fhir:CodeSystem.concept.code [ fhir:value "185" ];
+     fhir:CodeSystem.concept.display [ fhir:value "นิการากัว" ]
+  ], [
+     fhir:index 184;
+     fhir:CodeSystem.concept.code [ fhir:value "186" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เซนต์คิตส์และเนวิส" ]
+  ], [
+     fhir:index 185;
+     fhir:CodeSystem.concept.code [ fhir:value "187" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เซนต์ลูเซีย" ]
+  ], [
+     fhir:index 186;
+     fhir:CodeSystem.concept.code [ fhir:value "188" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เซนต์วินเซนต์และเกรนาดีนส์" ]
+  ], [
+     fhir:index 187;
+     fhir:CodeSystem.concept.code [ fhir:value "189" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ตรินิแดดและโตเบโก" ]
+  ], [
+     fhir:index 188;
+     fhir:CodeSystem.concept.code [ fhir:value "190" ];
+     fhir:CodeSystem.concept.display [ fhir:value "โบลีเวีย" ]
+  ], [
+     fhir:index 189;
+     fhir:CodeSystem.concept.code [ fhir:value "191" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เอกวาดอร์" ]
+  ], [
+     fhir:index 190;
+     fhir:CodeSystem.concept.code [ fhir:value "192" ];
+     fhir:CodeSystem.concept.display [ fhir:value "กายอานา" ]
+  ], [
+     fhir:index 191;
+     fhir:CodeSystem.concept.code [ fhir:value "193" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ปารากวัย" ]
+  ], [
+     fhir:index 192;
+     fhir:CodeSystem.concept.code [ fhir:value "194" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ซูรินาเม" ]
+  ], [
+     fhir:index 193;
+     fhir:CodeSystem.concept.code [ fhir:value "195" ];
+     fhir:CodeSystem.concept.display [ fhir:value "อาหรับ" ]
+  ], [
+     fhir:index 194;
+     fhir:CodeSystem.concept.code [ fhir:value "196" ];
+     fhir:CodeSystem.concept.display [ fhir:value "คะฉิ่น" ]
+  ], [
+     fhir:index 195;
+     fhir:CodeSystem.concept.code [ fhir:value "197" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ว้า" ]
+  ], [
+     fhir:index 196;
+     fhir:CodeSystem.concept.code [ fhir:value "198" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ไทยใหญ่" ]
+  ], [
+     fhir:index 197;
+     fhir:CodeSystem.concept.code [ fhir:value "199" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ไทยลื้อ" ]
+  ], [
+     fhir:index 198;
+     fhir:CodeSystem.concept.code [ fhir:value "200" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ขมุ" ]
+  ], [
+     fhir:index 199;
+     fhir:CodeSystem.concept.code [ fhir:value "201" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ตองสู" ]
+  ], [
+     fhir:index 200;
+     fhir:CodeSystem.concept.code [ fhir:value "202" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เงี้ยว** (ยกเลิก)" ]
+  ], [
+     fhir:index 201;
+     fhir:CodeSystem.concept.code [ fhir:value "203" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ละว้า" ]
+  ], [
+     fhir:index 202;
+     fhir:CodeSystem.concept.code [ fhir:value "204" ];
+     fhir:CodeSystem.concept.display [ fhir:value "แม้ว (ยกเลิก  ไปใช้รหัส 082 แทน)" ]
+  ], [
+     fhir:index 203;
+     fhir:CodeSystem.concept.code [ fhir:value "205" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ปะหร่อง" ]
+  ], [
+     fhir:index 204;
+     fhir:CodeSystem.concept.code [ fhir:value "206" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ถิ่น" ]
+  ], [
+     fhir:index 205;
+     fhir:CodeSystem.concept.code [ fhir:value "207" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ปะโอ" ]
+  ], [
+     fhir:index 206;
+     fhir:CodeSystem.concept.code [ fhir:value "208" ];
+     fhir:CodeSystem.concept.display [ fhir:value "มอญ" ]
+  ], [
+     fhir:index 207;
+     fhir:CodeSystem.concept.code [ fhir:value "209" ];
+     fhir:CodeSystem.concept.display [ fhir:value "มลาบรี" ]
+  ], [
+     fhir:index 208;
+     fhir:CodeSystem.concept.code [ fhir:value "210" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เฮาะ** (ยกเลิก)" ]
+  ], [
+     fhir:index 209;
+     fhir:CodeSystem.concept.code [ fhir:value "211" ];
+     fhir:CodeSystem.concept.display [ fhir:value "สก็อตแลน์** (ยกเลิก  ไปใช้รหัส  126 แทน)" ]
+  ], [
+     fhir:index 210;
+     fhir:CodeSystem.concept.code [ fhir:value "212" ];
+     fhir:CodeSystem.concept.display [ fhir:value "จีน (จีนฮ่ออิสระ)" ]
+  ], [
+     fhir:index 211;
+     fhir:CodeSystem.concept.code [ fhir:value "213" ];
+     fhir:CodeSystem.concept.display [ fhir:value "จีนอพยพ** (ยกเลิก)" ]
+  ], [
+     fhir:index 212;
+     fhir:CodeSystem.concept.code [ fhir:value "214" ];
+     fhir:CodeSystem.concept.display [ fhir:value "จีน (จีนฮ่ออพยพ)" ]
+  ], [
+     fhir:index 213;
+     fhir:CodeSystem.concept.code [ fhir:value "215" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ไต้หวัน** (ยกเลิก ไปใช้รหัส 220 แทน)" ]
+  ], [
+     fhir:index 214;
+     fhir:CodeSystem.concept.code [ fhir:value "216" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ยูเครน" ]
+  ], [
+     fhir:index 215;
+     fhir:CodeSystem.concept.code [ fhir:value "217" ];
+     fhir:CodeSystem.concept.display [ fhir:value "อาณานิคมอังกฤษ** (ยกเลิก ไปใช้รหัส 126 แทน)" ]
+  ], [
+     fhir:index 216;
+     fhir:CodeSystem.concept.code [ fhir:value "218" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ดูไบ** (ยกเลิก ไปใช้รหัส 077 แทน)" ]
+  ], [
+     fhir:index 217;
+     fhir:CodeSystem.concept.code [ fhir:value "219" ];
+     fhir:CodeSystem.concept.display [ fhir:value "จีน(ฮ่องกง)" ]
+  ], [
+     fhir:index 218;
+     fhir:CodeSystem.concept.code [ fhir:value "220" ];
+     fhir:CodeSystem.concept.display [ fhir:value "จีน(ไต้หวัน)" ]
+  ], [
+     fhir:index 219;
+     fhir:CodeSystem.concept.code [ fhir:value "221" ];
+     fhir:CodeSystem.concept.display [ fhir:value "โครเอเชีย" ]
+  ], [
+     fhir:index 220;
+     fhir:CodeSystem.concept.code [ fhir:value "223" ];
+     fhir:CodeSystem.concept.display [ fhir:value "คาซัค" ]
+  ], [
+     fhir:index 221;
+     fhir:CodeSystem.concept.code [ fhir:value "222" ];
+     fhir:CodeSystem.concept.display [ fhir:value "บริทิธ** (ยกเลิก ไปใช้รหัส 126 แทน)" ]
+  ], [
+     fhir:index 222;
+     fhir:CodeSystem.concept.code [ fhir:value "224" ];
+     fhir:CodeSystem.concept.display [ fhir:value "อาร์เมเนีย" ]
+  ], [
+     fhir:index 223;
+     fhir:CodeSystem.concept.code [ fhir:value "225" ];
+     fhir:CodeSystem.concept.display [ fhir:value "อาเซอร์ไบจาน" ]
+  ], [
+     fhir:index 224;
+     fhir:CodeSystem.concept.code [ fhir:value "226" ];
+     fhir:CodeSystem.concept.display [ fhir:value "จอร์เจีย" ]
+  ], [
+     fhir:index 225;
+     fhir:CodeSystem.concept.code [ fhir:value "227" ];
+     fhir:CodeSystem.concept.display [ fhir:value "คีร์กีซ" ]
+  ], [
+     fhir:index 226;
+     fhir:CodeSystem.concept.code [ fhir:value "228" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ทาจิก" ]
+  ], [
+     fhir:index 227;
+     fhir:CodeSystem.concept.code [ fhir:value "229" ];
+     fhir:CodeSystem.concept.display [ fhir:value "อุซเบก" ]
+  ], [
+     fhir:index 228;
+     fhir:CodeSystem.concept.code [ fhir:value "230" ];
+     fhir:CodeSystem.concept.display [ fhir:value "หมู่เกาะมาร์แชลล์" ]
+  ], [
+     fhir:index 229;
+     fhir:CodeSystem.concept.code [ fhir:value "231" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ไมโครนีเซีย" ]
+  ], [
+     fhir:index 230;
+     fhir:CodeSystem.concept.code [ fhir:value "232" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ปาเลา" ]
+  ], [
+     fhir:index 231;
+     fhir:CodeSystem.concept.code [ fhir:value "233" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เบลารุส" ]
+  ], [
+     fhir:index 232;
+     fhir:CodeSystem.concept.code [ fhir:value "234" ];
+     fhir:CodeSystem.concept.display [ fhir:value "บอสเนียและเฮอร์เซโกวีนา" ]
+  ], [
+     fhir:index 233;
+     fhir:CodeSystem.concept.code [ fhir:value "235" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เติร์กเมน" ]
+  ], [
+     fhir:index 234;
+     fhir:CodeSystem.concept.code [ fhir:value "236" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เอสโตเนีย" ]
+  ], [
+     fhir:index 235;
+     fhir:CodeSystem.concept.code [ fhir:value "237" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ลัตเวีย" ]
+  ], [
+     fhir:index 236;
+     fhir:CodeSystem.concept.code [ fhir:value "238" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ลิทัวเนีย" ]
+  ], [
+     fhir:index 237;
+     fhir:CodeSystem.concept.code [ fhir:value "239" ];
+     fhir:CodeSystem.concept.display [ fhir:value "มาซิโดเนีย" ]
+  ], [
+     fhir:index 238;
+     fhir:CodeSystem.concept.code [ fhir:value "240" ];
+     fhir:CodeSystem.concept.display [ fhir:value "มอลโดวา" ]
+  ], [
+     fhir:index 239;
+     fhir:CodeSystem.concept.code [ fhir:value "241" ];
+     fhir:CodeSystem.concept.display [ fhir:value "สโลวัก" ]
+  ], [
+     fhir:index 240;
+     fhir:CodeSystem.concept.code [ fhir:value "242" ];
+     fhir:CodeSystem.concept.display [ fhir:value "สโลวีน" ]
+  ], [
+     fhir:index 241;
+     fhir:CodeSystem.concept.code [ fhir:value "243" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เอริเทรีย" ]
+  ], [
+     fhir:index 242;
+     fhir:CodeSystem.concept.code [ fhir:value "244" ];
+     fhir:CodeSystem.concept.display [ fhir:value "นามิเบีย" ]
+  ], [
+     fhir:index 243;
+     fhir:CodeSystem.concept.code [ fhir:value "245" ];
+     fhir:CodeSystem.concept.display [ fhir:value "โบลิเวีย" ]
+  ], [
+     fhir:index 244;
+     fhir:CodeSystem.concept.code [ fhir:value "246" ];
+     fhir:CodeSystem.concept.display [ fhir:value "หมู่เกาะคุก" ]
+  ], [
+     fhir:index 245;
+     fhir:CodeSystem.concept.code [ fhir:value "247" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เนปาล (เนปาลอพยพ)" ]
+  ], [
+     fhir:index 246;
+     fhir:CodeSystem.concept.code [ fhir:value "248" ];
+     fhir:CodeSystem.concept.display [ fhir:value "มอญ  (ผู้พลัดถิ่นสัญชาติพม่า)" ]
+  ], [
+     fhir:index 247;
+     fhir:CodeSystem.concept.code [ fhir:value "249" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ไทยใหญ่  (ผู้พลัดถิ่นสัญชาติพม่า)" ]
+  ], [
+     fhir:index 248;
+     fhir:CodeSystem.concept.code [ fhir:value "250" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เวียดนาม  (ญวนอพยพ)" ]
+  ], [
+     fhir:index 249;
+     fhir:CodeSystem.concept.code [ fhir:value "251" ];
+     fhir:CodeSystem.concept.display [ fhir:value "มาเลเชีย  (อดีต จีนคอมมิวนิสต์)" ]
+  ], [
+     fhir:index 250;
+     fhir:CodeSystem.concept.code [ fhir:value "252" ];
+     fhir:CodeSystem.concept.display [ fhir:value "จีน  (อดีต จีนคอมมิวนิสต์)" ]
+  ], [
+     fhir:index 251;
+     fhir:CodeSystem.concept.code [ fhir:value "253" ];
+     fhir:CodeSystem.concept.display [ fhir:value "สิงคโปร์  (อดีต จีนคอมมิวนิสต์)" ]
+  ], [
+     fhir:index 252;
+     fhir:CodeSystem.concept.code [ fhir:value "254" ];
+     fhir:CodeSystem.concept.display [ fhir:value "กะเหรี่ยง  (ผู้หลบหนีเข้าเมือง)" ]
+  ], [
+     fhir:index 253;
+     fhir:CodeSystem.concept.code [ fhir:value "255" ];
+     fhir:CodeSystem.concept.display [ fhir:value "มอญ  (ผู้หลบหนีเข้าเมือง)" ]
+  ], [
+     fhir:index 254;
+     fhir:CodeSystem.concept.code [ fhir:value "256" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ไทยใหญ่  (ผู้หลบหนีเข้าเมือง)" ]
+  ], [
+     fhir:index 255;
+     fhir:CodeSystem.concept.code [ fhir:value "257" ];
+     fhir:CodeSystem.concept.display [ fhir:value "กัมพูชา  (ผู้หลบหนีเข้าเมือง)" ]
+  ], [
+     fhir:index 256;
+     fhir:CodeSystem.concept.code [ fhir:value "258" ];
+     fhir:CodeSystem.concept.display [ fhir:value "มอญ  (ชุมชนบนพื้นที่สูง)" ]
+  ], [
+     fhir:index 257;
+     fhir:CodeSystem.concept.code [ fhir:value "259" ];
+     fhir:CodeSystem.concept.display [ fhir:value "กะเหรี่ยง  (ชุมชนบนพื้นที่สูง)" ]
+  ], [
+     fhir:index 258;
+     fhir:CodeSystem.concept.code [ fhir:value "260" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ปาเลสไตน์" ]
+  ], [
+     fhir:index 259;
+     fhir:CodeSystem.concept.code [ fhir:value "261" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ติมอร์-เลสเต" ]
+  ], [
+     fhir:index 260;
+     fhir:CodeSystem.concept.code [ fhir:value "262" ];
+     fhir:CodeSystem.concept.display [ fhir:value "สละสัญชาติไทย" ]
+  ], [
+     fhir:index 261;
+     fhir:CodeSystem.concept.code [ fhir:value "263" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เซอร์เบีย แอนด์ มอนเตเนโกร" ]
+  ], [
+     fhir:index 262;
+     fhir:CodeSystem.concept.code [ fhir:value "264" ];
+     fhir:CodeSystem.concept.display [ fhir:value "กัมพูชา(แรงงาน)" ]
+  ], [
+     fhir:index 263;
+     fhir:CodeSystem.concept.code [ fhir:value "265" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เมียนมา(แรงงาน)" ]
+  ], [
+     fhir:index 264;
+     fhir:CodeSystem.concept.code [ fhir:value "266" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ลาว(แรงงาน)" ]
+  ], [
+     fhir:index 265;
+     fhir:CodeSystem.concept.code [ fhir:value "267" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เซอร์เบียน" ]
+  ], [
+     fhir:index 266;
+     fhir:CodeSystem.concept.code [ fhir:value "270" ];
+     fhir:CodeSystem.concept.display [ fhir:value "กาบูเวอร์ดี" ]
+  ], [
+     fhir:index 267;
+     fhir:CodeSystem.concept.code [ fhir:value "271" ];
+     fhir:CodeSystem.concept.display [ fhir:value "คอซอวอ" ]
+  ], [
+     fhir:index 268;
+     fhir:CodeSystem.concept.code [ fhir:value "272" ];
+     fhir:CodeSystem.concept.display [ fhir:value "เซาท์ซูดาน" ]
+  ], [
+     fhir:index 269;
+     fhir:CodeSystem.concept.code [ fhir:value "268" ];
+     fhir:CodeSystem.concept.display [ fhir:value "มอนเตเนกริน" ]
+  ], [
+     fhir:index 270;
+     fhir:CodeSystem.concept.code [ fhir:value "989" ];
+     fhir:CodeSystem.concept.display [ fhir:value "บุคคลที่ไม่มีสถานะทางทะเบียน" ]
+  ], [
+     fhir:index 271;
+     fhir:CodeSystem.concept.code [ fhir:value "999" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ไม่ระบุ" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://terms.sil-th.org/CodeSystem/cs-thcc-nationality.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,221 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://terms.sil-th.org/CodeSystem/isced-1997-education> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "isced-1997-education"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://terms.sil-th.org/Codesystem/isced-97 defines the following codes:</p><table class=\"codes\"><tr><td><b>Lvl</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>1</td><td style=\"white-space:nowrap\">1<a name=\"isced-1997-education-1\"> </a></td><td>ระดับก่อนประถมศึกษา</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  11<a name=\"isced-1997-education-11\"> </a></td><td>สามัญศึกษา</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">2<a name=\"isced-1997-education-2\"> </a></td><td>ระดับประถมศึกษา</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  21<a name=\"isced-1997-education-21\"> </a></td><td>สามัญศึกษา</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  24<a name=\"isced-1997-education-24\"> </a></td><td>การศึกษาทางศาสนา : พุทธศึกษา พระปริยัติธรรม แผนกธรรม</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  25<a name=\"isced-1997-education-25\"> </a></td><td>การศึกษาทางศาสนา :อิสลามศึกษาแผนกสามัญศึกษา</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">3<a name=\"isced-1997-education-3\"> </a></td><td>ระดับมัธยมศึกษาตอนต้น</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  31<a name=\"isced-1997-education-31\"> </a></td><td>สามัญศึกษา</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  32<a name=\"isced-1997-education-32\"> </a></td><td>อาชีวศึกษา</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  33<a name=\"isced-1997-education-33\"> </a></td><td>การศึกษาทางศาสนา : พุทธศึกษา พระปริยัติธรรม แผนกสามัญศึกษา</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  34<a name=\"isced-1997-education-34\"> </a></td><td>การศึกษาทางศาสนา : พุทธศึกษา พระปริยัติธรรม แผนกบาลี</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  35<a name=\"isced-1997-education-35\"> </a></td><td>การศึกษาทางศาสนา : อิสลามศึกษาแผนกสามัญศึกษา</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">4<a name=\"isced-1997-education-4\"> </a></td><td>ระดับมัธยมศึกษาตอนปลาย</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  41<a name=\"isced-1997-education-41\"> </a></td><td>สามัญศึกษา</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  42<a name=\"isced-1997-education-42\"> </a></td><td>อาชีวศึกษา</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  43<a name=\"isced-1997-education-43\"> </a></td><td>การศึกษาทางศาสนา : พุทธศึกษา พระปริยัติธรรม แผนกสามัญศึกษา</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  44<a name=\"isced-1997-education-44\"> </a></td><td>การศึกษาทางศาสนา : พุทธศึกษา พระปริยัติธรรม แผนกบาลี</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  45<a name=\"isced-1997-education-45\"> </a></td><td>การศึกษาทางศาสนา : อิสลามศึกษาแผนกสามัญศึกษา</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  46<a name=\"isced-1997-education-46\"> </a></td><td>ประกาศนียบัตรระดับสูงกว่ามัธยมศึกษาตอนปลายแต่ต่ำกว่าอนุปริญญา (ประกาศนียบัตรวิชาชีพพิเศษ : รับผู้จบ ม.6 หรือ ปวช. เรียนต่อสายวิชาชีพ 1-1.5 ปี)</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">5<a name=\"isced-1997-education-5\"> </a></td><td>ระดับสูงกว่ามัธยมศึกษาตอนปลาย (อนุปริญญา)</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  51<a name=\"isced-1997-education-51\"> </a></td><td>สามัญศึกษา</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  52<a name=\"isced-1997-education-52\"> </a></td><td>อาชีวศึกษา</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">6<a name=\"isced-1997-education-6\"> </a></td><td>ระดับปริญญาตรี</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  61<a name=\"isced-1997-education-61\"> </a></td><td>ปริญญาตรี</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  63<a name=\"isced-1997-education-63\"> </a></td><td>การศึกษาทางศาสนา : พุทธศึกษา</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  64<a name=\"isced-1997-education-64\"> </a></td><td>การศึกษาทางศาสนา : พุทธศึกษา พระปริยัติธรรม แผนกบาลี</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  65<a name=\"isced-1997-education-65\"> </a></td><td>การศึกษาทางศาสนา : อิสลามศึกษา</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  66<a name=\"isced-1997-education-66\"> </a></td><td>ประกาศนียบัตรระดับสูงกว่าปริญญาตรี (ประกาศนียบัตรบัณฑิต)</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">7<a name=\"isced-1997-education-7\"> </a></td><td>ระดับปริญญาตรี</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  71<a name=\"isced-1997-education-71\"> </a></td><td>ปริญญาโท</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  73<a name=\"isced-1997-education-73\"> </a></td><td>การศึกษาทางศาสนา : พุทธศึกษา</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  75<a name=\"isced-1997-education-75\"> </a></td><td>การศึกษาทางศาสนา : อิสลามศึกษา</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  76<a name=\"isced-1997-education-76\"> </a></td><td>ประกาศนียบัตรระดับสูงกว่าปริญญาโท (ประกาศนียบัตรบัณฑิตชั้นสูง)</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">8<a name=\"isced-1997-education-8\"> </a></td><td>ระดับปริญญาเอก</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  81<a name=\"isced-1997-education-81\"> </a></td><td>ปริญญาเอก</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  83<a name=\"isced-1997-education-83\"> </a></td><td>การศึกษาทางศาสนา : พุทธศึกษา</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  85<a name=\"isced-1997-education-85\"> </a></td><td>การศึกษาทางศาสนา : อิสลามศึกษา</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  86<a name=\"isced-1997-education-86\"> </a></td><td>ประกาศนียบัตรระดับสูงกว่าปริญญาเอก</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  87<a name=\"isced-1997-education-87\"> </a></td><td>ประกาศนียบัตรแพทย์เฉพาะทาง</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">9<a name=\"isced-1997-education-9\"> </a></td><td>การศึกษาอื่นๆ</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  91<a name=\"isced-1997-education-91\"> </a></td><td>หลักสูตรที่ไม่ได้วุฒิการศึกษา</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  92<a name=\"isced-1997-education-92\"> </a></td><td>การศึกษาที่เทียบระดับไม่ได้</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  98<a name=\"isced-1997-education-98\"> </a></td><td>เรียนแต่ไม่ทราบระดับการศึกษา</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://terms.sil-th.org/Codesystem/isced-97"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.name [ fhir:value "ISCED1997Education"];
+  fhir:CodeSystem.title [ fhir:value "ชุดรหัสการศึกษา ISCED 1997"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2022-07-30T17:25:25+07:00"^^xsd:dateTime];
+  fhir:CodeSystem.description [ fhir:value "รหัสมาตรฐานระดับการศึกษา พัฒนาโดยสำนักงานสถิติแห่งชาติ (สสช) โดยอ้างอิงมาตรฐานจำแนกการศึกษาสากล (International Standard Classification of Education: ISCED 1997) ของ UNESCO และนำมาประยุกต์เพิ่มรายละเอียดให้เหมาะสมกับระบบการศึกษาของประเทศไทย"];
+  fhir:CodeSystem.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "TH" ]
+     ]
+  ];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "43"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "1" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ระดับก่อนประถมศึกษา" ];
+     fhir:CodeSystem.concept.concept [
+       fhir:index 0;
+       fhir:CodeSystem.concept.code [ fhir:value "11" ];
+       fhir:CodeSystem.concept.display [ fhir:value "สามัญศึกษา" ]
+     ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "2" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ระดับประถมศึกษา" ];
+     fhir:CodeSystem.concept.concept [
+       fhir:index 0;
+       fhir:CodeSystem.concept.code [ fhir:value "21" ];
+       fhir:CodeSystem.concept.display [ fhir:value "สามัญศึกษา" ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.code [ fhir:value "24" ];
+       fhir:CodeSystem.concept.display [ fhir:value "การศึกษาทางศาสนา : พุทธศึกษา พระปริยัติธรรม แผนกธรรม" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.code [ fhir:value "25" ];
+       fhir:CodeSystem.concept.display [ fhir:value "การศึกษาทางศาสนา :อิสลามศึกษาแผนกสามัญศึกษา" ]
+     ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "3" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ระดับมัธยมศึกษาตอนต้น" ];
+     fhir:CodeSystem.concept.concept [
+       fhir:index 0;
+       fhir:CodeSystem.concept.code [ fhir:value "31" ];
+       fhir:CodeSystem.concept.display [ fhir:value "สามัญศึกษา" ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.code [ fhir:value "32" ];
+       fhir:CodeSystem.concept.display [ fhir:value "อาชีวศึกษา" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.code [ fhir:value "33" ];
+       fhir:CodeSystem.concept.display [ fhir:value "การศึกษาทางศาสนา : พุทธศึกษา พระปริยัติธรรม แผนกสามัญศึกษา" ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.code [ fhir:value "34" ];
+       fhir:CodeSystem.concept.display [ fhir:value "การศึกษาทางศาสนา : พุทธศึกษา พระปริยัติธรรม แผนกบาลี" ]
+     ], [
+       fhir:index 4;
+       fhir:CodeSystem.concept.code [ fhir:value "35" ];
+       fhir:CodeSystem.concept.display [ fhir:value "การศึกษาทางศาสนา : อิสลามศึกษาแผนกสามัญศึกษา" ]
+     ]
+  ], [
+     fhir:index 3;
+     fhir:CodeSystem.concept.code [ fhir:value "4" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ระดับมัธยมศึกษาตอนปลาย" ];
+     fhir:CodeSystem.concept.concept [
+       fhir:index 0;
+       fhir:CodeSystem.concept.code [ fhir:value "41" ];
+       fhir:CodeSystem.concept.display [ fhir:value "สามัญศึกษา" ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.code [ fhir:value "42" ];
+       fhir:CodeSystem.concept.display [ fhir:value "อาชีวศึกษา" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.code [ fhir:value "43" ];
+       fhir:CodeSystem.concept.display [ fhir:value "การศึกษาทางศาสนา : พุทธศึกษา พระปริยัติธรรม แผนกสามัญศึกษา" ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.code [ fhir:value "44" ];
+       fhir:CodeSystem.concept.display [ fhir:value "การศึกษาทางศาสนา : พุทธศึกษา พระปริยัติธรรม แผนกบาลี" ]
+     ], [
+       fhir:index 4;
+       fhir:CodeSystem.concept.code [ fhir:value "45" ];
+       fhir:CodeSystem.concept.display [ fhir:value "การศึกษาทางศาสนา : อิสลามศึกษาแผนกสามัญศึกษา" ]
+     ], [
+       fhir:index 5;
+       fhir:CodeSystem.concept.code [ fhir:value "46" ];
+       fhir:CodeSystem.concept.display [ fhir:value "ประกาศนียบัตรระดับสูงกว่ามัธยมศึกษาตอนปลายแต่ต่ำกว่าอนุปริญญา (ประกาศนียบัตรวิชาชีพพิเศษ : รับผู้จบ ม.6 หรือ ปวช. เรียนต่อสายวิชาชีพ 1-1.5 ปี)" ]
+     ]
+  ], [
+     fhir:index 4;
+     fhir:CodeSystem.concept.code [ fhir:value "5" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ระดับสูงกว่ามัธยมศึกษาตอนปลาย (อนุปริญญา)" ];
+     fhir:CodeSystem.concept.concept [
+       fhir:index 0;
+       fhir:CodeSystem.concept.code [ fhir:value "51" ];
+       fhir:CodeSystem.concept.display [ fhir:value "สามัญศึกษา" ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.code [ fhir:value "52" ];
+       fhir:CodeSystem.concept.display [ fhir:value "อาชีวศึกษา" ]
+     ]
+  ], [
+     fhir:index 5;
+     fhir:CodeSystem.concept.code [ fhir:value "6" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ระดับปริญญาตรี" ];
+     fhir:CodeSystem.concept.concept [
+       fhir:index 0;
+       fhir:CodeSystem.concept.code [ fhir:value "61" ];
+       fhir:CodeSystem.concept.display [ fhir:value "ปริญญาตรี" ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.code [ fhir:value "63" ];
+       fhir:CodeSystem.concept.display [ fhir:value "การศึกษาทางศาสนา : พุทธศึกษา" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.code [ fhir:value "64" ];
+       fhir:CodeSystem.concept.display [ fhir:value "การศึกษาทางศาสนา : พุทธศึกษา พระปริยัติธรรม แผนกบาลี" ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.code [ fhir:value "65" ];
+       fhir:CodeSystem.concept.display [ fhir:value "การศึกษาทางศาสนา : อิสลามศึกษา" ]
+     ], [
+       fhir:index 4;
+       fhir:CodeSystem.concept.code [ fhir:value "66" ];
+       fhir:CodeSystem.concept.display [ fhir:value "ประกาศนียบัตรระดับสูงกว่าปริญญาตรี (ประกาศนียบัตรบัณฑิต)" ]
+     ]
+  ], [
+     fhir:index 6;
+     fhir:CodeSystem.concept.code [ fhir:value "7" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ระดับปริญญาตรี" ];
+     fhir:CodeSystem.concept.concept [
+       fhir:index 0;
+       fhir:CodeSystem.concept.code [ fhir:value "71" ];
+       fhir:CodeSystem.concept.display [ fhir:value "ปริญญาโท" ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.code [ fhir:value "73" ];
+       fhir:CodeSystem.concept.display [ fhir:value "การศึกษาทางศาสนา : พุทธศึกษา" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.code [ fhir:value "75" ];
+       fhir:CodeSystem.concept.display [ fhir:value "การศึกษาทางศาสนา : อิสลามศึกษา" ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.code [ fhir:value "76" ];
+       fhir:CodeSystem.concept.display [ fhir:value "ประกาศนียบัตรระดับสูงกว่าปริญญาโท (ประกาศนียบัตรบัณฑิตชั้นสูง)" ]
+     ]
+  ], [
+     fhir:index 7;
+     fhir:CodeSystem.concept.code [ fhir:value "8" ];
+     fhir:CodeSystem.concept.display [ fhir:value "ระดับปริญญาเอก" ];
+     fhir:CodeSystem.concept.concept [
+       fhir:index 0;
+       fhir:CodeSystem.concept.code [ fhir:value "81" ];
+       fhir:CodeSystem.concept.display [ fhir:value "ปริญญาเอก" ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.code [ fhir:value "83" ];
+       fhir:CodeSystem.concept.display [ fhir:value "การศึกษาทางศาสนา : พุทธศึกษา" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.code [ fhir:value "85" ];
+       fhir:CodeSystem.concept.display [ fhir:value "การศึกษาทางศาสนา : อิสลามศึกษา" ]
+     ], [
+       fhir:index 3;
+       fhir:CodeSystem.concept.code [ fhir:value "86" ];
+       fhir:CodeSystem.concept.display [ fhir:value "ประกาศนียบัตรระดับสูงกว่าปริญญาเอก" ]
+     ], [
+       fhir:index 4;
+       fhir:CodeSystem.concept.code [ fhir:value "87" ];
+       fhir:CodeSystem.concept.display [ fhir:value "ประกาศนียบัตรแพทย์เฉพาะทาง" ]
+     ]
+  ], [
+     fhir:index 8;
+     fhir:CodeSystem.concept.code [ fhir:value "9" ];
+     fhir:CodeSystem.concept.display [ fhir:value "การศึกษาอื่นๆ" ];
+     fhir:CodeSystem.concept.concept [
+       fhir:index 0;
+       fhir:CodeSystem.concept.code [ fhir:value "91" ];
+       fhir:CodeSystem.concept.display [ fhir:value "หลักสูตรที่ไม่ได้วุฒิการศึกษา" ]
+     ], [
+       fhir:index 1;
+       fhir:CodeSystem.concept.code [ fhir:value "92" ];
+       fhir:CodeSystem.concept.display [ fhir:value "การศึกษาที่เทียบระดับไม่ได้" ]
+     ], [
+       fhir:index 2;
+       fhir:CodeSystem.concept.code [ fhir:value "98" ];
+       fhir:CodeSystem.concept.display [ fhir:value "เรียนแต่ไม่ทราบระดับการศึกษา" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://terms.sil-th.org/CodeSystem/isced-1997-education.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

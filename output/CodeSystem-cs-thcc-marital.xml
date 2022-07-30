@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="cs-thcc-marital"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://terms.sil-th.org/Codesystem/cs-thcc-marital defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1<a name="cs-thcc-marital-1"> </a></td><td>โสด</td></tr><tr><td style="white-space:nowrap">2<a name="cs-thcc-marital-2"> </a></td><td>คู่</td></tr><tr><td style="white-space:nowrap">3<a name="cs-thcc-marital-3"> </a></td><td>ม่าย</td></tr><tr><td style="white-space:nowrap">4<a name="cs-thcc-marital-4"> </a></td><td>หย่า</td></tr><tr><td style="white-space:nowrap">5<a name="cs-thcc-marital-5"> </a></td><td>แยก</td></tr><tr><td style="white-space:nowrap">6<a name="cs-thcc-marital-6"> </a></td><td>สมณะ</td></tr><tr><td style="white-space:nowrap">9<a name="cs-thcc-marital-9"> </a></td><td>ไม่ทราบ</td></tr></table></div>
+  </text>
+  <url value="http://terms.sil-th.org/Codesystem/cs-thcc-marital"/>
+  <version value="0.1.0"/>
+  <name value="CS_THCC_Marital"/>
+  <title value="สถานะการสมรส"/>
+  <status value="active"/>
+  <date value="2022-07-30T17:25:25+07:00"/>
+  <description value="สถานะการสมรส จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="TH"/>
+    </coding>
+  </jurisdiction>
+  <content value="complete"/>
+  <count value="7"/>
+  <concept>
+    <code value="1"/>
+    <display value="โสด"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="คู่"/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="ม่าย"/>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="หย่า"/>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="แยก"/>
+  </concept>
+  <concept>
+    <code value="6"/>
+    <display value="สมณะ"/>
+  </concept>
+  <concept>
+    <code value="9"/>
+    <display value="ไม่ทราบ"/>
+  </concept>
+</CodeSystem>

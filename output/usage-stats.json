@@ -1,0 +1,13 @@
+{
+  "package": "sil-th-terminology",
+  "version": "0.1.0",
+  "fhirVersion": "4.3.0",
+  "jurisdiction": "TH",
+  "extensions": [],
+  "profiles": {},
+  "usage": {
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
+    ]
+  }
+}

@@ -1,0 +1,1395 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>SIL-TH-TERMINOLOGY\ชุดรหัสเชื้อชาติ-สัญชาติ - XML Representation - FHIR v4.3.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+<!-- Placeholder for child template CSS declarations -->
+<link href="assets/css/colors.css" rel="stylesheet" />
+
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"2.6"}
+    h3,h4,h5,h6{--heading-prefix:"2.6"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Left logo - typically the publisher's logo - project or affiliate -->
+<div id="project-nav">
+  <a id="project-logo" no-external="true" href="http://hl7.be">
+    <img
+      height="40"
+      alt="Project home"
+      src="assets/images/SIL-TH-logo.png"
+    />
+  </a>
+</div>
+<!-- Right logo - for example the FHIR logo -->
+<!-- Make sure you have authorization to use the FHIR logo -->
+<!-- <div id="family-nav">
+  <a id="family-logo" no-external="true" href="http://hl7.org/fhir"><img height="70" alt="FHIR website" src="assets/images/fire.png"/> </a>
+</div> -->
+
+<!-- search icon - if you want -->
+<!--
+<div id="hl7-search">
+  <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+</div>
+-->
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">SIL-TH Terminology</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - ci-build
+
+
+
+  <img alt="Thailand flag" src="assets/images/tha.svg" height="16" title="Thailand"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://build.fhir.org/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">IG Home</a>
+  </li>
+  <li>
+    <a href="toc.html">Table of Contents</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts Summary</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>ชุดรหัสเชื้อชาติ-สัญชาติ</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div style="counter-reset: section 7" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">SIL-TH Terminology - Local Development build (v0.1.0). See the <a href="https://terms.sil-th.org/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li>
+    <a href="CodeSystem-cs-thcc-nationality.html">Narrative Content</a>
+  </li>
+
+
+  
+    <li class="active">
+      <a href="#">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-cs-thcc-nationality.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-cs-thcc-nationality.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+
+<a name="root"> </a>
+
+
+<h2 id="root">: ชุดรหัสเชื้อชาติ-สัญชาติ - XML Representation</h2>
+  <table class="colsi">
+    <tr>
+
+      <td colspan="2">
+        
+          Active
+          
+            as of 2022-07-30
+          
+        
+      </td>
+
+    </tr>
+  </table>
+
+
+<p><a href="CodeSystem-cs-thcc-nationality.xml" no-download="true">Raw xml</a> | <a href="CodeSystem-cs-thcc-nationality.xml" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <pre class="xml"><code>
+
+&lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem">CodeSystem</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.id">id</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#id">value</a>=&quot;cs-thcc-nationality&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.text">text</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/narrative.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;This code system http://terms.sil-th.org/Codesystem/cs-thcc-nationality defines the following codes:&lt;/p&gt;&lt;table class=&quot;codes&quot;&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;002&lt;a name=&quot;cs-thcc-nationality-002&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;โปรตุเกส&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;003&lt;a name=&quot;cs-thcc-nationality-003&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ดัตช์&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;004&lt;a name=&quot;cs-thcc-nationality-004&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เยอรมัน&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;005&lt;a name=&quot;cs-thcc-nationality-005&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ฝรั่งเศส&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;006&lt;a name=&quot;cs-thcc-nationality-006&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เดนมาร์ก&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;007&lt;a name=&quot;cs-thcc-nationality-007&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;สวีเดน&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;008&lt;a name=&quot;cs-thcc-nationality-008&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;สวิส&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;009&lt;a name=&quot;cs-thcc-nationality-009&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;อิตาลี&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;010&lt;a name=&quot;cs-thcc-nationality-010&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;นอร์เวย์&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;011&lt;a name=&quot;cs-thcc-nationality-011&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ออสเตรีย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;012&lt;a name=&quot;cs-thcc-nationality-012&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ไอริช&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;013&lt;a name=&quot;cs-thcc-nationality-013&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ฟินแลนด์&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;014&lt;a name=&quot;cs-thcc-nationality-014&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เบลเยียม&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;015&lt;a name=&quot;cs-thcc-nationality-015&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;สเปน&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;016&lt;a name=&quot;cs-thcc-nationality-016&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;รัสเซีย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;017&lt;a name=&quot;cs-thcc-nationality-017&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;โปแลนด์&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;018&lt;a name=&quot;cs-thcc-nationality-018&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เช็ก&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;019&lt;a name=&quot;cs-thcc-nationality-019&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ฮังการี&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;020&lt;a name=&quot;cs-thcc-nationality-020&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;กรีก&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;021&lt;a name=&quot;cs-thcc-nationality-021&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ยูโกสลาฟ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;022&lt;a name=&quot;cs-thcc-nationality-022&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ลักเซมเบิร์ก&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;023&lt;a name=&quot;cs-thcc-nationality-023&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;วาติกัน&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;024&lt;a name=&quot;cs-thcc-nationality-024&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;มอลตา&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;025&lt;a name=&quot;cs-thcc-nationality-025&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ลีซู&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;026&lt;a name=&quot;cs-thcc-nationality-026&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;บัลแกเรีย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;027&lt;a name=&quot;cs-thcc-nationality-027&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;โรมาเนีย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;028&lt;a name=&quot;cs-thcc-nationality-028&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ไซปรัส&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;029&lt;a name=&quot;cs-thcc-nationality-029&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;อเมริกัน&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;030&lt;a name=&quot;cs-thcc-nationality-030&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;แคนาดา&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;031&lt;a name=&quot;cs-thcc-nationality-031&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เม็กซิกัน&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;032&lt;a name=&quot;cs-thcc-nationality-032&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;คิวบา&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;033&lt;a name=&quot;cs-thcc-nationality-033&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;อาร์เจนตินา&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;034&lt;a name=&quot;cs-thcc-nationality-034&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;บราซิล&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;035&lt;a name=&quot;cs-thcc-nationality-035&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ชิลี&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;036&lt;a name=&quot;cs-thcc-nationality-036&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;อาข่า&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;037&lt;a name=&quot;cs-thcc-nationality-037&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;โคลัมเบีย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;038&lt;a name=&quot;cs-thcc-nationality-038&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ลั๊ว&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;039&lt;a name=&quot;cs-thcc-nationality-039&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เปรู&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;040&lt;a name=&quot;cs-thcc-nationality-040&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ปานามา&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;041&lt;a name=&quot;cs-thcc-nationality-041&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;อุรุกวัย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;042&lt;a name=&quot;cs-thcc-nationality-042&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เวเนซุเอลา&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;043&lt;a name=&quot;cs-thcc-nationality-043&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เปอร์โตริโก้ (ยกเลิก)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;044&lt;a name=&quot;cs-thcc-nationality-044&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;จีน&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;045&lt;a name=&quot;cs-thcc-nationality-045&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;อินเดีย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;046&lt;a name=&quot;cs-thcc-nationality-046&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เวียดนาม&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;047&lt;a name=&quot;cs-thcc-nationality-047&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ญี่ปุ่น&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;048&lt;a name=&quot;cs-thcc-nationality-048&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เมียนมา&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;049&lt;a name=&quot;cs-thcc-nationality-049&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ฟิลิปปิน&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;050&lt;a name=&quot;cs-thcc-nationality-050&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;มาเลเซีย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;051&lt;a name=&quot;cs-thcc-nationality-051&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;อินโดนีเซีย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;052&lt;a name=&quot;cs-thcc-nationality-052&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ปากีสถาน&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;053&lt;a name=&quot;cs-thcc-nationality-053&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เกาหลีใต้&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;054&lt;a name=&quot;cs-thcc-nationality-054&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;สิงคโปร์&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;055&lt;a name=&quot;cs-thcc-nationality-055&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เนปาล&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;056&lt;a name=&quot;cs-thcc-nationality-056&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ลาว&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;057&lt;a name=&quot;cs-thcc-nationality-057&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;กัมพูชา&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;058&lt;a name=&quot;cs-thcc-nationality-058&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ศรีลังกา&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;059&lt;a name=&quot;cs-thcc-nationality-059&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ซาอุดีอาระเบีย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;060&lt;a name=&quot;cs-thcc-nationality-060&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;อิสราเอล&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;061&lt;a name=&quot;cs-thcc-nationality-061&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เลบานอน&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;062&lt;a name=&quot;cs-thcc-nationality-062&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;อิหร่าน&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;063&lt;a name=&quot;cs-thcc-nationality-063&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ตุรกี&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;064&lt;a name=&quot;cs-thcc-nationality-064&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;บังกลาเทศ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;065&lt;a name=&quot;cs-thcc-nationality-065&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ถูกถอนสัญชาติ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;066&lt;a name=&quot;cs-thcc-nationality-066&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ซีเรีย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;067&lt;a name=&quot;cs-thcc-nationality-067&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;อิรัก&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;068&lt;a name=&quot;cs-thcc-nationality-068&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;คูเวต&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;069&lt;a name=&quot;cs-thcc-nationality-069&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;บรูไน&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;070&lt;a name=&quot;cs-thcc-nationality-070&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;แอฟริกาใต้&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;071&lt;a name=&quot;cs-thcc-nationality-071&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;กะเหรี่ยง&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;072&lt;a name=&quot;cs-thcc-nationality-072&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ลาหู่&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;073&lt;a name=&quot;cs-thcc-nationality-073&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เคนยา&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;074&lt;a name=&quot;cs-thcc-nationality-074&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;อียิปต์&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;075&lt;a name=&quot;cs-thcc-nationality-075&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เอธิโอเปีย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;076&lt;a name=&quot;cs-thcc-nationality-076&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ไนจีเรีย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;077&lt;a name=&quot;cs-thcc-nationality-077&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;สหรัฐอาหรับเอมิเรตส์&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;078&lt;a name=&quot;cs-thcc-nationality-078&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;กินี&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;079&lt;a name=&quot;cs-thcc-nationality-079&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ออสเตรเลีย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;080&lt;a name=&quot;cs-thcc-nationality-080&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;นิวซีแลนด์&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;081&lt;a name=&quot;cs-thcc-nationality-081&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ปาปัวนิวกินี&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;082&lt;a name=&quot;cs-thcc-nationality-082&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ม้ง&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;083&lt;a name=&quot;cs-thcc-nationality-083&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เมี่ยน&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;084&lt;a name=&quot;cs-thcc-nationality-084&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ชาวเขาที่ไม่ได้รับสัญขาติไทย (ยกเลิก)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;085&lt;a name=&quot;cs-thcc-nationality-085&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;- (ฐานชุดเก่า,ใหม่ไม่มีข้อมูล)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;086&lt;a name=&quot;cs-thcc-nationality-086&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;จีนฮ่อ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;087&lt;a name=&quot;cs-thcc-nationality-087&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;จีน (อดีตทหารจีนคณะชาติ ,อดีตทหารจีนชาติ)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;088&lt;a name=&quot;cs-thcc-nationality-088&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ผู้พลัดถิ่นสัญชาติพม่า&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;089&lt;a name=&quot;cs-thcc-nationality-089&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ผู้อพยพเชื้อสายจากกัมพูชา&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;090&lt;a name=&quot;cs-thcc-nationality-090&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ลาว (ลาวอพยพ)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;091&lt;a name=&quot;cs-thcc-nationality-091&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เขมรอพยพ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;092&lt;a name=&quot;cs-thcc-nationality-092&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ผู้อพยพอินโดจีนสัญชาติเวียดนาม (ยกเลิก  ไปใช้รหัส 046 แทน)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;093&lt;a name=&quot;cs-thcc-nationality-093&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;รอให้สัญชาติไทย (ยกเลิก)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;094&lt;a name=&quot;cs-thcc-nationality-094&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ไทย-อิสลาม,อิสลาม-ไทย (ยกเลิก)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;095&lt;a name=&quot;cs-thcc-nationality-095&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ไทย-จีน,จีน-ไทย (ยกเลิก)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;096&lt;a name=&quot;cs-thcc-nationality-096&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ไร้สัญชาติ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;097&lt;a name=&quot;cs-thcc-nationality-097&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;อื่นๆ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;098&lt;a name=&quot;cs-thcc-nationality-098&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ไม่ได้สัญชาติไทย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;099&lt;a name=&quot;cs-thcc-nationality-099&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ไทย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;100&lt;a name=&quot;cs-thcc-nationality-100&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;อัฟกัน&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;101&lt;a name=&quot;cs-thcc-nationality-101&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;บาห์เรน&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;102&lt;a name=&quot;cs-thcc-nationality-102&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ภูฏาน&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;103&lt;a name=&quot;cs-thcc-nationality-103&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;จอร์แดน&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;104&lt;a name=&quot;cs-thcc-nationality-104&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เกาหลีเหนือ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;105&lt;a name=&quot;cs-thcc-nationality-105&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;มัลดีฟ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;106&lt;a name=&quot;cs-thcc-nationality-106&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;มองโกเลีย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;107&lt;a name=&quot;cs-thcc-nationality-107&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;โอมาน&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;108&lt;a name=&quot;cs-thcc-nationality-108&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;กาตาร์&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;109&lt;a name=&quot;cs-thcc-nationality-109&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เยเมน&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;110&lt;a name=&quot;cs-thcc-nationality-110&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เยเมน(ใต้)** (ยกเลิก  ไปใช้รหัส 109 แทน)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;111&lt;a name=&quot;cs-thcc-nationality-111&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;หมู่เกาะฟิจิ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;112&lt;a name=&quot;cs-thcc-nationality-112&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;คิริบาส&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;113&lt;a name=&quot;cs-thcc-nationality-113&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;นาอูรู&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;114&lt;a name=&quot;cs-thcc-nationality-114&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;หมู่เกาะโซโลมอน&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;115&lt;a name=&quot;cs-thcc-nationality-115&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ตองก้า&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;116&lt;a name=&quot;cs-thcc-nationality-116&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ตูวาลู&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;117&lt;a name=&quot;cs-thcc-nationality-117&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;วานูอาตู&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;118&lt;a name=&quot;cs-thcc-nationality-118&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ซามัว&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;119&lt;a name=&quot;cs-thcc-nationality-119&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;แอลเบเนีย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;120&lt;a name=&quot;cs-thcc-nationality-120&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;อันดอร์รา&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;121&lt;a name=&quot;cs-thcc-nationality-121&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เยอรมนีตะวันออก** (ยกเลิก  ไปใช้รหัส 004 แทน)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;122&lt;a name=&quot;cs-thcc-nationality-122&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ไอซ์แลนด์&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;123&lt;a name=&quot;cs-thcc-nationality-123&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ลิกเตนสไตน์&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;124&lt;a name=&quot;cs-thcc-nationality-124&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;โมนาโก&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;125&lt;a name=&quot;cs-thcc-nationality-125&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ซานมารีโน&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;126&lt;a name=&quot;cs-thcc-nationality-126&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;บริติช  (อังกฤษ, สก็อตแลนด์)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;127&lt;a name=&quot;cs-thcc-nationality-127&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;แอลจีเรีย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;128&lt;a name=&quot;cs-thcc-nationality-128&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;แองโกลา&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;129&lt;a name=&quot;cs-thcc-nationality-129&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เบนิน&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;130&lt;a name=&quot;cs-thcc-nationality-130&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;บอตสวานา&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;131&lt;a name=&quot;cs-thcc-nationality-131&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;บูร์กินาฟาโซ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;132&lt;a name=&quot;cs-thcc-nationality-132&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;บุรุนดี&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;133&lt;a name=&quot;cs-thcc-nationality-133&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;แคเมอรูน&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;134&lt;a name=&quot;cs-thcc-nationality-134&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เคปเวิร์ด&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;135&lt;a name=&quot;cs-thcc-nationality-135&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;แอฟริกากลาง&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;136&lt;a name=&quot;cs-thcc-nationality-136&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ชาด&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;137&lt;a name=&quot;cs-thcc-nationality-137&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;คอโมโรส&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;138&lt;a name=&quot;cs-thcc-nationality-138&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;คองโก&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;139&lt;a name=&quot;cs-thcc-nationality-139&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ไอโวเรี่ยน&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;140&lt;a name=&quot;cs-thcc-nationality-140&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;จิบูตี&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;141&lt;a name=&quot;cs-thcc-nationality-141&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;อิเควทอเรียลกินี&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;142&lt;a name=&quot;cs-thcc-nationality-142&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;กาบอง&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;143&lt;a name=&quot;cs-thcc-nationality-143&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;แกมเบีย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;144&lt;a name=&quot;cs-thcc-nationality-144&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;กานา&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;145&lt;a name=&quot;cs-thcc-nationality-145&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;กินีบีสเซา&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;146&lt;a name=&quot;cs-thcc-nationality-146&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เลโซโท&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;147&lt;a name=&quot;cs-thcc-nationality-147&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ไลบีเรีย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;148&lt;a name=&quot;cs-thcc-nationality-148&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ลิเบีย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;149&lt;a name=&quot;cs-thcc-nationality-149&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;มาลากาซี&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;150&lt;a name=&quot;cs-thcc-nationality-150&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;มาลาวี&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;151&lt;a name=&quot;cs-thcc-nationality-151&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;มาลี&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;152&lt;a name=&quot;cs-thcc-nationality-152&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;มอริเตเนีย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;153&lt;a name=&quot;cs-thcc-nationality-153&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;มอริเชียส&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;154&lt;a name=&quot;cs-thcc-nationality-154&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;โมร็อกโก&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;155&lt;a name=&quot;cs-thcc-nationality-155&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;โมซัมบิก&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;156&lt;a name=&quot;cs-thcc-nationality-156&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ไนเจอร์&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;157&lt;a name=&quot;cs-thcc-nationality-157&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;รวันดา&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;158&lt;a name=&quot;cs-thcc-nationality-158&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เซาโตเมและปรินซิเป&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;159&lt;a name=&quot;cs-thcc-nationality-159&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เซเนกัล&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;160&lt;a name=&quot;cs-thcc-nationality-160&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เซเชลส์&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;161&lt;a name=&quot;cs-thcc-nationality-161&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เซียร์ราลีโอน&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;162&lt;a name=&quot;cs-thcc-nationality-162&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;โซมาลี&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;163&lt;a name=&quot;cs-thcc-nationality-163&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ซูดาน&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;164&lt;a name=&quot;cs-thcc-nationality-164&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;สวาซี&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;165&lt;a name=&quot;cs-thcc-nationality-165&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;แทนซาเนีย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;166&lt;a name=&quot;cs-thcc-nationality-166&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;โตโก&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;167&lt;a name=&quot;cs-thcc-nationality-167&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ตูนิเซีย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;168&lt;a name=&quot;cs-thcc-nationality-168&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ยูกันดา&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;169&lt;a name=&quot;cs-thcc-nationality-169&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ซาอีร์&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;170&lt;a name=&quot;cs-thcc-nationality-170&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;แซมเบีย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;171&lt;a name=&quot;cs-thcc-nationality-171&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ซิมบับเว&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;172&lt;a name=&quot;cs-thcc-nationality-172&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;แอนติกาและบาร์บูดา&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;173&lt;a name=&quot;cs-thcc-nationality-173&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;บาฮามาส&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;174&lt;a name=&quot;cs-thcc-nationality-174&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;บาร์เบโดส&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;175&lt;a name=&quot;cs-thcc-nationality-175&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เบลิซ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;176&lt;a name=&quot;cs-thcc-nationality-176&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;คอสตาริกา&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;177&lt;a name=&quot;cs-thcc-nationality-177&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;โดมินิกา&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;178&lt;a name=&quot;cs-thcc-nationality-178&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;โดมินิกัน&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;179&lt;a name=&quot;cs-thcc-nationality-179&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เอลซัลวาดอร์&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;180&lt;a name=&quot;cs-thcc-nationality-180&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เกรเนดา&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;181&lt;a name=&quot;cs-thcc-nationality-181&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;กัวเตมาลา&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;182&lt;a name=&quot;cs-thcc-nationality-182&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เฮติ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;183&lt;a name=&quot;cs-thcc-nationality-183&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ฮอนดูรัส&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;184&lt;a name=&quot;cs-thcc-nationality-184&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;จาเมกา&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;185&lt;a name=&quot;cs-thcc-nationality-185&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;นิการากัว&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;186&lt;a name=&quot;cs-thcc-nationality-186&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เซนต์คิตส์และเนวิส&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;187&lt;a name=&quot;cs-thcc-nationality-187&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เซนต์ลูเซีย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;188&lt;a name=&quot;cs-thcc-nationality-188&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เซนต์วินเซนต์และเกรนาดีนส์&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;189&lt;a name=&quot;cs-thcc-nationality-189&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ตรินิแดดและโตเบโก&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;190&lt;a name=&quot;cs-thcc-nationality-190&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;โบลีเวีย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;191&lt;a name=&quot;cs-thcc-nationality-191&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เอกวาดอร์&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;192&lt;a name=&quot;cs-thcc-nationality-192&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;กายอานา&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;193&lt;a name=&quot;cs-thcc-nationality-193&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ปารากวัย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;194&lt;a name=&quot;cs-thcc-nationality-194&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ซูรินาเม&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;195&lt;a name=&quot;cs-thcc-nationality-195&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;อาหรับ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;196&lt;a name=&quot;cs-thcc-nationality-196&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;คะฉิ่น&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;197&lt;a name=&quot;cs-thcc-nationality-197&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ว้า&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;198&lt;a name=&quot;cs-thcc-nationality-198&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ไทยใหญ่&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;199&lt;a name=&quot;cs-thcc-nationality-199&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ไทยลื้อ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;200&lt;a name=&quot;cs-thcc-nationality-200&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ขมุ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;201&lt;a name=&quot;cs-thcc-nationality-201&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ตองสู&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;202&lt;a name=&quot;cs-thcc-nationality-202&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เงี้ยว** (ยกเลิก)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;203&lt;a name=&quot;cs-thcc-nationality-203&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ละว้า&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;204&lt;a name=&quot;cs-thcc-nationality-204&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;แม้ว (ยกเลิก  ไปใช้รหัส 082 แทน)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;205&lt;a name=&quot;cs-thcc-nationality-205&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ปะหร่อง&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;206&lt;a name=&quot;cs-thcc-nationality-206&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ถิ่น&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;207&lt;a name=&quot;cs-thcc-nationality-207&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ปะโอ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;208&lt;a name=&quot;cs-thcc-nationality-208&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;มอญ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;209&lt;a name=&quot;cs-thcc-nationality-209&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;มลาบรี&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;210&lt;a name=&quot;cs-thcc-nationality-210&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เฮาะ** (ยกเลิก)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;211&lt;a name=&quot;cs-thcc-nationality-211&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;สก็อตแลน์** (ยกเลิก  ไปใช้รหัส  126 แทน)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;212&lt;a name=&quot;cs-thcc-nationality-212&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;จีน (จีนฮ่ออิสระ)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;213&lt;a name=&quot;cs-thcc-nationality-213&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;จีนอพยพ** (ยกเลิก)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;214&lt;a name=&quot;cs-thcc-nationality-214&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;จีน (จีนฮ่ออพยพ)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;215&lt;a name=&quot;cs-thcc-nationality-215&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ไต้หวัน** (ยกเลิก ไปใช้รหัส 220 แทน)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;216&lt;a name=&quot;cs-thcc-nationality-216&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ยูเครน&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;217&lt;a name=&quot;cs-thcc-nationality-217&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;อาณานิคมอังกฤษ** (ยกเลิก ไปใช้รหัส 126 แทน)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;218&lt;a name=&quot;cs-thcc-nationality-218&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ดูไบ** (ยกเลิก ไปใช้รหัส 077 แทน)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;219&lt;a name=&quot;cs-thcc-nationality-219&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;จีน(ฮ่องกง)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;220&lt;a name=&quot;cs-thcc-nationality-220&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;จีน(ไต้หวัน)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;221&lt;a name=&quot;cs-thcc-nationality-221&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;โครเอเชีย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;223&lt;a name=&quot;cs-thcc-nationality-223&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;คาซัค&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;222&lt;a name=&quot;cs-thcc-nationality-222&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;บริทิธ** (ยกเลิก ไปใช้รหัส 126 แทน)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;224&lt;a name=&quot;cs-thcc-nationality-224&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;อาร์เมเนีย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;225&lt;a name=&quot;cs-thcc-nationality-225&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;อาเซอร์ไบจาน&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;226&lt;a name=&quot;cs-thcc-nationality-226&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;จอร์เจีย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;227&lt;a name=&quot;cs-thcc-nationality-227&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;คีร์กีซ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;228&lt;a name=&quot;cs-thcc-nationality-228&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ทาจิก&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;229&lt;a name=&quot;cs-thcc-nationality-229&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;อุซเบก&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;230&lt;a name=&quot;cs-thcc-nationality-230&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;หมู่เกาะมาร์แชลล์&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;231&lt;a name=&quot;cs-thcc-nationality-231&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ไมโครนีเซีย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;232&lt;a name=&quot;cs-thcc-nationality-232&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ปาเลา&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;233&lt;a name=&quot;cs-thcc-nationality-233&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เบลารุส&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;234&lt;a name=&quot;cs-thcc-nationality-234&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;บอสเนียและเฮอร์เซโกวีนา&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;235&lt;a name=&quot;cs-thcc-nationality-235&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เติร์กเมน&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;236&lt;a name=&quot;cs-thcc-nationality-236&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เอสโตเนีย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;237&lt;a name=&quot;cs-thcc-nationality-237&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ลัตเวีย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;238&lt;a name=&quot;cs-thcc-nationality-238&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ลิทัวเนีย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;239&lt;a name=&quot;cs-thcc-nationality-239&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;มาซิโดเนีย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;240&lt;a name=&quot;cs-thcc-nationality-240&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;มอลโดวา&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;241&lt;a name=&quot;cs-thcc-nationality-241&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;สโลวัก&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;242&lt;a name=&quot;cs-thcc-nationality-242&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;สโลวีน&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;243&lt;a name=&quot;cs-thcc-nationality-243&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เอริเทรีย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;244&lt;a name=&quot;cs-thcc-nationality-244&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;นามิเบีย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;245&lt;a name=&quot;cs-thcc-nationality-245&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;โบลิเวีย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;246&lt;a name=&quot;cs-thcc-nationality-246&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;หมู่เกาะคุก&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;247&lt;a name=&quot;cs-thcc-nationality-247&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เนปาล (เนปาลอพยพ)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;248&lt;a name=&quot;cs-thcc-nationality-248&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;มอญ  (ผู้พลัดถิ่นสัญชาติพม่า)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;249&lt;a name=&quot;cs-thcc-nationality-249&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ไทยใหญ่  (ผู้พลัดถิ่นสัญชาติพม่า)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;250&lt;a name=&quot;cs-thcc-nationality-250&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เวียดนาม  (ญวนอพยพ)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;251&lt;a name=&quot;cs-thcc-nationality-251&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;มาเลเชีย  (อดีต จีนคอมมิวนิสต์)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;252&lt;a name=&quot;cs-thcc-nationality-252&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;จีน  (อดีต จีนคอมมิวนิสต์)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;253&lt;a name=&quot;cs-thcc-nationality-253&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;สิงคโปร์  (อดีต จีนคอมมิวนิสต์)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;254&lt;a name=&quot;cs-thcc-nationality-254&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;กะเหรี่ยง  (ผู้หลบหนีเข้าเมือง)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;255&lt;a name=&quot;cs-thcc-nationality-255&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;มอญ  (ผู้หลบหนีเข้าเมือง)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;256&lt;a name=&quot;cs-thcc-nationality-256&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ไทยใหญ่  (ผู้หลบหนีเข้าเมือง)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;257&lt;a name=&quot;cs-thcc-nationality-257&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;กัมพูชา  (ผู้หลบหนีเข้าเมือง)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;258&lt;a name=&quot;cs-thcc-nationality-258&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;มอญ  (ชุมชนบนพื้นที่สูง)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;259&lt;a name=&quot;cs-thcc-nationality-259&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;กะเหรี่ยง  (ชุมชนบนพื้นที่สูง)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;260&lt;a name=&quot;cs-thcc-nationality-260&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ปาเลสไตน์&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;261&lt;a name=&quot;cs-thcc-nationality-261&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ติมอร์-เลสเต&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;262&lt;a name=&quot;cs-thcc-nationality-262&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;สละสัญชาติไทย&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;263&lt;a name=&quot;cs-thcc-nationality-263&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เซอร์เบีย แอนด์ มอนเตเนโกร&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;264&lt;a name=&quot;cs-thcc-nationality-264&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;กัมพูชา(แรงงาน)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;265&lt;a name=&quot;cs-thcc-nationality-265&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เมียนมา(แรงงาน)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;266&lt;a name=&quot;cs-thcc-nationality-266&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ลาว(แรงงาน)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;267&lt;a name=&quot;cs-thcc-nationality-267&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เซอร์เบียน&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;270&lt;a name=&quot;cs-thcc-nationality-270&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;กาบูเวอร์ดี&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;271&lt;a name=&quot;cs-thcc-nationality-271&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;คอซอวอ&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;272&lt;a name=&quot;cs-thcc-nationality-272&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;เซาท์ซูดาน&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;268&lt;a name=&quot;cs-thcc-nationality-268&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;มอนเตเนกริน&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;989&lt;a name=&quot;cs-thcc-nationality-989&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;บุคคลที่ไม่มีสถานะทางทะเบียน&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;white-space:nowrap&quot;&gt;999&lt;a name=&quot;cs-thcc-nationality-999&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ไม่ระบุ&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+  &lt;/text&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.url">url</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#uri">value</a>=&quot;http://terms.sil-th.org/Codesystem/cs-thcc-nationality&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.version">version</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;0.1.0&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.name">name</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;CS_THCC_Nationality&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.title">title</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ชุดรหัสเชื้อชาติ-สัญชาติ&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.status">status</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.date">date</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#dateTime">value</a>=&quot;2022-07-30T17:25:25+07:00&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.description">description</a>
+               <a href="http://hl7.org/fhir/R4B/datatypes.html#markdown">value</a>=&quot;ชุดรหัสเชื้อชาติ-สัญชาติ จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.jurisdiction">jurisdiction</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#uri">value</a>=&quot;urn:iso:std:iso:3166&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4B/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;TH&quot;/&gt;
+    &lt;/coding&gt;
+  &lt;/jurisdiction&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.content">content</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;complete&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.count">count</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#unsignedInt">value</a>=&quot;272&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;002&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;โปรตุเกส&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;003&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ดัตช์&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;004&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เยอรมัน&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;005&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ฝรั่งเศส&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;006&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เดนมาร์ก&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;007&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;สวีเดน&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;008&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;สวิส&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;009&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;อิตาลี&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;010&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;นอร์เวย์&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;011&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ออสเตรีย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;012&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ไอริช&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;013&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ฟินแลนด์&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;014&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เบลเยียม&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;015&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;สเปน&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;016&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;รัสเซีย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;017&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;โปแลนด์&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;018&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เช็ก&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;019&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ฮังการี&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;020&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;กรีก&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;021&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ยูโกสลาฟ&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;022&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ลักเซมเบิร์ก&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;023&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;วาติกัน&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;024&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;มอลตา&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;025&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ลีซู&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;026&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;บัลแกเรีย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;027&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;โรมาเนีย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;028&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ไซปรัส&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;029&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;อเมริกัน&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;030&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;แคนาดา&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;031&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เม็กซิกัน&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;032&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;คิวบา&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;033&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;อาร์เจนตินา&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;034&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;บราซิล&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;035&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ชิลี&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;036&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;อาข่า&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;037&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;โคลัมเบีย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;038&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ลั๊ว&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;039&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เปรู&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;040&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ปานามา&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;041&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;อุรุกวัย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;042&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เวเนซุเอลา&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;043&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เปอร์โตริโก้ (ยกเลิก)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;044&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;จีน&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;045&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;อินเดีย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;046&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เวียดนาม&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;047&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ญี่ปุ่น&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;048&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เมียนมา&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;049&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ฟิลิปปิน&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;050&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;มาเลเซีย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;051&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;อินโดนีเซีย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;052&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ปากีสถาน&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;053&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เกาหลีใต้&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;054&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;สิงคโปร์&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;055&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เนปาล&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;056&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ลาว&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;057&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;กัมพูชา&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;058&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ศรีลังกา&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;059&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ซาอุดีอาระเบีย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;060&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;อิสราเอล&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;061&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เลบานอน&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;062&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;อิหร่าน&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;063&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ตุรกี&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;064&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;บังกลาเทศ&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;065&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ถูกถอนสัญชาติ&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;066&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ซีเรีย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;067&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;อิรัก&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;068&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;คูเวต&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;069&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;บรูไน&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;070&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;แอฟริกาใต้&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;071&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;กะเหรี่ยง&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;072&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ลาหู่&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;073&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เคนยา&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;074&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;อียิปต์&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;075&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เอธิโอเปีย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;076&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ไนจีเรีย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;077&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;สหรัฐอาหรับเอมิเรตส์&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;078&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;กินี&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;079&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ออสเตรเลีย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;080&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;นิวซีแลนด์&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;081&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ปาปัวนิวกินี&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;082&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ม้ง&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;083&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เมี่ยน&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;084&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ชาวเขาที่ไม่ได้รับสัญขาติไทย (ยกเลิก)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;085&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;- (ฐานชุดเก่า,ใหม่ไม่มีข้อมูล)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;086&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;จีนฮ่อ&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;087&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;จีน (อดีตทหารจีนคณะชาติ ,อดีตทหารจีนชาติ)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;088&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ผู้พลัดถิ่นสัญชาติพม่า&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;089&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ผู้อพยพเชื้อสายจากกัมพูชา&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;090&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ลาว (ลาวอพยพ)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;091&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เขมรอพยพ&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;092&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ผู้อพยพอินโดจีนสัญชาติเวียดนาม (ยกเลิก  ไปใช้รหัส 046 แทน)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;093&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;รอให้สัญชาติไทย (ยกเลิก)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;094&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ไทย-อิสลาม,อิสลาม-ไทย (ยกเลิก)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;095&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ไทย-จีน,จีน-ไทย (ยกเลิก)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;096&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ไร้สัญชาติ&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;097&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;อื่นๆ&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;098&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ไม่ได้สัญชาติไทย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;099&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ไทย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;100&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;อัฟกัน&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;101&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;บาห์เรน&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;102&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ภูฏาน&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;103&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;จอร์แดน&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;104&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เกาหลีเหนือ&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;105&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;มัลดีฟ&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;106&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;มองโกเลีย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;107&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;โอมาน&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;108&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;กาตาร์&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;109&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เยเมน&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;110&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เยเมน(ใต้)** (ยกเลิก  ไปใช้รหัส 109 แทน)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;111&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;หมู่เกาะฟิจิ&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;112&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;คิริบาส&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;113&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;นาอูรู&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;114&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;หมู่เกาะโซโลมอน&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;115&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ตองก้า&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;116&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ตูวาลู&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;117&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;วานูอาตู&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;118&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ซามัว&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;119&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;แอลเบเนีย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;120&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;อันดอร์รา&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;121&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เยอรมนีตะวันออก** (ยกเลิก  ไปใช้รหัส 004 แทน)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;122&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ไอซ์แลนด์&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;123&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ลิกเตนสไตน์&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;124&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;โมนาโก&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;125&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ซานมารีโน&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;126&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;บริติช  (อังกฤษ, สก็อตแลนด์)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;127&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;แอลจีเรีย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;128&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;แองโกลา&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;129&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เบนิน&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;130&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;บอตสวานา&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;131&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;บูร์กินาฟาโซ&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;132&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;บุรุนดี&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;133&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;แคเมอรูน&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;134&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เคปเวิร์ด&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;135&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;แอฟริกากลาง&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;136&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ชาด&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;137&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;คอโมโรส&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;138&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;คองโก&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;139&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ไอโวเรี่ยน&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;140&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;จิบูตี&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;141&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;อิเควทอเรียลกินี&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;142&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;กาบอง&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;143&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;แกมเบีย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;144&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;กานา&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;145&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;กินีบีสเซา&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;146&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เลโซโท&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;147&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ไลบีเรีย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;148&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ลิเบีย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;149&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;มาลากาซี&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;150&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;มาลาวี&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;151&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;มาลี&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;152&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;มอริเตเนีย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;153&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;มอริเชียส&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;154&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;โมร็อกโก&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;155&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;โมซัมบิก&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;156&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ไนเจอร์&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;157&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;รวันดา&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;158&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เซาโตเมและปรินซิเป&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;159&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เซเนกัล&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;160&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เซเชลส์&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;161&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เซียร์ราลีโอน&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;162&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;โซมาลี&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;163&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ซูดาน&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;164&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;สวาซี&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;165&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;แทนซาเนีย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;166&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;โตโก&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;167&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ตูนิเซีย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;168&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ยูกันดา&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;169&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ซาอีร์&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;170&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;แซมเบีย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;171&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ซิมบับเว&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;172&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;แอนติกาและบาร์บูดา&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;173&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;บาฮามาส&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;174&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;บาร์เบโดส&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;175&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เบลิซ&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;176&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;คอสตาริกา&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;177&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;โดมินิกา&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;178&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;โดมินิกัน&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;179&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เอลซัลวาดอร์&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;180&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เกรเนดา&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;181&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;กัวเตมาลา&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;182&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เฮติ&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;183&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ฮอนดูรัส&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;184&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;จาเมกา&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;185&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;นิการากัว&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;186&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เซนต์คิตส์และเนวิส&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;187&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เซนต์ลูเซีย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;188&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เซนต์วินเซนต์และเกรนาดีนส์&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;189&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ตรินิแดดและโตเบโก&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;190&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;โบลีเวีย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;191&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เอกวาดอร์&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;192&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;กายอานา&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;193&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ปารากวัย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;194&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ซูรินาเม&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;195&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;อาหรับ&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;196&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;คะฉิ่น&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;197&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ว้า&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;198&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ไทยใหญ่&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;199&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ไทยลื้อ&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;200&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ขมุ&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;201&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ตองสู&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;202&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เงี้ยว** (ยกเลิก)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;203&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ละว้า&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;204&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;แม้ว (ยกเลิก  ไปใช้รหัส 082 แทน)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;205&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ปะหร่อง&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;206&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ถิ่น&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;207&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ปะโอ&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;208&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;มอญ&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;209&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;มลาบรี&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;210&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เฮาะ** (ยกเลิก)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;211&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;สก็อตแลน์** (ยกเลิก  ไปใช้รหัส  126 แทน)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;212&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;จีน (จีนฮ่ออิสระ)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;213&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;จีนอพยพ** (ยกเลิก)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;214&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;จีน (จีนฮ่ออพยพ)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;215&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ไต้หวัน** (ยกเลิก ไปใช้รหัส 220 แทน)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;216&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ยูเครน&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;217&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;อาณานิคมอังกฤษ** (ยกเลิก ไปใช้รหัส 126 แทน)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;218&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ดูไบ** (ยกเลิก ไปใช้รหัส 077 แทน)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;219&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;จีน(ฮ่องกง)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;220&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;จีน(ไต้หวัน)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;221&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;โครเอเชีย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;223&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;คาซัค&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;222&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;บริทิธ** (ยกเลิก ไปใช้รหัส 126 แทน)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;224&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;อาร์เมเนีย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;225&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;อาเซอร์ไบจาน&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;226&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;จอร์เจีย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;227&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;คีร์กีซ&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;228&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ทาจิก&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;229&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;อุซเบก&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;230&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;หมู่เกาะมาร์แชลล์&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;231&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ไมโครนีเซีย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;232&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ปาเลา&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;233&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เบลารุส&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;234&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;บอสเนียและเฮอร์เซโกวีนา&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;235&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เติร์กเมน&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;236&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เอสโตเนีย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;237&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ลัตเวีย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;238&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ลิทัวเนีย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;239&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;มาซิโดเนีย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;240&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;มอลโดวา&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;241&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;สโลวัก&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;242&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;สโลวีน&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;243&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เอริเทรีย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;244&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;นามิเบีย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;245&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;โบลิเวีย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;246&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;หมู่เกาะคุก&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;247&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เนปาล (เนปาลอพยพ)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;248&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;มอญ  (ผู้พลัดถิ่นสัญชาติพม่า)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;249&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ไทยใหญ่  (ผู้พลัดถิ่นสัญชาติพม่า)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;250&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เวียดนาม  (ญวนอพยพ)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;251&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;มาเลเชีย  (อดีต จีนคอมมิวนิสต์)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;252&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;จีน  (อดีต จีนคอมมิวนิสต์)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;253&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;สิงคโปร์  (อดีต จีนคอมมิวนิสต์)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;254&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;กะเหรี่ยง  (ผู้หลบหนีเข้าเมือง)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;255&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;มอญ  (ผู้หลบหนีเข้าเมือง)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;256&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ไทยใหญ่  (ผู้หลบหนีเข้าเมือง)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;257&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;กัมพูชา  (ผู้หลบหนีเข้าเมือง)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;258&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;มอญ  (ชุมชนบนพื้นที่สูง)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;259&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;กะเหรี่ยง  (ชุมชนบนพื้นที่สูง)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;260&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ปาเลสไตน์&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;261&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ติมอร์-เลสเต&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;262&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;สละสัญชาติไทย&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;263&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เซอร์เบีย แอนด์ มอนเตเนโกร&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;264&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;กัมพูชา(แรงงาน)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;265&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เมียนมา(แรงงาน)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;266&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ลาว(แรงงาน)&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;267&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เซอร์เบียน&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;270&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;กาบูเวอร์ดี&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;271&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;คอซอวอ&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;272&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;เซาท์ซูดาน&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;268&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;มอนเตเนกริน&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;989&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;บุคคลที่ไม่มีสถานะทางทะเบียน&quot;/&gt;
+  &lt;/concept&gt;
+  &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept">concept</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.code">code</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#code">value</a>=&quot;999&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4B/codesystem.html#CodeSystem.concept.display">display</a> <a href="http://hl7.org/fhir/R4B/datatypes.html#string">value</a>=&quot;ไม่ระบุ&quot;/&gt;
+  &lt;/concept&gt;
+&lt;/CodeSystem&gt;</code></pre>
+
+
+  <!-- insert notes if present -->
+  
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package sil-th-terminology#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://build.fhir.org/">FHIR 4.3.0</a>. Generated <span title="Sat, Jul 30, 2022 17:25+0700">2022-07-30</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)"></span>
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+
