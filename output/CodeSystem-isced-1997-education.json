@@ -10,7 +10,7 @@
   "name": "ISCED1997Education",
   "title": "ชุดรหัสการศึกษา ISCED 1997",
   "status": "active",
-  "date": "2022-07-30T17:25:25+07:00",
+  "date": "2022-07-30T19:26:14+07:00",
   "description": "รหัสมาตรฐานระดับการศึกษา พัฒนาโดยสำนักงานสถิติแห่งชาติ (สสช) โดยอ้างอิงมาตรฐานจำแนกการศึกษาสากล (International Standard Classification of Education: ISCED 1997) ของ UNESCO และนำมาประยุกต์เพิ่มรายละเอียดให้เหมาะสมกับระบบการศึกษาของประเทศไทย",
   "jurisdiction": [
     {

@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "SilTHTerminology"];
   fhir:ImplementationGuide.title [ fhir:value "SIL-TH Terminology"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-07-30T17:25:25+07:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-07-30T19:26:14+07:00"^^xsd:dateTime];
   fhir:ImplementationGuide.description [ fhir:value "A terminology registry which an be cited by FHIR artifacts"];
   fhir:ImplementationGuide.jurisdiction [
      fhir:index 0;
