@@ -5,6 +5,7 @@ Alias: $SCT = http://snomed.info/sct
 Alias: $LNC = http://loinc.org
 Alias: $UCUM = http://unitsofmeasure.org
 Alias: $ISO3166 = urn:iso:std:iso:3166
+Alias: $ISCO08 = urn:oid:2.16.840.1.113883.2.9.6.2.7
 
 // From terminology.hl7.org
 Alias: $CS_HL7_IdentifierType = http://terminology.hl7.org/3.1.0/CodeSystem-v2-0203.html
@@ -25,7 +26,13 @@ Alias: $CS_THCC_Nationality = http://terms.sil-th.org/Codesystem/cs-thcc-nationa
 Alias: $CS_THCC_Religion = http://terms.sil-th.org/Codesystem/cs-thcc-religion
 Alias: $CS_THCC_EducationLevel = https://terms.sil-th.org/Codesystem/cs-thcc-educationlevel
 Alias: $CS_THCC_ForeignerType = http://terms.sil-th.org/Codesystem/cs-thcc-foreignertype
-
+Alias: $CS_THCC_HouseType = http://terms.sil-th.org/Codesystem/cs-thcc-house-type
+Alias: $CS_THCC_SocialObsType = http://terms.sil-th.org/Codesystem/cs-thcc-soical-obs-type
+Alias: $CS_THCC_StatusInFamily = http://terms.sil-th.org/Codesystem/cs-thcc-status-in-family
+Alias: $CS_THCC_StatusInVillage = http://terms.sil-th.org/Codesystem/cs-thcc-status-in-village
+Alias: $CS_THCC_Occupation = http://terms.sil-th.org/Codesystem/cs-thcc-occupation
+Alias: $CS_THCC_PidRemoveReason = http://terms.sil-th.org/Codesystem/cs-thcc-pid-remove-reason
+Alias: $CS_THCC_PersonStatus = http://terms.sil-th.org/Codesystem/cs-thcc-person-status
 
 // Identifier URL
 // From terminology.hl7.org

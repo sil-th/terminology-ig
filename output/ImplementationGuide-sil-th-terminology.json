@@ -10,7 +10,7 @@
   "name": "SilTHTerminology",
   "title": "SIL-TH Terminology",
   "status": "draft",
-  "date": "2022-07-30T19:26:14+07:00",
+  "date": "2022-07-31T02:30:06+07:00",
   "description": "A terminology registry which an be cited by FHIR artifacts",
   "jurisdiction": [
     {
@@ -73,6 +73,20 @@
           }
         ],
         "reference": {
+          "reference": "CodeSystem/cs-int-isco-08"
+        },
+        "name": "ชุดรหัสอาชีพ ISCO-08",
+        "description": "ชุดรหัสอาชีพ ตามระบบ ISCO-08 The International Standard Classification of Occupations 2008 (ISCO-08) is a four-level hierarchically structured classification that covers all jobs in the world. Developed with the benefit of accumulated national and international experience as well as the help of experts from many countries and agencies, ISCO-08 is fully supported by the international community as an accepted standard for international labour statistics.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
           "reference": "CodeSystem/cs-thcc-43filetype"
         },
         "name": "รายการโครงสร้างข้อมูล 43 แฟ้ม plus",
@@ -91,6 +105,20 @@
         },
         "name": "ชุดรหัสการศึกษา",
         "description": "ชุดรหัสการศึกษา จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-house-type"
+        },
+        "name": "รหัสลักษณะที่อยู่ ",
+        "description": "รหัสลักษณะที่อยู่  จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
         "exampleBoolean": false
       },
       {
@@ -129,6 +157,48 @@
           }
         ],
         "reference": {
+          "reference": "CodeSystem/cs-thcc-occupation"
+        },
+        "name": "ชุดรหัสอาชีพ",
+        "description": "ชุดรหัสอาชีพ จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-person-status"
+        },
+        "name": "สถานะบุคคล",
+        "description": "สถานะบุคคล จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-pid-remove-reason"
+        },
+        "name": "สถานะ/สาเหตุการจำหน่าย",
+        "description": "สถานะ/สาเหตุการจำหน่าย จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
           "reference": "CodeSystem/cs-thcc-religion"
         },
         "name": "ชุดรหัสศาสนา",
@@ -143,7 +213,49 @@
           }
         ],
         "reference": {
-          "reference": "CodeSystem/isced-1997-education"
+          "reference": "CodeSystem/cs-thcc-soical-obs-type"
+        },
+        "name": "ชนิดประวัติทางสังคม",
+        "description": "ใช้ระบุชนิดประวัติทางสังคมต่าง ๆ ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-status-in-family"
+        },
+        "name": "สถานะในครอบครัว",
+        "description": "ใช้ระบุสถานะในครอบครัว ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-status-in-village"
+        },
+        "name": "สถานะในชุมชน",
+        "description": "ใช้ระบุสถานะในชุมชน ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-th-isced1997"
         },
         "name": "ชุดรหัสการศึกษา ISCED 1997",
         "description": "รหัสมาตรฐานระดับการศึกษา พัฒนาโดยสำนักงานสถิติแห่งชาติ (สสช) โดยอ้างอิงมาตรฐานจำแนกการศึกษาสากล (International Standard Classification of Education: ISCED 1997) ของ UNESCO และนำมาประยุกต์เพิ่มรายละเอียดให้เหมาะสมกับระบบการศึกษาของประเทศไทย",

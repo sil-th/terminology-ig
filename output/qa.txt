@@ -1,19 +1,27 @@
 ﻿SilTHTerminology : Validation Results
 =========================================
 
-err = 0, warn = 1, info = 10
+err = 0, warn = 4, info = 20
 IG Publisher Version: 1.1.127
-Generated Sat Jul 30 19:26:52 ICT 2022. FHIR version 4.3.0 for sil-th-terminology#0.1.0 (canonical = https://terms.sil-th.org)
+Generated Sun Jul 31 02:30:49 ICT 2022. FHIR version 4.3.0 for sil-th-terminology#0.1.0 (canonical = https://terms.sil-th.org)
  Build Errors : 0 / 0 / 0
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-dopa-location : 0 / 0 / 3
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-dopa-nameprefix : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-int-isco-08 : 0 / 1 / 3
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-th-isced1997 : 0 / 0 / 3
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-43filetype : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-educationlevel : 0 / 1 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-house-type : 0 / 1 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-marital : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-nationality : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-occupation : 0 / 0 / 3
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-person-status : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-pid-remove-reason : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-religion : 0 / 0 / 2
- /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-isced-1997-education : 0 / 0 / 3
- /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/ImplementationGuide-sil-th-terminology : 0 / 0 / 1
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-soical-obs-type : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-status-in-family : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-status-in-village : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/ImplementationGuide-sil-th-terminology : 0 / 1 / 1
 </table>
 == n/a ==
 == fsh-generated/resources/CodeSystem-cs-dopa-location.json ==
@@ -21,18 +29,39 @@ INFORMATION: CodeSystem/cs-dopa-location: CodeSystem: CodeSystems SHOULD have a 
 INFORMATION: CodeSystem/cs-dopa-location: CodeSystem: CodeSystems SHOULD have a stated value for the hierarchyMeaning element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-dopa-nameprefix.json ==
 INFORMATION: CodeSystem/cs-dopa-nameprefix: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-int-isco-08.json ==
+WARNING: CodeSystem/cs-int-isco-08: CodeSystem.concept[6].concept[0].definition: value should not start or finish with whitespace 'Building...product. '
+INFORMATION: CodeSystem/cs-int-isco-08: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+INFORMATION: CodeSystem/cs-int-isco-08: CodeSystem: CodeSystems SHOULD have a stated value for the hierarchyMeaning element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-th-isced1997.json ==
+INFORMATION: CodeSystem/cs-th-isced1997: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+INFORMATION: CodeSystem/cs-th-isced1997: CodeSystem: CodeSystems SHOULD have a stated value for the hierarchyMeaning element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-thcc-43filetype.json ==
 INFORMATION: CodeSystem/cs-thcc-43filetype: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-thcc-educationlevel.json ==
 WARNING: CodeSystem/cs-thcc-educationlevel: CodeSystem.concept[3].definition: value should not start or finish with whitespace 'ระดับการศึกษา...(ปวช.) '
 INFORMATION: CodeSystem/cs-thcc-educationlevel: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-house-type.json ==
+WARNING: CodeSystem/cs-thcc-house-type: CodeSystem.title: value should not start or finish with whitespace 'รหัสลักษณะที่อยู่ '
+INFORMATION: CodeSystem/cs-thcc-house-type: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-thcc-marital.json ==
 INFORMATION: CodeSystem/cs-thcc-marital: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-thcc-nationality.json ==
 INFORMATION: CodeSystem/cs-thcc-nationality: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-occupation.json ==
+INFORMATION: CodeSystem/cs-thcc-occupation: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+INFORMATION: CodeSystem/cs-thcc-occupation: CodeSystem: CodeSystems SHOULD have a stated value for the hierarchyMeaning element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-person-status.json ==
+INFORMATION: CodeSystem/cs-thcc-person-status: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-pid-remove-reason.json ==
+INFORMATION: CodeSystem/cs-thcc-pid-remove-reason: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-thcc-religion.json ==
 INFORMATION: CodeSystem/cs-thcc-religion: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-== fsh-generated/resources/CodeSystem-isced-1997-education.json ==
-INFORMATION: CodeSystem/isced-1997-education: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-INFORMATION: CodeSystem/isced-1997-education: CodeSystem: CodeSystems SHOULD have a stated value for the hierarchyMeaning element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-soical-obs-type.json ==
+INFORMATION: CodeSystem/cs-thcc-soical-obs-type: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-status-in-family.json ==
+INFORMATION: CodeSystem/cs-thcc-status-in-family: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-status-in-village.json ==
+INFORMATION: CodeSystem/cs-thcc-status-in-village: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/ImplementationGuide-sil-th-terminology.json ==
+WARNING: ImplementationGuide/sil-th-terminology: ImplementationGuide.definition.resource[5].name: value should not start or finish with whitespace 'รหัสลักษณะที่อยู่ '

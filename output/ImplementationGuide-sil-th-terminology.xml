@@ -11,7 +11,7 @@
   <name value="SilTHTerminology"/>
   <title value="SIL-TH Terminology"/>
   <status value="draft"/>
-  <date value="2022-07-30T19:26:14+07:00"/>
+  <date value="2022-07-31T02:30:06+07:00"/>
   <description value="A terminology registry which an be cited by FHIR artifacts"/>
   <jurisdiction>
     <coding>
@@ -55,6 +55,17 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/cs-int-isco-08"/>
+      </reference>
+      <name value="ชุดรหัสอาชีพ ISCO-08"/>
+      <description value="ชุดรหัสอาชีพ ตามระบบ ISCO-08 The International Standard Classification of Occupations 2008 (ISCO-08) is a four-level hierarchically structured classification that covers all jobs in the world. Developed with the benefit of accumulated national and international experience as well as the help of experts from many countries and agencies, ISCO-08 is fully supported by the international community as an accepted standard for international labour statistics."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/cs-thcc-43filetype"/>
       </reference>
       <name value="รายการโครงสร้างข้อมูล 43 แฟ้ม plus"/>
@@ -70,6 +81,17 @@
       </reference>
       <name value="ชุดรหัสการศึกษา"/>
       <description value="ชุดรหัสการศึกษา จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-thcc-house-type"/>
+      </reference>
+      <name value="รหัสลักษณะที่อยู่ "/>
+      <description value="รหัสลักษณะที่อยู่  จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -99,6 +121,39 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/cs-thcc-occupation"/>
+      </reference>
+      <name value="ชุดรหัสอาชีพ"/>
+      <description value="ชุดรหัสอาชีพ จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-thcc-person-status"/>
+      </reference>
+      <name value="สถานะบุคคล"/>
+      <description value="สถานะบุคคล จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-thcc-pid-remove-reason"/>
+      </reference>
+      <name value="สถานะ/สาเหตุการจำหน่าย"/>
+      <description value="สถานะ/สาเหตุการจำหน่าย จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/cs-thcc-religion"/>
       </reference>
       <name value="ชุดรหัสศาสนา"/>
@@ -110,7 +165,40 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/isced-1997-education"/>
+        <reference value="CodeSystem/cs-thcc-soical-obs-type"/>
+      </reference>
+      <name value="ชนิดประวัติทางสังคม"/>
+      <description value="ใช้ระบุชนิดประวัติทางสังคมต่าง ๆ ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-thcc-status-in-family"/>
+      </reference>
+      <name value="สถานะในครอบครัว"/>
+      <description value="ใช้ระบุสถานะในครอบครัว ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-thcc-status-in-village"/>
+      </reference>
+      <name value="สถานะในชุมชน"/>
+      <description value="ใช้ระบุสถานะในชุมชน ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-th-isced1997"/>
       </reference>
       <name value="ชุดรหัสการศึกษา ISCED 1997"/>
       <description value="รหัสมาตรฐานระดับการศึกษา พัฒนาโดยสำนักงานสถิติแห่งชาติ (สสช) โดยอ้างอิงมาตรฐานจำแนกการศึกษาสากล (International Standard Classification of Education: ISCED 1997) ของ UNESCO และนำมาประยุกต์เพิ่มรายละเอียดให้เหมาะสมกับระบบการศึกษาของประเทศไทย"/>

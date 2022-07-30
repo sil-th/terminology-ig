@@ -17,7 +17,7 @@
   fhir:CodeSystem.name [ fhir:value "CS_DOPA_NamePrefix"];
   fhir:CodeSystem.title [ fhir:value "รหัสคำนำหน้าชื่อ"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2022-07-30T19:26:14+07:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-07-31T02:30:06+07:00"^^xsd:dateTime];
   fhir:CodeSystem.description [ fhir:value "รหัสคำนำหน้าชื่อ จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม อ้างอิงตามรหัสกรมการปกครอง"];
   fhir:CodeSystem.jurisdiction [
      fhir:index 0;

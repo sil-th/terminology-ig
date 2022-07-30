@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "SilTHTerminology"];
   fhir:ImplementationGuide.title [ fhir:value "SIL-TH Terminology"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-07-30T19:26:14+07:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-07-31T02:30:06+07:00"^^xsd:dateTime];
   fhir:ImplementationGuide.description [ fhir:value "A terminology registry which an be cited by FHIR artifacts"];
   fhir:ImplementationGuide.jurisdiction [
      fhir:index 0;
@@ -80,6 +80,20 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://terms.sil-th.org/CodeSystem/cs-int-isco-08>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/cs-int-isco-08" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ชุดรหัสอาชีพ ISCO-08" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "ชุดรหัสอาชีพ ตามระบบ ISCO-08 The International Standard Classification of Occupations 2008 (ISCO-08) is a four-level hierarchically structured classification that covers all jobs in the world. Developed with the benefit of accumulated national and international experience as well as the help of experts from many countries and agencies, ISCO-08 is fully supported by the international community as an accepted standard for international labour statistics." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
          fhir:link <https://terms.sil-th.org/CodeSystem/cs-thcc-43filetype>;
          fhir:Reference.reference [ fhir:value "CodeSystem/cs-thcc-43filetype" ]
        ];
@@ -87,7 +101,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "เกิดจากการบูรณาการของโครงสร้างข้อมูล 43 แฟ้มเดิมและโครงสร้างอื่น ๆ" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 3;
+       fhir:index 4;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -101,7 +115,21 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "ชุดรหัสการศึกษา จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 4;
+       fhir:index 5;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://terms.sil-th.org/CodeSystem/cs-thcc-house-type>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/cs-thcc-house-type" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "รหัสลักษณะที่อยู่ " ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "รหัสลักษณะที่อยู่  จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 6;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -115,7 +143,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "สถานะการสมรส จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 5;
+       fhir:index 7;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -129,7 +157,49 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "ชุดรหัสเชื้อชาติ-สัญชาติ จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 6;
+       fhir:index 8;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://terms.sil-th.org/CodeSystem/cs-thcc-occupation>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/cs-thcc-occupation" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ชุดรหัสอาชีพ" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "ชุดรหัสอาชีพ จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 9;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://terms.sil-th.org/CodeSystem/cs-thcc-person-status>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/cs-thcc-person-status" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "สถานะบุคคล" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "สถานะบุคคล จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 10;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://terms.sil-th.org/CodeSystem/cs-thcc-pid-remove-reason>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/cs-thcc-pid-remove-reason" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "สถานะ/สาเหตุการจำหน่าย" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "สถานะ/สาเหตุการจำหน่าย จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 11;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -143,15 +213,57 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "ชุดรหัสศาสนา จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 7;
+       fhir:index 12;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://terms.sil-th.org/CodeSystem/isced-1997-education>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/isced-1997-education" ]
+         fhir:link <https://terms.sil-th.org/CodeSystem/cs-thcc-soical-obs-type>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/cs-thcc-soical-obs-type" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ชนิดประวัติทางสังคม" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "ใช้ระบุชนิดประวัติทางสังคมต่าง ๆ ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 13;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://terms.sil-th.org/CodeSystem/cs-thcc-status-in-family>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/cs-thcc-status-in-family" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "สถานะในครอบครัว" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "ใช้ระบุสถานะในครอบครัว ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 14;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://terms.sil-th.org/CodeSystem/cs-thcc-status-in-village>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/cs-thcc-status-in-village" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "สถานะในชุมชน" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "ใช้ระบุสถานะในชุมชน ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 15;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://terms.sil-th.org/CodeSystem/cs-th-isced1997>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/cs-th-isced1997" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ชุดรหัสการศึกษา ISCED 1997" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "รหัสมาตรฐานระดับการศึกษา พัฒนาโดยสำนักงานสถิติแห่งชาติ (สสช) โดยอ้างอิงมาตรฐานจำแนกการศึกษาสากล (International Standard Classification of Education: ISCED 1997) ของ UNESCO และนำมาประยุกต์เพิ่มรายละเอียดให้เหมาะสมกับระบบการศึกษาของประเทศไทย" ];
