@@ -1,0 +1,30 @@
+# ╭─────────────────────────────────ImplementationGuide-fish.json──────────────────────────────────╮
+# │  The properties below are used to create the ImplementationGuide resource. For a list of       │
+# │  supported properties, see:                                                                    │
+# │  https://fshschool.org/docs/sushi/configuration/#full-configuration                            │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+id: sil-th-terminology
+canonical: https://terms.sil-th.org
+version: 0.1.0
+name: SilTHTerminology
+title: SIL-TH Terminology
+status: draft
+publisher: Standards and Interoperability Lab - Thailand (SIL-TH)
+jurisdiction: "urn:iso:std:iso:3166#TH"
+description: A terminology registry which an be cited by FHIR artifacts
+license: CC0-1.0
+fhirVersion: 4.3.0
+parameters:
+  apply-publisher: true
+  apply-contact: true
+  show-inherited-invariants: false
+copyrightYear: 2022+
+releaseLabel: ci-build
+
+# ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
+# │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+menu:
+  IG Home: index.html
+  Table of Contents: toc.html
+  Artifacts Summary: artifacts.html
