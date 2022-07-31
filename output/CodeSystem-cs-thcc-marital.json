@@ -3,14 +3,14 @@
   "id": "cs-thcc-marital",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://terms.sil-th.org/Codesystem/cs-thcc-marital defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"cs-thcc-marital-1\"> </a></td><td>โสด</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"cs-thcc-marital-2\"> </a></td><td>คู่</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"cs-thcc-marital-3\"> </a></td><td>ม่าย</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"cs-thcc-marital-4\"> </a></td><td>หย่า</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"cs-thcc-marital-5\"> </a></td><td>แยก</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"cs-thcc-marital-6\"> </a></td><td>สมณะ</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"cs-thcc-marital-9\"> </a></td><td>ไม่ทราบ</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system https://terms.sil-th.org/Codesystem/cs-thcc-marital defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"cs-thcc-marital-1\"> </a></td><td>โสด</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"cs-thcc-marital-2\"> </a></td><td>คู่</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"cs-thcc-marital-3\"> </a></td><td>ม่าย</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"cs-thcc-marital-4\"> </a></td><td>หย่า</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"cs-thcc-marital-5\"> </a></td><td>แยก</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"cs-thcc-marital-6\"> </a></td><td>สมณะ</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"cs-thcc-marital-9\"> </a></td><td>ไม่ทราบ</td></tr></table></div>"
   },
-  "url": "http://terms.sil-th.org/Codesystem/cs-thcc-marital",
+  "url": "https://terms.sil-th.org/Codesystem/cs-thcc-marital",
   "version": "0.1.0",
   "name": "CS_THCC_Marital",
   "title": "สถานะการสมรส",
   "status": "active",
-  "date": "2022-07-31T02:30:06+07:00",
+  "date": "2022-07-31T15:19:09+07:00",
   "description": "สถานะการสมรส จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
   "jurisdiction": [
     {

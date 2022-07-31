@@ -20,29 +20,32 @@ Alias: $CS_DOPA_NamePrefix = http://terms.sil-th.org/Codesystem/cs-dopa-namepref
 Alias: $CS_DOPA_Location = http://terms.sil-th.org/Codesystem/cs-dopa-location
 
 // From Thai MOPH codes
-Alias: $CS_THCC_43fileType = http://terms.sil-th.org/Codesystem/cs-thcc-43filetype
-Alias: $CS_THCC_Marital = http://terms.sil-th.org/Codesystem/cs-thcc-marital
-Alias: $CS_THCC_Nationality = http://terms.sil-th.org/Codesystem/cs-thcc-nationality
-Alias: $CS_THCC_Religion = http://terms.sil-th.org/Codesystem/cs-thcc-religion
-Alias: $CS_THCC_EducationLevel = https://terms.sil-th.org/Codesystem/cs-thcc-educationlevel
-Alias: $CS_THCC_ForeignerType = http://terms.sil-th.org/Codesystem/cs-thcc-foreignertype
-Alias: $CS_THCC_HouseType = http://terms.sil-th.org/Codesystem/cs-thcc-house-type
-Alias: $CS_THCC_SocialObsType = http://terms.sil-th.org/Codesystem/cs-thcc-soical-obs-type
-Alias: $CS_THCC_StatusInFamily = http://terms.sil-th.org/Codesystem/cs-thcc-status-in-family
-Alias: $CS_THCC_StatusInVillage = http://terms.sil-th.org/Codesystem/cs-thcc-status-in-village
-Alias: $CS_THCC_Occupation = http://terms.sil-th.org/Codesystem/cs-thcc-occupation
-Alias: $CS_THCC_PidRemoveReason = http://terms.sil-th.org/Codesystem/cs-thcc-pid-remove-reason
-Alias: $CS_THCC_PersonStatus = http://terms.sil-th.org/Codesystem/cs-thcc-person-status
+Alias: $CS_THCC_43fileType = https://terms.sil-th.org/Codesystem/cs-thcc-43file-type
+Alias: $CS_THCC_Marital = https://terms.sil-th.org/Codesystem/cs-thcc-marital
+Alias: $CS_THCC_Nationality = https://terms.sil-th.org/Codesystem/cs-thcc-nationality
+Alias: $CS_THCC_Religion = https://terms.sil-th.org/Codesystem/cs-thcc-religion
+Alias: $CS_THCC_EducationLevel = https://terms.sil-th.org/Codesystem/cs-thcc-education-level
+Alias: $CS_THCC_ForeignerType = https://terms.sil-th.org/Codesystem/cs-thcc-foreigner-type
+Alias: $CS_THCC_HouseType = https://terms.sil-th.org/Codesystem/cs-thcc-house-type
+Alias: $CS_THCC_SocialObsType = https://terms.sil-th.org/Codesystem/cs-thcc-soical-obs-type
+Alias: $CS_THCC_StatusInFamily = https://terms.sil-th.org/Codesystem/cs-thcc-status-in-family
+Alias: $CS_THCC_StatusInVillage = https://terms.sil-th.org/Codesystem/cs-thcc-status-in-village
+Alias: $CS_THCC_Occupation = https://terms.sil-th.org/Codesystem/cs-thcc-occupation
+Alias: $CS_THCC_PidRemoveReason = https://terms.sil-th.org/Codesystem/cs-thcc-pid-remove-reason
+Alias: $CS_THCC_PersonStatus = https://terms.sil-th.org/Codesystem/cs-thcc-person-status
+Alias: $CS_THCC_DeathLocType = https://terms.sil-th.org/Codesystem/cs-thcc-death-location-type
+Alias: $CS_THCC_DeathPregnancy = https://terms.sil-th.org/Codesystem/cs-thcc-death-pregnancy
 
 // Identifier URL
 // From terminology.hl7.org
-Alias: $ID_ThaiPassport = http://hl7.org/fhir/sid/passport-THA
+Alias: $ID_ThaiPassport = https://hl7.org/fhir/sid/passport-THA
 
 // From Thai national codes
 Alias: $ID_ThaiCid = https://terms.sil-th.org/nationalId
-Alias: $ID_ThaiWorkPermit = https://terms.sil-th.org/molWP
+Alias: $ID_ThaiWorkPermit = https://terms.sil-th.org/MolWP
 Alias: $ID_ThaiDoctor = https://terms.sil-th.org/doctorId
-Alias: $ID_Hcode = https://terms.sil-th.org/MOPHhcode
+Alias: $ID_Hcode = https://terms.sil-th.org/MophHcode
+Alias: $ID_DopaHouseNo = https://terms.sil-th.org/DopaHomeNo
 
 // From Thai local codes
 
@@ -50,18 +53,3 @@ Alias: $ID_Hcode = https://terms.sil-th.org/MOPHhcode
 // Internal identifier system
 Alias: $ID_documentId = https://terms.sil-th.org/documenId
 
-
-
-
-
-// Extension URL
-// From FHIR core
-Alias: $EX_HL7_Language = http://hl7.org/fhir/StructureDefinition/language
-Alias: $EX_HL7_Nationality = http://hl7.org/fhir/StructureDefinition/patient-nationality
-Alias: $EX_HL7_Religion = http://hl7.org/fhir/StructureDefinition/patient-religion
-
-// From local extension
-Alias: $EX_TH_Race = https://terms.sil-th.org/Extension/THRace
-Alias: $EX_TH_EducationLevel = https://terms.sil-th.org/Extension/THEducationLevel
-Alias: $EX_TH_NamePrefix = https://terms.sil-th.org/Extension/THCC43plusNamePrefixEx
-Alias: $EX_TH_ForeignerType = https://terms.sil-th.org/Extension/THCC43plusNamePrefixEx

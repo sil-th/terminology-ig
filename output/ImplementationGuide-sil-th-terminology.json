@@ -10,7 +10,7 @@
   "name": "SilTHTerminology",
   "title": "SIL-TH Terminology",
   "status": "draft",
-  "date": "2022-07-31T02:30:06+07:00",
+  "date": "2022-07-31T15:19:09+07:00",
   "description": "A terminology registry which an be cited by FHIR artifacts",
   "jurisdiction": [
     {
@@ -91,6 +91,34 @@
         },
         "name": "รายการโครงสร้างข้อมูล 43 แฟ้ม plus",
         "description": "เกิดจากการบูรณาการของโครงสร้างข้อมูล 43 แฟ้มเดิมและโครงสร้างอื่น ๆ",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-death-location-type"
+        },
+        "name": "รหัสสถานที่ตาย",
+        "description": "รหัสสถานที่ตาย จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-death-pregnancy"
+        },
+        "name": "การตั้งครรภ์และการคลอด",
+        "description": "การตั้งครรภ์และการคลอด จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
         "exampleBoolean": false
       },
       {
@@ -213,7 +241,7 @@
           }
         ],
         "reference": {
-          "reference": "CodeSystem/cs-thcc-soical-obs-type"
+          "reference": "CodeSystem/cs-thcc-social-obs-type"
         },
         "name": "ชนิดประวัติทางสังคม",
         "description": "ใช้ระบุชนิดประวัติทางสังคมต่าง ๆ ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",

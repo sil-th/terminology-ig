@@ -1,5 +1,5 @@
 CodeSystem: CS_THCC_SocialObsType
-Id: cs-thcc-soical-obs-type
+Id: cs-thcc-social-obs-type
 Title: "ชนิดประวัติทางสังคม"
 Description:  "ใช้ระบุชนิดประวัติทางสังคมต่าง ๆ ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม"
 * ^url = $CS_THCC_SocialObsType
