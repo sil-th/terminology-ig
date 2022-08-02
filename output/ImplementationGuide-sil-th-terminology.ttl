@@ -15,9 +15,9 @@
   fhir:ImplementationGuide.url [ fhir:value "https://terms.sil-th.org/ImplementationGuide/sil-th-terminology"];
   fhir:ImplementationGuide.version [ fhir:value "0.1.0"];
   fhir:ImplementationGuide.name [ fhir:value "SilTHTerminology"];
-  fhir:ImplementationGuide.title [ fhir:value "SIL-TH Terminology"];
+  fhir:ImplementationGuide.title [ fhir:value "(Draft) SIL-TH Terminology"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-07-31T15:19:09+07:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-08-02T11:14:26+07:00"^^xsd:dateTime];
   fhir:ImplementationGuide.description [ fhir:value "A terminology registry which an be cited by FHIR artifacts"];
   fhir:ImplementationGuide.jurisdiction [
      fhir:index 0;
@@ -125,8 +125,8 @@
          fhir:link <https://terms.sil-th.org/CodeSystem/cs-thcc-death-pregnancy>;
          fhir:Reference.reference [ fhir:value "CodeSystem/cs-thcc-death-pregnancy" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "การตั้งครรภ์และการคลอด" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "การตั้งครรภ์และการคลอด จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "การเสียชีวิตที่เกี่ยวข้องกับตั้งครรภ์และการคลอด" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "การเสียชีวิตที่เกี่ยวข้องกับตั้งครรภ์และการคลอด จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 6;
@@ -290,11 +290,165 @@
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://terms.sil-th.org/CodeSystem/cs-th-isced1997>;
-         fhir:Reference.reference [ fhir:value "CodeSystem/cs-th-isced1997" ]
+         fhir:link <https://terms.sil-th.org/CodeSystem/cs-thcc-43file-type>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/cs-thcc-43file-type" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "ชุดรหัสการศึกษา ISCED 1997" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "รหัสมาตรฐานระดับการศึกษา พัฒนาโดยสำนักงานสถิติแห่งชาติ (สสช) โดยอ้างอิงมาตรฐานจำแนกการศึกษาสากล (International Standard Classification of Education: ISCED 1997) ของ UNESCO และนำมาประยุกต์เพิ่มรายละเอียดให้เหมาะสมกับระบบการศึกษาของประเทศไทย" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 18;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "NamingSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://terms.sil-th.org/NamingSystem/IDDopaHouseNo>;
+         fhir:Reference.reference [ fhir:value "NamingSystem/IDDopaHouseNo" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "รหัสประจำบ้าน" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "รหัสประจำบ้าน เลขรหัสที่อยู่ในสมุดทะเบียนบ้าน ออกโดยกรมการปกครอง" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 19;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "NamingSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://terms.sil-th.org/NamingSystem/IDHcode>;
+         fhir:Reference.reference [ fhir:value "NamingSystem/IDHcode" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "เลขรหัสสถานพยาบาล" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "เลขรหัสสถานพยาบาล 5 หลักและ 9 หลัก ออกโดยกองยุทธศาสตร์และแผนงาน สำนักงานปลัดกระทรวงสาธารณสุข" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 20;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "NamingSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://terms.sil-th.org/NamingSystem/IDThaiCid>;
+         fhir:Reference.reference [ fhir:value "NamingSystem/IDThaiCid" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "เลขประจำตัวประชาชนไทย" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "เลขประจำตัวประชาชน ออกโดย กรมการปกครอง กระทรวงมหาดไทย" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 21;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "NamingSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://terms.sil-th.org/NamingSystem/IDThaiDentist>;
+         fhir:Reference.reference [ fhir:value "NamingSystem/IDThaiDentist" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "เลขประจำตัวทันตแพทย์" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "เลขที่ใบประกอบวิชาชีพทันตกรรม (Thai Dental License Number)" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 22;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "NamingSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://terms.sil-th.org/NamingSystem/IDThaiDoctor>;
+         fhir:Reference.reference [ fhir:value "NamingSystem/IDThaiDoctor" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "เลขประจำตัวแพทย์" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "เลขที่ใบประกอบวิชาชีพเวชกรรม (Thai Medical License Number)" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 23;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "NamingSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://terms.sil-th.org/NamingSystem/IDThaiMedTech>;
+         fhir:Reference.reference [ fhir:value "NamingSystem/IDThaiMedTech" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "เลขประจำตัวนักเทคนิคการแพทย์" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "เลขที่ใบประกอบวิชาชีพเทคนิคการแพทย์ (Thai Medical Technologist License Number)" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 24;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "NamingSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://terms.sil-th.org/NamingSystem/IDThaiNurse>;
+         fhir:Reference.reference [ fhir:value "NamingSystem/IDThaiNurse" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "เลขประจำตัวพยาบาล" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "เลขที่ใบประกอบวิชาชีพพยาบาล (Thai Registered Nurse Number)" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 25;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "NamingSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://terms.sil-th.org/NamingSystem/IDThaiPharmacist>;
+         fhir:Reference.reference [ fhir:value "NamingSystem/IDThaiPharmacist" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "เลขประจำตัวเภสัชกร" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "เลขที่ใบประกอบวิชาชีพเภสัชกรรม (Thai Pharmacist License Number)" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 26;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "NamingSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://terms.sil-th.org/NamingSystem/IDThaiPhysio>;
+         fhir:Reference.reference [ fhir:value "NamingSystem/IDThaiPhysio" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "เลขประจำตัวนักกายภาพบำบัด" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "เลขที่ใบประกอบวิชาชีพนักกายภาพบำบัด (Thai Physical Therapist License Number)" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 27;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "NamingSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://terms.sil-th.org/NamingSystem/IDThaiVet>;
+         fhir:Reference.reference [ fhir:value "NamingSystem/IDThaiVet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "เลขประจำตัวสัตวแพทย์" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "เลขที่ใบประกอบวิชาชีพการสัตวแพทย์ (Thai Veterinary License Number)" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 28;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "NamingSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://terms.sil-th.org/NamingSystem/IDThaiWorkPermit>;
+         fhir:Reference.reference [ fhir:value "NamingSystem/IDThaiWorkPermit" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "เลขที่ใบอนุญาตทำงานคนต่างด้าว" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "เลขที่ใบอนุญาตทำงานคนต่างด้าว ออกโดย กรมการจัดหางาน กระทรวงแรงงาน" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ];
      fhir:ImplementationGuide.definition.page [
@@ -305,6 +459,11 @@
          fhir:index 0;
          fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "index.html" ];
          fhir:ImplementationGuide.definition.page.title [ fhir:value "Home" ];
+         fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
+       ], [
+         fhir:index 1;
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "identifier-systems.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "Identifier Systems" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ]
      ];

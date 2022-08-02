@@ -1,14 +1,14 @@
 ﻿SilTHTerminology : Validation Results
 =========================================
 
-err = 3, warn = 4, info = 22
+err = 3, warn = 4, info = 33
 IG Publisher Version: 1.1.127
-Generated Sun Jul 31 15:19:50 ICT 2022. FHIR version 4.3.0 for sil-th-terminology#0.1.0 (canonical = https://terms.sil-th.org)
- Build Errors : 0 / 0 / 0
+Generated Tue Aug 02 11:15:03 ICT 2022. FHIR version 4.3.0 for sil-th-terminology#0.1.0 (canonical = https://terms.sil-th.org)
+ Build Errors : 10 / 0 / 0
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-dopa-location : 0 / 0 / 3
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-dopa-nameprefix : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-int-isco-08 : 0 / 1 / 3
- /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-th-isced1997 : 0 / 0 / 3
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-43file-type : 0 / 0 / 3
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-43filetype : 1 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-death-location-type : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-death-pregnancy : 0 / 0 / 2
@@ -24,8 +24,29 @@ Generated Sun Jul 31 15:19:50 ICT 2022. FHIR version 4.3.0 for sil-th-terminolog
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-status-in-family : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-status-in-village : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/ImplementationGuide-sil-th-terminology : 0 / 1 / 1
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/NamingSystem-IDDopaHouseNo : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/NamingSystem-IDHcode : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/NamingSystem-IDThaiCid : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/NamingSystem-IDThaiDentist : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/NamingSystem-IDThaiDoctor : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/NamingSystem-IDThaiMedTech : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/NamingSystem-IDThaiNurse : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/NamingSystem-IDThaiPharmacist : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/NamingSystem-IDThaiPhysio : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/NamingSystem-IDThaiVet : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/NamingSystem-IDThaiWorkPermit : 0 / 0 / 2
 </table>
 == n/a ==
+ERROR: /Users/rathpanyowat/Dev/sil-th-terminology-ig/output/identifier-systems.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 188, column 12: The link '/NamingSystem/IDThaiCid' for "เลขประจำตัวประชาชนไทย" cannot be resolved
+ERROR: /Users/rathpanyowat/Dev/sil-th-terminology-ig/output/identifier-systems.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 193, column 12: The link '/NamingSystem/IDThaiWorkPermit' for "เลขที่ใบอนุญาตทำงานคนต่างด้าว" cannot be resolved
+ERROR: /Users/rathpanyowat/Dev/sil-th-terminology-ig/output/identifier-systems.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 198, column 12: The link '/NamingSystem/IDHcode' for "เลขรหัสสถานพยาบาล" cannot be resolved
+ERROR: /Users/rathpanyowat/Dev/sil-th-terminology-ig/output/identifier-systems.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 208, column 12: The link '/NamingSystem/IDThaiDoctor' for "เลขประจำตัวแพทย์" cannot be resolved
+ERROR: /Users/rathpanyowat/Dev/sil-th-terminology-ig/output/identifier-systems.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 213, column 12: The link '/NamingSystem/IDThaiDentist' for "เลขประจำตัวทันตแพทย์" cannot be resolved
+ERROR: /Users/rathpanyowat/Dev/sil-th-terminology-ig/output/identifier-systems.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 218, column 12: The link '/NamingSystem/IDThaiNurse' for "เลขประจำตัวพยาบาล" cannot be resolved
+ERROR: /Users/rathpanyowat/Dev/sil-th-terminology-ig/output/identifier-systems.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 223, column 12: The link '/NamingSystem/IDThaiPharmacist' for "เลขประจำตัวเภสัชกร" cannot be resolved
+ERROR: /Users/rathpanyowat/Dev/sil-th-terminology-ig/output/identifier-systems.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 228, column 12: The link '/NamingSystem/IDThaiMedTech' for "เลขประจำตัวนักเทคนิคการแพทย์" cannot be resolved
+ERROR: /Users/rathpanyowat/Dev/sil-th-terminology-ig/output/identifier-systems.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 233, column 12: The link '/NamingSystem/IDThaiPhysio' for "เลขประจำตัวนักกายภาพบำบัด" cannot be resolved
+ERROR: /Users/rathpanyowat/Dev/sil-th-terminology-ig/output/identifier-systems.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 238, column 12: The link '/NamingSystem/IDThaiVet' for "เลขประจำตัวสัตวแพทย์" cannot be resolved
 == fsh-generated/resources/CodeSystem-cs-dopa-location.json ==
 INFORMATION: CodeSystem/cs-dopa-location: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 INFORMATION: CodeSystem/cs-dopa-location: CodeSystem: CodeSystems SHOULD have a stated value for the hierarchyMeaning element so that users know the status and meaning of the code system clearly
@@ -35,18 +56,18 @@ INFORMATION: CodeSystem/cs-dopa-nameprefix: CodeSystem: CodeSystems SHOULD have 
 WARNING: CodeSystem/cs-int-isco-08: CodeSystem.concept[6].concept[0].definition: value should not start or finish with whitespace 'Building...product. '
 INFORMATION: CodeSystem/cs-int-isco-08: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 INFORMATION: CodeSystem/cs-int-isco-08: CodeSystem: CodeSystems SHOULD have a stated value for the hierarchyMeaning element so that users know the status and meaning of the code system clearly
-== fsh-generated/resources/CodeSystem-cs-th-isced1997.json ==
-INFORMATION: CodeSystem/cs-th-isced1997: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
-INFORMATION: CodeSystem/cs-th-isced1997: CodeSystem: CodeSystems SHOULD have a stated value for the hierarchyMeaning element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-43file-type.json ==
+INFORMATION: CodeSystem/cs-thcc-43file-type: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+INFORMATION: CodeSystem/cs-thcc-43file-type: CodeSystem: CodeSystems SHOULD have a stated value for the hierarchyMeaning element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-thcc-43filetype.json ==
-ERROR: CodeSystem.url: Resource id/url mismatch: cs-thcc-43filetype/https://terms.sil-th.org/Codesystem/cs-thcc-43file-type
+ERROR: CodeSystem.url: Resource id/url mismatch: cs-thcc-43filetype/https://terms.sil-th.org/CodeSystem/cs-thcc-43file-type
 INFORMATION: CodeSystem/cs-thcc-43filetype: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-thcc-death-location-type.json ==
 INFORMATION: CodeSystem/cs-thcc-death-location-type: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-thcc-death-pregnancy.json ==
 INFORMATION: CodeSystem/cs-thcc-death-pregnancy: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-thcc-educationlevel.json ==
-ERROR: CodeSystem.url: Resource id/url mismatch: cs-thcc-educationlevel/https://terms.sil-th.org/Codesystem/cs-thcc-education-level
+ERROR: CodeSystem.url: Resource id/url mismatch: cs-thcc-educationlevel/https://terms.sil-th.org/CodeSystem/cs-thcc-education-level
 WARNING: CodeSystem/cs-thcc-educationlevel: CodeSystem.concept[3].definition: value should not start or finish with whitespace 'ระดับการศึกษา...(ปวช.) '
 INFORMATION: CodeSystem/cs-thcc-educationlevel: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-thcc-house-type.json ==
@@ -66,7 +87,7 @@ INFORMATION: CodeSystem/cs-thcc-pid-remove-reason: CodeSystem: CodeSystems SHOUL
 == fsh-generated/resources/CodeSystem-cs-thcc-religion.json ==
 INFORMATION: CodeSystem/cs-thcc-religion: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-thcc-social-obs-type.json ==
-ERROR: CodeSystem.url: Resource id/url mismatch: cs-thcc-social-obs-type/https://terms.sil-th.org/Codesystem/cs-thcc-soical-obs-type
+ERROR: CodeSystem.url: Resource id/url mismatch: cs-thcc-social-obs-type/https://terms.sil-th.org/CodeSystem/cs-thcc-soical-obs-type
 INFORMATION: CodeSystem/cs-thcc-social-obs-type: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-thcc-status-in-family.json ==
 INFORMATION: CodeSystem/cs-thcc-status-in-family: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
@@ -74,3 +95,25 @@ INFORMATION: CodeSystem/cs-thcc-status-in-family: CodeSystem: CodeSystems SHOULD
 INFORMATION: CodeSystem/cs-thcc-status-in-village: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/ImplementationGuide-sil-th-terminology.json ==
 WARNING: ImplementationGuide/sil-th-terminology: ImplementationGuide.definition.resource[7].name: value should not start or finish with whitespace 'รหัสลักษณะที่อยู่ '
+== fsh-generated/resources/NamingSystem-IDDopaHouseNo.json ==
+INFORMATION: NamingSystem/IDDopaHouseNo: NamingSystem.type.coding[0]: Code System URI 'http://terminology.hl7.org/3.1.0/CodeSystem-v2-0203.html' is unknown so the code cannot be validated
+== fsh-generated/resources/NamingSystem-IDHcode.json ==
+INFORMATION: NamingSystem/IDHcode: NamingSystem.type.coding[0]: Code System URI 'http://terminology.hl7.org/3.1.0/CodeSystem-v2-0203.html' is unknown so the code cannot be validated
+== fsh-generated/resources/NamingSystem-IDThaiCid.json ==
+INFORMATION: NamingSystem/IDThaiCid: NamingSystem.type.coding[0]: Code System URI 'http://terminology.hl7.org/3.1.0/CodeSystem-v2-0203.html' is unknown so the code cannot be validated
+== fsh-generated/resources/NamingSystem-IDThaiDentist.json ==
+INFORMATION: NamingSystem/IDThaiDentist: NamingSystem.type.coding[0]: Code System URI 'http://terminology.hl7.org/3.1.0/CodeSystem-v2-0203.html' is unknown so the code cannot be validated
+== fsh-generated/resources/NamingSystem-IDThaiDoctor.json ==
+INFORMATION: NamingSystem/IDThaiDoctor: NamingSystem.type.coding[0]: Code System URI 'http://terminology.hl7.org/3.1.0/CodeSystem-v2-0203.html' is unknown so the code cannot be validated
+== fsh-generated/resources/NamingSystem-IDThaiMedTech.json ==
+INFORMATION: NamingSystem/IDThaiMedTech: NamingSystem.type.coding[0]: Code System URI 'http://terminology.hl7.org/3.1.0/CodeSystem-v2-0203.html' is unknown so the code cannot be validated
+== fsh-generated/resources/NamingSystem-IDThaiNurse.json ==
+INFORMATION: NamingSystem/IDThaiNurse: NamingSystem.type.coding[0]: Code System URI 'http://terminology.hl7.org/3.1.0/CodeSystem-v2-0203.html' is unknown so the code cannot be validated
+== fsh-generated/resources/NamingSystem-IDThaiPharmacist.json ==
+INFORMATION: NamingSystem/IDThaiPharmacist: NamingSystem.type.coding[0]: Code System URI 'http://terminology.hl7.org/3.1.0/CodeSystem-v2-0203.html' is unknown so the code cannot be validated
+== fsh-generated/resources/NamingSystem-IDThaiPhysio.json ==
+INFORMATION: NamingSystem/IDThaiPhysio: NamingSystem.type.coding[0]: Code System URI 'http://terminology.hl7.org/3.1.0/CodeSystem-v2-0203.html' is unknown so the code cannot be validated
+== fsh-generated/resources/NamingSystem-IDThaiVet.json ==
+INFORMATION: NamingSystem/IDThaiVet: NamingSystem.type.coding[0]: Code System URI 'http://terminology.hl7.org/3.1.0/CodeSystem-v2-0203.html' is unknown so the code cannot be validated
+== fsh-generated/resources/NamingSystem-IDThaiWorkPermit.json ==
+INFORMATION: NamingSystem/IDThaiWorkPermit: NamingSystem.type.coding[0]: Code System URI 'http://terminology.hl7.org/3.1.0/CodeSystem-v2-0203.html' is unknown so the code cannot be validated

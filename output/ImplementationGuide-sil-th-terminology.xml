@@ -9,9 +9,9 @@
   <url value="https://terms.sil-th.org/ImplementationGuide/sil-th-terminology"/>
   <version value="0.1.0"/>
   <name value="SilTHTerminology"/>
-  <title value="SIL-TH Terminology"/>
+  <title value="(Draft) SIL-TH Terminology"/>
   <status value="draft"/>
-  <date value="2022-07-31T15:19:09+07:00"/>
+  <date value="2022-08-02T11:14:26+07:00"/>
   <description value="A terminology registry which an be cited by FHIR artifacts"/>
   <jurisdiction>
     <coding>
@@ -90,8 +90,8 @@
       <reference>
         <reference value="CodeSystem/cs-thcc-death-pregnancy"/>
       </reference>
-      <name value="การตั้งครรภ์และการคลอด"/>
-      <description value="การตั้งครรภ์และการคลอด จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม"/>
+      <name value="การเสียชีวิตที่เกี่ยวข้องกับตั้งครรภ์และการคลอด"/>
+      <description value="การเสียชีวิตที่เกี่ยวข้องกับตั้งครรภ์และการคลอด จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -220,10 +220,131 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/cs-th-isced1997"/>
+        <reference value="CodeSystem/cs-thcc-43file-type"/>
       </reference>
       <name value="ชุดรหัสการศึกษา ISCED 1997"/>
       <description value="รหัสมาตรฐานระดับการศึกษา พัฒนาโดยสำนักงานสถิติแห่งชาติ (สสช) โดยอ้างอิงมาตรฐานจำแนกการศึกษาสากล (International Standard Classification of Education: ISCED 1997) ของ UNESCO และนำมาประยุกต์เพิ่มรายละเอียดให้เหมาะสมกับระบบการศึกษาของประเทศไทย"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/IDDopaHouseNo"/>
+      </reference>
+      <name value="รหัสประจำบ้าน"/>
+      <description value="รหัสประจำบ้าน เลขรหัสที่อยู่ในสมุดทะเบียนบ้าน ออกโดยกรมการปกครอง"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/IDHcode"/>
+      </reference>
+      <name value="เลขรหัสสถานพยาบาล"/>
+      <description value="เลขรหัสสถานพยาบาล 5 หลักและ 9 หลัก ออกโดยกองยุทธศาสตร์และแผนงาน สำนักงานปลัดกระทรวงสาธารณสุข"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/IDThaiCid"/>
+      </reference>
+      <name value="เลขประจำตัวประชาชนไทย"/>
+      <description value="เลขประจำตัวประชาชน ออกโดย กรมการปกครอง กระทรวงมหาดไทย"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/IDThaiDentist"/>
+      </reference>
+      <name value="เลขประจำตัวทันตแพทย์"/>
+      <description value="เลขที่ใบประกอบวิชาชีพทันตกรรม (Thai Dental License Number)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/IDThaiDoctor"/>
+      </reference>
+      <name value="เลขประจำตัวแพทย์"/>
+      <description value="เลขที่ใบประกอบวิชาชีพเวชกรรม (Thai Medical License Number)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/IDThaiMedTech"/>
+      </reference>
+      <name value="เลขประจำตัวนักเทคนิคการแพทย์"/>
+      <description value="เลขที่ใบประกอบวิชาชีพเทคนิคการแพทย์ (Thai Medical Technologist License Number)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/IDThaiNurse"/>
+      </reference>
+      <name value="เลขประจำตัวพยาบาล"/>
+      <description value="เลขที่ใบประกอบวิชาชีพพยาบาล (Thai Registered Nurse Number)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/IDThaiPharmacist"/>
+      </reference>
+      <name value="เลขประจำตัวเภสัชกร"/>
+      <description value="เลขที่ใบประกอบวิชาชีพเภสัชกรรม (Thai Pharmacist License Number)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/IDThaiPhysio"/>
+      </reference>
+      <name value="เลขประจำตัวนักกายภาพบำบัด"/>
+      <description value="เลขที่ใบประกอบวิชาชีพนักกายภาพบำบัด (Thai Physical Therapist License Number)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/IDThaiVet"/>
+      </reference>
+      <name value="เลขประจำตัวสัตวแพทย์"/>
+      <description value="เลขที่ใบประกอบวิชาชีพการสัตวแพทย์ (Thai Veterinary License Number)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/IDThaiWorkPermit"/>
+      </reference>
+      <name value="เลขที่ใบอนุญาตทำงานคนต่างด้าว"/>
+      <description value="เลขที่ใบอนุญาตทำงานคนต่างด้าว ออกโดย กรมการจัดหางาน กระทรวงแรงงาน"/>
       <exampleBoolean value="false"/>
     </resource>
     <page>
@@ -233,6 +354,11 @@
       <page>
         <nameUrl value="index.html"/>
         <title value="Home"/>
+        <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="identifier-systems.html"/>
+        <title value="Identifier Systems"/>
         <generation value="markdown"/>
       </page>
     </page>

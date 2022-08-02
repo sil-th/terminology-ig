@@ -8,9 +8,9 @@
   "url": "https://terms.sil-th.org/ImplementationGuide/sil-th-terminology",
   "version": "0.1.0",
   "name": "SilTHTerminology",
-  "title": "SIL-TH Terminology",
+  "title": "(Draft) SIL-TH Terminology",
   "status": "draft",
-  "date": "2022-07-31T15:19:09+07:00",
+  "date": "2022-08-02T11:14:26+07:00",
   "description": "A terminology registry which an be cited by FHIR artifacts",
   "jurisdiction": [
     {
@@ -117,8 +117,8 @@
         "reference": {
           "reference": "CodeSystem/cs-thcc-death-pregnancy"
         },
-        "name": "การตั้งครรภ์และการคลอด",
-        "description": "การตั้งครรภ์และการคลอด จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "name": "การเสียชีวิตที่เกี่ยวข้องกับตั้งครรภ์และการคลอด",
+        "description": "การเสียชีวิตที่เกี่ยวข้องกับตั้งครรภ์และการคลอด จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
         "exampleBoolean": false
       },
       {
@@ -283,10 +283,164 @@
           }
         ],
         "reference": {
-          "reference": "CodeSystem/cs-th-isced1997"
+          "reference": "CodeSystem/cs-thcc-43file-type"
         },
         "name": "ชุดรหัสการศึกษา ISCED 1997",
         "description": "รหัสมาตรฐานระดับการศึกษา พัฒนาโดยสำนักงานสถิติแห่งชาติ (สสช) โดยอ้างอิงมาตรฐานจำแนกการศึกษาสากล (International Standard Classification of Education: ISCED 1997) ของ UNESCO และนำมาประยุกต์เพิ่มรายละเอียดให้เหมาะสมกับระบบการศึกษาของประเทศไทย",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "NamingSystem"
+          }
+        ],
+        "reference": {
+          "reference": "NamingSystem/IDDopaHouseNo"
+        },
+        "name": "รหัสประจำบ้าน",
+        "description": "รหัสประจำบ้าน เลขรหัสที่อยู่ในสมุดทะเบียนบ้าน ออกโดยกรมการปกครอง",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "NamingSystem"
+          }
+        ],
+        "reference": {
+          "reference": "NamingSystem/IDHcode"
+        },
+        "name": "เลขรหัสสถานพยาบาล",
+        "description": "เลขรหัสสถานพยาบาล 5 หลักและ 9 หลัก ออกโดยกองยุทธศาสตร์และแผนงาน สำนักงานปลัดกระทรวงสาธารณสุข",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "NamingSystem"
+          }
+        ],
+        "reference": {
+          "reference": "NamingSystem/IDThaiCid"
+        },
+        "name": "เลขประจำตัวประชาชนไทย",
+        "description": "เลขประจำตัวประชาชน ออกโดย กรมการปกครอง กระทรวงมหาดไทย",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "NamingSystem"
+          }
+        ],
+        "reference": {
+          "reference": "NamingSystem/IDThaiDentist"
+        },
+        "name": "เลขประจำตัวทันตแพทย์",
+        "description": "เลขที่ใบประกอบวิชาชีพทันตกรรม (Thai Dental License Number)",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "NamingSystem"
+          }
+        ],
+        "reference": {
+          "reference": "NamingSystem/IDThaiDoctor"
+        },
+        "name": "เลขประจำตัวแพทย์",
+        "description": "เลขที่ใบประกอบวิชาชีพเวชกรรม (Thai Medical License Number)",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "NamingSystem"
+          }
+        ],
+        "reference": {
+          "reference": "NamingSystem/IDThaiMedTech"
+        },
+        "name": "เลขประจำตัวนักเทคนิคการแพทย์",
+        "description": "เลขที่ใบประกอบวิชาชีพเทคนิคการแพทย์ (Thai Medical Technologist License Number)",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "NamingSystem"
+          }
+        ],
+        "reference": {
+          "reference": "NamingSystem/IDThaiNurse"
+        },
+        "name": "เลขประจำตัวพยาบาล",
+        "description": "เลขที่ใบประกอบวิชาชีพพยาบาล (Thai Registered Nurse Number)",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "NamingSystem"
+          }
+        ],
+        "reference": {
+          "reference": "NamingSystem/IDThaiPharmacist"
+        },
+        "name": "เลขประจำตัวเภสัชกร",
+        "description": "เลขที่ใบประกอบวิชาชีพเภสัชกรรม (Thai Pharmacist License Number)",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "NamingSystem"
+          }
+        ],
+        "reference": {
+          "reference": "NamingSystem/IDThaiPhysio"
+        },
+        "name": "เลขประจำตัวนักกายภาพบำบัด",
+        "description": "เลขที่ใบประกอบวิชาชีพนักกายภาพบำบัด (Thai Physical Therapist License Number)",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "NamingSystem"
+          }
+        ],
+        "reference": {
+          "reference": "NamingSystem/IDThaiVet"
+        },
+        "name": "เลขประจำตัวสัตวแพทย์",
+        "description": "เลขที่ใบประกอบวิชาชีพการสัตวแพทย์ (Thai Veterinary License Number)",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "NamingSystem"
+          }
+        ],
+        "reference": {
+          "reference": "NamingSystem/IDThaiWorkPermit"
+        },
+        "name": "เลขที่ใบอนุญาตทำงานคนต่างด้าว",
+        "description": "เลขที่ใบอนุญาตทำงานคนต่างด้าว ออกโดย กรมการจัดหางาน กระทรวงแรงงาน",
         "exampleBoolean": false
       }
     ],
@@ -298,6 +452,11 @@
         {
           "nameUrl": "index.html",
           "title": "Home",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "identifier-systems.html",
+          "title": "Identifier Systems",
           "generation": "markdown"
         }
       ]
