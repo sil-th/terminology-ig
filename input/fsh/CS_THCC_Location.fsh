@@ -12,7 +12,7 @@ Description:  "รหัสลักษณะที่อยู่ จาก THC
 * #8 "อื่นๆ"
 * #9 "ไม่ทราบ"
 
-CodeSystem: CS_THCC_VillageArea
+CodeSystem: CS_THCC_InMunicipality
 Id: cs-thcc-in-municipality
 Title: "รหัสที่ตั้ง"
 Description:  "รหัสที่ตั้ง ใน/นอกเขตเทศบาล จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม"

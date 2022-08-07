@@ -10,7 +10,7 @@
   "name": "SilTHTerminology",
   "title": "(Draft) SIL-TH Terminology",
   "status": "draft",
-  "date": "2022-08-02T11:14:26+07:00",
+  "date": "2022-08-07T12:07:42+07:00",
   "description": "A terminology registry which an be cited by FHIR artifacts",
   "jurisdiction": [
     {
@@ -37,6 +37,20 @@
   ],
   "definition": {
     "resource": [
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/vs-thcc-icf"
+        },
+        "name": "รหัสสภาวะสุขภาพตาม ICF",
+        "description": "รหัสสภาวะสุขภาพตาม ICF ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
       {
         "extension": [
           {
@@ -101,6 +115,118 @@
           }
         ],
         "reference": {
+          "reference": "CodeSystem/cs-thcc-allergy-assert-type"
+        },
+        "name": "รหัสผู้ให้ประวัติการแพ้ยา",
+        "description": "รหัสผู้ให้ประวัติการแพ้ยา ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-allergy-certainty"
+        },
+        "name": "รหัสประเภทการวินิจฉัยการแพ้ยา",
+        "description": "รหัสประเภทการวินิจฉัยการแพ้ยา ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-allergy-manifest"
+        },
+        "name": "รหัสลักษณะอาการแก้ยาที่พบ",
+        "description": "รหัสลักษณะอาการแก้ยาที่พบ ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-allergy-severity"
+        },
+        "name": "รหัสระดับความรุนแรงของการแพ้ยา",
+        "description": "รหัสระดับความรุนแรงของการแพ้ยา ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-allergy-verify"
+        },
+        "name": "รหัสสถานะการแพ้ยา",
+        "description": "รหัสสถานะการแพ้ยา ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-chronic-discharge-reason"
+        },
+        "name": "ประเภทการจำหน่าย Chronic",
+        "description": "ประเภทการจำหน่าย จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-contraceptive"
+        },
+        "name": "รหัสวิธีการคุมกำเนิดปัจจุบัน",
+        "description": "รหัสวิธีการคุมกำเนิดปัจจุบัน ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-coverage-type"
+        },
+        "name": "ชุดรหัสสิทธิการรักษาพยาบาล",
+        "description": "ชุดรหัสสิทธิการรักษาพยาบาล จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
           "reference": "CodeSystem/cs-thcc-death-location-type"
         },
         "name": "รหัสสถานที่ตาย",
@@ -129,6 +255,34 @@
           }
         ],
         "reference": {
+          "reference": "CodeSystem/cs-thcc-disability-reason"
+        },
+        "name": "รหัสสาเหตุความพิการ",
+        "description": "รหัสสาเหตุความพิการ จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-disability-type"
+        },
+        "name": "รหัสประเภทความพิการ",
+        "description": "รหัสประเภทความพิการ จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
           "reference": "CodeSystem/cs-thcc-educationlevel"
         },
         "name": "ชุดรหัสการศึกษา",
@@ -143,10 +297,66 @@
           }
         ],
         "reference": {
+          "reference": "CodeSystem/cs-thcc-functional-conclusion"
+        },
+        "name": "รหัสภาวะพึ่งพิงของผู้สูงอายุ",
+        "description": "รหัสภาวะพึ่งพิงของผู้สูงอายุ จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-functional-test"
+        },
+        "name": "วิธีประเมินความบกพร่อง",
+        "description": "วิธีประเมินความบกพร่อง จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
           "reference": "CodeSystem/cs-thcc-house-type"
         },
-        "name": "รหัสลักษณะที่อยู่ ",
-        "description": "รหัสลักษณะที่อยู่  จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "name": "รหัสลักษณะที่อยู่",
+        "description": "รหัสลักษณะที่อยู่ จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-in-municipality"
+        },
+        "name": "รหัสที่ตั้ง",
+        "description": "รหัสที่ตั้ง ใน/นอกเขตเทศบาล จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-provider-type"
+        },
+        "name": "รหัสประเภทบุคลากรทางการแพทย์และสาธารณสุข",
+        "description": "รหัสประเภทบุคลากรทางการแพทย์และสาธารณสุข ตามโครงสร้างข้อมูล 43 แฟ้ม",
         "exampleBoolean": false
       },
       {
@@ -175,6 +385,20 @@
         },
         "name": "ชุดรหัสเชื้อชาติ-สัญชาติ",
         "description": "ชุดรหัสเชื้อชาติ-สัญชาติ จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-no-contraceptive"
+        },
+        "name": "รหัสสาเหตุที่ไม่คุมกำเนิด",
+        "description": "รหัสสาเหตุที่ไม่คุมกำเนิด ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
         "exampleBoolean": false
       },
       {
@@ -217,6 +441,48 @@
         },
         "name": "สถานะ/สาเหตุการจำหน่าย",
         "description": "สถานะ/สาเหตุการจำหน่าย จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-provider-type-coverage"
+        },
+        "name": "ประเภทสถานพยาบาล ตามสิทธิการรักษา",
+        "description": "ใช้ประกอบการบันทึกข้อมูลเรื่องสิทธิการรักษา ตามโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-qn-type"
+        },
+        "name": "ชนิดแบบสอบถาม 43 แฟ้ม plus",
+        "description": "ชนิดแบบสอบถามที่ใช้ประกอบการเก็บข้อมูลตามโครงสร้างข้อมูล 43 แฟ้มเดิมและโครงสร้างอื่น ๆ",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-qualification-issuer"
+        },
+        "name": "รหัสสภาวิชาชีพ",
+        "description": "รหัสสภาวิชาชีพ ตามโครงสร้างข้อมูล 43 แฟ้ม",
         "exampleBoolean": false
       },
       {
@@ -273,6 +539,20 @@
         },
         "name": "สถานะในชุมชน",
         "description": "ใช้ระบุสถานะในชุมชน ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-village-area"
+        },
+        "name": "เขตที่ตั้งของหมู่บ้าน",
+        "description": "เขตที่ตั้งของหมู่บ้าน จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
         "exampleBoolean": false
       },
       {

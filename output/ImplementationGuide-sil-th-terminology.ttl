@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "SilTHTerminology"];
   fhir:ImplementationGuide.title [ fhir:value "(Draft) SIL-TH Terminology"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-08-02T11:14:26+07:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-08-07T12:07:42+07:00"^^xsd:dateTime];
   fhir:ImplementationGuide.description [ fhir:value "A terminology registry which an be cited by FHIR artifacts"];
   fhir:ImplementationGuide.jurisdiction [
      fhir:index 0;
@@ -49,6 +49,20 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ValueSet" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://terms.sil-th.org/ValueSet/vs-thcc-icf>;
+         fhir:Reference.reference [ fhir:value "ValueSet/vs-thcc-icf" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "รหัสสภาวะสุขภาพตาม ICF" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "รหัสสภาวะสุขภาพตาม ICF ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "CodeSystem" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
@@ -59,7 +73,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "รหัสสถานที่ อ้างอิงตามรหัสกรมการปกครอง" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 1;
+       fhir:index 2;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -73,7 +87,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "รหัสคำนำหน้าชื่อ จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม อ้างอิงตามรหัสกรมการปกครอง" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 2;
+       fhir:index 3;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -87,7 +101,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "ชุดรหัสอาชีพ ตามระบบ ISCO-08 The International Standard Classification of Occupations 2008 (ISCO-08) is a four-level hierarchically structured classification that covers all jobs in the world. Developed with the benefit of accumulated national and international experience as well as the help of experts from many countries and agencies, ISCO-08 is fully supported by the international community as an accepted standard for international labour statistics." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 3;
+       fhir:index 4;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -101,7 +115,119 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "เกิดจากการบูรณาการของโครงสร้างข้อมูล 43 แฟ้มเดิมและโครงสร้างอื่น ๆ" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 4;
+       fhir:index 5;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://terms.sil-th.org/CodeSystem/cs-thcc-allergy-assert-type>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/cs-thcc-allergy-assert-type" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "รหัสผู้ให้ประวัติการแพ้ยา" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "รหัสผู้ให้ประวัติการแพ้ยา ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 6;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://terms.sil-th.org/CodeSystem/cs-thcc-allergy-certainty>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/cs-thcc-allergy-certainty" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "รหัสประเภทการวินิจฉัยการแพ้ยา" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "รหัสประเภทการวินิจฉัยการแพ้ยา ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 7;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://terms.sil-th.org/CodeSystem/cs-thcc-allergy-manifest>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/cs-thcc-allergy-manifest" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "รหัสลักษณะอาการแก้ยาที่พบ" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "รหัสลักษณะอาการแก้ยาที่พบ ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 8;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://terms.sil-th.org/CodeSystem/cs-thcc-allergy-severity>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/cs-thcc-allergy-severity" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "รหัสระดับความรุนแรงของการแพ้ยา" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "รหัสระดับความรุนแรงของการแพ้ยา ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 9;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://terms.sil-th.org/CodeSystem/cs-thcc-allergy-verify>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/cs-thcc-allergy-verify" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "รหัสสถานะการแพ้ยา" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "รหัสสถานะการแพ้ยา ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 10;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://terms.sil-th.org/CodeSystem/cs-thcc-chronic-discharge-reason>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/cs-thcc-chronic-discharge-reason" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ประเภทการจำหน่าย Chronic" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "ประเภทการจำหน่าย จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 11;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://terms.sil-th.org/CodeSystem/cs-thcc-contraceptive>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/cs-thcc-contraceptive" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "รหัสวิธีการคุมกำเนิดปัจจุบัน" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "รหัสวิธีการคุมกำเนิดปัจจุบัน ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 12;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://terms.sil-th.org/CodeSystem/cs-thcc-coverage-type>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/cs-thcc-coverage-type" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ชุดรหัสสิทธิการรักษาพยาบาล" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "ชุดรหัสสิทธิการรักษาพยาบาล จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 13;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -115,7 +241,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "รหัสสถานที่ตาย จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 5;
+       fhir:index 14;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -129,7 +255,35 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "การเสียชีวิตที่เกี่ยวข้องกับตั้งครรภ์และการคลอด จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 6;
+       fhir:index 15;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://terms.sil-th.org/CodeSystem/cs-thcc-disability-reason>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/cs-thcc-disability-reason" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "รหัสสาเหตุความพิการ" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "รหัสสาเหตุความพิการ จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 16;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://terms.sil-th.org/CodeSystem/cs-thcc-disability-type>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/cs-thcc-disability-type" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "รหัสประเภทความพิการ" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "รหัสประเภทความพิการ จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 17;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -143,7 +297,35 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "ชุดรหัสการศึกษา จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 7;
+       fhir:index 18;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://terms.sil-th.org/CodeSystem/cs-thcc-functional-conclusion>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/cs-thcc-functional-conclusion" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "รหัสภาวะพึ่งพิงของผู้สูงอายุ" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "รหัสภาวะพึ่งพิงของผู้สูงอายุ จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 19;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://terms.sil-th.org/CodeSystem/cs-thcc-functional-test>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/cs-thcc-functional-test" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "วิธีประเมินความบกพร่อง" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "วิธีประเมินความบกพร่อง จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 20;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -153,11 +335,39 @@
          fhir:link <https://terms.sil-th.org/CodeSystem/cs-thcc-house-type>;
          fhir:Reference.reference [ fhir:value "CodeSystem/cs-thcc-house-type" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "รหัสลักษณะที่อยู่ " ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "รหัสลักษณะที่อยู่  จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "รหัสลักษณะที่อยู่" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "รหัสลักษณะที่อยู่ จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 8;
+       fhir:index 21;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://terms.sil-th.org/CodeSystem/cs-thcc-in-municipality>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/cs-thcc-in-municipality" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "รหัสที่ตั้ง" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "รหัสที่ตั้ง ใน/นอกเขตเทศบาล จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 22;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://terms.sil-th.org/CodeSystem/cs-thcc-provider-type>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/cs-thcc-provider-type" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "รหัสประเภทบุคลากรทางการแพทย์และสาธารณสุข" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "รหัสประเภทบุคลากรทางการแพทย์และสาธารณสุข ตามโครงสร้างข้อมูล 43 แฟ้ม" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 23;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -171,7 +381,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "สถานะการสมรส จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 9;
+       fhir:index 24;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -185,7 +395,21 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "ชุดรหัสเชื้อชาติ-สัญชาติ จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 10;
+       fhir:index 25;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://terms.sil-th.org/CodeSystem/cs-thcc-no-contraceptive>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/cs-thcc-no-contraceptive" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "รหัสสาเหตุที่ไม่คุมกำเนิด" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "รหัสสาเหตุที่ไม่คุมกำเนิด ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 26;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -199,7 +423,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "ชุดรหัสอาชีพ จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 11;
+       fhir:index 27;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -213,7 +437,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "สถานะบุคคล จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 12;
+       fhir:index 28;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -227,7 +451,49 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "สถานะ/สาเหตุการจำหน่าย จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 13;
+       fhir:index 29;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://terms.sil-th.org/CodeSystem/cs-thcc-provider-type-coverage>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/cs-thcc-provider-type-coverage" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ประเภทสถานพยาบาล ตามสิทธิการรักษา" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "ใช้ประกอบการบันทึกข้อมูลเรื่องสิทธิการรักษา ตามโครงสร้างข้อมูล 43 แฟ้ม" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 30;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://terms.sil-th.org/CodeSystem/cs-thcc-qn-type>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/cs-thcc-qn-type" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "ชนิดแบบสอบถาม 43 แฟ้ม plus" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "ชนิดแบบสอบถามที่ใช้ประกอบการเก็บข้อมูลตามโครงสร้างข้อมูล 43 แฟ้มเดิมและโครงสร้างอื่น ๆ" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 31;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://terms.sil-th.org/CodeSystem/cs-thcc-qualification-issuer>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/cs-thcc-qualification-issuer" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "รหัสสภาวิชาชีพ" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "รหัสสภาวิชาชีพ ตามโครงสร้างข้อมูล 43 แฟ้ม" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 32;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -241,7 +507,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "ชุดรหัสศาสนา จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 14;
+       fhir:index 33;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -255,7 +521,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "ใช้ระบุชนิดประวัติทางสังคมต่าง ๆ ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 15;
+       fhir:index 34;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -269,7 +535,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "ใช้ระบุสถานะในครอบครัว ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 16;
+       fhir:index 35;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -283,7 +549,21 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "ใช้ระบุสถานะในชุมชน ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 17;
+       fhir:index 36;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CodeSystem" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <https://terms.sil-th.org/CodeSystem/cs-thcc-village-area>;
+         fhir:Reference.reference [ fhir:value "CodeSystem/cs-thcc-village-area" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "เขตที่ตั้งของหมู่บ้าน" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "เขตที่ตั้งของหมู่บ้าน จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 37;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -297,7 +577,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "รหัสมาตรฐานระดับการศึกษา พัฒนาโดยสำนักงานสถิติแห่งชาติ (สสช) โดยอ้างอิงมาตรฐานจำแนกการศึกษาสากล (International Standard Classification of Education: ISCED 1997) ของ UNESCO และนำมาประยุกต์เพิ่มรายละเอียดให้เหมาะสมกับระบบการศึกษาของประเทศไทย" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 18;
+       fhir:index 38;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -311,7 +591,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "รหัสประจำบ้าน เลขรหัสที่อยู่ในสมุดทะเบียนบ้าน ออกโดยกรมการปกครอง" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 19;
+       fhir:index 39;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -325,7 +605,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "เลขรหัสสถานพยาบาล 5 หลักและ 9 หลัก ออกโดยกองยุทธศาสตร์และแผนงาน สำนักงานปลัดกระทรวงสาธารณสุข" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 20;
+       fhir:index 40;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -339,7 +619,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "เลขประจำตัวประชาชน ออกโดย กรมการปกครอง กระทรวงมหาดไทย" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 21;
+       fhir:index 41;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -353,7 +633,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "เลขที่ใบประกอบวิชาชีพทันตกรรม (Thai Dental License Number)" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 22;
+       fhir:index 42;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -367,7 +647,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "เลขที่ใบประกอบวิชาชีพเวชกรรม (Thai Medical License Number)" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 23;
+       fhir:index 43;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -381,7 +661,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "เลขที่ใบประกอบวิชาชีพเทคนิคการแพทย์ (Thai Medical Technologist License Number)" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 24;
+       fhir:index 44;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -395,7 +675,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "เลขที่ใบประกอบวิชาชีพพยาบาล (Thai Registered Nurse Number)" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 25;
+       fhir:index 45;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -409,7 +689,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "เลขที่ใบประกอบวิชาชีพเภสัชกรรม (Thai Pharmacist License Number)" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 26;
+       fhir:index 46;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -423,7 +703,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "เลขที่ใบประกอบวิชาชีพนักกายภาพบำบัด (Thai Physical Therapist License Number)" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 27;
+       fhir:index 47;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -437,7 +717,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "เลขที่ใบประกอบวิชาชีพการสัตวแพทย์ (Thai Veterinary License Number)" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 28;
+       fhir:index 48;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];

@@ -1,7 +1,7 @@
 CodeSystem: CS_THCC_Contraceptive
 Id: cs-thcc-contraceptive
 Title: "รหัสวิธีการคุมกำเนิดปัจจุบัน"
-Description:  "ใรหัสวิธีการคุมกำเนิดปัจจุบัน ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม"
+Description:  "รหัสวิธีการคุมกำเนิดปัจจุบัน ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม"
 * ^url = $CS_THCC_Contraceptive
 * #1 "ยาเม็ด"
 * #2 "ยาฉีด"

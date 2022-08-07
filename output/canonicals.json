@@ -14,6 +14,55 @@
     "name": "CS_DOPA_NamePrefix"
   },
   {
+    "id": "cs-thcc-allergy-assert-type",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-allergy-assert-type",
+    "version": "0.1.0",
+    "name": "CS_THCC_AllergyAssertType"
+  },
+  {
+    "id": "cs-thcc-allergy-certainty",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-allergy-certainty",
+    "version": "0.1.0",
+    "name": "CS_THCC_AllergyCertainy"
+  },
+  {
+    "id": "cs-thcc-allergy-manifest",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-allergy-manifest",
+    "version": "0.1.0",
+    "name": "CS_THCC_AllergyManifest"
+  },
+  {
+    "id": "cs-thcc-allergy-severity",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-allergy-severity",
+    "version": "0.1.0",
+    "name": "CS_THCC_AllergySeverity"
+  },
+  {
+    "id": "cs-thcc-allergy-verify",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-allergy-verify",
+    "version": "0.1.0",
+    "name": "CS_THCC_AllergyVerify"
+  },
+  {
+    "id": "cs-thcc-functional-conclusion",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-functional-conclusion",
+    "version": "0.1.0",
+    "name": "CS_THCC_FunctionalConclusion"
+  },
+  {
+    "id": "cs-thcc-functional-test",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-functional-test",
+    "version": "0.1.0",
+    "name": "CS_THCC_FunctionalTest"
+  },
+  {
     "id": "cs-thcc-43file-type",
     "type": "CodeSystem",
     "url": "http://terms.sil-th.org/CodeSystem/isced-97",
@@ -21,11 +70,39 @@
     "name": "CS_TH_ISCED1997"
   },
   {
+    "id": "vs-thcc-icf",
+    "type": "ValueSet",
+    "url": "http://terms.sil-th.org/ValueSet/vs-thcc-icf",
+    "version": "0.1.0",
+    "name": "VS_THCC_ICF"
+  },
+  {
     "id": "cs-thcc-43filetype",
     "type": "CodeSystem",
     "url": "https://terms.sil-th.org/CodeSystem/cs-thcc-43file-type",
     "version": "0.1.0",
     "name": "CS_THCC_43fileType"
+  },
+  {
+    "id": "cs-thcc-chronic-discharge-reason",
+    "type": "CodeSystem",
+    "url": "https://terms.sil-th.org/CodeSystem/cs-thcc-chronic-discharge-reason",
+    "version": "0.1.0",
+    "name": "CS_THCC_ChronicDischargeReason"
+  },
+  {
+    "id": "cs-thcc-contraceptive",
+    "type": "CodeSystem",
+    "url": "https://terms.sil-th.org/CodeSystem/cs-thcc-contraceptive",
+    "version": "0.1.0",
+    "name": "CS_THCC_Contraceptive"
+  },
+  {
+    "id": "cs-thcc-coverage-type",
+    "type": "CodeSystem",
+    "url": "https://terms.sil-th.org/CodeSystem/cs-thcc-coverage-type",
+    "version": "0.1.0",
+    "name": "CS_THCC_CoverageType"
   },
   {
     "id": "cs-thcc-death-location-type",
@@ -42,6 +119,20 @@
     "name": "CS_THCC_DeathPregnancy"
   },
   {
+    "id": "cs-thcc-disability-reason",
+    "type": "CodeSystem",
+    "url": "https://terms.sil-th.org/CodeSystem/cs-thcc-disability-reason",
+    "version": "0.1.0",
+    "name": "CS_THCC_DisabilityReason"
+  },
+  {
+    "id": "cs-thcc-disability-type",
+    "type": "CodeSystem",
+    "url": "https://terms.sil-th.org/CodeSystem/cs-thcc-disability-type",
+    "version": "0.1.0",
+    "name": "CS_THCC_DisabilityType"
+  },
+  {
     "id": "cs-thcc-educationlevel",
     "type": "CodeSystem",
     "url": "https://terms.sil-th.org/CodeSystem/cs-thcc-education-level",
@@ -56,6 +147,13 @@
     "name": "CS_THCC_HouseType"
   },
   {
+    "id": "cs-thcc-in-municipality",
+    "type": "CodeSystem",
+    "url": "https://terms.sil-th.org/CodeSystem/cs-thcc-in-municipality",
+    "version": "0.1.0",
+    "name": "CS_THCC_InMunicipality"
+  },
+  {
     "id": "cs-thcc-marital",
     "type": "CodeSystem",
     "url": "https://terms.sil-th.org/CodeSystem/cs-thcc-marital",
@@ -68,6 +166,13 @@
     "url": "https://terms.sil-th.org/CodeSystem/cs-thcc-nationality",
     "version": "0.1.0",
     "name": "CS_THCC_Nationality"
+  },
+  {
+    "id": "cs-thcc-no-contraceptive",
+    "type": "CodeSystem",
+    "url": "https://terms.sil-th.org/CodeSystem/cs-thcc-no-contraceptive",
+    "version": "0.1.0",
+    "name": "CS_THCC_NoContraceptive"
   },
   {
     "id": "cs-thcc-occupation",
@@ -89,6 +194,34 @@
     "url": "https://terms.sil-th.org/CodeSystem/cs-thcc-pid-remove-reason",
     "version": "0.1.0",
     "name": "CS_THCC_PidRemoveReason"
+  },
+  {
+    "id": "cs-thcc-provider-type",
+    "type": "CodeSystem",
+    "url": "https://terms.sil-th.org/CodeSystem/cs-thcc-provider-type",
+    "version": "0.1.0",
+    "name": "CS_THCC_IndProviderType"
+  },
+  {
+    "id": "cs-thcc-provider-type-coverage",
+    "type": "CodeSystem",
+    "url": "https://terms.sil-th.org/CodeSystem/cs-thcc-provider-type-coverage",
+    "version": "0.1.0",
+    "name": "CS_THCC_ProviderTypeCoverage"
+  },
+  {
+    "id": "cs-thcc-qn-type",
+    "type": "CodeSystem",
+    "url": "https://terms.sil-th.org/CodeSystem/cs-thcc-qn-type",
+    "version": "0.1.0",
+    "name": "CS_THCC_QnType"
+  },
+  {
+    "id": "cs-thcc-qualification-issuer",
+    "type": "CodeSystem",
+    "url": "https://terms.sil-th.org/CodeSystem/cs-thcc-qualification-issuer",
+    "version": "0.1.0",
+    "name": "CS_THCC_QualificationIssuer"
   },
   {
     "id": "cs-thcc-religion",
@@ -117,6 +250,13 @@
     "url": "https://terms.sil-th.org/CodeSystem/cs-thcc-status-in-village",
     "version": "0.1.0",
     "name": "CS_THCC_StatusInVillage"
+  },
+  {
+    "id": "cs-thcc-village-area",
+    "type": "CodeSystem",
+    "url": "https://terms.sil-th.org/CodeSystem/cs-thcc-village-area",
+    "version": "0.1.0",
+    "name": "CS_THCC_VillageArea"
   },
   {
     "id": "sil-th-terminology",

@@ -1,29 +1,48 @@
 ﻿SilTHTerminology : Validation Results
 =========================================
 
-err = 3, warn = 4, info = 33
-IG Publisher Version: 1.1.127
-Generated Tue Aug 02 11:15:03 ICT 2022. FHIR version 4.3.0 for sil-th-terminology#0.1.0 (canonical = https://terms.sil-th.org)
+err = 4, warn = 17, info = 52
+IG Publisher Version: 1.1.128
+Generated Sun Aug 07 12:08:49 ICT 2022. FHIR version 4.3.0 for sil-th-terminology#0.1.0 (canonical = https://terms.sil-th.org)
  Build Errors : 10 / 0 / 0
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-dopa-location : 0 / 0 / 3
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-dopa-nameprefix : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-int-isco-08 : 0 / 1 / 3
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-43file-type : 0 / 0 / 3
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-43filetype : 1 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-allergy-assert-type : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-allergy-certainty : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-allergy-manifest : 0 / 1 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-allergy-severity : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-allergy-verify : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-chronic-discharge-reason : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-contraceptive : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-coverage-type : 0 / 2 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-death-location-type : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-death-pregnancy : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-disability-reason : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-disability-type : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-educationlevel : 1 / 1 / 2
- /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-house-type : 0 / 1 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-functional-conclusion : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-functional-test : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-house-type : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-in-municipality : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-marital : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-nationality : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-no-contraceptive : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-occupation : 0 / 0 / 3
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-person-status : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-pid-remove-reason : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-provider-type : 0 / 1 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-provider-type-coverage : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-qn-type : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-qualification-issuer : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-religion : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-social-obs-type : 1 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-status-in-family : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-status-in-village : 0 / 0 / 2
- /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/ImplementationGuide-sil-th-terminology : 0 / 1 / 1
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-village-area : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/ImplementationGuide-sil-th-terminology : 0 / 0 / 1
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/NamingSystem-IDDopaHouseNo : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/NamingSystem-IDHcode : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/NamingSystem-IDThaiCid : 0 / 0 / 2
@@ -35,6 +54,7 @@ Generated Tue Aug 02 11:15:03 ICT 2022. FHIR version 4.3.0 for sil-th-terminolog
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/NamingSystem-IDThaiPhysio : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/NamingSystem-IDThaiVet : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/NamingSystem-IDThaiWorkPermit : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/ValueSet-vs-thcc-icf : 1 / 11 / 1
 </table>
 == n/a ==
 ERROR: /Users/rathpanyowat/Dev/sil-th-terminology-ig/output/identifier-systems.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 188, column 12: The link '/NamingSystem/IDThaiCid' for "เลขประจำตัวประชาชนไทย" cannot be resolved
@@ -62,21 +82,51 @@ INFORMATION: CodeSystem/cs-thcc-43file-type: CodeSystem: CodeSystems SHOULD have
 == fsh-generated/resources/CodeSystem-cs-thcc-43filetype.json ==
 ERROR: CodeSystem.url: Resource id/url mismatch: cs-thcc-43filetype/https://terms.sil-th.org/CodeSystem/cs-thcc-43file-type
 INFORMATION: CodeSystem/cs-thcc-43filetype: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-allergy-assert-type.json ==
+INFORMATION: CodeSystem/cs-thcc-allergy-assert-type: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-allergy-certainty.json ==
+INFORMATION: CodeSystem/cs-thcc-allergy-certainty: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-allergy-manifest.json ==
+WARNING: CodeSystem/cs-thcc-allergy-manifest: CodeSystem.concept[17].definition: value should not start or finish with whitespace 'Hypotension...drugs '
+INFORMATION: CodeSystem/cs-thcc-allergy-manifest: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-allergy-severity.json ==
+INFORMATION: CodeSystem/cs-thcc-allergy-severity: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-allergy-verify.json ==
+INFORMATION: CodeSystem/cs-thcc-allergy-verify: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-chronic-discharge-reason.json ==
+INFORMATION: CodeSystem/cs-thcc-chronic-discharge-reason: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-contraceptive.json ==
+INFORMATION: CodeSystem/cs-thcc-contraceptive: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-coverage-type.json ==
+WARNING: CodeSystem/cs-thcc-coverage-type: CodeSystem.concept[21].display: value should not start or finish with whitespace 'ลูกจ้างประจำบำนาญองค์การบริหารส่วนจังหวัด             '
+WARNING: CodeSystem/cs-thcc-coverage-type: CodeSystem.concept[81].display: value should not start or finish with whitespace 'ธนาคารพัฒนาวิสาหกิจขนาดกลางและขนาดย่อมแห่งประเทศไทย  '
+INFORMATION: CodeSystem/cs-thcc-coverage-type: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-thcc-death-location-type.json ==
 INFORMATION: CodeSystem/cs-thcc-death-location-type: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-thcc-death-pregnancy.json ==
 INFORMATION: CodeSystem/cs-thcc-death-pregnancy: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-disability-reason.json ==
+INFORMATION: CodeSystem/cs-thcc-disability-reason: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-disability-type.json ==
+INFORMATION: CodeSystem/cs-thcc-disability-type: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-thcc-educationlevel.json ==
 ERROR: CodeSystem.url: Resource id/url mismatch: cs-thcc-educationlevel/https://terms.sil-th.org/CodeSystem/cs-thcc-education-level
 WARNING: CodeSystem/cs-thcc-educationlevel: CodeSystem.concept[3].definition: value should not start or finish with whitespace 'ระดับการศึกษา...(ปวช.) '
 INFORMATION: CodeSystem/cs-thcc-educationlevel: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-functional-conclusion.json ==
+INFORMATION: CodeSystem/cs-thcc-functional-conclusion: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-functional-test.json ==
+INFORMATION: CodeSystem/cs-thcc-functional-test: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-thcc-house-type.json ==
-WARNING: CodeSystem/cs-thcc-house-type: CodeSystem.title: value should not start or finish with whitespace 'รหัสลักษณะที่อยู่ '
 INFORMATION: CodeSystem/cs-thcc-house-type: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-in-municipality.json ==
+INFORMATION: CodeSystem/cs-thcc-in-municipality: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-thcc-marital.json ==
 INFORMATION: CodeSystem/cs-thcc-marital: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-thcc-nationality.json ==
 INFORMATION: CodeSystem/cs-thcc-nationality: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-no-contraceptive.json ==
+INFORMATION: CodeSystem/cs-thcc-no-contraceptive: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-thcc-occupation.json ==
 INFORMATION: CodeSystem/cs-thcc-occupation: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 INFORMATION: CodeSystem/cs-thcc-occupation: CodeSystem: CodeSystems SHOULD have a stated value for the hierarchyMeaning element so that users know the status and meaning of the code system clearly
@@ -84,6 +134,15 @@ INFORMATION: CodeSystem/cs-thcc-occupation: CodeSystem: CodeSystems SHOULD have 
 INFORMATION: CodeSystem/cs-thcc-person-status: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-thcc-pid-remove-reason.json ==
 INFORMATION: CodeSystem/cs-thcc-pid-remove-reason: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-provider-type.json ==
+WARNING: CodeSystem/cs-thcc-provider-type: CodeSystem.concept[6].display: value should not start or finish with whitespace 'ทันตาภิบาล '
+INFORMATION: CodeSystem/cs-thcc-provider-type: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-provider-type-coverage.json ==
+INFORMATION: CodeSystem/cs-thcc-provider-type-coverage: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-qn-type.json ==
+INFORMATION: CodeSystem/cs-thcc-qn-type: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-qualification-issuer.json ==
+INFORMATION: CodeSystem/cs-thcc-qualification-issuer: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-thcc-religion.json ==
 INFORMATION: CodeSystem/cs-thcc-religion: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-thcc-social-obs-type.json ==
@@ -93,8 +152,9 @@ INFORMATION: CodeSystem/cs-thcc-social-obs-type: CodeSystem: CodeSystems SHOULD 
 INFORMATION: CodeSystem/cs-thcc-status-in-family: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-thcc-status-in-village.json ==
 INFORMATION: CodeSystem/cs-thcc-status-in-village: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-village-area.json ==
+INFORMATION: CodeSystem/cs-thcc-village-area: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/ImplementationGuide-sil-th-terminology.json ==
-WARNING: ImplementationGuide/sil-th-terminology: ImplementationGuide.definition.resource[7].name: value should not start or finish with whitespace 'รหัสลักษณะที่อยู่ '
 == fsh-generated/resources/NamingSystem-IDDopaHouseNo.json ==
 INFORMATION: NamingSystem/IDDopaHouseNo: NamingSystem.type.coding[0]: Code System URI 'http://terminology.hl7.org/3.1.0/CodeSystem-v2-0203.html' is unknown so the code cannot be validated
 == fsh-generated/resources/NamingSystem-IDHcode.json ==
@@ -117,3 +177,16 @@ INFORMATION: NamingSystem/IDThaiPhysio: NamingSystem.type.coding[0]: Code System
 INFORMATION: NamingSystem/IDThaiVet: NamingSystem.type.coding[0]: Code System URI 'http://terminology.hl7.org/3.1.0/CodeSystem-v2-0203.html' is unknown so the code cannot be validated
 == fsh-generated/resources/NamingSystem-IDThaiWorkPermit.json ==
 INFORMATION: NamingSystem/IDThaiWorkPermit: NamingSystem.type.coding[0]: Code System URI 'http://terminology.hl7.org/3.1.0/CodeSystem-v2-0203.html' is unknown so the code cannot be validated
+== fsh-generated/resources/ValueSet-vs-thcc-icf.json ==
+ERROR: ValueSet/vs-thcc-icf: ValueSet.compose.include[0].system: URL value 'http://hl7.org/fhir/sid/icf-nl' does not resolve
+WARNING: ValueSet/vs-thcc-icf: ValueSet.compose.include[0].concept[29].display: value should not start or finish with whitespace 'การทำงานที่ก่อให้เกิดเสียงมีความบกพร่องเล็กน้อย...%) '
+WARNING: ValueSet/vs-thcc-icf: ValueSet.compose.include[0].concept[35].display: value should not start or finish with whitespace 'การทำงานด้านการออกเสียงพูดไม่มีความบกพร่อง...%) '
+WARNING: ValueSet/vs-thcc-icf: ValueSet.compose.include[0].concept[38].display: value should not start or finish with whitespace 'การทำงานด้านการออกเสียงพูดมีความบกพร่องรุนแรง...%) '
+WARNING: ValueSet/vs-thcc-icf: ValueSet.compose.include[0].concept[39].display: value should not start or finish with whitespace 'การทำงานด้านการออกเสียงพูดมีความบกพร่องทั้งหมด...%) '
+WARNING: ValueSet/vs-thcc-icf: ValueSet.compose.include[0].concept[42].display: value should not start or finish with whitespace 'การทำงานด้านความคล่องและจังหวะของการพูดไม่มีความบกพร่อง...%) '
+WARNING: ValueSet/vs-thcc-icf: ValueSet.compose.include[0].concept[43].display: value should not start or finish with whitespace 'การทำงานด้านความคล่องและจังหวะของการพูดมีความบกพร่องเล็กน้อย...%) '
+WARNING: ValueSet/vs-thcc-icf: ValueSet.compose.include[0].concept[44].display: value should not start or finish with whitespace 'การทำงานด้านความคล่องและจังหวะของการพูดมีความบกพร่องปานกลาง...%) '
+WARNING: ValueSet/vs-thcc-icf: ValueSet.compose.include[0].concept[45].display: value should not start or finish with whitespace 'การทำงานด้านความคล่องและจังหวะของการพูดมีความบกพร่องรุนแรง...%) '
+WARNING: ValueSet/vs-thcc-icf: ValueSet.compose.include[0].concept[46].display: value should not start or finish with whitespace 'การทำงานด้านความคล่องและจังหวะของการพูดมีความบกพร่องทั้งหมด...%) '
+WARNING: ValueSet/vs-thcc-icf: ValueSet.compose[0].include[0]: Unknown System specified, so Concepts and Filters can''t be checked
+WARNING: ValueSet.where(id = 'vs-thcc-icf'): Error from server: Unable to provide support for code system http://hl7.org/fhir/sid/icf-nl
