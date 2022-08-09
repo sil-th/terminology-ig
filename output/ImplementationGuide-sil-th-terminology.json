@@ -10,7 +10,7 @@
   "name": "SilTHTerminology",
   "title": "(Draft) SIL-TH Terminology",
   "status": "draft",
-  "date": "2022-08-07T12:07:42+07:00",
+  "date": "2022-08-10T01:32:39+07:00",
   "description": "A terminology registry which an be cited by FHIR artifacts",
   "jurisdiction": [
     {
@@ -87,6 +87,20 @@
           }
         ],
         "reference": {
+          "reference": "CodeSystem/cs-th-icd10tm-lab"
+        },
+        "name": "รหัสการตรวจทางห้องปฎิบัติการ ICD-10-TM",
+        "description": "รหัสการตรวจทางห้องปฎิบัติการ ICD-10-TM 2016 ของ THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
           "reference": "CodeSystem/cs-int-isco-08"
         },
         "name": "ชุดรหัสอาชีพ ISCO-08",
@@ -101,10 +115,206 @@
           }
         ],
         "reference": {
+          "reference": "CodeSystem/cs-thcc-2digit-lab"
+        },
+        "name": "รหัสการตรวจทางห้องปฎิบัติการ 2 หลัก",
+        "description": "รหัสการตรวจทางห้องปฎิบัติการ 2 หลัก ของ THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
           "reference": "CodeSystem/cs-thcc-43filetype"
         },
         "name": "รายการโครงสร้างข้อมูล 43 แฟ้ม plus",
         "description": "เกิดจากการบูรณาการของโครงสร้างข้อมูล 43 แฟ้มเดิมและโครงสร้างอื่น ๆ",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-accident-admit-source"
+        },
+        "name": "ชนิด",
+        "description": "ใช้ระบุชนิด ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-accident-bleeding"
+        },
+        "name": "ชนิดการห้ามเลือด",
+        "description": "ใช้ระบุชนิดการห้ามเลือด ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-accident-breathing"
+        },
+        "name": "ชนิดการดูแลการหายใจ",
+        "description": "ใช้ระบุชนิดการดูแลการหายใจ ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-accident-cause-group"
+        },
+        "name": "รหัสประเภทผู้ป่วยอุบัติเหตุ 19 สาเหตุ",
+        "description": "ใช้ระบุรหัสประเภทผู้ป่วยอุบัติเหตุ 19 สาเหตุ ตามโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-accident-coverage"
+        },
+        "name": "รหัสสิทธิการรักษาอื่นกรณีอุบัติเหตุ",
+        "description": "ใช้ระบุรหัสสิทธิการรักษาอื่นกรณีอุบัติเหตุ ตามโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-accident-iv-fluid"
+        },
+        "name": "ชนิดการให้น้ำเกลือ",
+        "description": "ใช้ระบุชนิดการให้น้ำเกลือ ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-accident-location"
+        },
+        "name": "รหัสสถานที่เกิดอุบัติเหตุฉุกเฉิน",
+        "description": "ใช้ระบุรหัสสถานที่เกิดอุบัติเหตุฉุกเฉิน ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-accident-obs"
+        },
+        "name": "ชนิดประวัติการเกิดอุบัติเหตุ",
+        "description": "ใช้ระบุชนิดประวัติการเกิดอุบัติเหตุ ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-accident-patient-type"
+        },
+        "name": "ประเภทผู้บาดเจ็บ",
+        "description": "ใช้ระบุประเภทผู้บาดเจ็บ ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-accident-priority"
+        },
+        "name": "รหัสระดับความเร่งด่วน",
+        "description": "ใช้ระบุรหัสระดับความเร่งด่วน ตามโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-accident-splint"
+        },
+        "name": "ชนิดการใส่ splint/ slab",
+        "description": "ใช้ระบุชนิดการใส่ splint/ slab ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-accident-vehicle"
+        },
+        "name": "ประเภทยานพาหนะที่เกิดเหตุ",
+        "description": "ใช้ระบุประเภทยานพาหนะที่เกิดเหตุ ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-admit-source"
+        },
+        "name": "รหัสประเภทการมารับบริการ",
+        "description": "รหัสประเภทการมารับบริการ ตามโครงสร้างข้อมูล 43 แฟ้ม",
         "exampleBoolean": false
       },
       {
@@ -175,6 +385,20 @@
         },
         "name": "รหัสสถานะการแพ้ยา",
         "description": "รหัสสถานะการแพ้ยา ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-causative-agent"
+        },
+        "name": "รหัสชนิดของเชื้อโรค",
+        "description": "รหัสชนิดของเชื้อโรค ตามโครงสร้างข้อมูล 43 แฟ้ม",
         "exampleBoolean": false
       },
       {
@@ -283,6 +507,34 @@
           }
         ],
         "reference": {
+          "reference": "CodeSystem/cs-thcc-discharge-status"
+        },
+        "name": "รหัสสถานที่รับบริการ",
+        "description": "รหัสสถานที่รับบริการ ตามโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-disease-cause"
+        },
+        "name": "รหัสสาเหตุการป่วย",
+        "description": "รหัสสาเหตุการป่วย ตามโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
           "reference": "CodeSystem/cs-thcc-educationlevel"
         },
         "name": "ชุดรหัสการศึกษา",
@@ -353,7 +605,7 @@
           }
         ],
         "reference": {
-          "reference": "CodeSystem/cs-thcc-provider-type"
+          "reference": "CodeSystem/cs-thcc-individual-provider-type"
         },
         "name": "รหัสประเภทบุคลากรทางการแพทย์และสาธารณสุข",
         "description": "รหัสประเภทบุคลากรทางการแพทย์และสาธารณสุข ตามโครงสร้างข้อมูล 43 แฟ้ม",
@@ -423,6 +675,34 @@
           }
         ],
         "reference": {
+          "reference": "CodeSystem/cs-thcc-participant-type"
+        },
+        "name": "ประเภทแพทย์เพิ่มเติม",
+        "description": "ประเภทแพทย์เพิ่มเติม ตามโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-patient-location-type"
+        },
+        "name": "รหัสที่ตั้งของที่อยู่ผู้รับบริการ",
+        "description": "รหัสที่ตั้งของที่อยู่ผู้รับบริการ ตามโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
           "reference": "CodeSystem/cs-thcc-person-status"
         },
         "name": "สถานะบุคคล",
@@ -441,6 +721,20 @@
         },
         "name": "สถานะ/สาเหตุการจำหน่าย",
         "description": "สถานะ/สาเหตุการจำหน่าย จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-provider-type"
+        },
+        "name": "รหัสประเภทสถานพยาบาลที่รักษา",
+        "description": "รหัสประเภทสถานพยาบาลที่รักษา ตามโครงสร้างข้อมูล 43 แฟ้ม",
         "exampleBoolean": false
       },
       {
@@ -493,10 +787,108 @@
           }
         ],
         "reference": {
+          "reference": "CodeSystem/cs-thcc-refer-outcome"
+        },
+        "name": "รหัสผลการส่งต่อไปรับบริการในสถานพยาบาลอื่น",
+        "description": "รหัสผลการส่งต่อไปรับบริการในสถานพยาบาลอื่น ตามโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-refer-in-reason"
+        },
+        "name": "รหัสสาเหตุการส่งผู้ป่วยมารับบริการ",
+        "description": "รหัสสาเหตุการส่งผู้ป่วยมารับบริการ ตามโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
           "reference": "CodeSystem/cs-thcc-religion"
         },
         "name": "ชุดรหัสศาสนา",
         "description": "ชุดรหัสศาสนา จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-service-hour"
+        },
+        "name": "รหัสเวลามารับบริการ",
+        "description": "รหัสเวลามารับบริการ ตามโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-service-location"
+        },
+        "name": "รหัสสถานที่รับบริการ",
+        "description": "รหัสสถานที่รับบริการ ตามโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-service-location-type"
+        },
+        "name": "รหัสสถานที่ที่ให้บริการ",
+        "description": "รหัสสถานที่ที่ให้บริการ ตามโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-service-priority"
+        },
+        "name": "รหัสสถานะความฉุกเฉิน",
+        "description": "รหัสสถานะความฉุกเฉิน ตามโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-service-type-th"
+        },
+        "name": "รหัสประเภทการให้บริการ",
+        "description": "รหัสประเภทการให้บริการ ตามโครงสร้างข้อมูล 43 แฟ้ม",
         "exampleBoolean": false
       },
       {
@@ -539,6 +931,20 @@
         },
         "name": "สถานะในชุมชน",
         "description": "ใช้ระบุสถานะในชุมชน ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-surveillance-group"
+        },
+        "name": "รหัสกลุ่มอาการที่เฝ้าระวัง",
+        "description": "รหัสกลุ่มอาการที่เฝ้าระวัง ตามโครงสร้างข้อมูล 43 แฟ้ม",
         "exampleBoolean": false
       },
       {

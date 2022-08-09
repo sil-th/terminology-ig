@@ -17,7 +17,7 @@
   fhir:CodeSystem.name [ fhir:value "CS_THCC_Nationality"];
   fhir:CodeSystem.title [ fhir:value "ชุดรหัสเชื้อชาติ-สัญชาติ"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2022-08-07T12:07:42+07:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-08-10T01:32:39+07:00"^^xsd:dateTime];
   fhir:CodeSystem.description [ fhir:value "ชุดรหัสเชื้อชาติ-สัญชาติ จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม"];
   fhir:CodeSystem.jurisdiction [
      fhir:index 0;

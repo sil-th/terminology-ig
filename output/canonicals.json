@@ -14,6 +14,111 @@
     "name": "CS_DOPA_NamePrefix"
   },
   {
+    "id": "cs-th-icd10tm-lab",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-th-icd10tm-lab",
+    "version": "0.1.0",
+    "name": "CS_ICD10TM_Lab"
+  },
+  {
+    "id": "cs-thcc-2digit-lab",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-2digit-lab",
+    "version": "0.1.0",
+    "name": "CS_THCC_2DigitLab"
+  },
+  {
+    "id": "cs-thcc-accident-admit-source",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-accident-admit-source",
+    "version": "0.1.0",
+    "name": "CS_THCC_AccidentAdmitSource"
+  },
+  {
+    "id": "cs-thcc-accident-bleeding",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-accident-bleeding",
+    "version": "0.1.0",
+    "name": "CS_THCC_AccidentBleeding"
+  },
+  {
+    "id": "cs-thcc-accident-breathing",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-accident-breathing",
+    "version": "0.1.0",
+    "name": "CS_THCC_AccidentBreathing"
+  },
+  {
+    "id": "cs-thcc-accident-cause-group",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-accident-cause-group",
+    "version": "0.1.0",
+    "name": "CS_THCC_AccidentCauseGroup"
+  },
+  {
+    "id": "cs-thcc-accident-coverage",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-accident-coverage",
+    "version": "0.1.0",
+    "name": "CS_THCC_AccidentCoverage"
+  },
+  {
+    "id": "cs-thcc-accident-iv-fluid",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-accident-iv-fluid",
+    "version": "0.1.0",
+    "name": "CS_THCC_AccidentIVFluid"
+  },
+  {
+    "id": "cs-thcc-accident-location",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-accident-location",
+    "version": "0.1.0",
+    "name": "CS_THCC_AccidentLocation"
+  },
+  {
+    "id": "cs-thcc-accident-obs",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-accident-obs",
+    "version": "0.1.0",
+    "name": "CS_THCC_AccidentObs"
+  },
+  {
+    "id": "cs-thcc-accident-patient-type",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-accident-patient-type",
+    "version": "0.1.0",
+    "name": "CS_THCC_AccidentPatientType"
+  },
+  {
+    "id": "cs-thcc-accident-priority",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-accident-priority",
+    "version": "0.1.0",
+    "name": "CS_THCC_AccidentPriority"
+  },
+  {
+    "id": "cs-thcc-accident-splint",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-accident-splint",
+    "version": "0.1.0",
+    "name": "CS_THCC_AccidentSplint"
+  },
+  {
+    "id": "cs-thcc-accident-vehicle",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-accident-vehicle",
+    "version": "0.1.0",
+    "name": "CS_THCC_AccidentVehicle"
+  },
+  {
+    "id": "cs-thcc-admit-source",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-admit-source",
+    "version": "0.1.0",
+    "name": "CS_THCC_AdmitSource"
+  },
+  {
     "id": "cs-thcc-allergy-assert-type",
     "type": "CodeSystem",
     "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-allergy-assert-type",
@@ -49,6 +154,27 @@
     "name": "CS_THCC_AllergyVerify"
   },
   {
+    "id": "cs-thcc-causative-agent",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-causative-agent",
+    "version": "0.1.0",
+    "name": "CS_THCC_CausativeAgent"
+  },
+  {
+    "id": "cs-thcc-discharge-status",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-discharge-status",
+    "version": "0.1.0",
+    "name": "CS_THCC_DischargeStatus"
+  },
+  {
+    "id": "cs-thcc-disease-cause",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-disease-cause",
+    "version": "0.1.0",
+    "name": "CS_THCC_DiseaseCause"
+  },
+  {
     "id": "cs-thcc-functional-conclusion",
     "type": "CodeSystem",
     "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-functional-conclusion",
@@ -61,6 +187,83 @@
     "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-functional-test",
     "version": "0.1.0",
     "name": "CS_THCC_FunctionalTest"
+  },
+  {
+    "id": "cs-thcc-participant-type",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-participant-type",
+    "version": "0.1.0",
+    "name": "CS_THCC_ParticipantType"
+  },
+  {
+    "id": "cs-thcc-patient-location-type",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-patient-location-type",
+    "version": "0.1.0",
+    "name": "CS_THCC_PatientLocationType"
+  },
+  {
+    "id": "cs-thcc-provider-type",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-provider-type",
+    "version": "0.1.0",
+    "name": "CS_THCC_ProviderType"
+  },
+  {
+    "id": "cs-thcc-refer-in-reason",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-refer-in-reason",
+    "version": "0.1.0",
+    "name": "CS_THCC_ReferReason"
+  },
+  {
+    "id": "cs-thcc-refer-outcome",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-refer-outcome",
+    "version": "0.1.0",
+    "name": "CS_THCC_ReferOutcome"
+  },
+  {
+    "id": "cs-thcc-service-hour",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-service-hour",
+    "version": "0.1.0",
+    "name": "CS_THCC_ServiceHour"
+  },
+  {
+    "id": "cs-thcc-service-location",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-service-location",
+    "version": "0.1.0",
+    "name": "CS_THCC_ServiceLocation"
+  },
+  {
+    "id": "cs-thcc-service-location-type",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-service-location-type",
+    "version": "0.1.0",
+    "name": "CS_THCC_ServiceLocationType"
+  },
+  {
+    "id": "cs-thcc-service-priority",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-service-priority",
+    "version": "0.1.0",
+    "name": "CS_THCC_ServicePriority"
+  },
+  {
+    "id": "cs-thcc-service-type-th",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-service-type-th",
+    "version": "0.1.0",
+    "name": "CS_THCC_ServiceTypeTH"
+  },
+  {
+    "id": "cs-thcc-surveillance-group",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-surveillance-group",
+    "version": "0.1.0",
+    "name": "CS_THCC_SurvGroup"
   },
   {
     "id": "cs-thcc-43file-type",
@@ -154,6 +357,13 @@
     "name": "CS_THCC_InMunicipality"
   },
   {
+    "id": "cs-thcc-individual-provider-type",
+    "type": "CodeSystem",
+    "url": "https://terms.sil-th.org/CodeSystem/cs-thcc-individual-provider-type",
+    "version": "0.1.0",
+    "name": "CS_THCC_IndividualProviderType"
+  },
+  {
     "id": "cs-thcc-marital",
     "type": "CodeSystem",
     "url": "https://terms.sil-th.org/CodeSystem/cs-thcc-marital",
@@ -194,13 +404,6 @@
     "url": "https://terms.sil-th.org/CodeSystem/cs-thcc-pid-remove-reason",
     "version": "0.1.0",
     "name": "CS_THCC_PidRemoveReason"
-  },
-  {
-    "id": "cs-thcc-provider-type",
-    "type": "CodeSystem",
-    "url": "https://terms.sil-th.org/CodeSystem/cs-thcc-provider-type",
-    "version": "0.1.0",
-    "name": "CS_THCC_IndProviderType"
   },
   {
     "id": "cs-thcc-provider-type-coverage",

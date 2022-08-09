@@ -16,7 +16,10 @@ Alias: $CS_HL7_Religion = http://terminology.hl7.org/CodeSystem/v3-ReligiousAffi
 Alias: $CS_HL7_ObservationCat = http://terminology.hl7.org/CodeSystem/observation-category
 Alias: $CS_HL7_RelationshipType = http://terminology.hl7.org/CodeSystem/v3-RoleCode
 Alias: $CS_HL7_EncounterClass = http://terminology.hl7.org/CodeSystem/v3-ActCode
+Alias: $CS_HL7_ConditionStatus = http://terminology.hl7.org/CodeSystem/condition-clinical
+Alias: $CS_HL7_ConditionVerification = http://terminology.hl7.org/CodeSystem/condition-ve
 Alias: $CS_HL7_ConditionCategory = http://terminology.hl7.org/CodeSystem/condition-category
+Alias: $CS_HL7_DiagRole = http://terminology.hl7.org/CodeSystem/diagnosis-role
 Alias: $CS_HL7_OrgType = http://terminology.hl7.org/CodeSystem/organization-type
 Alias: $CS_HL7_RoleCode = http://terminology.hl7.org/CodeSystem/v3-RoleCode
 Alias: $CS_HL7_AlleryActive = http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical
@@ -24,6 +27,11 @@ Alias: $CS_HL7_AllergyVerify = http://terminology.hl7.org/CodeSystem/allergyinto
 Alias: $CS_HL7_Priority = http://terminology.hl7.org/CodeSystem/v3-ActPriority
 Alias: $CS_HL7_ObsInterpret = http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation
 Alias: $CS_HL7_ParticipantType = http://terminology.hl7.org/CodeSystem/v3-ParticipationType
+Alias: $CS_HL7_AdmitSource = http://terminology.hl7.org/CodeSystem/admit-source
+Alias: $CS_HL7_ClaimType = http://terminology.hl7.org/CodeSystem/claim-type
+Alias: $CS_HL7_ProcessPriority = http://terminology.hl7.org/CodeSystem/processpriority
+Alias: $CS_HL7_YesNo = http://terminology.hl7.org/CodeSystem/v2-0532
+Alias: $CS_HL7_ClaimInfoCat = http://terminology.hl7.org/CodeSystem/claiminformationcategory
 
 // From Thai national codes
 Alias: $CS_TH_ISCED1997 = http://terms.sil-th.org/CodeSystem/isced-97
@@ -32,6 +40,7 @@ Alias: $CS_DOPA_Location = http://terms.sil-th.org/CodeSystem/cs-dopa-location
 Alias: $CS_TMT = http://terms.sil-th.org/CodeSystem/th-tmt
 Alias: $CS_TMLT = http://terms.sil-th.org/CodeSystem/th-tmlt
 Alias: $CS_24Drug = http://terms.sil-th.org/CodeSystem/th-24drug
+Alias: $CS_ICD10TM_Lab = http://terms.sil-th.org/CodeSystem/cs-th-icd10tm-lab
 
 // From Thai MOPH codes
 Alias: $CS_THCC_43fileType = https://terms.sil-th.org/CodeSystem/cs-thcc-43file-type
@@ -58,7 +67,7 @@ Alias: $CS_THCC_VillageArea = https://terms.sil-th.org/CodeSystem/cs-thcc-villag
 Alias: $CS_THCC_DisabilityType = https://terms.sil-th.org/CodeSystem/cs-thcc-disability-type
 Alias: $CS_THCC_DisabilityReason = https://terms.sil-th.org/CodeSystem/cs-thcc-disability-reason
 Alias: $CS_THCC_QualificationIssuer = https://terms.sil-th.org/CodeSystem/cs-thcc-qualification-issuer
-Alias: $CS_THCC_IndProviderType = https://terms.sil-th.org/CodeSystem/cs-thcc-provider-type
+Alias: $CS_THCC_IndividualProviderType = https://terms.sil-th.org/CodeSystem/cs-thcc-individual-provider-type
 Alias: $CS_THCC_Contraceptive = https://terms.sil-th.org/CodeSystem/cs-thcc-contraceptive
 Alias: $CS_THCC_NoContraceptive = https://terms.sil-th.org/CodeSystem/cs-thcc-no-contraceptive
 Alias: $CS_THCC_AllergyVerify = http://terms.sil-th.org/CodeSystem/cs-thcc-allergy-verify 
@@ -80,7 +89,22 @@ Alias: $CS_THCC_ServiceTypeTH = http://terms.sil-th.org/CodeSystem/cs-thcc-servi
 Alias: $CS_THCC_DischargeStatus = http://terms.sil-th.org/CodeSystem/cs-thcc-discharge-status
 Alias: $CS_THCC_ReferReason = http://terms.sil-th.org/CodeSystem/cs-thcc-refer-in-reason
 Alias: $CS_THCC_ReferOutcome = http://terms.sil-th.org/CodeSystem/cs-thcc-refer-outcome
-
+Alias: $CS_THCC_SurvGroup = http://terms.sil-th.org/CodeSystem/cs-thcc-surveillance-group
+Alias: $CS_THCC_CausativeAgent = http://terms.sil-th.org/CodeSystem/cs-thcc-causative-agent
+Alias: $CS_THCC_DiseaseCause = http://terms.sil-th.org/CodeSystem/cs-thcc-disease-cause
+Alias: $CS_THCC_AccidentObs = http://terms.sil-th.org/CodeSystem/cs-thcc-accident-obs
+Alias: $CS_THCC_AccidentLocation = http://terms.sil-th.org/CodeSystem/cs-thcc-accident-location
+Alias: $CS_THCC_AccidentAdmitSource = http://terms.sil-th.org/CodeSystem/cs-thcc-accident-admit-source
+Alias: $CS_THCC_AccidentPatientType = http://terms.sil-th.org/CodeSystem/cs-thcc-accident-patient-type
+Alias: $CS_THCC_AccidentVehicle = http://terms.sil-th.org/CodeSystem/cs-thcc-accident-vehicle
+Alias: $CS_THCC_AccidentBreathing = http://terms.sil-th.org/CodeSystem/cs-thcc-accident-breathing
+Alias: $CS_THCC_AccidentBleeding = http://terms.sil-th.org/CodeSystem/cs-thcc-accident-bleeding
+Alias: $CS_THCC_AccidentSplint = http://terms.sil-th.org/CodeSystem/cs-thcc-accident-splint
+Alias: $CS_THCC_AccidentIVFluid = http://terms.sil-th.org/CodeSystem/cs-thcc-accident-iv-fluid
+Alias: $CS_THCC_AccidentPriority = http://terms.sil-th.org/CodeSystem/cs-thcc-accident-priority
+Alias: $CS_THCC_AccidentCauseGroup = http://terms.sil-th.org/CodeSystem/cs-thcc-accident-cause-group
+Alias: $CS_THCC_AccidentCoverage = http://terms.sil-th.org/CodeSystem/cs-thcc-accident-coverage
+Alias: $CS_THCC_2DigitLab = http://terms.sil-th.org/CodeSystem/cs-thcc-2digit-lab
 
 // Value Set
 Alias: $VS_THCC_ICF = http://terms.sil-th.org/ValueSet/vs-thcc-icf
