@@ -189,6 +189,27 @@
     "name": "CS_THCC_FunctionalTest"
   },
   {
+    "id": "cs-thcc-ipd-discharge-status",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-ipd-discharge-status",
+    "version": "0.1.0",
+    "name": "CS_THCC_IpdDischargeStatus"
+  },
+  {
+    "id": "cs-thcc-ipd-discharge-type",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-ipd-discharge-type",
+    "version": "0.1.0",
+    "name": "CS_THCC_IpdDischargeType"
+  },
+  {
+    "id": "cs-thcc-ipd-journey",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-ipd-journey",
+    "version": "0.1.0",
+    "name": "CS_THCC_IpdJourney"
+  },
+  {
     "id": "cs-thcc-participant-type",
     "type": "CodeSystem",
     "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-participant-type",

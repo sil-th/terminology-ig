@@ -105,6 +105,10 @@ Alias: $CS_THCC_AccidentPriority = http://terms.sil-th.org/CodeSystem/cs-thcc-ac
 Alias: $CS_THCC_AccidentCauseGroup = http://terms.sil-th.org/CodeSystem/cs-thcc-accident-cause-group
 Alias: $CS_THCC_AccidentCoverage = http://terms.sil-th.org/CodeSystem/cs-thcc-accident-coverage
 Alias: $CS_THCC_2DigitLab = http://terms.sil-th.org/CodeSystem/cs-thcc-2digit-lab
+Alias: $CS_THCC_IpdJourney = http://terms.sil-th.org/CodeSystem/cs-thcc-ipd-journey
+Alias: $CS_THCC_IpdDischargeStatus = http://terms.sil-th.org/CodeSystem/cs-thcc-ipd-discharge-status
+Alias: $CS_THCC_IpdDischargeType = http://terms.sil-th.org/CodeSystem/cs-thcc-ipd-discharge-type
+
 
 // Value Set
 Alias: $VS_THCC_ICF = http://terms.sil-th.org/ValueSet/vs-thcc-icf

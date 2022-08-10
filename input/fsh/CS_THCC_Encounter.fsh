@@ -120,3 +120,45 @@ Description: "รหัสผลการส่งต่อไปรับบร
 * #2 "สถานบริการปลายทางไม่รับการส่งต่อผู้ป่วย"
 * #3 "ผู้ป่วยไม่ไปรับบริการที่สถานพยาบาลปลายทาง"
 * #9 "ไม่ทราบ"
+
+
+
+CodeSystem: CS_THCC_IpdJourney
+Id: cs-thcc-ipd-journey
+Title: "รหัสชนิดของแผนกที่ผู้ป่วยในรับบริการ"
+Description: "รหัสชนิดของแผนกที่ผู้ป่วยในรับบริการ เพื่อใช้ในโครงสร้างข้อมูล 43 แฟ้ม"
+* ^url = $CS_THCC_IpdJourney
+* #first "รหัสแผนกที่รับผู้ป่วย"
+* #admit "รหัสแผนกที่ส่งผู้ป่วยให้เป็นผู้ป่วยใน (admit clinic)"
+* #discharge "รหัสแผนกที่จำหน่ายผู้ป่วย (discharge clinic)"
+
+
+
+CodeSystem: CS_THCC_IpdDischargeStatus
+Id: cs-thcc-ipd-discharge-status
+Title: "รหัสผลการส่งต่อไปรับบริการในสถานพยาบาลอื่น"
+Description: "รหัสผลการส่งต่อไปรับบริการในสถานพยาบาลอื่น ตามโครงสร้างข้อมูล 43 แฟ้ม"
+* ^url = $CS_THCC_IpdDischargeStatus
+* #1 "Complete Recovery"
+* #2 "Improved"
+* #3 "Not Improved"
+* #4 "Normal Delivery"
+* #5 "Un-Delivery"
+* #6 "Normal child discharged with mother"
+* #7 "Normal child discharged separately"
+* #8 "Dead stillbirth"
+* #9 "Dead"
+
+
+CodeSystem: CS_THCC_IpdDischargeType
+Id: cs-thcc-ipd-discharge-type
+Title: "รหัสผลการส่งต่อไปรับบริการในสถานพยาบาลอื่น"
+Description: "รหัสผลการส่งต่อไปรับบริการในสถานพยาบาลอื่น ตามโครงสร้างข้อมูล 43 แฟ้ม"
+* ^url = $CS_THCC_IpdDischargeType
+* #1 "With Approval" "จำหน่ายโดยแพทย์อนุญาต"
+* #2 "Against Advice" "ผู้ป่วยขอออกไป ทั้งๆที่แพทย์แนะนำว่าควรรักษาต่อในโรงพยาบาล"
+* #3 "By Escape" "หนีออกจากโรงพยาบาล"
+* #4 "By Transfer" "ส่งต่อไปรักษาที่สถานพยาบาลแห่งอื่นโดยทันทีหลังออกจากโรงพยาบาล"
+* #5 "Other (specify)" "การจำหน่ายรูปแบบอื่นๆ ที่ไม่ใช่ ประเภทที่ 1, 2, 3, 4"
+* #8 "Death Autopsy" "เสียชีวิต, มีการตรวจศพ"
+* #9 "Dead Non autopsy" "เสียชีวิต, ไม่ได้ตรวจศพ"

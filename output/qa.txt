@@ -1,9 +1,9 @@
 ﻿SilTHTerminology : Validation Results
 =========================================
 
-err = 4, warn = 352, info = 81
-IG Publisher Version: 1.1.128
-Generated Wed Aug 10 01:33:55 ICT 2022. FHIR version 4.3.0 for sil-th-terminology#0.1.0 (canonical = https://terms.sil-th.org)
+err = 4, warn = 352, info = 84
+IG Publisher Version: 1.1.128 Out of date - current version is ?pub-ver-1?
+Generated Thu Aug 11 00:51:40 ICT 2022. FHIR version 4.3.0 for sil-th-terminology#0.1.0 (canonical = https://terms.sil-th.org)
  Build Errors : 10 / 0 / 0
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-dopa-location : 0 / 0 / 3
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-dopa-nameprefix : 0 / 0 / 2
@@ -46,6 +46,9 @@ Generated Wed Aug 10 01:33:55 ICT 2022. FHIR version 4.3.0 for sil-th-terminolog
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-house-type : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-in-municipality : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-individual-provider-type : 0 / 1 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-ipd-discharge-status : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-ipd-discharge-type : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-ipd-journey : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-marital : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-nationality : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-no-contraceptive : 0 / 0 / 2
@@ -523,6 +526,12 @@ INFORMATION: CodeSystem/cs-thcc-in-municipality: CodeSystem: CodeSystems SHOULD 
 == fsh-generated/resources/CodeSystem-cs-thcc-individual-provider-type.json ==
 WARNING: CodeSystem/cs-thcc-individual-provider-type: CodeSystem.concept[6].display: value should not start or finish with whitespace 'ทันตาภิบาล '
 INFORMATION: CodeSystem/cs-thcc-individual-provider-type: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-ipd-discharge-status.json ==
+INFORMATION: CodeSystem/cs-thcc-ipd-discharge-status: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-ipd-discharge-type.json ==
+INFORMATION: CodeSystem/cs-thcc-ipd-discharge-type: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-ipd-journey.json ==
+INFORMATION: CodeSystem/cs-thcc-ipd-journey: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-thcc-marital.json ==
 INFORMATION: CodeSystem/cs-thcc-marital: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-thcc-nationality.json ==
