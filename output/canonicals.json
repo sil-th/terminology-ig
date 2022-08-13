@@ -154,6 +154,20 @@
     "name": "CS_THCC_AllergyVerify"
   },
   {
+    "id": "cs-thcc-appoint-service-category",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-appoint-service-category",
+    "version": "0.1.0",
+    "name": "CS_THCC_AppointServiceCategory"
+  },
+  {
+    "id": "cs-thcc-appoint-service-type",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-appoint-service-type",
+    "version": "0.1.0",
+    "name": "CS_THCC_AppointServiceType"
+  },
+  {
     "id": "cs-thcc-causative-agent",
     "type": "CodeSystem",
     "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-causative-agent",
@@ -210,6 +224,48 @@
     "name": "CS_THCC_IpdJourney"
   },
   {
+    "id": "cs-thcc-ncd-alchohol",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-ncd-alchohol",
+    "version": "0.1.0",
+    "name": "CS_THCC_NcdAlcohol"
+  },
+  {
+    "id": "cs-thcc-ncd-fbs-method",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-ncd-fbs-method",
+    "version": "0.1.0",
+    "name": "CS_THCC_NcdFbsMethod"
+  },
+  {
+    "id": "cs-thcc-ncd-foot-exam",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-ncd-foot-exam",
+    "version": "0.1.0",
+    "name": "CS_THCC_NcdFootExam"
+  },
+  {
+    "id": "cs-thcc-ncd-retina-exam",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-ncd-retina-exam",
+    "version": "0.1.0",
+    "name": "CS_THCC_NcdRetinaExam"
+  },
+  {
+    "id": "cs-thcc-ncd-smoking",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-ncd-smoking",
+    "version": "0.1.0",
+    "name": "CS_THCC_NcdSmoking"
+  },
+  {
+    "id": "cs-thcc-ncd-status",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-ncd-status",
+    "version": "0.1.0",
+    "name": "CS_THCC_NcdStatus"
+  },
+  {
     "id": "cs-thcc-participant-type",
     "type": "CodeSystem",
     "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-participant-type",
@@ -243,6 +299,20 @@
     "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-refer-outcome",
     "version": "0.1.0",
     "name": "CS_THCC_ReferOutcome"
+  },
+  {
+    "id": "cs-thcc-rehab-device",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-rehab-device",
+    "version": "0.1.0",
+    "name": "CS_THCC_RehabDevice"
+  },
+  {
+    "id": "cs-thcc-rehab-service-type",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-rehab-service-type",
+    "version": "0.1.0",
+    "name": "CS_THCC_RehabServiceType"
   },
   {
     "id": "cs-thcc-service-hour",

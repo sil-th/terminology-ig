@@ -11,7 +11,7 @@
   <name value="SilTHTerminology"/>
   <title value="(Draft) SIL-TH Terminology"/>
   <status value="draft"/>
-  <date value="2022-08-11T00:50:32+07:00"/>
+  <date value="2022-08-14T01:41:38+07:00"/>
   <description value="A terminology registry which an be cited by FHIR artifacts"/>
   <jurisdiction>
     <coding>
@@ -308,6 +308,28 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/cs-thcc-appoint-service-category"/>
+      </reference>
+      <name value="รหัสประเภทการนัด"/>
+      <description value="รหัสประเภทการนัด ตามโครงสร้างข้อมูล 43 แฟ้ม"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-thcc-appoint-service-type"/>
+      </reference>
+      <name value="รหัสชื่อบริการที่นัดรับ"/>
+      <description value="รหัสชื่อบริการที่นัดรับ ตามโครงสร้างข้อมูล 43 แฟ้ม"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/cs-thcc-causative-agent"/>
       </reference>
       <name value="รหัสชนิดของเชื้อโรค"/>
@@ -539,6 +561,72 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/cs-thcc-ncd-alchohol"/>
+      </reference>
+      <name value="รหัสประวัติดื่มเครื่องดื่มแอลกอฮอลล์"/>
+      <description value="รหัสประวัติดื่มเครื่องดื่มแอลกอฮอลล์ ตามโครงสร้างข้อมูล 43 แฟ้ม"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-thcc-ncd-fbs-method"/>
+      </reference>
+      <name value="รหัสวิธีการตรวจน้ำตาลในเลือด"/>
+      <description value="รหัสวิธีการตรวจน้ำตาลในเลือด ตามโครงสร้างข้อมูล 43 แฟ้ม"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-thcc-ncd-foot-exam"/>
+      </reference>
+      <name value="รหัสตรวจเท้า"/>
+      <description value="รหัสตรวจเท้า ตามโครงสร้างข้อมูล 43 แฟ้ม"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-thcc-ncd-retina-exam"/>
+      </reference>
+      <name value="รหัสตรวจจอประสาทตา"/>
+      <description value="รหัสตรวจจอประสาทตา ตามโครงสร้างข้อมูล 43 แฟ้ม"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-thcc-ncd-smoking"/>
+      </reference>
+      <name value="รหัสประวัติสูบบุหรี่"/>
+      <description value="รหัสประวัติสูบบุหรี่ ตามโครงสร้างข้อมูล 43 แฟ้ม"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-thcc-ncd-status"/>
+      </reference>
+      <name value="สถานะการเป็นผู้ป่วยโรคเรื้อรัง"/>
+      <description value="สถานะการเป็นผู้ป่วยโรคเรื้อรัง ตามโครงสร้างข้อมูล 43 แฟ้ม"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/cs-thcc-no-contraceptive"/>
       </reference>
       <name value="รหัสสาเหตุที่ไม่คุมกำเนิด"/>
@@ -664,6 +752,28 @@
       </reference>
       <name value="รหัสสาเหตุการส่งผู้ป่วยมารับบริการ"/>
       <description value="รหัสสาเหตุการส่งผู้ป่วยมารับบริการ ตามโครงสร้างข้อมูล 43 แฟ้ม"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-thcc-rehab-device"/>
+      </reference>
+      <name value="รหัสกายอุปกรณ์ที่ได้รับ"/>
+      <description value="รหัสกายอุปกรณ์ที่ได้รับ ตามโครงสร้างข้อมูล 43 แฟ้ม"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-thcc-rehab-service-type"/>
+      </reference>
+      <name value="รหัสรหัสบริการฟื้นฟูสภาพ"/>
+      <description value="รหัสรหัสบริการฟื้นฟูสภาพ ตามโครงสร้างข้อมูล 43 แฟ้ม"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

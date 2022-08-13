@@ -1,6 +1,6 @@
 ﻿<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = errors = 4, warn = 352, info = 84, 10 -->
+<!-- broken links = errors = 4, warn = 370, info = 94, 10 -->
 <head>
   <title>SilTHTerminology : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -36,9 +36,9 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for SilTHTerminology</h1>
- <p>Generated Thu Aug 11 00:51:39 ICT 2022, FHIR version 4.3.0 for sil-th-terminology#0.1.0 (canonical = <a href="https://terms.sil-th.org">https://terms.sil-th.org</a> (<a href="https://terms.sil-th.org/history.html">history</a>)). See <a href="qa.html">Full QA Report</a></p>
+ <p>Generated Sun Aug 14 01:42:44 ICT 2022, FHIR version 4.3.0 for sil-th-terminology#0.1.0 (canonical = <a href="https://terms.sil-th.org">https://terms.sil-th.org</a> (<a href="https://terms.sil-th.org/history.html">history</a>)). See <a href="qa.html">Full QA Report</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
- <tr><td>Publisher Version:</td><td><span style="background-color: #ffcccc">IG Publisher Version: v1.1.128, which is out of date. The current version is v?pub-ver-1? <a href="https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar">Download Latest</a></span></td></tr>
+ <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v1.1.128</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = sil-th-terminology, Canonical = https://terms.sil-th.org</td></tr>
  <tr><td>Realm Check for n/a:</td><td><span style="color: maroon; font-weight: bold"></span><ul><li>n/a</li></ul></td></tr>
  <tr><td>Version Check:</td><td>0.1.0: <span stlye="color: marron; font-weight: bold">No entry in the package-list.json file for this version</span></td></tr>
@@ -53,9 +53,9 @@
  <tr><td>HTA Analysis:</td><td><i>Non-HL7 Igs are exempt from terminology dependency analysis</i></td></tr>
  <tr><td>R5 Dependencies:</td><td><span style="color: grey">(none)</span></td></tr>
  <tr><td>Modifier Extensions:</td><td><span style="color: grey">(none)</span></td></tr>
- <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at https://terms.sil-th.org (Problem #1 with package-list.json at https://terms.sil-th.org: Invalid HTTP response 404 from https://terms.sil-th.org/package-list.json?nocache=1660153831887 (Not Found) (content in /var/folders/4g/tln658p904lfslzzc8qqq_740000gn/T/fhir-http-2.log))</td></tr>
+ <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at https://terms.sil-th.org (Problem #1 with package-list.json at https://terms.sil-th.org: Invalid HTTP response 404 from https://terms.sil-th.org/package-list.json?nocache=1660416097960 (Not Found) (content in /var/folders/4g/tln658p904lfslzzc8qqq_740000gn/T/fhir-http-2.log))</td></tr>
  <tr><td>IPA Comparison:</td><td> n/a</td></tr>
- <tr><td>Summary:</td><td> errors = 4, warn = 352, info = 84, broken links = 10</td></tr>
+ <tr><td>Summary:</td><td> errors = 4, warn = 370, info = 94, broken links = 10</td></tr>
 </table>
  <table class="grid">
    <tr>
@@ -84,6 +84,9 @@
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_Users_rathpanyowat_Dev_sil-th-terminology-ig_fsh-generated_resources_CodeSystem-cs-thcc-individual-provider-type"><b>/Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-individual-provider-type</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
+   </tr>
+   <tr style="background-color: #EFFFEF">
+     <td><a href="#_Users_rathpanyowat_Dev_sil-th-terminology-ig_fsh-generated_resources_CodeSystem-cs-thcc-rehab-service-type"><b>/Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-rehab-service-type</b></a></td><td><b>0</b></td><td><b>18</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#_Users_rathpanyowat_Dev_sil-th-terminology-ig_fsh-generated_resources_CodeSystem-cs-thcc-service-type-th"><b>/Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-service-type-th</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>1</b></td>
@@ -1252,9 +1255,76 @@
    </tr>
 </table>
 <hr/>
-<a name="_Users_rathpanyowat_Dev_sil-th-terminology-ig_fsh-generated_resources_CodeSystem-cs-thcc-service-type-th"> </a>
-<h2><a href="CodeSystem-cs-thcc-service-type-th.html">fsh-generated/resources/CodeSystem-cs-thcc-service-type-th.json</a> <span id="svi8" class="toggle" onclick="toggle('vi8')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi8')">(1)</span></h2>
+<a name="_Users_rathpanyowat_Dev_sil-th-terminology-ig_fsh-generated_resources_CodeSystem-cs-thcc-rehab-service-type"> </a>
+<h2><a href="CodeSystem-cs-thcc-rehab-service-type.html">fsh-generated/resources/CodeSystem-cs-thcc-rehab-service-type.json</a> <span id="svi8" class="toggle" onclick="toggle('vi8')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi8')">(1)</span></h2>
  <div style="border: 1px grey solid; display: none" id="vi8"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4B/codesystem.html">CodeSystem</a></li></ul>
+</div>
+ <table class="grid">
+   <tr>
+     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem.concept[76].display</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace 'Psychological...counseling '</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem.concept[77].display</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace 'Prosthetic...education '</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem.concept[78].display</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace 'Social...counseling '</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem.concept[80].display</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace 'Care-giver...education '</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem.concept[82].display</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace 'Protective...education '</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem.concept[89].display</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace 'Home...adaptation '</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem.concept[97].display</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace 'Local...tissue '</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem.concept[102].display</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace 'Local...joint '</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem.concept[122].display</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace 'Repetitive...test] '</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem.concept[137].display</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace 'Motor...skin '</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem.concept[146].display</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace 'Orthotic...fitting '</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem.concept[163].display</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace 'Resistive/strengthening,...machine '</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem.concept[165].display</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace 'Exercise...device '</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem.concept[168].display</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace 'Other...unclassified '</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem.concept[178].display</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace 'Ambulation,...mobility '</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem.concept[179].display</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace 'Ambulation,...mobility '</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem.concept[188].display</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace 'Adaptive...training '</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b>CodeSystem.concept[196].display</b></td><td><b>warning</b></td><td title="Type_Specific_Checks_DT_String_WS"><b>value should not start or finish with whitespace 'Other...unspecified '</b></td>
+   </tr>
+   <tr style="background-color: #ffffe6">
+     <td><b>CodeSystem</b></td><td><b>information</b></td><td title=""><b>CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly</b></td>
+   </tr>
+</table>
+<hr/>
+<a name="_Users_rathpanyowat_Dev_sil-th-terminology-ig_fsh-generated_resources_CodeSystem-cs-thcc-service-type-th"> </a>
+<h2><a href="CodeSystem-cs-thcc-service-type-th.html">fsh-generated/resources/CodeSystem-cs-thcc-service-type-th.json</a> <span id="svi9" class="toggle" onclick="toggle('vi9')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi9')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi9"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4B/codesystem.html">CodeSystem</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1269,8 +1339,8 @@
 </table>
 <hr/>
 <a name="_Users_rathpanyowat_Dev_sil-th-terminology-ig_fsh-generated_resources_CodeSystem-cs-thcc-social-obs-type"> </a>
-<h2><a href="CodeSystem-cs-thcc-social-obs-type.html">fsh-generated/resources/CodeSystem-cs-thcc-social-obs-type.json</a> <span id="svi9" class="toggle" onclick="toggle('vi9')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi9')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi9"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4B/codesystem.html">CodeSystem</a></li></ul>
+<h2><a href="CodeSystem-cs-thcc-social-obs-type.html">fsh-generated/resources/CodeSystem-cs-thcc-social-obs-type.json</a> <span id="svi10" class="toggle" onclick="toggle('vi10')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi10')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi10"><ul style="font-size: 7px"><li>CodeSystem: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4B/codesystem.html">CodeSystem</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1285,8 +1355,8 @@
 </table>
 <hr/>
 <a name="_Users_rathpanyowat_Dev_sil-th-terminology-ig_fsh-generated_resources_ValueSet-vs-thcc-icf"> </a>
-<h2><a href="ValueSet-vs-thcc-icf.html">fsh-generated/resources/ValueSet-vs-thcc-icf.json</a> <span id="svi10" class="toggle" onclick="toggle('vi10')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi10')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi10"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4B/valueset.html">ValueSet</a></li></ul>
+<h2><a href="ValueSet-vs-thcc-icf.html">fsh-generated/resources/ValueSet-vs-thcc-icf.json</a> <span id="svi11" class="toggle" onclick="toggle('vi11')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi11')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi11"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4B/valueset.html">ValueSet</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -2408,6 +2478,60 @@
    </tr>
    <tr style="background-color: #fff4ee">
      <td><a href="CodeSystem-cs-thcc-individual-provider-type.html">fsh-generated/resources/CodeSystem-cs-thcc-individual-provider-type.json</a></td><td><b>value should not start or finish with whitespace 'ทันตาภิบาล '</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-cs-thcc-rehab-service-type.html">fsh-generated/resources/CodeSystem-cs-thcc-rehab-service-type.json</a></td><td><b>value should not start or finish with whitespace 'Psychological...counseling '</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-cs-thcc-rehab-service-type.html">fsh-generated/resources/CodeSystem-cs-thcc-rehab-service-type.json</a></td><td><b>value should not start or finish with whitespace 'Prosthetic...education '</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-cs-thcc-rehab-service-type.html">fsh-generated/resources/CodeSystem-cs-thcc-rehab-service-type.json</a></td><td><b>value should not start or finish with whitespace 'Social...counseling '</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-cs-thcc-rehab-service-type.html">fsh-generated/resources/CodeSystem-cs-thcc-rehab-service-type.json</a></td><td><b>value should not start or finish with whitespace 'Care-giver...education '</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-cs-thcc-rehab-service-type.html">fsh-generated/resources/CodeSystem-cs-thcc-rehab-service-type.json</a></td><td><b>value should not start or finish with whitespace 'Protective...education '</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-cs-thcc-rehab-service-type.html">fsh-generated/resources/CodeSystem-cs-thcc-rehab-service-type.json</a></td><td><b>value should not start or finish with whitespace 'Home...adaptation '</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-cs-thcc-rehab-service-type.html">fsh-generated/resources/CodeSystem-cs-thcc-rehab-service-type.json</a></td><td><b>value should not start or finish with whitespace 'Local...tissue '</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-cs-thcc-rehab-service-type.html">fsh-generated/resources/CodeSystem-cs-thcc-rehab-service-type.json</a></td><td><b>value should not start or finish with whitespace 'Local...joint '</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-cs-thcc-rehab-service-type.html">fsh-generated/resources/CodeSystem-cs-thcc-rehab-service-type.json</a></td><td><b>value should not start or finish with whitespace 'Repetitive...test] '</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-cs-thcc-rehab-service-type.html">fsh-generated/resources/CodeSystem-cs-thcc-rehab-service-type.json</a></td><td><b>value should not start or finish with whitespace 'Motor...skin '</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-cs-thcc-rehab-service-type.html">fsh-generated/resources/CodeSystem-cs-thcc-rehab-service-type.json</a></td><td><b>value should not start or finish with whitespace 'Orthotic...fitting '</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-cs-thcc-rehab-service-type.html">fsh-generated/resources/CodeSystem-cs-thcc-rehab-service-type.json</a></td><td><b>value should not start or finish with whitespace 'Resistive/strengthening,...machine '</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-cs-thcc-rehab-service-type.html">fsh-generated/resources/CodeSystem-cs-thcc-rehab-service-type.json</a></td><td><b>value should not start or finish with whitespace 'Exercise...device '</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-cs-thcc-rehab-service-type.html">fsh-generated/resources/CodeSystem-cs-thcc-rehab-service-type.json</a></td><td><b>value should not start or finish with whitespace 'Other...unclassified '</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-cs-thcc-rehab-service-type.html">fsh-generated/resources/CodeSystem-cs-thcc-rehab-service-type.json</a></td><td><b>value should not start or finish with whitespace 'Ambulation,...mobility '</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-cs-thcc-rehab-service-type.html">fsh-generated/resources/CodeSystem-cs-thcc-rehab-service-type.json</a></td><td><b>value should not start or finish with whitespace 'Ambulation,...mobility '</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-cs-thcc-rehab-service-type.html">fsh-generated/resources/CodeSystem-cs-thcc-rehab-service-type.json</a></td><td><b>value should not start or finish with whitespace 'Adaptive...training '</b></td>
+   </tr>
+   <tr style="background-color: #fff4ee">
+     <td><a href="CodeSystem-cs-thcc-rehab-service-type.html">fsh-generated/resources/CodeSystem-cs-thcc-rehab-service-type.json</a></td><td><b>value should not start or finish with whitespace 'Other...unspecified '</b></td>
    </tr>
    <tr style="background-color: #fff4ee">
      <td><a href="CodeSystem-cs-thcc-service-type-th.html">fsh-generated/resources/CodeSystem-cs-thcc-service-type-th.json</a></td><td><b>value should not start or finish with whitespace 'AE...ในบัญชีเครือข่าย '</b></td>

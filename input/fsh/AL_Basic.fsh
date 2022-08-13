@@ -108,6 +108,17 @@ Alias: $CS_THCC_2DigitLab = http://terms.sil-th.org/CodeSystem/cs-thcc-2digit-la
 Alias: $CS_THCC_IpdJourney = http://terms.sil-th.org/CodeSystem/cs-thcc-ipd-journey
 Alias: $CS_THCC_IpdDischargeStatus = http://terms.sil-th.org/CodeSystem/cs-thcc-ipd-discharge-status
 Alias: $CS_THCC_IpdDischargeType = http://terms.sil-th.org/CodeSystem/cs-thcc-ipd-discharge-type
+Alias: $CS_THCC_AppointServiceCategory = http://terms.sil-th.org/CodeSystem/cs-thcc-appoint-service-category
+Alias: $CS_THCC_AppointServiceType = http://terms.sil-th.org/CodeSystem/cs-thcc-appoint-service-type
+Alias: $CS_THCC_RehabServiceType = http://terms.sil-th.org/CodeSystem/cs-thcc-rehab-service-type
+Alias: $CS_THCC_RehabDevice = http://terms.sil-th.org/CodeSystem/cs-thcc-rehab-device
+Alias: $CS_THCC_NcdStatus = http://terms.sil-th.org/CodeSystem/cs-thcc-ncd-status
+Alias: $CS_THCC_NcdSmoking = http://terms.sil-th.org/CodeSystem/cs-thcc-ncd-smoking
+Alias: $CS_THCC_NcdAlcohol = http://terms.sil-th.org/CodeSystem/cs-thcc-ncd-alchohol
+Alias: $CS_THCC_NcdFbsMethod = http://terms.sil-th.org/CodeSystem/cs-thcc-ncd-fbs-method
+Alias: $CS_THCC_NcdFootExam = http://terms.sil-th.org/CodeSystem/cs-thcc-ncd-foot-exam
+Alias: $CS_THCC_NcdRetinaExam = http://terms.sil-th.org/CodeSystem/cs-thcc-ncd-retina-exam
+
 
 
 // Value Set

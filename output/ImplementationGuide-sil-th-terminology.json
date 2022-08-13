@@ -10,7 +10,7 @@
   "name": "SilTHTerminology",
   "title": "(Draft) SIL-TH Terminology",
   "status": "draft",
-  "date": "2022-08-11T00:50:32+07:00",
+  "date": "2022-08-14T01:41:38+07:00",
   "description": "A terminology registry which an be cited by FHIR artifacts",
   "jurisdiction": [
     {
@@ -395,6 +395,34 @@
           }
         ],
         "reference": {
+          "reference": "CodeSystem/cs-thcc-appoint-service-category"
+        },
+        "name": "รหัสประเภทการนัด",
+        "description": "รหัสประเภทการนัด ตามโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-appoint-service-type"
+        },
+        "name": "รหัสชื่อบริการที่นัดรับ",
+        "description": "รหัสชื่อบริการที่นัดรับ ตามโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
           "reference": "CodeSystem/cs-thcc-causative-agent"
         },
         "name": "รหัสชนิดของเชื้อโรค",
@@ -689,6 +717,90 @@
           }
         ],
         "reference": {
+          "reference": "CodeSystem/cs-thcc-ncd-alchohol"
+        },
+        "name": "รหัสประวัติดื่มเครื่องดื่มแอลกอฮอลล์",
+        "description": "รหัสประวัติดื่มเครื่องดื่มแอลกอฮอลล์ ตามโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-ncd-fbs-method"
+        },
+        "name": "รหัสวิธีการตรวจน้ำตาลในเลือด",
+        "description": "รหัสวิธีการตรวจน้ำตาลในเลือด ตามโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-ncd-foot-exam"
+        },
+        "name": "รหัสตรวจเท้า",
+        "description": "รหัสตรวจเท้า ตามโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-ncd-retina-exam"
+        },
+        "name": "รหัสตรวจจอประสาทตา",
+        "description": "รหัสตรวจจอประสาทตา ตามโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-ncd-smoking"
+        },
+        "name": "รหัสประวัติสูบบุหรี่",
+        "description": "รหัสประวัติสูบบุหรี่ ตามโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-ncd-status"
+        },
+        "name": "สถานะการเป็นผู้ป่วยโรคเรื้อรัง",
+        "description": "สถานะการเป็นผู้ป่วยโรคเรื้อรัง ตามโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
           "reference": "CodeSystem/cs-thcc-no-contraceptive"
         },
         "name": "รหัสสาเหตุที่ไม่คุมกำเนิด",
@@ -847,6 +959,34 @@
         },
         "name": "รหัสสาเหตุการส่งผู้ป่วยมารับบริการ",
         "description": "รหัสสาเหตุการส่งผู้ป่วยมารับบริการ ตามโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-rehab-device"
+        },
+        "name": "รหัสกายอุปกรณ์ที่ได้รับ",
+        "description": "รหัสกายอุปกรณ์ที่ได้รับ ตามโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-rehab-service-type"
+        },
+        "name": "รหัสรหัสบริการฟื้นฟูสภาพ",
+        "description": "รหัสรหัสบริการฟื้นฟูสภาพ ตามโครงสร้างข้อมูล 43 แฟ้ม",
         "exampleBoolean": false
       },
       {

@@ -1,9 +1,9 @@
 ﻿SilTHTerminology : Validation Results
 =========================================
 
-err = 4, warn = 352, info = 84
-IG Publisher Version: 1.1.128 Out of date - current version is ?pub-ver-1?
-Generated Thu Aug 11 00:51:40 ICT 2022. FHIR version 4.3.0 for sil-th-terminology#0.1.0 (canonical = https://terms.sil-th.org)
+err = 4, warn = 370, info = 94
+IG Publisher Version: 1.1.128
+Generated Sun Aug 14 01:42:44 ICT 2022. FHIR version 4.3.0 for sil-th-terminology#0.1.0 (canonical = https://terms.sil-th.org)
  Build Errors : 10 / 0 / 0
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-dopa-location : 0 / 0 / 3
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-dopa-nameprefix : 0 / 0 / 2
@@ -30,6 +30,8 @@ Generated Thu Aug 11 00:51:40 ICT 2022. FHIR version 4.3.0 for sil-th-terminolog
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-allergy-manifest : 0 / 1 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-allergy-severity : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-allergy-verify : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-appoint-service-category : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-appoint-service-type : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-causative-agent : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-chronic-discharge-reason : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-contraceptive : 0 / 0 / 2
@@ -51,6 +53,12 @@ Generated Thu Aug 11 00:51:40 ICT 2022. FHIR version 4.3.0 for sil-th-terminolog
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-ipd-journey : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-marital : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-nationality : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-ncd-alchohol : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-ncd-fbs-method : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-ncd-foot-exam : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-ncd-retina-exam : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-ncd-smoking : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-ncd-status : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-no-contraceptive : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-occupation : 0 / 0 / 3
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-participant-type : 0 / 0 / 2
@@ -63,6 +71,8 @@ Generated Thu Aug 11 00:51:40 ICT 2022. FHIR version 4.3.0 for sil-th-terminolog
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-qualification-issuer : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-refer-in-reason : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-refer-outcome : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-rehab-device : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-rehab-service-type : 0 / 18 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-religion : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-service-hour : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-service-location : 0 / 0 / 2
@@ -489,6 +499,10 @@ INFORMATION: CodeSystem/cs-thcc-allergy-manifest: CodeSystem: CodeSystems SHOULD
 INFORMATION: CodeSystem/cs-thcc-allergy-severity: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-thcc-allergy-verify.json ==
 INFORMATION: CodeSystem/cs-thcc-allergy-verify: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-appoint-service-category.json ==
+INFORMATION: CodeSystem/cs-thcc-appoint-service-category: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-appoint-service-type.json ==
+INFORMATION: CodeSystem/cs-thcc-appoint-service-type: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-thcc-causative-agent.json ==
 INFORMATION: CodeSystem/cs-thcc-causative-agent: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-thcc-chronic-discharge-reason.json ==
@@ -536,6 +550,18 @@ INFORMATION: CodeSystem/cs-thcc-ipd-journey: CodeSystem: CodeSystems SHOULD have
 INFORMATION: CodeSystem/cs-thcc-marital: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-thcc-nationality.json ==
 INFORMATION: CodeSystem/cs-thcc-nationality: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-ncd-alchohol.json ==
+INFORMATION: CodeSystem/cs-thcc-ncd-alchohol: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-ncd-fbs-method.json ==
+INFORMATION: CodeSystem/cs-thcc-ncd-fbs-method: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-ncd-foot-exam.json ==
+INFORMATION: CodeSystem/cs-thcc-ncd-foot-exam: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-ncd-retina-exam.json ==
+INFORMATION: CodeSystem/cs-thcc-ncd-retina-exam: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-ncd-smoking.json ==
+INFORMATION: CodeSystem/cs-thcc-ncd-smoking: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-ncd-status.json ==
+INFORMATION: CodeSystem/cs-thcc-ncd-status: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-thcc-no-contraceptive.json ==
 INFORMATION: CodeSystem/cs-thcc-no-contraceptive: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-thcc-occupation.json ==
@@ -561,6 +587,28 @@ INFORMATION: CodeSystem/cs-thcc-qualification-issuer: CodeSystem: CodeSystems SH
 INFORMATION: CodeSystem/cs-thcc-refer-in-reason: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-thcc-refer-outcome.json ==
 INFORMATION: CodeSystem/cs-thcc-refer-outcome: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-rehab-device.json ==
+INFORMATION: CodeSystem/cs-thcc-rehab-device: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-rehab-service-type.json ==
+WARNING: CodeSystem/cs-thcc-rehab-service-type: CodeSystem.concept[76].display: value should not start or finish with whitespace 'Psychological...counseling '
+WARNING: CodeSystem/cs-thcc-rehab-service-type: CodeSystem.concept[77].display: value should not start or finish with whitespace 'Prosthetic...education '
+WARNING: CodeSystem/cs-thcc-rehab-service-type: CodeSystem.concept[78].display: value should not start or finish with whitespace 'Social...counseling '
+WARNING: CodeSystem/cs-thcc-rehab-service-type: CodeSystem.concept[80].display: value should not start or finish with whitespace 'Care-giver...education '
+WARNING: CodeSystem/cs-thcc-rehab-service-type: CodeSystem.concept[82].display: value should not start or finish with whitespace 'Protective...education '
+WARNING: CodeSystem/cs-thcc-rehab-service-type: CodeSystem.concept[89].display: value should not start or finish with whitespace 'Home...adaptation '
+WARNING: CodeSystem/cs-thcc-rehab-service-type: CodeSystem.concept[97].display: value should not start or finish with whitespace 'Local...tissue '
+WARNING: CodeSystem/cs-thcc-rehab-service-type: CodeSystem.concept[102].display: value should not start or finish with whitespace 'Local...joint '
+WARNING: CodeSystem/cs-thcc-rehab-service-type: CodeSystem.concept[122].display: value should not start or finish with whitespace 'Repetitive...test] '
+WARNING: CodeSystem/cs-thcc-rehab-service-type: CodeSystem.concept[137].display: value should not start or finish with whitespace 'Motor...skin '
+WARNING: CodeSystem/cs-thcc-rehab-service-type: CodeSystem.concept[146].display: value should not start or finish with whitespace 'Orthotic...fitting '
+WARNING: CodeSystem/cs-thcc-rehab-service-type: CodeSystem.concept[163].display: value should not start or finish with whitespace 'Resistive/strengthening,...machine '
+WARNING: CodeSystem/cs-thcc-rehab-service-type: CodeSystem.concept[165].display: value should not start or finish with whitespace 'Exercise...device '
+WARNING: CodeSystem/cs-thcc-rehab-service-type: CodeSystem.concept[168].display: value should not start or finish with whitespace 'Other...unclassified '
+WARNING: CodeSystem/cs-thcc-rehab-service-type: CodeSystem.concept[178].display: value should not start or finish with whitespace 'Ambulation,...mobility '
+WARNING: CodeSystem/cs-thcc-rehab-service-type: CodeSystem.concept[179].display: value should not start or finish with whitespace 'Ambulation,...mobility '
+WARNING: CodeSystem/cs-thcc-rehab-service-type: CodeSystem.concept[188].display: value should not start or finish with whitespace 'Adaptive...training '
+WARNING: CodeSystem/cs-thcc-rehab-service-type: CodeSystem.concept[196].display: value should not start or finish with whitespace 'Other...unspecified '
+INFORMATION: CodeSystem/cs-thcc-rehab-service-type: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-thcc-religion.json ==
 INFORMATION: CodeSystem/cs-thcc-religion: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-thcc-service-hour.json ==
