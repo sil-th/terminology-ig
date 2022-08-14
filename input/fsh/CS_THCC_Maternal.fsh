@@ -76,7 +76,7 @@ Id: cs-thcc-misc-pregnancy-obs
 Title: "รหัสการตรวจอื่น ๆ เกี่ยวกับอนามัยแม่และเด็ก"
 Description: "รหัสการตรวจอื่น ๆ เกี่ยวกับอนามัยแม่และเด็กที่ไม่มี LOINC code เพื่อใช้ประกอบโครงสร้างข้อมูล 43 แฟ้ม"
 * ^url = $CS_THCC_MiscPregnancyObs
-* #thalassaemia "การตรวนคัดกรองโรคทาลัสซีเมีย"
+* #ancperiod "ช่วงของการ ANC ตามโครงสร้างข้อมูล 43 แฟ้ม แฟ้ม ANC"
 
 
 CodeSystem: CS_THCC_ScreeningResult
