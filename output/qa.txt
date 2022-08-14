@@ -1,9 +1,9 @@
 ﻿SilTHTerminology : Validation Results
 =========================================
 
-err = 4, warn = 372, info = 103
+err = 4, warn = 372, info = 106
 IG Publisher Version: 1.1.128
-Generated Sun Aug 14 22:16:05 ICT 2022. FHIR version 4.3.0 for sil-th-terminology#0.1.0 (canonical = https://terms.sil-th.org)
+Generated Mon Aug 15 02:17:48 ICT 2022. FHIR version 4.3.0 for sil-th-terminology#0.1.0 (canonical = https://terms.sil-th.org)
  Build Errors : 10 / 0 / 0
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-dopa-location : 0 / 0 / 3
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-dopa-nameprefix : 0 / 0 / 2
@@ -72,6 +72,9 @@ Generated Sun Aug 14 22:16:05 ICT 2022. FHIR version 4.3.0 for sil-th-terminolog
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-patient-location-type : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-person-status : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-pid-remove-reason : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-postnatal-breastfeeding : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-postnatal-mens : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-postnatal-perineum : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-pregnancy-outcome : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-provider-type : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-provider-type-coverage : 0 / 0 / 2
@@ -598,6 +601,12 @@ INFORMATION: CodeSystem/cs-thcc-patient-location-type: CodeSystem: CodeSystems S
 INFORMATION: CodeSystem/cs-thcc-person-status: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-thcc-pid-remove-reason.json ==
 INFORMATION: CodeSystem/cs-thcc-pid-remove-reason: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-postnatal-breastfeeding.json ==
+INFORMATION: CodeSystem/cs-thcc-postnatal-breastfeeding: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-postnatal-mens.json ==
+INFORMATION: CodeSystem/cs-thcc-postnatal-mens: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-postnatal-perineum.json ==
+INFORMATION: CodeSystem/cs-thcc-postnatal-perineum: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-thcc-pregnancy-outcome.json ==
 INFORMATION: CodeSystem/cs-thcc-pregnancy-outcome: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-thcc-provider-type.json ==
@@ -662,7 +671,7 @@ INFORMATION: CodeSystem/cs-thcc-surveillance-group: CodeSystem: CodeSystems SHOU
 == fsh-generated/resources/CodeSystem-cs-thcc-village-area.json ==
 INFORMATION: CodeSystem/cs-thcc-village-area: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/ImplementationGuide-sil-th-terminology.json ==
-WARNING: ImplementationGuide/sil-th-terminology: ImplementationGuide.definition.resource[77].name: value should not start or finish with whitespace 'รหัสผลการตรวจคัดกรองทางอนามัยแม่และเด็ก '
+WARNING: ImplementationGuide/sil-th-terminology: ImplementationGuide.definition.resource[80].name: value should not start or finish with whitespace 'รหัสผลการตรวจคัดกรองทางอนามัยแม่และเด็ก '
 == fsh-generated/resources/NamingSystem-IDDopaHouseNo.json ==
 INFORMATION: NamingSystem/IDDopaHouseNo: NamingSystem.type.coding[0]: Code System URI 'http://terminology.hl7.org/3.1.0/CodeSystem-v2-0203.html' is unknown so the code cannot be validated
 == fsh-generated/resources/NamingSystem-IDHcode.json ==

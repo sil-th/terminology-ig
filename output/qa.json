@@ -3,10 +3,10 @@
   "name": "SilTHTerminology",
   "package-id": "sil-th-terminology",
   "ig-ver": "0.1.0",
-  "date": "Sun, 14 Aug, 2022 22:14:52 +0700",
+  "date": "Mon, 15 Aug, 2022 02:16:31 +0700",
   "errs": 4,
   "warnings": 372,
-  "hints": 103,
+  "hints": 106,
   "version": "4.3.0",
   "tool": "5.0.0-snapshot2 (3)"
 }

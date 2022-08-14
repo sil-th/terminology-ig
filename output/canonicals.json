@@ -329,6 +329,27 @@
     "name": "CS_THCC_PatientLocationType"
   },
   {
+    "id": "cs-thcc-postnatal-breastfeeding",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-postnatal-breastfeeding",
+    "version": "0.1.0",
+    "name": "CS_THCC_PostnatalBreastfeeding"
+  },
+  {
+    "id": "cs-thcc-postnatal-mens",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-postnatal-mens",
+    "version": "0.1.0",
+    "name": "CS_THCC_PostnatalMens"
+  },
+  {
+    "id": "cs-thcc-postnatal-perineum",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-postnatal-perineum",
+    "version": "0.1.0",
+    "name": "CS_THCC_PostnatalPerineum"
+  },
+  {
     "id": "cs-thcc-pregnancy-outcome",
     "type": "CodeSystem",
     "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-pregnancy-outcome",

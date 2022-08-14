@@ -127,6 +127,9 @@ Alias: $CS_THCC_PregnancyOutcome = http://terms.sil-th.org/CodeSystem/cs-thcc-pr
 Alias: $CS_THCC_ContraceptiveMethod = http://terms.sil-th.org/CodeSystem/cs-thcc-contraceptive-method
 Alias: $CS_THCC_MiscPregnancyObs = http://terms.sil-th.org/CodeSystem/cs-thcc-misc-pregnancy-obs
 Alias: $CS_THCC_ScreeningResult = http://terms.sil-th.org/CodeSystem/cs-thcc-screening-result
+Alias: $CS_THCC_PostnatalBreastfeeding = http://terms.sil-th.org/CodeSystem/cs-thcc-postnatal-breastfeeding
+Alias: $CS_THCC_PostnatalMens = http://terms.sil-th.org/CodeSystem/cs-thcc-postnatal-mens
+Alias: $CS_THCC_PostnatalPerineum = http://terms.sil-th.org/CodeSystem/cs-thcc-postnatal-perineum
 
 // Value Set
 Alias: $VS_THCC_ICF = http://terms.sil-th.org/ValueSet/vs-thcc-icf

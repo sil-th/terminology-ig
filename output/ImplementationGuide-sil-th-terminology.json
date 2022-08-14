@@ -10,7 +10,7 @@
   "name": "SilTHTerminology",
   "title": "(Draft) SIL-TH Terminology",
   "status": "draft",
-  "date": "2022-08-14T22:14:52+07:00",
+  "date": "2022-08-15T02:16:31+07:00",
   "description": "A terminology registry which an be cited by FHIR artifacts",
   "jurisdiction": [
     {
@@ -973,6 +973,48 @@
         },
         "name": "สถานะ/สาเหตุการจำหน่าย",
         "description": "สถานะ/สาเหตุการจำหน่าย จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-postnatal-breastfeeding"
+        },
+        "name": "รหัสการไหลของน้ำนมหลังคลอด",
+        "description": "รหัสการไหลของน้ำนมหลังคลอด เพื่อใช้ประกอบโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-postnatal-mens"
+        },
+        "name": "รหัสประจำเดือนหลังคลอด",
+        "description": "รหัสประจำเดือนหลังคลอด เพื่อใช้ประกอบโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-postnatal-perineum"
+        },
+        "name": "รหัสการตรวจฝีเย็บหลังคลอด",
+        "description": "รหัสการตรวจฝีเย็บหลังคลอด เพื่อใช้ประกอบโครงสร้างข้อมูล 43 แฟ้ม",
         "exampleBoolean": false
       },
       {

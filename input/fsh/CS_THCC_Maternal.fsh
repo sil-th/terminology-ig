@@ -89,3 +89,36 @@ Description: "รหัสผลการตรวจคัดกรองทา
 * #3 "ไม่ตรวจ"
 * #4 "รอผลการตรวจ"
 * #9 "ไม่ทราบ"
+
+
+
+
+
+
+CodeSystem: CS_THCC_PostnatalBreastfeeding
+Id: cs-thcc-postnatal-breastfeeding
+Title: "รหัสการไหลของน้ำนมหลังคลอด"
+Description: "รหัสการไหลของน้ำนมหลังคลอด เพื่อใช้ประกอบโครงสร้างข้อมูล 43 แฟ้ม"
+* ^url = $CS_THCC_PostnatalBreastfeeding
+* #1 "ไหล"
+* #2 "ไม่ไหล"
+
+
+CodeSystem: CS_THCC_PostnatalMens
+Id: cs-thcc-postnatal-mens
+Title: "รหัสประจำเดือนหลังคลอด"
+Description: "รหัสประจำเดือนหลังคลอด เพื่อใช้ประกอบโครงสร้างข้อมูล 43 แฟ้ม"
+* ^url = $CS_THCC_PostnatalMens
+* #1 "ปกติ"
+* #2 "ผิดปกติ"
+* #9 "ยังไม่มา"
+
+CodeSystem: CS_THCC_PostnatalPerineum
+Id: cs-thcc-postnatal-perineum
+Title: "รหัสการตรวจฝีเย็บหลังคลอด"
+Description: "รหัสการตรวจฝีเย็บหลังคลอด เพื่อใช้ประกอบโครงสร้างข้อมูล 43 แฟ้ม"
+* ^url = $CS_THCC_PostnatalPerineum
+* #1 "ปกติ"
+* #2 "มีเลือดซึม"
+* #3 "มีแผลเป็นหนอง"
+* #4 "ผิดปกติอื่นๆ"

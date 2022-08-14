@@ -11,7 +11,7 @@
   <name value="SilTHTerminology"/>
   <title value="(Draft) SIL-TH Terminology"/>
   <status value="draft"/>
-  <date value="2022-08-14T22:14:52+07:00"/>
+  <date value="2022-08-15T02:16:31+07:00"/>
   <description value="A terminology registry which an be cited by FHIR artifacts"/>
   <jurisdiction>
     <coding>
@@ -763,6 +763,39 @@
       </reference>
       <name value="สถานะ/สาเหตุการจำหน่าย"/>
       <description value="สถานะ/สาเหตุการจำหน่าย จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-thcc-postnatal-breastfeeding"/>
+      </reference>
+      <name value="รหัสการไหลของน้ำนมหลังคลอด"/>
+      <description value="รหัสการไหลของน้ำนมหลังคลอด เพื่อใช้ประกอบโครงสร้างข้อมูล 43 แฟ้ม"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-thcc-postnatal-mens"/>
+      </reference>
+      <name value="รหัสประจำเดือนหลังคลอด"/>
+      <description value="รหัสประจำเดือนหลังคลอด เพื่อใช้ประกอบโครงสร้างข้อมูล 43 แฟ้ม"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-thcc-postnatal-perineum"/>
+      </reference>
+      <name value="รหัสการตรวจฝีเย็บหลังคลอด"/>
+      <description value="รหัสการตรวจฝีเย็บหลังคลอด เพื่อใช้ประกอบโครงสร้างข้อมูล 43 แฟ้ม"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
