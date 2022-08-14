@@ -175,6 +175,13 @@
     "name": "CS_THCC_CausativeAgent"
   },
   {
+    "id": "cs-thcc-contraceptive-method",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-contraceptive-method",
+    "version": "0.1.0",
+    "name": "CS_THCC_ContraceptiveMethod"
+  },
+  {
     "id": "cs-thcc-discharge-status",
     "type": "CodeSystem",
     "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-discharge-status",
@@ -187,6 +194,13 @@
     "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-disease-cause",
     "version": "0.1.0",
     "name": "CS_THCC_DiseaseCause"
+  },
+  {
+    "id": "cs-thcc-fp-case-type",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-fp-case-type",
+    "version": "0.1.0",
+    "name": "CS_THCC_FpCaseType"
   },
   {
     "id": "cs-thcc-functional-conclusion",
@@ -222,6 +236,41 @@
     "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-ipd-journey",
     "version": "0.1.0",
     "name": "CS_THCC_IpdJourney"
+  },
+  {
+    "id": "cs-thcc-labor-location",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-labor-location",
+    "version": "0.1.0",
+    "name": "CS_THCC_LaborLocation"
+  },
+  {
+    "id": "cs-thcc-labor-performer-role",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-labor-performer-role",
+    "version": "0.1.0",
+    "name": "CS_THCC_LaborPerformerRole"
+  },
+  {
+    "id": "cs-thcc-labor-procedure",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-labor-procedure",
+    "version": "0.1.0",
+    "name": "CS_THCC_LaborProcedure"
+  },
+  {
+    "id": "cs-thcc-materal-appointment-type",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-materal-appointment-type",
+    "version": "0.1.0",
+    "name": "CS_THCC_MeternalAppointmentType"
+  },
+  {
+    "id": "cs-thcc-misc-pregnancy-obs",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-misc-pregnancy-obs",
+    "version": "0.1.0",
+    "name": "CS_THCC_MiscPregnancyObs"
   },
   {
     "id": "cs-thcc-ncd-alchohol",
@@ -280,6 +329,13 @@
     "name": "CS_THCC_PatientLocationType"
   },
   {
+    "id": "cs-thcc-pregnancy-outcome",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-pregnancy-outcome",
+    "version": "0.1.0",
+    "name": "CS_THCC_PregnancyOutcome"
+  },
+  {
     "id": "cs-thcc-provider-type",
     "type": "CodeSystem",
     "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-provider-type",
@@ -313,6 +369,13 @@
     "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-rehab-service-type",
     "version": "0.1.0",
     "name": "CS_THCC_RehabServiceType"
+  },
+  {
+    "id": "cs-thcc-screening-result",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-screening-result",
+    "version": "0.1.0",
+    "name": "CS_THCC_ScreeningResult"
   },
   {
     "id": "cs-thcc-service-hour",

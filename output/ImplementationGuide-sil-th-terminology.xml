@@ -11,7 +11,7 @@
   <name value="SilTHTerminology"/>
   <title value="(Draft) SIL-TH Terminology"/>
   <status value="draft"/>
-  <date value="2022-08-14T01:41:38+07:00"/>
+  <date value="2022-08-14T22:14:52+07:00"/>
   <description value="A terminology registry which an be cited by FHIR artifacts"/>
   <jurisdiction>
     <coding>
@@ -363,6 +363,17 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/cs-thcc-contraceptive-method"/>
+      </reference>
+      <name value="รหัสวิธีการคุมกำเนิด"/>
+      <description value="รหัสวิธีการคุมกำเนิด ตามโครงสร้างข้อมูล 43 แฟ้ม"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/cs-thcc-coverage-type"/>
       </reference>
       <name value="ชุดรหัสสิทธิการรักษาพยาบาล"/>
@@ -444,6 +455,17 @@
       </reference>
       <name value="ชุดรหัสการศึกษา"/>
       <description value="ชุดรหัสการศึกษา จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-thcc-fp-case-type"/>
+      </reference>
+      <name value="รหัสประเภทการวางแผนครอบครัว"/>
+      <description value="รหัสประเภทการวางแผนครอบครัว ตามโครงสร้างข้อมูล 43 แฟ้ม"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -539,10 +561,65 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/cs-thcc-labor-location"/>
+      </reference>
+      <name value="รหัสสถานที่คลอด"/>
+      <description value="รหัสสถานที่คลอด  ตามโครงสร้างข้อมูล 43 แฟ้ม"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-thcc-labor-performer-role"/>
+      </reference>
+      <name value="รหัสประเภทของผู้ทำคลอด"/>
+      <description value="รหัสประเภทของผู้ทำคลอด ตามโครงสร้างข้อมูล 43 แฟ้ม"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-thcc-labor-procedure"/>
+      </reference>
+      <name value="รหัสวิธีการคลอด/สิ้นสุดการตั้งครรภ์"/>
+      <description value="รหัสวิธีการคลอด/สิ้นสุดการตั้งครรภ์ ตามโครงสร้างข้อมูล 43 แฟ้ม"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/cs-thcc-marital"/>
       </reference>
       <name value="สถานะการสมรส"/>
       <description value="สถานะการสมรส จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-thcc-materal-appointment-type"/>
+      </reference>
+      <name value="ประเภทการนัดด้านการอนามัยแม่และเด็ก"/>
+      <description value="ประเภทการนัดด้านการอนามัยแม่และเด็ก ใช้ในโครงสร้างข้อมูล 43 แฟ้ม"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-thcc-misc-pregnancy-obs"/>
+      </reference>
+      <name value="รหัสการตรวจอื่น ๆ เกี่ยวกับอนามัยแม่และเด็ก"/>
+      <description value="รหัสการตรวจอื่น ๆ เกี่ยวกับอนามัยแม่และเด็กที่ไม่มี LOINC code เพื่อใช้ประกอบโครงสร้างข้อมูล 43 แฟ้ม"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -693,6 +770,17 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/cs-thcc-pregnancy-outcome"/>
+      </reference>
+      <name value="รหัสผลการสิ้นสุดการตั้งครรภ์"/>
+      <description value="รหัสผลการสิ้นสุดการตั้งครรภ์ ตามโครงสร้างข้อมูล 43 แฟ้ม"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/cs-thcc-provider-type"/>
       </reference>
       <name value="รหัสประเภทสถานพยาบาลที่รักษา"/>
@@ -785,6 +873,17 @@
       </reference>
       <name value="ชุดรหัสศาสนา"/>
       <description value="ชุดรหัสศาสนา จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-thcc-screening-result"/>
+      </reference>
+      <name value="รหัสผลการตรวจคัดกรองทางอนามัยแม่และเด็ก "/>
+      <description value="รหัสผลการตรวจคัดกรองทางอนามัยแม่และเด็ก เพื่อใช้ประกอบโครงสร้างข้อมูล 43 แฟ้ม"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

@@ -10,7 +10,7 @@
   "name": "SilTHTerminology",
   "title": "(Draft) SIL-TH Terminology",
   "status": "draft",
-  "date": "2022-08-14T01:41:38+07:00",
+  "date": "2022-08-14T22:14:52+07:00",
   "description": "A terminology registry which an be cited by FHIR artifacts",
   "jurisdiction": [
     {
@@ -465,6 +465,20 @@
           }
         ],
         "reference": {
+          "reference": "CodeSystem/cs-thcc-contraceptive-method"
+        },
+        "name": "รหัสวิธีการคุมกำเนิด",
+        "description": "รหัสวิธีการคุมกำเนิด ตามโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
           "reference": "CodeSystem/cs-thcc-coverage-type"
         },
         "name": "ชุดรหัสสิทธิการรักษาพยาบาล",
@@ -567,6 +581,20 @@
         },
         "name": "ชุดรหัสการศึกษา",
         "description": "ชุดรหัสการศึกษา จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-fp-case-type"
+        },
+        "name": "รหัสประเภทการวางแผนครอบครัว",
+        "description": "รหัสประเภทการวางแผนครอบครัว ตามโครงสร้างข้อมูล 43 แฟ้ม",
         "exampleBoolean": false
       },
       {
@@ -689,10 +717,80 @@
           }
         ],
         "reference": {
+          "reference": "CodeSystem/cs-thcc-labor-location"
+        },
+        "name": "รหัสสถานที่คลอด",
+        "description": "รหัสสถานที่คลอด  ตามโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-labor-performer-role"
+        },
+        "name": "รหัสประเภทของผู้ทำคลอด",
+        "description": "รหัสประเภทของผู้ทำคลอด ตามโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-labor-procedure"
+        },
+        "name": "รหัสวิธีการคลอด/สิ้นสุดการตั้งครรภ์",
+        "description": "รหัสวิธีการคลอด/สิ้นสุดการตั้งครรภ์ ตามโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
           "reference": "CodeSystem/cs-thcc-marital"
         },
         "name": "สถานะการสมรส",
         "description": "สถานะการสมรส จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-materal-appointment-type"
+        },
+        "name": "ประเภทการนัดด้านการอนามัยแม่และเด็ก",
+        "description": "ประเภทการนัดด้านการอนามัยแม่และเด็ก ใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-misc-pregnancy-obs"
+        },
+        "name": "รหัสการตรวจอื่น ๆ เกี่ยวกับอนามัยแม่และเด็ก",
+        "description": "รหัสการตรวจอื่น ๆ เกี่ยวกับอนามัยแม่และเด็กที่ไม่มี LOINC code เพื่อใช้ประกอบโครงสร้างข้อมูล 43 แฟ้ม",
         "exampleBoolean": false
       },
       {
@@ -885,6 +983,20 @@
           }
         ],
         "reference": {
+          "reference": "CodeSystem/cs-thcc-pregnancy-outcome"
+        },
+        "name": "รหัสผลการสิ้นสุดการตั้งครรภ์",
+        "description": "รหัสผลการสิ้นสุดการตั้งครรภ์ ตามโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
           "reference": "CodeSystem/cs-thcc-provider-type"
         },
         "name": "รหัสประเภทสถานพยาบาลที่รักษา",
@@ -1001,6 +1113,20 @@
         },
         "name": "ชุดรหัสศาสนา",
         "description": "ชุดรหัสศาสนา จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-screening-result"
+        },
+        "name": "รหัสผลการตรวจคัดกรองทางอนามัยแม่และเด็ก ",
+        "description": "รหัสผลการตรวจคัดกรองทางอนามัยแม่และเด็ก เพื่อใช้ประกอบโครงสร้างข้อมูล 43 แฟ้ม",
         "exampleBoolean": false
       },
       {

@@ -17,7 +17,7 @@
   fhir:CodeSystem.name [ fhir:value "CS_THCC_EducationLevel"];
   fhir:CodeSystem.title [ fhir:value "ชุดรหัสการศึกษา"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2022-08-14T01:41:38+07:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2022-08-14T22:14:52+07:00"^^xsd:dateTime];
   fhir:CodeSystem.description [ fhir:value "ชุดรหัสการศึกษา จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม"];
   fhir:CodeSystem.jurisdiction [
      fhir:index 0;

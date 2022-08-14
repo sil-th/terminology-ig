@@ -118,8 +118,15 @@ Alias: $CS_THCC_NcdAlcohol = http://terms.sil-th.org/CodeSystem/cs-thcc-ncd-alch
 Alias: $CS_THCC_NcdFbsMethod = http://terms.sil-th.org/CodeSystem/cs-thcc-ncd-fbs-method
 Alias: $CS_THCC_NcdFootExam = http://terms.sil-th.org/CodeSystem/cs-thcc-ncd-foot-exam
 Alias: $CS_THCC_NcdRetinaExam = http://terms.sil-th.org/CodeSystem/cs-thcc-ncd-retina-exam
-
-
+Alias: $CS_THCC_FpCaseType = http://terms.sil-th.org/CodeSystem/cs-thcc-fp-case-type
+Alias: $CS_THCC_MeternalAppointmentType = http://terms.sil-th.org/CodeSystem/cs-thcc-materal-appointment-type
+Alias: $CS_THCC_LaborPerformerRole = http://terms.sil-th.org/CodeSystem/cs-thcc-labor-performer-role
+Alias: $CS_THCC_LaborProcedure = http://terms.sil-th.org/CodeSystem/cs-thcc-labor-procedure
+Alias: $CS_THCC_LaborLocation = http://terms.sil-th.org/CodeSystem/cs-thcc-labor-location
+Alias: $CS_THCC_PregnancyOutcome = http://terms.sil-th.org/CodeSystem/cs-thcc-pregnancy-outcome
+Alias: $CS_THCC_ContraceptiveMethod = http://terms.sil-th.org/CodeSystem/cs-thcc-contraceptive-method
+Alias: $CS_THCC_MiscPregnancyObs = http://terms.sil-th.org/CodeSystem/cs-thcc-misc-pregnancy-obs
+Alias: $CS_THCC_ScreeningResult = http://terms.sil-th.org/CodeSystem/cs-thcc-screening-result
 
 // Value Set
 Alias: $VS_THCC_ICF = http://terms.sil-th.org/ValueSet/vs-thcc-icf
