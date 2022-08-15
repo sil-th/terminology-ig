@@ -10,7 +10,7 @@
   "name": "SilTHTerminology",
   "title": "(Draft) SIL-TH Terminology",
   "status": "draft",
-  "date": "2022-08-15T02:16:31+07:00",
+  "date": "2022-08-16T00:23:13+07:00",
   "description": "A terminology registry which an be cited by FHIR artifacts",
   "jurisdiction": [
     {
@@ -105,6 +105,48 @@
         },
         "name": "ชุดรหัสอาชีพ ISCO-08",
         "description": "ชุดรหัสอาชีพ ตามระบบ ISCO-08 The International Standard Classification of Occupations 2008 (ISCO-08) is a four-level hierarchically structured classification that covers all jobs in the world. Developed with the benefit of accumulated national and international experience as well as the help of experts from many countries and agencies, ISCO-08 is fully supported by the international community as an accepted standard for international labour statistics.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-qn-dental"
+        },
+        "name": "รหัสคำตอบสำหรับตอบแบบสำรวจทันตกรรม",
+        "description": "รหัสคำตอบสำหรับตอบแบบสำรวจทันตกรรม ตามโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-qn-home"
+        },
+        "name": "รหัสคำตอบสำหรับตอบแบบสำรวจบ้าน",
+        "description": "รหัสคำตอบสำหรับตอบแบบสำรวจบ้าน ตามโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-qn-village"
+        },
+        "name": "รหัสคำตอบสำหรับตอบแบบสำรวจหมู่บ้าน",
+        "description": "รหัสคำตอบสำหรับตอบแบบสำรวจหมู่บ้าน ตามโครงสร้างข้อมูล 43 แฟ้ม",
         "exampleBoolean": false
       },
       {
@@ -551,8 +593,8 @@
         "reference": {
           "reference": "CodeSystem/cs-thcc-discharge-status"
         },
-        "name": "รหัสสถานที่รับบริการ",
-        "description": "รหัสสถานที่รับบริการ ตามโครงสร้างข้อมูล 43 แฟ้ม",
+        "name": "รหัสสถานะผู้มารับบริการเมื่อเสร็จสิ้นบริการ OPD",
+        "description": "รหัสสถานะผู้มารับบริการเมื่อเสร็จสิ้นบริการ OPD ตามโครงสร้างข้อมูล 43 แฟ้ม",
         "exampleBoolean": false
       },
       {
@@ -581,6 +623,20 @@
         },
         "name": "ชุดรหัสการศึกษา",
         "description": "ชุดรหัสการศึกษา จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-foreigner-type"
+        },
+        "name": "รหัสความเป็นคนต่างด้าว",
+        "description": "รหัสความเป็นคนต่างด้าว จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
         "exampleBoolean": false
       },
       {
@@ -1487,12 +1543,12 @@
       "page": [
         {
           "nameUrl": "index.html",
-          "title": "Home",
+          "title": "SIL-TH Terminology",
           "generation": "markdown"
         },
         {
           "nameUrl": "identifier-systems.html",
-          "title": "Identifier Systems",
+          "title": "รวม Identifier Systems",
           "generation": "markdown"
         }
       ]

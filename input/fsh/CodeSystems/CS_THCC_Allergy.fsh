@@ -44,6 +44,7 @@ Description:  "รหัสลักษณะอาการแก้ยาท�
 * #39 "N14.2" "toxic nephropathy, not elsewhere classified"
 
 
+
 CodeSystem: CS_THCC_AllergyVerify
 Id: cs-thcc-allergy-verify
 Title: "รหัสสถานะการแพ้ยา"

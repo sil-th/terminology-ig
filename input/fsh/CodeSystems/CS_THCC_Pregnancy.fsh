@@ -91,10 +91,6 @@ Description: "รหัสผลการตรวจคัดกรองทา
 * #9 "ไม่ทราบ"
 
 
-
-
-
-
 CodeSystem: CS_THCC_PostnatalBreastfeeding
 Id: cs-thcc-postnatal-breastfeeding
 Title: "รหัสการไหลของน้ำนมหลังคลอด"
@@ -112,6 +108,8 @@ Description: "รหัสประจำเดือนหลังคลอด
 * #1 "ปกติ"
 * #2 "ผิดปกติ"
 * #9 "ยังไม่มา"
+
+
 
 CodeSystem: CS_THCC_PostnatalPerineum
 Id: cs-thcc-postnatal-perineum

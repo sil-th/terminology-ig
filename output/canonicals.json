@@ -14,6 +14,27 @@
     "name": "CS_DOPA_NamePrefix"
   },
   {
+    "id": "cs-qn-dental",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-qn-dental",
+    "version": "0.1.0",
+    "name": "CS_QN_Dental"
+  },
+  {
+    "id": "cs-qn-home",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-qn-home",
+    "version": "0.1.0",
+    "name": "CS_QN_Home"
+  },
+  {
+    "id": "cs-qn-village",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-qn-village",
+    "version": "0.1.0",
+    "name": "CS_QN_Village"
+  },
+  {
     "id": "cs-th-icd10tm-lab",
     "type": "CodeSystem",
     "url": "http://terms.sil-th.org/CodeSystem/cs-th-icd10tm-lab",
@@ -516,6 +537,13 @@
     "url": "https://terms.sil-th.org/CodeSystem/cs-thcc-education-level",
     "version": "0.1.0",
     "name": "CS_THCC_EducationLevel"
+  },
+  {
+    "id": "cs-thcc-foreigner-type",
+    "type": "CodeSystem",
+    "url": "https://terms.sil-th.org/CodeSystem/cs-thcc-foreigner-type",
+    "version": "0.1.0",
+    "name": "CS_THCC_ForeignerType"
   },
   {
     "id": "cs-thcc-house-type",

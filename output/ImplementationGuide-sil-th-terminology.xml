@@ -11,7 +11,7 @@
   <name value="SilTHTerminology"/>
   <title value="(Draft) SIL-TH Terminology"/>
   <status value="draft"/>
-  <date value="2022-08-15T02:16:31+07:00"/>
+  <date value="2022-08-16T00:23:13+07:00"/>
   <description value="A terminology registry which an be cited by FHIR artifacts"/>
   <jurisdiction>
     <coding>
@@ -81,6 +81,39 @@
       </reference>
       <name value="ชุดรหัสอาชีพ ISCO-08"/>
       <description value="ชุดรหัสอาชีพ ตามระบบ ISCO-08 The International Standard Classification of Occupations 2008 (ISCO-08) is a four-level hierarchically structured classification that covers all jobs in the world. Developed with the benefit of accumulated national and international experience as well as the help of experts from many countries and agencies, ISCO-08 is fully supported by the international community as an accepted standard for international labour statistics."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-qn-dental"/>
+      </reference>
+      <name value="รหัสคำตอบสำหรับตอบแบบสำรวจทันตกรรม"/>
+      <description value="รหัสคำตอบสำหรับตอบแบบสำรวจทันตกรรม ตามโครงสร้างข้อมูล 43 แฟ้ม"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-qn-home"/>
+      </reference>
+      <name value="รหัสคำตอบสำหรับตอบแบบสำรวจบ้าน"/>
+      <description value="รหัสคำตอบสำหรับตอบแบบสำรวจบ้าน ตามโครงสร้างข้อมูล 43 แฟ้ม"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-qn-village"/>
+      </reference>
+      <name value="รหัสคำตอบสำหรับตอบแบบสำรวจหมู่บ้าน"/>
+      <description value="รหัสคำตอบสำหรับตอบแบบสำรวจหมู่บ้าน ตามโครงสร้างข้อมูล 43 แฟ้ม"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -431,8 +464,8 @@
       <reference>
         <reference value="CodeSystem/cs-thcc-discharge-status"/>
       </reference>
-      <name value="รหัสสถานที่รับบริการ"/>
-      <description value="รหัสสถานที่รับบริการ ตามโครงสร้างข้อมูล 43 แฟ้ม"/>
+      <name value="รหัสสถานะผู้มารับบริการเมื่อเสร็จสิ้นบริการ OPD"/>
+      <description value="รหัสสถานะผู้มารับบริการเมื่อเสร็จสิ้นบริการ OPD ตามโครงสร้างข้อมูล 43 แฟ้ม"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -455,6 +488,17 @@
       </reference>
       <name value="ชุดรหัสการศึกษา"/>
       <description value="ชุดรหัสการศึกษา จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-thcc-foreigner-type"/>
+      </reference>
+      <name value="รหัสความเป็นคนต่างด้าว"/>
+      <description value="รหัสความเป็นคนต่างด้าว จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -1167,12 +1211,12 @@
       <generation value="html"/>
       <page>
         <nameUrl value="index.html"/>
-        <title value="Home"/>
+        <title value="SIL-TH Terminology"/>
         <generation value="markdown"/>
       </page>
       <page>
         <nameUrl value="identifier-systems.html"/>
-        <title value="Identifier Systems"/>
+        <title value="รวม Identifier Systems"/>
         <generation value="markdown"/>
       </page>
     </page>

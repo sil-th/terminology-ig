@@ -20,11 +20,12 @@ parameters:
   show-inherited-invariants: false
 copyrightYear: 2022+
 releaseLabel: ci-build
+
 pages:
   index.md:
-    title: Home
+    title: SIL-TH Terminology
   identifier-systems.md:
-    title: Identifier Systems
+    title: รวม Identifier Systems
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
