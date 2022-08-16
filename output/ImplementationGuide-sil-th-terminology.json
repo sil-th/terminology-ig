@@ -10,7 +10,7 @@
   "name": "SilTHTerminology",
   "title": "(Draft) SIL-TH Terminology",
   "status": "draft",
-  "date": "2022-08-16T21:51:46+07:00",
+  "date": "2022-08-16T23:36:06+07:00",
   "description": "A terminology registry which an be cited by FHIR artifacts",
   "jurisdiction": [
     {
@@ -969,6 +969,20 @@
           }
         ],
         "reference": {
+          "reference": "CodeSystem/cs-thcc-newborn-food"
+        },
+        "name": "รหัสอาหารที่รับประทาน",
+        "description": "รหัสอาหารที่รับประทาน สำหรับใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
           "reference": "CodeSystem/cs-thcc-no-contraceptive"
         },
         "name": "รหัสสาเหตุที่ไม่คุมกำเนิด",
@@ -1263,20 +1277,6 @@
           }
         ],
         "reference": {
-          "reference": "CodeSystem/cs-thcc-service-location"
-        },
-        "name": "รหัสสถานที่รับบริการ",
-        "description": "รหัสสถานที่รับบริการ ตามโครงสร้างข้อมูล 43 แฟ้ม",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "CodeSystem"
-          }
-        ],
-        "reference": {
           "reference": "CodeSystem/cs-thcc-service-location-type"
         },
         "name": "รหัสสถานที่ที่ให้บริการ",
@@ -1365,6 +1365,20 @@
         },
         "name": "รหัสกลุ่มอาการที่เฝ้าระวัง",
         "description": "รหัสกลุ่มอาการที่เฝ้าระวัง ตามโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-vaccine-code"
+        },
+        "name": "รหัสวัคซีน",
+        "description": "รหัสวัคซีน ตามโครงสร้างข้อมูล 43 แฟ้ม",
         "exampleBoolean": false
       },
       {

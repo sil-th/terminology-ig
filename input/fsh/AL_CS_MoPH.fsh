@@ -54,7 +54,6 @@ Alias: $CS_THCC_FunctionalConclusion = http://terms.sil-th.org/CodeSystem/cs-thc
 // Encounter
 Alias: $CS_THCC_ServicePriority = http://terms.sil-th.org/CodeSystem/cs-thcc-service-priority
 Alias: $CS_THCC_AdmitSource = http://terms.sil-th.org/CodeSystem/cs-thcc-admit-source
-Alias: $CS_THCC_ServiceLocation = http://terms.sil-th.org/CodeSystem/cs-thcc-service-location
 Alias: $CS_THCC_PatientLocationType = http://terms.sil-th.org/CodeSystem/cs-thcc-patient-location-type
 Alias: $CS_THCC_ServiceHour = http://terms.sil-th.org/CodeSystem/cs-thcc-service-hour
 Alias: $CS_THCC_ServiceLocationType = http://terms.sil-th.org/CodeSystem/cs-thcc-service-location-type
@@ -122,6 +121,10 @@ Alias: $CS_THCC_PostnatalBreastfeeding = http://terms.sil-th.org/CodeSystem/cs-t
 Alias: $CS_THCC_PostnatalMens = http://terms.sil-th.org/CodeSystem/cs-thcc-postnatal-mens
 Alias: $CS_THCC_PostnatalPerineum = http://terms.sil-th.org/CodeSystem/cs-thcc-postnatal-perineum
 
+// Pediatrics
+Alias: $CS_THCC_NewbornFood = http://terms.sil-th.org/CodeSystem/cs-thcc-newborn-food
+
+
 // Large CodeSystems
 Alias: $CS_THCC_Occupation = https://terms.sil-th.org/CodeSystem/cs-thcc-occupation
 Alias: $CS_THCC_Nationality = https://terms.sil-th.org/CodeSystem/cs-thcc-nationality
@@ -131,3 +134,4 @@ Alias: $CS_THCC_CausativeAgent = http://terms.sil-th.org/CodeSystem/cs-thcc-caus
 Alias: $CS_THCC_RehabDevice = http://terms.sil-th.org/CodeSystem/cs-thcc-rehab-device
 Alias: $CS_THCC_RehabServiceType = http://terms.sil-th.org/CodeSystem/cs-thcc-rehab-service-type
 Alias: $CS_THCC_PregnancyOutcome = http://terms.sil-th.org/CodeSystem/cs-thcc-pregnancy-outcome
+Alias: $CS_THCC_VaccineCode = http://terms.sil-th.org/CodeSystem/cs-thcc-vaccine-code

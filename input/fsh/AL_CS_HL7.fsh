@@ -12,6 +12,7 @@ Alias: $CS_HL7_ConditionCategory = http://terminology.hl7.org/CodeSystem/conditi
 Alias: $CS_HL7_DiagRole = http://terminology.hl7.org/CodeSystem/diagnosis-role
 Alias: $CS_HL7_OrgType = http://terminology.hl7.org/CodeSystem/organization-type
 Alias: $CS_HL7_RoleCode = http://terminology.hl7.org/CodeSystem/v3-RoleCode
+Alias: $CS_HL7_ProviderRole = http://terminology.hl7.org/CodeSystem/v2-0443
 Alias: $CS_HL7_AlleryActive = http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical
 Alias: $CS_HL7_AllergyVerify = http://terminology.hl7.org/CodeSystem/allergyintolerance-verification
 Alias: $CS_HL7_Priority = http://terminology.hl7.org/CodeSystem/v3-ActPriority

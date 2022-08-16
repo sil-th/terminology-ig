@@ -343,6 +343,13 @@
     "name": "CS_THCC_NcdStatus"
   },
   {
+    "id": "cs-thcc-newborn-food",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-newborn-food",
+    "version": "0.1.0",
+    "name": "CS_THCC_NewbornFood"
+  },
+  {
     "id": "cs-thcc-participant-type",
     "type": "CodeSystem",
     "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-participant-type",
@@ -434,13 +441,6 @@
     "name": "CS_THCC_ServiceHour"
   },
   {
-    "id": "cs-thcc-service-location",
-    "type": "CodeSystem",
-    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-service-location",
-    "version": "0.1.0",
-    "name": "CS_THCC_ServiceLocation"
-  },
-  {
     "id": "cs-thcc-service-location-type",
     "type": "CodeSystem",
     "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-service-location-type",
@@ -467,6 +467,13 @@
     "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-surveillance-group",
     "version": "0.1.0",
     "name": "CS_THCC_SurvGroup"
+  },
+  {
+    "id": "cs-thcc-vaccine-code",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-vaccine-code",
+    "version": "0.1.0",
+    "name": "CS_THCC_VaccineCode"
   },
   {
     "id": "cs-thcc-43file-type",

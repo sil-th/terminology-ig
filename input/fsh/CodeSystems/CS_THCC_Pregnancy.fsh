@@ -16,7 +16,7 @@ Description: "ประเภทการนัดด้านการอนา
 * #anc "นัดรับบริการ ANC"
 * #labor "นัดตรวจหลังคลอด"
 * #postlabor "นัดตรวจหลังคลอดครั้งที่ 2"
-
+* #newborn "นัดตรวจหลังคลอด ครั้งต่อไป"
 
 CodeSystem: CS_THCC_LaborPerformerRole
 Id: cs-thcc-labor-performer-role

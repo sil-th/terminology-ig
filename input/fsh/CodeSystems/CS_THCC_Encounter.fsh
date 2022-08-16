@@ -18,14 +18,6 @@ Description: "รหัสประเภทการมารับบริก
 * #4 "ได้รับการส่งตัวจากบริการ EMS"
 * #5 "รับบริการสาธารณสุขทางไกล (Telehealth / Telemedicine)"
 
-CodeSystem: CS_THCC_ServiceLocation
-Id: cs-thcc-service-location
-Title: "รหัสสถานที่รับบริการ"
-Description: "รหัสสถานที่รับบริการ ตามโครงสร้างข้อมูล 43 แฟ้ม"
-* ^url = $CS_THCC_ServiceLocation
-* #1 "ในสถานบริการ"
-* #2 "นอกสถานบริการ"
-
 
 CodeSystem: CS_THCC_PatientLocationType
 Id: cs-thcc-patient-location-type
