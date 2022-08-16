@@ -273,6 +273,13 @@
     "name": "CS_THCC_LaborPerformerRole"
   },
   {
+    "id": "cs-thcc-labor-presentation",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-labor-presentation",
+    "version": "0.1.0",
+    "name": "CS_THCC_LaborPresentation"
+  },
+  {
     "id": "cs-thcc-labor-procedure",
     "type": "CodeSystem",
     "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-labor-procedure",
@@ -532,7 +539,7 @@
     "name": "CS_THCC_DisabilityType"
   },
   {
-    "id": "cs-thcc-educationlevel",
+    "id": "cs-thcc-education-level",
     "type": "CodeSystem",
     "url": "https://terms.sil-th.org/CodeSystem/cs-thcc-education-level",
     "version": "0.1.0",

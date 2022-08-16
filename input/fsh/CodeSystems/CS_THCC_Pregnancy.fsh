@@ -120,3 +120,13 @@ Description: "รหัสการตรวจฝีเย็บหลังค
 * #2 "มีเลือดซึม"
 * #3 "มีแผลเป็นหนอง"
 * #4 "ผิดปกติอื่นๆ"
+
+
+CodeSystem: CS_THCC_LaborPresentation
+Id: cs-thcc-labor-presentation
+Title: "รหัสท่าเด็กตอนคลอด"
+Description: "รหัสท่าเด็กตอนคลอด เพื่อใช้ประกอบโครงสร้างข้อมูล 43 แฟ้ม"
+* ^url = $CS_THCC_LaborPresentation
+* #1 "ปกติ"
+* #2 "ท่าก้น"
+* #3 "ท่าขวาง"

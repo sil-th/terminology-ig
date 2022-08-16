@@ -4,6 +4,7 @@ Alias: $CS_HL7_MaritalStatus = http://terminology.hl7.org/CodeSystem/v3-MaritalS
 Alias: $CS_HL7_Religion = http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation
 Alias: $CS_HL7_ObservationCat = http://terminology.hl7.org/CodeSystem/observation-category
 Alias: $CS_HL7_RelationshipType = http://terminology.hl7.org/CodeSystem/v3-RoleCode
+Alias: $CS_HL7_ContactRole = http://terminology.hl7.org/CodeSystem/v2-0131
 Alias: $CS_HL7_EncounterClass = http://terminology.hl7.org/CodeSystem/v3-ActCode
 Alias: $CS_HL7_ConditionStatus = http://terminology.hl7.org/CodeSystem/condition-clinical
 Alias: $CS_HL7_ConditionVerification = http://terminology.hl7.org/CodeSystem/condition-ve

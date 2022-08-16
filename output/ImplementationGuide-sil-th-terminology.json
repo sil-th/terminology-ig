@@ -10,7 +10,7 @@
   "name": "SilTHTerminology",
   "title": "(Draft) SIL-TH Terminology",
   "status": "draft",
-  "date": "2022-08-16T00:23:13+07:00",
+  "date": "2022-08-16T21:51:46+07:00",
   "description": "A terminology registry which an be cited by FHIR artifacts",
   "jurisdiction": [
     {
@@ -619,7 +619,7 @@
           }
         ],
         "reference": {
-          "reference": "CodeSystem/cs-thcc-educationlevel"
+          "reference": "CodeSystem/cs-thcc-education-level"
         },
         "name": "ชุดรหัสการศึกษา",
         "description": "ชุดรหัสการศึกษา จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
@@ -791,6 +791,20 @@
         },
         "name": "รหัสประเภทของผู้ทำคลอด",
         "description": "รหัสประเภทของผู้ทำคลอด ตามโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-labor-presentation"
+        },
+        "name": "รหัสท่าเด็กตอนคลอด",
+        "description": "รหัสท่าเด็กตอนคลอด เพื่อใช้ประกอบโครงสร้างข้อมูล 43 แฟ้ม",
         "exampleBoolean": false
       },
       {

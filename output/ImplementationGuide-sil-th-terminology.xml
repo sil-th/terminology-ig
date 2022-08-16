@@ -11,7 +11,7 @@
   <name value="SilTHTerminology"/>
   <title value="(Draft) SIL-TH Terminology"/>
   <status value="draft"/>
-  <date value="2022-08-16T00:23:13+07:00"/>
+  <date value="2022-08-16T21:51:46+07:00"/>
   <description value="A terminology registry which an be cited by FHIR artifacts"/>
   <jurisdiction>
     <coding>
@@ -484,7 +484,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/cs-thcc-educationlevel"/>
+        <reference value="CodeSystem/cs-thcc-education-level"/>
       </reference>
       <name value="ชุดรหัสการศึกษา"/>
       <description value="ชุดรหัสการศึกษา จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม"/>
@@ -620,6 +620,17 @@
       </reference>
       <name value="รหัสประเภทของผู้ทำคลอด"/>
       <description value="รหัสประเภทของผู้ทำคลอด ตามโครงสร้างข้อมูล 43 แฟ้ม"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/cs-thcc-labor-presentation"/>
+      </reference>
+      <name value="รหัสท่าเด็กตอนคลอด"/>
+      <description value="รหัสท่าเด็กตอนคลอด เพื่อใช้ประกอบโครงสร้างข้อมูล 43 แฟ้ม"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

@@ -111,16 +111,16 @@ Alias: $CS_THCC_NoContraceptive = https://terms.sil-th.org/CodeSystem/cs-thcc-no
 // Pregnancy
 Alias: $CS_THCC_FpCaseType = http://terms.sil-th.org/CodeSystem/cs-thcc-fp-case-type
 Alias: $CS_THCC_MeternalAppointmentType = http://terms.sil-th.org/CodeSystem/cs-thcc-materal-appointment-type
-Alias: $CS_THCC_LaborPerformerRole = http://terms.sil-th.org/CodeSystem/cs-thcc-labor-performer-role
-Alias: $CS_THCC_LaborProcedure = http://terms.sil-th.org/CodeSystem/cs-thcc-labor-procedure
-Alias: $CS_THCC_LaborLocation = http://terms.sil-th.org/CodeSystem/cs-thcc-labor-location
 Alias: $CS_THCC_ContraceptiveMethod = http://terms.sil-th.org/CodeSystem/cs-thcc-contraceptive-method
 Alias: $CS_THCC_MiscPregnancyObs = http://terms.sil-th.org/CodeSystem/cs-thcc-misc-pregnancy-obs
 Alias: $CS_THCC_ScreeningResult = http://terms.sil-th.org/CodeSystem/cs-thcc-screening-result
+Alias: $CS_THCC_LaborPerformerRole = http://terms.sil-th.org/CodeSystem/cs-thcc-labor-performer-role
+Alias: $CS_THCC_LaborProcedure = http://terms.sil-th.org/CodeSystem/cs-thcc-labor-procedure
+Alias: $CS_THCC_LaborLocation = http://terms.sil-th.org/CodeSystem/cs-thcc-labor-location
+Alias: $CS_THCC_LaborPresentation = http://terms.sil-th.org/CodeSystem/cs-thcc-labor-presentation
 Alias: $CS_THCC_PostnatalBreastfeeding = http://terms.sil-th.org/CodeSystem/cs-thcc-postnatal-breastfeeding
 Alias: $CS_THCC_PostnatalMens = http://terms.sil-th.org/CodeSystem/cs-thcc-postnatal-mens
 Alias: $CS_THCC_PostnatalPerineum = http://terms.sil-th.org/CodeSystem/cs-thcc-postnatal-perineum
-
 
 // Large CodeSystems
 Alias: $CS_THCC_Occupation = https://terms.sil-th.org/CodeSystem/cs-thcc-occupation

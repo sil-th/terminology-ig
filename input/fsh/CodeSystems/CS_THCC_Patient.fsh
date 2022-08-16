@@ -31,7 +31,7 @@ Description:  "ชุดรหัสศาสนา จาก THCC ซึ่ง�
 
 
 CodeSystem: CS_THCC_EducationLevel
-Id: cs-thcc-educationlevel
+Id: cs-thcc-education-level
 Title: "ชุดรหัสการศึกษา"
 Description:  "ชุดรหัสการศึกษา จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม"
 * ^url = $CS_THCC_EducationLevel
