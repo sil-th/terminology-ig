@@ -1,9 +1,9 @@
 ﻿SilTHTerminology : Validation Results
 =========================================
 
-err = 4, warn = 372, info = 101
+err = 4, warn = 372, info = 103
 IG Publisher Version: 1.1.128
-Generated Tue Aug 16 23:37:08 ICT 2022. FHIR version 4.3.0 for sil-th-terminology#0.1.0 (canonical = https://terms.sil-th.org)
+Generated Wed Aug 17 01:35:31 ICT 2022. FHIR version 4.3.0 for sil-th-terminology#0.1.0 (canonical = https://terms.sil-th.org)
  Build Errors : 10 / 0 / 0
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-dopa-location : 0 / 0 / 3
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-dopa-nameprefix : 0 / 0 / 2
@@ -36,6 +36,8 @@ Generated Tue Aug 16 23:37:08 ICT 2022. FHIR version 4.3.0 for sil-th-terminolog
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-appoint-service-category : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-appoint-service-type : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-causative-agent : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-child-dev-level : 0 / 0 / 2
+ /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-child-food : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-chronic-discharge-reason : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-contraceptive : 0 / 0 / 2
  /Users/rathpanyowat/Dev/sil-th-terminology-ig/fsh-generated/resources/CodeSystem-cs-thcc-contraceptive-method : 0 / 0 / 2
@@ -529,6 +531,10 @@ INFORMATION: CodeSystem/cs-thcc-appoint-service-category: CodeSystem: CodeSystem
 INFORMATION: CodeSystem/cs-thcc-appoint-service-type: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-thcc-causative-agent.json ==
 INFORMATION: CodeSystem/cs-thcc-causative-agent: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-child-dev-level.json ==
+INFORMATION: CodeSystem/cs-thcc-child-dev-level: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-cs-thcc-child-food.json ==
+INFORMATION: CodeSystem/cs-thcc-child-food: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-thcc-chronic-discharge-reason.json ==
 INFORMATION: CodeSystem/cs-thcc-chronic-discharge-reason: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/CodeSystem-cs-thcc-contraceptive.json ==
@@ -688,7 +694,7 @@ INFORMATION: CodeSystem/cs-thcc-vaccine-code: CodeSystem: CodeSystems SHOULD hav
 == fsh-generated/resources/CodeSystem-cs-thcc-village-area.json ==
 INFORMATION: CodeSystem/cs-thcc-village-area: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
 == fsh-generated/resources/ImplementationGuide-sil-th-terminology.json ==
-WARNING: ImplementationGuide/sil-th-terminology: ImplementationGuide.definition.resource[86].name: value should not start or finish with whitespace 'รหัสผลการตรวจคัดกรองทางอนามัยแม่และเด็ก '
+WARNING: ImplementationGuide/sil-th-terminology: ImplementationGuide.definition.resource[88].name: value should not start or finish with whitespace 'รหัสผลการตรวจคัดกรองทางอนามัยแม่และเด็ก '
 == fsh-generated/resources/NamingSystem-IDDopaHouseNo.json ==
 == fsh-generated/resources/NamingSystem-IDHcode.json ==
 == fsh-generated/resources/NamingSystem-IDThaiCid.json ==

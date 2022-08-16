@@ -10,7 +10,7 @@
   "name": "SilTHTerminology",
   "title": "(Draft) SIL-TH Terminology",
   "status": "draft",
-  "date": "2022-08-16T23:36:06+07:00",
+  "date": "2022-08-17T01:34:31+07:00",
   "description": "A terminology registry which an be cited by FHIR artifacts",
   "jurisdiction": [
     {
@@ -469,6 +469,34 @@
         },
         "name": "รหัสชนิดของเชื้อโรค",
         "description": "รหัสชนิดของเชื้อโรค ตามโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-child-dev-level"
+        },
+        "name": "รหัสระดับพัฒนาการเด็ก",
+        "description": "รหัสระดับพัฒนาการเด็ก สำหรับใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/cs-thcc-child-food"
+        },
+        "name": "รหัสอาหารที่รับประทานปัจจุบัน",
+        "description": "รหัสอาหารที่รับประทานปัจจุบัน สำหรับใช้ในโครงสร้างข้อมูล 43 แฟ้ม",
         "exampleBoolean": false
       },
       {

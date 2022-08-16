@@ -123,7 +123,8 @@ Alias: $CS_THCC_PostnatalPerineum = http://terms.sil-th.org/CodeSystem/cs-thcc-p
 
 // Pediatrics
 Alias: $CS_THCC_NewbornFood = http://terms.sil-th.org/CodeSystem/cs-thcc-newborn-food
-
+Alias: $CS_THCC_ChildDevLevel = http://terms.sil-th.org/CodeSystem/cs-thcc-child-dev-level
+Alias: $CS_THCC_ChildFood = http://terms.sil-th.org/CodeSystem/cs-thcc-child-food
 
 // Large CodeSystems
 Alias: $CS_THCC_Occupation = https://terms.sil-th.org/CodeSystem/cs-thcc-occupation

@@ -17,6 +17,7 @@ Description: "ประเภทการนัดด้านการอนา
 * #labor "นัดตรวจหลังคลอด"
 * #postlabor "นัดตรวจหลังคลอดครั้งที่ 2"
 * #newborn "นัดตรวจหลังคลอด ครั้งต่อไป"
+* #nutrition "นัดตรวจโภชนาการและพัฒนาการ"
 
 CodeSystem: CS_THCC_LaborPerformerRole
 Id: cs-thcc-labor-performer-role

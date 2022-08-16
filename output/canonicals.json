@@ -196,6 +196,20 @@
     "name": "CS_THCC_CausativeAgent"
   },
   {
+    "id": "cs-thcc-child-dev-level",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-child-dev-level",
+    "version": "0.1.0",
+    "name": "CS_THCC_ChildDevLevel"
+  },
+  {
+    "id": "cs-thcc-child-food",
+    "type": "CodeSystem",
+    "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-child-food",
+    "version": "0.1.0",
+    "name": "CS_THCC_ChildFood"
+  },
+  {
     "id": "cs-thcc-contraceptive-method",
     "type": "CodeSystem",
     "url": "http://terms.sil-th.org/CodeSystem/cs-thcc-contraceptive-method",
