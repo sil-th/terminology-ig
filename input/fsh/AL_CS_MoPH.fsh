@@ -129,6 +129,9 @@ Alias: $CS_THCC_ChildFood = http://terms.sil-th.org/CodeSystem/cs-thcc-child-foo
 // Referral
 Alias: $CS_THCC_ReferCareProcedure = http://terms.sil-th.org/CodeSystem/cs-thcc-refer-care-procedure
 
+// Medication
+Alias: $CS_THCC_MedicationSource = http://terms.sil-th.org/CodeSystem/cs-thcc-medication-source
+
 
 // Large CodeSystems
 Alias: $CS_THCC_Occupation = https://terms.sil-th.org/CodeSystem/cs-thcc-occupation

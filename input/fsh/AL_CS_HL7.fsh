@@ -24,3 +24,4 @@ Alias: $CS_HL7_ProcessPriority = http://terminology.hl7.org/CodeSystem/processpr
 Alias: $CS_HL7_YesNo = http://terminology.hl7.org/CodeSystem/v2-0532
 Alias: $CS_HL7_ClaimInfoCat = http://terminology.hl7.org/CodeSystem/claiminformationcategory
 Alias: $CS_HL7_DiagServiceCat = http://terminology.hl7.org/CodeSystem/v2-0074
+Alias: $CS_HL7_DoseForm = http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm
