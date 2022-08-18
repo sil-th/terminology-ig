@@ -76,5 +76,16 @@ Description: "รหัสชนิดของแผนกที่ผู้ป
 
 
 
-
+CodeSystem: CS_THCC_EncounterDiagnosisRole
+Id: cs-thcc-encounter-diagnosis-role
+Title: "รหัสประเภทการวินิจฉัย"
+Description: "รหัสประเภทการวินิจฉัย เพื่อใช้ในโครงสร้างข้อมูล 43 แฟ้ม"
+* ^url = $CS_THCC_EncounterDiagnosisRole
+* #1 "PRINCIPLE DX (การวินิจฉัยโรคหลัก)"
+* #2 "CO-MORBIDITY (การวินิจฉัยโรคร่วม)"
+* #3 "COMPLICATION (การวินิจฉัยโรคแทรก)"
+* #4 "OTHER (อื่น ๆ)"
+* #5 "EXTERNAL CAUSE (สาเหตุภายนอก)"
+* #6 "Additional Code (รหัสเสริม)"
+* #7 "Morphology Code (รหัสเกี่ยวกับเนื้องอก)"
 

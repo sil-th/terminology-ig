@@ -59,6 +59,7 @@ Alias: $CS_THCC_ServiceHour = http://terms.sil-th.org/CodeSystem/cs-thcc-service
 Alias: $CS_THCC_ServiceLocationType = http://terms.sil-th.org/CodeSystem/cs-thcc-service-location-type
 Alias: $CS_THCC_ServiceTypeTH = http://terms.sil-th.org/CodeSystem/cs-thcc-service-type-th
 Alias: $CS_THCC_IpdJourney = http://terms.sil-th.org/CodeSystem/cs-thcc-ipd-journey
+Alias: $CS_THCC_EncounterDiagnosisRole = http://terms.sil-th.org/CodeSystem/cs-thcc-encounter-diagnosis-role
 
 
 // Discharge
