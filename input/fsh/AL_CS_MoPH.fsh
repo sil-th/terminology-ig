@@ -67,11 +67,6 @@ Alias: $CS_THCC_IpdDischargeStatus = http://terms.sil-th.org/CodeSystem/cs-thcc-
 Alias: $CS_THCC_IpdDischargeType = http://terms.sil-th.org/CodeSystem/cs-thcc-ipd-discharge-type
 Alias: $CS_THCC_ChronicDischargeReason = https://terms.sil-th.org/CodeSystem/cs-thcc-chronic-discharge-reason
 
-// Refer
-Alias: $CS_THCC_ReferReason = http://terms.sil-th.org/CodeSystem/cs-thcc-refer-in-reason
-Alias: $CS_THCC_ReferOutcome = http://terms.sil-th.org/CodeSystem/cs-thcc-refer-outcome
-
-
 // Surveillance
 Alias: $CS_THCC_SurvGroup = http://terms.sil-th.org/CodeSystem/cs-thcc-surveillance-group
 Alias: $CS_THCC_DiseaseCause = http://terms.sil-th.org/CodeSystem/cs-thcc-disease-cause
@@ -127,7 +122,20 @@ Alias: $CS_THCC_ChildDevLevel = http://terms.sil-th.org/CodeSystem/cs-thcc-child
 Alias: $CS_THCC_ChildFood = http://terms.sil-th.org/CodeSystem/cs-thcc-child-food
 
 // Referral
+Alias: $CS_THCC_ReferReason = http://terms.sil-th.org/CodeSystem/cs-thcc-refer-in-reason
+Alias: $CS_THCC_ReferOutcome = http://terms.sil-th.org/CodeSystem/cs-thcc-refer-outcome
 Alias: $CS_THCC_ReferCareProcedure = http://terms.sil-th.org/CodeSystem/cs-thcc-refer-care-procedure
+Alias: $CS_THCC_ReferCategory = http://terms.sil-th.org/CodeSystem/cs-thcc-refer-category
+Alias: $CS_THCC_ReferReasonStd15 = http://terms.sil-th.org/CodeSystem/cs-thcc-refer-reason-std15
+Alias: $CS_THCC_ReferReasonEclaim = http://terms.sil-th.org/CodeSystem/cs-thcc-refer-reason-eclaim
+Alias: $CS_THCC_ReferStatus = http://terms.sil-th.org/CodeSystem/cs-thcc-refer-status
+Alias: $CS_THCC_ReferAnswerType = http://terms.sil-th.org/CodeSystem/cs-thcc-refer-answer-type
+Alias: $CS_THCC_ReferThaiPriorityStd43 = http://terms.sil-th.org/CodeSystem/cs-thcc-refer-thai-priority-std43
+Alias: $CS_THCC_ReferThaiPriorityStd15 = http://terms.sil-th.org/CodeSystem/cs-thcc-refer-thai-priority-std15
+Alias: $CS_THCC_ReferPriorityCode = http://terms.sil-th.org/CodeSystem/cs-thcc-refer-priority-code
+Alias: $CS_THCC_ReferTypeEclaim = http://terms.sil-th.org/CodeSystem/cs-thcc-refer-type-eclaim
+Alias: $CS_THCC_ReferSpecialDisease = http://terms.sil-th.org/CodeSystem/cs-thcc-refer-special-disease
+Alias: $CS_THCC_ReferEncounterClass = http://terms.sil-th.org/CodeSystem/cs-thcc-refer-encounter-class
 
 // Medication
 Alias: $CS_THCC_MedicationSource = http://terms.sil-th.org/CodeSystem/cs-thcc-medication-source
