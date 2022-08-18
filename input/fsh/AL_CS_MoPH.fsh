@@ -136,6 +136,8 @@ Alias: $CS_THCC_ReferPriorityCode = http://terms.sil-th.org/CodeSystem/cs-thcc-r
 Alias: $CS_THCC_ReferTypeEclaim = http://terms.sil-th.org/CodeSystem/cs-thcc-refer-type-eclaim
 Alias: $CS_THCC_ReferSpecialDisease = http://terms.sil-th.org/CodeSystem/cs-thcc-refer-special-disease
 Alias: $CS_THCC_ReferEncounterClass = http://terms.sil-th.org/CodeSystem/cs-thcc-refer-encounter-class
+Alias: $CS_THCC_ReferResult = http://terms.sil-th.org/CodeSystem/cs-thcc-refer-result
+
 
 // Medication
 Alias: $CS_THCC_MedicationSource = http://terms.sil-th.org/CodeSystem/cs-thcc-medication-source
