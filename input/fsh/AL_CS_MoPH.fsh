@@ -142,6 +142,12 @@ Alias: $CS_THCC_ReferResult = http://terms.sil-th.org/CodeSystem/cs-thcc-refer-r
 
 // Medication
 Alias: $CS_THCC_MedicationSource = http://terms.sil-th.org/CodeSystem/cs-thcc-medication-source
+Alias: $CS_THCC_MedicationCategory = http://terms.sil-th.org/CodeSystem/cs-thcc-medication-category
+Alias: $CS_THCC_MedOutNLEM = http://terms.sil-th.org/CodeSystem/cs-thcc-medication-out-nlem
+Alias: $CS_THCC_MedDelivery = http://terms.sil-th.org/CodeSystem/cs-thcc-medication-delivery
+
+// Procedure
+Alias: $CS_THCC_ProcedureType = http://terms.sil-th.org/CodeSystem/cs-thcc-procedure-type
 
 
 // Large CodeSystems
