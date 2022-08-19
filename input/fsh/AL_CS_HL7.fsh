@@ -26,3 +26,4 @@ Alias: $CS_HL7_ClaimInfoCat = http://terminology.hl7.org/CodeSystem/claiminforma
 Alias: $CS_HL7_DiagServiceCat = http://terminology.hl7.org/CodeSystem/v2-0074
 Alias: $CS_HL7_DoseForm = http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm
 Alias: $CS_HL7_SecurityLebel = http://terminology.hl7.org/CodeSystem/v3-Confidentiality
+Alias: $CS_HL7_DataAbsentReason = http://terminology.hl7.org/CodeSystem/data-absent-reason

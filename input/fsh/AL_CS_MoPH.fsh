@@ -149,6 +149,9 @@ Alias: $CS_THCC_MedDelivery = http://terms.sil-th.org/CodeSystem/cs-thcc-medicat
 // Procedure
 Alias: $CS_THCC_ProcedureType = http://terms.sil-th.org/CodeSystem/cs-thcc-procedure-type
 
+// Finance
+Alias: $CS_eClaim_AdpType = http://terms.sil-th.org/CodeSystem/cs-eclaim-adp-type
+Alias: $CS_eClaim_CancerType = http://terms.sil-th.org/CodeSystem/cs-eclaim-cancer-type
 
 // Large CodeSystems
 Alias: $CS_THCC_Occupation = https://terms.sil-th.org/CodeSystem/cs-thcc-occupation
