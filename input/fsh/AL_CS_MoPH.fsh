@@ -153,6 +153,13 @@ Alias: $CS_THCC_ProcedureType = http://terms.sil-th.org/CodeSystem/cs-thcc-proce
 Alias: $CS_eClaim_AdpType = http://terms.sil-th.org/CodeSystem/cs-eclaim-adp-type
 Alias: $CS_eClaim_CancerType = http://terms.sil-th.org/CodeSystem/cs-eclaim-cancer-type
 
+
+// Cancer
+Alias: $CS_43Plus_CancerDxSource = http://terms.sil-th.org/CodeSystem/cs-43plus-cancer-dx-source
+Alias: $CS_43Plus_CancerGrade = http://terms.sil-th.org/CodeSystem/cs-43plus-cancer-grade
+Alias: $CS_43Plus_CancerStaging = http://terms.sil-th.org/CodeSystem/cs-43plus-cancer-staging
+
+
 // Large CodeSystems
 Alias: $CS_THCC_Occupation = https://terms.sil-th.org/CodeSystem/cs-thcc-occupation
 Alias: $CS_THCC_Nationality = https://terms.sil-th.org/CodeSystem/cs-thcc-nationality
