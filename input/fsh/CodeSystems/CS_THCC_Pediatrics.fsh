@@ -9,7 +9,6 @@ Description: "รหัสอาหารที่รับประทาน �
 * #4 "นมผสมอย่างเดียว"
 
 
-Alias: $CS_THCC_ChildDevLevel = http://terms.sil-th.org/CodeSystem/cs-thcc-child-dev-level
 CodeSystem: CS_THCC_ChildDevLevel
 Id: cs-thcc-child-dev-level
 Title: "รหัสระดับพัฒนาการเด็ก"
