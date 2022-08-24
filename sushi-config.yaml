@@ -3,7 +3,7 @@
 # │  supported properties, see:                                                                    │
 # │  https://fshschool.org/docs/sushi/configuration/#full-configuration                            │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: sil-th-terminology
+id: sil-th.terms.core
 canonical: https://terms.sil-th.org
 version: 0.1.0
 name: SilTHTerminology

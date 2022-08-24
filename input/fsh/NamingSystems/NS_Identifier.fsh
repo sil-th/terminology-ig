@@ -7,7 +7,7 @@ Usage: #definition
 * status = #active
 * kind = #identifier
 * date = "2022-07-31T19:11:26+07:00"
-* type = $CS_HL7_IdentifierType#NNTHA "National Person Identifier"
+* type = $CS_HL7_IdentifierType#NI "National unique individual identifier"
 * description = "เลขประจำตัวประชาชน ออกโดย กรมการปกครอง กระทรวงมหาดไทย ดูรายละเอียดเพิ่มเติมได้ที่ https://www.dopa.go.th Thai national ID issued by Department of Provincial Administration (DOPA), Ministry of Interior. For more information contact https://www.dopa.go.th"
 * uniqueId[0]
   * type = #uri

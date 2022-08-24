@@ -1,7 +1,7 @@
 // From Thai MOPH codes
 
 // Main File List
-Alias: $CS_THCC_43fileType = https://terms.sil-th.org/CodeSystem/cs-thcc-43file-type
+Alias: $CS_THCC_43fileType = https://terms.sil-th.org/CodeSystem/cs-thcc-43filetype
 
 // Demographic
 Alias: $CS_THCC_Marital = https://terms.sil-th.org/CodeSystem/cs-thcc-marital
@@ -11,7 +11,7 @@ Alias: $CS_THCC_ForeignerType = https://terms.sil-th.org/CodeSystem/cs-thcc-fore
 Alias: $CS_THCC_PersonStatus = https://terms.sil-th.org/CodeSystem/cs-thcc-person-status
 
 // Social History
-Alias: $CS_THCC_SocialObsType = https://terms.sil-th.org/CodeSystem/cs-thcc-soical-obs-type
+Alias: $CS_THCC_SocialObsType = https://terms.sil-th.org/CodeSystem/cs-thcc-social-obs-type
 Alias: $CS_THCC_StatusInFamily = https://terms.sil-th.org/CodeSystem/cs-thcc-status-in-family
 Alias: $CS_THCC_StatusInVillage = https://terms.sil-th.org/CodeSystem/cs-thcc-status-in-village
 

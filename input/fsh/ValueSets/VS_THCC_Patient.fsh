@@ -22,6 +22,7 @@ Title: "ชุดรหัสการศึกษา"
 Description:  "ชุดรหัสการศึกษา จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม"
 * ^url = $VS_THCC_EducationLevel
 * include codes from system CS_THCC_EducationLevel
+* include codes from system CS_TH_ISCED1997
 
 
 ValueSet: VS_THCC_ForeignerType

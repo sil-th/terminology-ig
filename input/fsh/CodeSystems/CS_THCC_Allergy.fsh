@@ -20,7 +20,7 @@ Description:  "รหัสลักษณะอาการแก้ยาท�
 * #15 "H40.6" "glaucon secondary to drugs"
 * #16 "H26.3" "Drug-induced catarat"
 * #17 "I42.7" "Cardiomyopathy due to drugs and other external drugs"
-* #18 "I95.2" "Hypotension due to drugs "
+* #18 "I95.2" "Hypotension due to drugs"
 * #19 "L23.3" "Allergic contact dermatitis due to drugs in contact With skin"
 * #20 "L24.4" "Irritant contact dermatitis due to drugs in contact with skin"
 * #21 "L25.1" "Unspecified contact dermatitis due to drugs in contact with skin"
