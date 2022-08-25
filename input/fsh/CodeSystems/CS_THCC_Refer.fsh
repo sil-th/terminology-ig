@@ -192,8 +192,8 @@ Description: "รหัสประเภทผู้ป่วยสำหรั
 
 CodeSystem: CS_THCC_ReferResult
 Id: cs-thcc-refer-result
-Title: "รหัสประเภทผู้ป่วยสำหรับการส่งต่อ"
-Description: "รหัสประเภทผู้ป่วยสำหรับการส่งต่อ ตามโครงสร้างข้อมูล 43 แฟ้ม"
+Title: "รหัสผลการส่งต่อ"
+Description: "รหัสผลการส่งต่อ ตามโครงสร้างข้อมูล 43 แฟ้ม"
 * ^url = $CS_THCC_ReferResult
 * #1 "ตอบรับการส่งต่อ"
 * #2 "ปฏิเสธการส่งต่อ"

@@ -69,20 +69,14 @@ Description: "รหัสประเภทการตอบรับหรื
 * include codes from system CS_THCC_ReferAnswerType
 
 
-ValueSet: VS_THCC_ReferThaiPriorityStd43
-Id: vs-thcc-refer-thai-priority-std43
+ValueSet: VS_THCC_ReferThaiPriority
+Id: vs-thcc-refer-thai-priority
 Title: "รหัสระดับความเร่งด่วน"
-Description: "รหัสระดับความเร่งด่วน ตามโครงสร้างข้อมูล 43 แฟ้ม"
-* ^url = $VS_THCC_ReferThaiPriorityStd43
+Description: "รหัสระดับความเร่งด่วน ตามโครงสร้างข้อมูล 43 แฟ้ม และ e-claim 16 แฟ้ม"
+* ^url = $VS_THCC_ReferThaiPriority
 * include codes from system CS_THCC_ReferThaiPriorityStd43
-
-
-ValueSet: VS_THCC_ReferThaiPriorityStd15
-Id: vs-thcc-refer-thai-priority-std15
-Title: "รหัสข้อบ่งชี้ของกรณีฉุกเฉิน"
-Description: "รหัสข้อบ่งชี้ของกรณีฉุกเฉิน ตามโครงสร้างข้อมูล e-claim 16 แฟ้ม"
-* ^url = $VS_THCC_ReferThaiPriorityStd15
 * include codes from system CS_THCC_ReferThaiPriorityStd15
+
 
 
 
