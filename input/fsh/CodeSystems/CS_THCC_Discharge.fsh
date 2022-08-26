@@ -31,8 +31,8 @@ Description: "รหัสผลการส่งต่อไปรับบร
 
 CodeSystem: CS_THCC_IpdDischargeType
 Id: cs-thcc-ipd-discharge-type
-Title: "รหัสผลการส่งต่อไปรับบริการในสถานพยาบาลอื่น"
-Description: "รหัสผลการส่งต่อไปรับบริการในสถานพยาบาลอื่น ตามโครงสร้างข้อมูล 43 แฟ้ม"
+Title: "รหัสชนิดการจำหน่ายผู้ป่วย"
+Description: "รหัสชนิดการจำหน่ายผู้ป่วย ตามโครงสร้างข้อมูล 43 แฟ้ม"
 * ^url = $CS_THCC_IpdDischargeType
 * #1 "With Approval" "จำหน่ายโดยแพทย์อนุญาต"
 * #2 "Against Advice" "ผู้ป่วยขอออกไป ทั้งๆที่แพทย์แนะนำว่าควรรักษาต่อในโรงพยาบาล"
