@@ -27,3 +27,7 @@ Alias: $VS_HL7_DiagServiceCat = http://terminology.hl7.org/ValueSet/v2-0074
 Alias: $VS_HL7_DoseForm = http://terminology.hl7.org/ValueSet/v3-OrderableDrugForm
 Alias: $VS_HL7_SecurityLebel = http://hl7.org/fhir/ValueSet/security-labels
 Alias: $VS_HL7_DataAbsentReason = http://hl7.org/fhir/ValueSet/data-absent-reason
+
+// From international FHIR community
+Alias: $VS_IPS_MedicineSoseform = http://hl7.org/fhir/uv/ips/ValueSet/medicine-doseform
+Alias: $VS_SNOMEDCT_FormCodes = http://hl7.org/fhir/ValueSet/medication-form-codes

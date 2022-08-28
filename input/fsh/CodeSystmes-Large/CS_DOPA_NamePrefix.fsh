@@ -1,7 +1,7 @@
 CodeSystem: CS_DOPA_NamePrefix
 Id: cs-dopa-nameprefix
-Title: "รหัสคำนำหน้าชื่อ"
-Description:  "รหัสคำนำหน้าชื่อ จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม อ้างอิงตามรหัสกรมการปกครอง"
+Title: "DOPA: รหัสคำนำหน้าชื่อ"
+Description: "รหัสคำนำหน้าชื่อ อ้างอิงตามรหัสกรมการปกครอง"
 * ^url = $CS_DOPA_NamePrefix
 * #001 "ด.ช." "เด็กชาย"
 * #002 "ด.ญ." "เด็กหญิง"

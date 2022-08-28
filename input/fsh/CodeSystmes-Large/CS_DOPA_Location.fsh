@@ -1,7 +1,7 @@
 CodeSystem: CS_DOPA_Location
 Id: cs-dopa-location
-Title: "รหัสสถานที่"
-Description:  "รหัสสถานที่ อ้างอิงตามรหัสกรมการปกครอง"
+Title: "DOPA: รหัสสถานที่"
+Description: "รหัสสถานที่ อ้างอิงตามรหัสกรมการปกครอง"
 * ^url = $CS_DOPA_Location
 * #100000 "จังหวัดกรุงเทพมหานคร"
 * #100000 #100100 "จังหวัดกรุงเทพมหานคร เขตพระนคร"

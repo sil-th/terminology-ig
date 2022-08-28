@@ -1,8 +1,8 @@
-CodeSystem: CS_TH_ISCED1997
-Id: cs-thcc-43file-type
-Title: "ชุดรหัสการศึกษา ISCED 1997"
-Description:  "รหัสมาตรฐานระดับการศึกษา พัฒนาโดยสำนักงานสถิติแห่งชาติ (สสช) โดยอ้างอิงมาตรฐานจำแนกการศึกษาสากล (International Standard Classification of Education: ISCED 1997) ของ UNESCO และนำมาประยุกต์เพิ่มรายละเอียดให้เหมาะสมกับระบบการศึกษาของประเทศไทย"
-* ^url = $CS_TH_ISCED1997
+CodeSystem: CS_INT_ISCED1997
+Id: cs-int-isced-97
+Title: "Inter: รหัสระดับการศึกษา ISCED 1997"
+Description: "รหัสมาตรฐานระดับการศึกษา พัฒนาโดยสำนักงานสถิติแห่งชาติ (สสช) โดยอ้างอิงมาตรฐานจำแนกการศึกษาสากล (International Standard Classification of Education: ISCED 1997) ของ UNESCO และนำมาประยุกต์เพิ่มรายละเอียดให้เหมาะสมกับระบบการศึกษาของประเทศไทย"
+* ^url = $CS_INT_ISCED1997
 * #1 "ระดับก่อนประถมศึกษา"
 * #1 #11 "สามัญศึกษา"
 * #2 "ระดับประถมศึกษา"
