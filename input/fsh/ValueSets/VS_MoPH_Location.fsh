@@ -1,7 +1,7 @@
 ValueSet: VS_THCC_HouseType
 Id: vs-thcc-house-type
-Title: "รหัสลักษณะที่อยู่"
-Description:  "รหัสลักษณะที่อยู่ จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม"
+Title: "THCC: รหัสลักษณะที่อยู่"
+Description: "รหัสลักษณะที่อยู่ โดย THCC (ID: 18) Modified"
 * ^url = $VS_THCC_HouseType
 * include codes from system CS_THCC_HouseType
 
@@ -9,8 +9,8 @@ Description:  "รหัสลักษณะที่อยู่ จาก THC
 
 ValueSet: VS_THCC_InMunicipality
 Id: vs-thcc-in-municipality
-Title: "รหัสที่ตั้ง"
-Description:  "รหัสที่ตั้ง ใน/นอกเขตเทศบาล จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม"
+Title: "THCC: รหัสที่ตั้ง"
+Description: "รหัสที่ตั้ง ใน/นอกเขตเทศบาล โดย THCC (ID: 40)"
 * ^url = $VS_THCC_InMunicipality
 * include codes from system CS_THCC_InMunicipality
 
@@ -22,4 +22,4 @@ Id: vs-thcc-village-area
 Title: "เขตที่ตั้งของหมู่บ้าน"
 Description:  "เขตที่ตั้งของหมู่บ้าน จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม"
 * ^url = $VS_THCC_VillageArea
-* include codes from system CS_THCC_VillageArea
+* include codes from system CS_PCU_VillageArea

@@ -1,8 +1,8 @@
-ValueSet: VS_THCC_ICF
-Id: vs-thcc-icf
-Title: "รหัสสภาวะสุขภาพตาม ICF"
-Description:  "รหัสสภาวะสุขภาพตาม ICF ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม"
-* ^url = $VS_THCC_ICF
+ValueSet: VS_TH_ICF
+Id: vs-th-icf
+Title: "Inter: รหัสสภาวะสุขภาพตาม ICF"
+Description: "รหัสสภาวะสุขภาพตาม ICF เพื่อใช้ใน 43 แฟ้ม plus"
+* ^url = $VS_TH_ICF
 * ^jurisdiction = urn:iso:std:iso:3166#TH
 * $ICF#b117.0 "การทำงานด้านสติปัญญาไม่มีความบกพร่อง:  ระดับสติปัญญา 70 หรือสูงกว่า (NO)"
 * $ICF#b117.1 "การทำงานด้านสติปัญญามีความบกพร่องเล็กน้อย:  ระดับสติปัญญา 50 - 69 (MILD)"

@@ -60,11 +60,11 @@ Description: "รหัสสาเหตุการส่งต่อผู้
 
 
 
-CodeSystem: CS_eClaim_ReferReasonEclaim
+CodeSystem: CS_eClaim_ReferReason
 Id: cs-eclaim-refer-reason-eclaim
 Title: "eClaim: รหัสสาเหตุการส่งต่อผู้ป่วย"
 Description: "รหัสสาเหตุการส่งต่อผู้ป่วย โดย e-Claim 16 แฟ้ม"
-* ^url = $CS_eClaim_ReferReasonEclaim
+* ^url = $CS_eClaim_ReferReason
 * #0001 "ตามความต้องการของผู้ป่วย"
 * #0010 "รับไว้รักษาต่อเนื่อง"
 * #0011 "รับไว้รักษาต่อเนื่อง และตามความต้องการของผู้ป่วย"

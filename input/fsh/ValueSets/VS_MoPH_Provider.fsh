@@ -1,40 +1,40 @@
 ValueSet: VS_THCC_QualificationIssuer
 Id: vs-thcc-qualification-issuer
-Title: "รหัสสภาวิชาชีพ"
-Description:  "รหัสสภาวิชาชีพ ตามโครงสร้างข้อมูล 43 แฟ้ม"
+Title: "THCC: รหัสสภาวิชาชีพ"
+Description: "รหัสสภาวิชาชีพ โดย THCC (ID: 62)"
 * ^url = $VS_THCC_QualificationIssuer
 * include codes from system CS_THCC_QualificationIssuer
 
 
-
 ValueSet: VS_THCC_IndividualProviderType
 Id: vs-thcc-individual-provider-type
-Title: "รหัสประเภทบุคลากรทางการแพทย์และสาธารณสุข"
-Description:  "รหัสประเภทบุคลากรทางการแพทย์และสาธารณสุข ตามโครงสร้างข้อมูล 43 แฟ้ม"
+Title: "THCC: รหัสประเภทบุคลากรทางการแพทย์และสาธารณสุข"
+Description: "รหัสประเภทบุคลากรทางการแพทย์และสาธารณสุข โดย THCC (ID: 61)"
 * ^url = $VS_THCC_IndividualProviderType
 * include codes from system CS_THCC_IndividualProviderType
 
-ValueSet: VS_THCC_ParticipantType
-Id: vs-thcc-participant-type
+
+ValueSet: VS_Meta_ParticipantType
+Id: vs-meta-participant-type
 Title: "ประเภทแพทย์เพิ่มเติม"
 Description:  "ประเภทแพทย์เพิ่มเติม ตามโครงสร้างข้อมูล 43 แฟ้ม"
-* ^url = $VS_THCC_ParticipantType
+* ^url = $VS_Meta_ParticipantType
 * include codes from system CS_Meta_ParticipantType
 
 
 
-ValueSet: VS_THCC_ProviderType
-Id: vs-thcc-provider-type
-Title: "รหัสประเภทสถานพยาบาลที่รักษา"
-Description: "รหัสประเภทสถานพยาบาลที่รักษา ตามโครงสร้างข้อมูล 43 แฟ้ม"
-* ^url = $VS_THCC_ProviderType
+ValueSet: VS_eClaim_ProviderType
+Id: vs-eclaim-provider-type
+Title: "eClaim: รหัสประเภทสถานพยาบาลที่รักษา"
+Description: "รหัสประเภทสถานพยาบาลที่รักษา โดย e-Claim 16 แฟ้ม"
+* ^url = $VS_eClaim_ProviderType
 * include codes from system CS_eClaim_ProviderType
 
 
-ValueSet: VS_THCC_ProviderTypeCoverage
-Id: vs-thcc-provider-type-coverage
-Title: "ประเภทสถานพยาบาล ตามสิทธิการรักษา"
-Description:  "ใช้ประกอบการบันทึกข้อมูลเรื่องสิทธิการรักษา ตามโครงสร้างข้อมูล 43 แฟ้ม"
-* ^url = $VS_THCC_ProviderTypeCoverage
+ValueSet: VS_Meta_ProviderTypeCoverage
+Id: vs-meta-provider-type-coverage
+Title: "Metadata: รหัสประเภทสถานพยาบาล ตามสิทธิการรักษา"
+Description: "รหัสประเภทสถานพยาบาล ใช้ประกอบการบันทึกข้อมูลเรื่องสิทธิการรักษา เพื่อใช้ใน 43 แฟ้ม plus"
+* ^url = $VS_Meta_ProviderTypeCoverage
 * include codes from system CS_Meta_ProviderTypeCoverage
 

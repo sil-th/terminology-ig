@@ -24,7 +24,7 @@ Description: "หมวดค่าใช้จ่ายบริการสา
 CodeSystem: CS_eClaim_AdpType
 Id: cs-eclaim-adp-type
 Title: "eClaim: รหัสบริการที่ยังไม่ได้จัดหมวด (ADP) โดย e-Claim 16 แฟ้ม"
-Description:  "รหัสบริการที่ยังไม่ได้จัดหมวด (ADP) โดย e-Claim 16 แฟ้ม"
+Description: "รหัสบริการที่ยังไม่ได้จัดหมวด (ADP) โดย e-Claim 16 แฟ้ม"
 * ^url = $CS_eClaim_AdpType
 * #1 "HC (OPD)"
 * #2 "Instrument (หมวด 2)"

@@ -1,7 +1,7 @@
 // From Thai MOPH codes
 
 // Main File List
-Alias: $VS_THCC_43fileType = https://terms.sil-th.org/ValueSet/vs-thcc-43filetype
+Alias: $VS_TH_FileList = https://terms.sil-th.org/ValueSet/vs-th-file-list
 
 // Demographic
 Alias: $VS_THCC_Marital = https://terms.sil-th.org/ValueSet/vs-thcc-marital
@@ -11,13 +11,13 @@ Alias: $VS_THCC_ForeignerType = https://terms.sil-th.org/ValueSet/vs-thcc-foreig
 Alias: $VS_THCC_PersonStatus = https://terms.sil-th.org/ValueSet/vs-thcc-person-status
 
 // Social History
-Alias: $VS_THCC_SocialObsType = https://terms.sil-th.org/ValueSet/vs-thcc-social-obs-type
+Alias: $VS_Meta_SocialObsType = https://terms.sil-th.org/ValueSet/vs-meta-social-obs-type
 Alias: $VS_THCC_StatusInFamily = https://terms.sil-th.org/ValueSet/vs-thcc-status-in-family
 Alias: $VS_THCC_StatusInVillage = https://terms.sil-th.org/ValueSet/vs-thcc-status-in-village
 
 
 // Death
-Alias: $VS_THCC_PidRemoveReason = https://terms.sil-th.org/ValueSet/vs-thcc-pid-remove-reason
+Alias: $VS_43File_PidRemoveReason = https://terms.sil-th.org/ValueSet/vs-43file-pid-remove-reason
 Alias: $VS_THCC_DeathLocType = https://terms.sil-th.org/ValueSet/vs-thcc-death-location-type
 Alias: $VS_THCC_DeathPregnancy = https://terms.sil-th.org/ValueSet/vs-thcc-death-pregnancy
 
@@ -35,13 +35,13 @@ Alias: $VS_THCC_DisabilityReason = https://terms.sil-th.org/ValueSet/vs-thcc-dis
 // Provider
 Alias: $VS_THCC_QualificationIssuer = https://terms.sil-th.org/ValueSet/vs-thcc-qualification-issuer
 Alias: $VS_THCC_IndividualProviderType = https://terms.sil-th.org/ValueSet/vs-thcc-individual-provider-type
-Alias: $VS_THCC_ParticipantType = http://terms.sil-th.org/ValueSet/vs-thcc-participant-type
-Alias: $VS_THCC_ProviderType = http://terms.sil-th.org/ValueSet/vs-thcc-provider-type
-Alias: $VS_THCC_ProviderTypeCoverage = https://terms.sil-th.org/ValueSet/vs-thcc-provider-type-coverage
+Alias: $VS_Meta_ParticipantType = http://terms.sil-th.org/ValueSet/vs-meta-participant-type
+Alias: $VS_eClaim_ProviderType = http://terms.sil-th.org/ValueSet/vs-eclaim-provider-type
+Alias: $VS_Meta_ProviderTypeCoverage = https://terms.sil-th.org/ValueSet/vs-meta-provider-type-coverage
 
 
 // Allergy
-Alias: $VS_THCC_AllergyVerify = http://terms.sil-th.org/ValueSet/vs-thcc-allergy-verify 
+Alias: $VS_Std15_AllergyVerify = http://terms.sil-th.org/ValueSet/vs-std15-allergy-verify 
 Alias: $VS_THCC_AllergyManifest = http://terms.sil-th.org/ValueSet/vs-thcc-allergy-manifest
 Alias: $VS_THCC_AllergyCertainy = http://terms.sil-th.org/ValueSet/vs-thcc-allergy-certainty
 Alias: $VS_THCC_AllergySeverity = http://terms.sil-th.org/ValueSet/vs-thcc-allergy-severity
@@ -52,14 +52,14 @@ Alias: $VS_THCC_FunctionalTest = http://terms.sil-th.org/ValueSet/vs-thcc-functi
 Alias: $VS_THCC_FunctionalConclusion = http://terms.sil-th.org/ValueSet/vs-thcc-functional-conclusion
 
 // Encounter
-Alias: $VS_THCC_ServicePriority = http://terms.sil-th.org/ValueSet/vs-thcc-service-priority
+Alias: $VS_43Plus_ServicePriority = http://terms.sil-th.org/ValueSet/vs-43plus-service-priority
 Alias: $VS_THCC_AdmitSource = http://terms.sil-th.org/ValueSet/vs-thcc-admit-source
 Alias: $VS_THCC_PatientLocationType = http://terms.sil-th.org/ValueSet/vs-thcc-patient-location-type
 Alias: $VS_THCC_ServiceHour = http://terms.sil-th.org/ValueSet/vs-thcc-service-hour
-Alias: $VS_THCC_ServiceLocationType = http://terms.sil-th.org/ValueSet/vs-thcc-service-location-type
-Alias: $VS_THCC_ServiceTypeTH = http://terms.sil-th.org/ValueSet/vs-thcc-service-type-th
-Alias: $VS_THCC_IpdJourney = http://terms.sil-th.org/ValueSet/vs-thcc-ipd-journey
-Alias: $VS_THCC_EncounterDiagnosisRole = http://terms.sil-th.org/ValueSet/vs-thcc-encounter-diagnosis-role
+Alias: $VS_PCU_ServiceLocationType = http://terms.sil-th.org/ValueSet/vs-pcu-service-location-type
+Alias: $VS_eClaim_ServiceTypeTH = http://terms.sil-th.org/ValueSet/vs-eclaim-service-type-th
+Alias: $VS_Meta_IpdJourney = http://terms.sil-th.org/ValueSet/vs-meta-ipd-journey
+Alias: $VS_43Plus_EncounterDiagnosisRole = http://terms.sil-th.org/ValueSet/vs-43plus-encounter-diagnosis-role
 
 
 // Discharge
@@ -74,7 +74,7 @@ Alias: $VS_THCC_DiseaseCause = http://terms.sil-th.org/ValueSet/vs-thcc-disease-
 
 
 // Accident
-Alias: $VS_THCC_AccidentObs = http://terms.sil-th.org/ValueSet/vs-thcc-accident-obs
+Alias: $VS_Meta_AccidentObs = http://terms.sil-th.org/ValueSet/vs-meta-accident-obs
 Alias: $VS_THCC_AccidentLocation = http://terms.sil-th.org/ValueSet/vs-thcc-accident-location
 Alias: $VS_THCC_AccidentAdmitSource = http://terms.sil-th.org/ValueSet/vs-thcc-accident-admit-source
 Alias: $VS_THCC_AccidentPatientType = http://terms.sil-th.org/ValueSet/vs-thcc-accident-patient-type
@@ -85,14 +85,14 @@ Alias: $VS_THCC_AccidentSplint = http://terms.sil-th.org/ValueSet/vs-thcc-accide
 Alias: $VS_THCC_AccidentIVFluid = http://terms.sil-th.org/ValueSet/vs-thcc-accident-iv-fluid
 Alias: $VS_THCC_AccidentPriority = http://terms.sil-th.org/ValueSet/vs-thcc-accident-priority
 Alias: $VS_THCC_AccidentCauseGroup = http://terms.sil-th.org/ValueSet/vs-thcc-accident-cause-group
-Alias: $VS_THCC_AccidentCoverage = http://terms.sil-th.org/ValueSet/vs-thcc-accident-coverage
+Alias: $VS_eClaim_AccidentCoverage = http://terms.sil-th.org/ValueSet/vs-eclaim-accident-coverage
 
 // Appointment
-Alias: $VS_THCC_AppointServiceCategory = http://terms.sil-th.org/ValueSet/vs-thcc-appoint-service-category
+Alias: $VS_Std15_AppointServiceCategory = http://terms.sil-th.org/ValueSet/vs-std15-appoint-service-category
 Alias: $VS_THCC_AppointServiceType = http://terms.sil-th.org/ValueSet/vs-thcc-appoint-service-type
 
 // NCD
-Alias: $VS_THCC_NcdStatus = http://terms.sil-th.org/ValueSet/vs-thcc-ncd-status
+Alias: $VS_43Plus_NcdStatus = http://terms.sil-th.org/ValueSet/vs-43plus-ncd-status
 Alias: $VS_THCC_NcdSmoking = http://terms.sil-th.org/ValueSet/vs-thcc-ncd-smoking
 Alias: $VS_THCC_NcdAlcohol = http://terms.sil-th.org/ValueSet/vs-thcc-ncd-alchohol
 Alias: $VS_THCC_NcdFbsMethod = http://terms.sil-th.org/ValueSet/vs-thcc-ncd-fbs-method
@@ -104,18 +104,18 @@ Alias: $VS_THCC_Contraceptive = https://terms.sil-th.org/ValueSet/vs-thcc-contra
 Alias: $VS_THCC_NoContraceptive = https://terms.sil-th.org/ValueSet/vs-thcc-no-contraceptive
 
 // Pregnancy
-Alias: $VS_THCC_FpCaseType = http://terms.sil-th.org/ValueSet/vs-thcc-fp-case-type
-Alias: $VS_THCC_MeternalAppointmentType = http://terms.sil-th.org/ValueSet/vs-thcc-materal-appointment-type
+Alias: $VS_PCU_FpCaseType = http://terms.sil-th.org/ValueSet/vs-pcu-fp-case-type
+Alias: $VS_Meta_MeternalAppointmentType = http://terms.sil-th.org/ValueSet/vs-meta-materal-appointment-type
 Alias: $VS_THCC_ContraceptiveMethod = http://terms.sil-th.org/ValueSet/vs-thcc-contraceptive-method
-Alias: $VS_THCC_MiscPregnancyObs = http://terms.sil-th.org/ValueSet/vs-thcc-misc-pregnancy-obs
-Alias: $VS_THCC_ScreeningResult = http://terms.sil-th.org/ValueSet/vs-thcc-screening-result
+Alias: $VS_Meta_MiscPregnancyObs = http://terms.sil-th.org/ValueSet/vs-meta-misc-pregnancy-obs
+Alias: $VS_Meta_ScreeningResult = http://terms.sil-th.org/ValueSet/vs-meta-screening-result
 Alias: $VS_THCC_LaborPerformerRole = http://terms.sil-th.org/ValueSet/vs-thcc-labor-performer-role
 Alias: $VS_THCC_LaborProcedure = http://terms.sil-th.org/ValueSet/vs-thcc-labor-procedure
 Alias: $VS_THCC_LaborLocation = http://terms.sil-th.org/ValueSet/vs-thcc-labor-location
-Alias: $VS_THCC_LaborPresentation = http://terms.sil-th.org/ValueSet/vs-thcc-labor-presentation
-Alias: $VS_THCC_PostnatalBreastfeeding = http://terms.sil-th.org/ValueSet/vs-thcc-postnatal-breastfeeding
-Alias: $VS_THCC_PostnatalMens = http://terms.sil-th.org/ValueSet/vs-thcc-postnatal-mens
-Alias: $VS_THCC_PostnatalPerineum = http://terms.sil-th.org/ValueSet/vs-thcc-postnatal-perineum
+Alias: $VS_PCU_LaborPresentation = http://terms.sil-th.org/ValueSet/vs-pcu-labor-presentation
+Alias: $VS_PCU_PostnatalBreastfeeding = http://terms.sil-th.org/ValueSet/vs-pcu-postnatal-breastfeeding
+Alias: $VS_PCU_PostnatalMens = http://terms.sil-th.org/ValueSet/vs-pcu-postnatal-mens
+Alias: $VS_PCU_PostnatalPerineum = http://terms.sil-th.org/ValueSet/vs-pcu-postnatal-perineum
 
 // Pediatrics
 Alias: $VS_THCC_NewbornFood = http://terms.sil-th.org/ValueSet/vs-thcc-newborn-food
@@ -124,29 +124,30 @@ Alias: $VS_THCC_ChildFood = http://terms.sil-th.org/ValueSet/vs-thcc-child-food
 
 // Referral
 Alias: $VS_THCC_ReferReason = http://terms.sil-th.org/ValueSet/vs-thcc-refer-in-reason
-Alias: $VS_THCC_ReferOutcome = http://terms.sil-th.org/ValueSet/vs-thcc-refer-outcome
-Alias: $VS_THCC_ReferCareProcedure = http://terms.sil-th.org/ValueSet/vs-thcc-refer-care-procedure
-Alias: $VS_THCC_ReferCategory = http://terms.sil-th.org/ValueSet/vs-thcc-refer-category
-Alias: $VS_THCC_ReferReasonStd15 = http://terms.sil-th.org/ValueSet/vs-thcc-refer-reason-std15
-Alias: $VS_THCC_ReferReasonEclaim = http://terms.sil-th.org/ValueSet/vs-thcc-refer-reason-eclaim
-Alias: $VS_THCC_ReferStatus = http://terms.sil-th.org/ValueSet/vs-thcc-refer-status
-Alias: $VS_THCC_ReferAnswerType = http://terms.sil-th.org/ValueSet/vs-thcc-refer-answer-type
+Alias: $VS_PCU_ReferOutcome = http://terms.sil-th.org/ValueSet/vs-pcu-refer-outcome
+Alias: $VS_43File_ReferCareProcedure = http://terms.sil-th.org/ValueSet/vs-43file-refer-care-procedure
+Alias: $VS_Std15_ReferCategory = http://terms.sil-th.org/ValueSet/vs-std15-refer-category
+Alias: $VS_Std15_ReferReason = http://terms.sil-th.org/ValueSet/vs-std15-refer-reason
+Alias: $VS_eClaim_ReferReason = http://terms.sil-th.org/ValueSet/vs-eclaim-refer-reason
+Alias: $VS_Std15_ReferStatus = http://terms.sil-th.org/ValueSet/vs-std15-refer-status
+Alias: $VS_Std15_ReferAnswerType = http://terms.sil-th.org/ValueSet/vs-std15-refer-answer-type
 Alias: $VS_THCC_ReferThaiPriority = http://terms.sil-th.org/ValueSet/vs-thcc-refer-thai-priority
-Alias: $VS_THCC_ReferPriorityCode = http://terms.sil-th.org/ValueSet/vs-thcc-refer-priority-code
-Alias: $VS_THCC_ReferTypeEclaim = http://terms.sil-th.org/ValueSet/vs-thcc-refer-type-eclaim
-Alias: $VS_THCC_ReferSpecialDisease = http://terms.sil-th.org/ValueSet/vs-thcc-refer-special-disease
-Alias: $VS_THCC_ReferEncounterClass = http://terms.sil-th.org/ValueSet/vs-thcc-refer-encounter-class
-Alias: $VS_THCC_ReferResult = http://terms.sil-th.org/ValueSet/vs-thcc-refer-result
+Alias: $VS_eClaim_ReferThaiPriority = http://terms.sil-th.org/ValueSet/vs-eclaim-refer-thai-priority
+Alias: $VS_eClaim_ReferPriorityCode = http://terms.sil-th.org/ValueSet/vs-eclaim-refer-priority-code
+Alias: $VS_eClaim_ReferTypeEclaim = http://terms.sil-th.org/ValueSet/vs-eclaim-refer-type-eclaim
+Alias: $VS_43File_ReferSpecialDisease = http://terms.sil-th.org/ValueSet/vs-43file-refer-special-disease
+Alias: $VS_43File_ReferEncounterClass = http://terms.sil-th.org/ValueSet/vs-43file-refer-encounter-class
+Alias: $VS_43File_ReferResult = http://terms.sil-th.org/ValueSet/vs-43file-refer-result
 
 
 // Medication
-Alias: $VS_THCC_MedicationSource = http://terms.sil-th.org/ValueSet/vs-thcc-medication-source
-Alias: $VS_THCC_MedicationCategory = http://terms.sil-th.org/ValueSet/vs-thcc-medication-category
-Alias: $VS_THCC_MedOutNLEM = http://terms.sil-th.org/ValueSet/vs-thcc-medication-out-nlem
-Alias: $VS_THCC_MedDelivery = http://terms.sil-th.org/ValueSet/vs-thcc-medication-delivery
+Alias: $VS_Std15_MedicationSource = http://terms.sil-th.org/ValueSet/vs-std15-medication-source
+Alias: $VS_eClaim_MedicationCategory = http://terms.sil-th.org/ValueSet/vs-eclaim-medication-category
+Alias: $VS_THCC_MedOutNLEM = http://terms.sil-th.org/ValueSet/vs-eclaim-medication-out-nlem
+Alias: $VS_43Plus_MedDelivery = http://terms.sil-th.org/ValueSet/vs-43plus-medication-delivery
 
 // Procedure
-Alias: $VS_THCC_ProcedureType = http://terms.sil-th.org/ValueSet/vs-thcc-procedure-type
+Alias: $VS_eClaim_ProcedureType = http://terms.sil-th.org/ValueSet/vs-eclaim-procedure-type
 
 // Finance
 Alias: $VS_eClaim_AdpType = http://terms.sil-th.org/ValueSet/vs-eclaim-adp-type

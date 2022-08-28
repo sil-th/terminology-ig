@@ -1,7 +1,7 @@
 CodeSystem: CS_INT_ISCO08
 Id: cs-int-isco-08
 Title: "Inter: รหัสอาชีพ ISCO-08"
-Description:  "รหัสอาชีพ ตามระบบ ISCO-08"
+Description: "รหัสอาชีพ ตามระบบ ISCO-08"
 * ^url = $ISCO08
 * ^copyright = "This artifact includes content from International Standard Classification of Occupations (ISCO-08). ISCO-08 is copyright © International Labour Organization (ILO). Terms & Conditions in http://www.ilo.org/global/copyright/lang--en/index.htm."
 * #1 "Managers" "Managers plan, direct, coordinate and evaluate the overall activities of enterprises, governments and other organizations, or of organizational units within them, and formulate and review their policies, laws, rules and regulations. Competent performance in most occupations in this major group requires skills at the fourth ISCO skill level, except for Sub-major group 14: Hospitality, Retail and Other Services Managers, for which skills at the third ISCO skill level are generally required."

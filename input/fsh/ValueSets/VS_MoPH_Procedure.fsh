@@ -1,6 +1,6 @@
-ValueSet: VS_THCC_ProcedureType
-Id: vs-thcc-procedure-type
-Title: "รหัสชนิดของหัตถการ"
-Description: "รหัสชนิดของหัตถการ ตามโครงสร้างข้อมูล e-claim"
-* ^url = $VS_THCC_ProcedureType
+ValueSet: VS_eClaim_ProcedureType
+Id: vs-eclaim-procedure-type
+Title: "eClaim: รหัสชนิดของหัตถการ"
+Description: "รหัสชนิดของหัตถการ โดย e-Claim 16 แฟ้ม"
+* ^url = $VS_eClaim_ProcedureType
 * include codes from system CS_eClaim_ProcedureType

@@ -1,33 +1,33 @@
-ValueSet: VS_THCC_MedicationSource
-Id: vs-thcc-medication-source
-Title: "รหัสประเภทยาที่ใช้ปัจจุบัน"
-Description: "รหัสประเภทยาที่ใช้ปัจจุบัน ตามโครงสร้างข้อมูล 43 แฟ้ม"
-* ^url = $VS_THCC_MedicationSource
+ValueSet: VS_Std15_MedicationSource
+Id: vs-std15-medication-source
+Title: "Std15: รหัสประเภทยาที่ใช้ปัจจุบัน"
+Description: "รหัสประเภทยาที่ใช้ปัจจุบัน โดย e-Refer 15 แฟ้ม"
+* ^url = $VS_Std15_MedicationSource
 * include codes from system CS_Std15_MedicationSource
 
 
-ValueSet: VS_THCC_MedicationCategory
-Id: vs-thcc-medication-category
-Title: "รหัสหมวดรายการยา"
-Description: "รหัสหมวดรายการยา ใช้ประกอบโครงสร้าง e-claim"
-* ^url = $VS_THCC_MedicationCategory
+ValueSet: VS_eClaim_MedicationCategory
+Id: vs-eclaim-medication-category
+Title: "eClaim: รหัสหมวดรายการยา"
+Description: "รหัสหมวดรายการยา โดย e-Claim 16 แฟ้ม"
+* ^url = $VS_eClaim_MedicationCategory
 * include codes from system CS_eClaim_MedicationCategory
 
 
 
 ValueSet: VS_THCC_MedOutNLEM
-Id: vs-thcc-medication-out-nlem
-Title: "เหตุผลการใช้ยานอกบัญชียาหลัก"
-Description: "เหตุผลการใช้ยานอกบัญชียาหลัก ใช้ประกอบโครงสร้าง e-claim"
+Id: vs-eclaim-medication-out-nlem
+Title: "eClaim: รหัสเหตุผลการใช้ยานอกบัญชียาหลัก"
+Description: "รหัสเหตุผลการใช้ยานอกบัญชียาหลัก โดย e-Claim 16 แฟ้ม"
 * ^url = $VS_THCC_MedOutNLEM
 * include codes from system CS_eClaim_MedOutNLEM
 
 
 
 
-ValueSet: VS_THCC_MedDelivery
-Id: vs-thcc-medication-delivery
-Title: "การส่งมอบยา (กรณีจ่ายไปใช้ที่บ้าน)"
-Description: "การส่งมอบยา (กรณีจ่ายไปใช้ที่บ้าน) ใช้ประกอบโครงสร้าง 43 แฟ้ม plus"
-* ^url = $VS_THCC_MedDelivery
+ValueSet: VS_43Plus_MedDelivery
+Id: vs-43plus-medication-delivery
+Title: "43Plus: รหัสการส่งมอบยา (กรณีจ่ายไปใช้ที่บ้าน)"
+Description: "รหัสการส่งมอบยา (กรณีจ่ายไปใช้ที่บ้าน) ใช้ประกอบโครงสร้าง 43 แฟ้ม plus"
+* ^url = $VS_43Plus_MedDelivery
 * include codes from system CS_43Plus_MedDelivery

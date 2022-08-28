@@ -1,23 +1,30 @@
 ValueSet: VS_43Plus_CancerDxSource
 Id: vs-43plus-cancer-dx-source
-Title: "วิธีวินิจฉัยโรคมะเร็ง"
-Description:  "วิธีวินิจฉัยโรคมะเร็ง ใช้ในโครงสร้างข้อมูล 43 แฟ้ม plus"
+Title: "43Plus: รหัสวิธีวินิจฉัยโรคมะเร็ง"
+Description: "รหัสวิธีวินิจฉัยโรคมะเร็ง โดย 43 แฟ้ม plus"
 * ^url = $VS_43Plus_CancerDxSource
 * include codes from system CS_43Plus_CancerDxSource
 
 
 ValueSet: VS_43Plus_CancerGrade
 Id: vs-43plus-cancer-grade
-Title: "รหัสระดับความรุนแรงของชิ้นเนื้อ"
-Description:  "รหัสระดับความรุนแรงของชิ้นเนื้อ ใช้ในโครงสร้างข้อมูล 43 แฟ้ม plus"
+Title: "43Plus: รหัสระดับความรุนแรงของชิ้นเนื้อ"
+Description: "รหัสระดับความรุนแรงของชิ้นเนื้อ โดย 43 แฟ้ม plus"
 * ^url = $VS_43Plus_CancerGrade
 * include codes from system CS_43Plus_CancerGrade
 
 
 ValueSet: VS_43Plus_CancerStaging
 Id: vs-43plus-cancer-staging
-Title: "ระยะของโรคมะเร็ง"
-Description:  "ระยะของโรคมะเร็ง ใช้ในโครงสร้างข้อมูล 43 แฟ้ม plus"
+Title: "43Plus: รหัสระยะของโรคมะเร็ง"
+Description: "รหัสระยะของโรคมะเร็ง โดย 43 แฟ้ม plus"
 * ^url = $VS_43Plus_CancerStaging
 * include codes from system CS_43Plus_CancerStaging
 
+
+ValueSet: VS_eClaim_CancerType
+Id: vs-eclaim-cancer-type
+Title: "eClaim: รหัสรายละเอียดเพิ่มเติมกรณีมะเร็ง"
+Description: "รหัสรายละเอียดเพิ่มเติมกรณีมะเร็ง โดย e-Claim 16 แฟ้ม"
+* ^url = $VS_eClaim_CancerType
+* include codes from system CS_eClaim_CancerType

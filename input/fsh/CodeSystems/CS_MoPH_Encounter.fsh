@@ -1,7 +1,7 @@
 CodeSystem: CS_43Plus_ServicePriority
 Id: cs-43plus-service-priority
 Title: "43Plus: รหัสสถานะความฉุกเฉิน"
-Description:  "รหัสสถานะความฉุกเฉิน โดย 43 แฟ้ม plus"
+Description: "รหัสสถานะความฉุกเฉิน โดย 43 แฟ้ม plus"
 * ^url = $CS_43Plus_ServicePriority
 * #1 "ปกติ"
 * #2 "ฉุกเฉิน"

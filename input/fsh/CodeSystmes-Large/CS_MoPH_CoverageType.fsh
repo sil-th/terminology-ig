@@ -1,7 +1,7 @@
 CodeSystem: CS_THCC_CoverageType
 Id: cs-thcc-coverage-type
 Title: "THCC: รหัสสิทธิการรักษาพยาบาล"
-Description:  "รหัสสิทธิการรักษาพยาบาล โดย THCC (ID: 34, 76, 95, 129, 150)"
+Description: "รหัสสิทธิการรักษาพยาบาล โดย THCC (ID: 34, 76, 95, 129, 150)"
 * ^url = $CS_THCC_CoverageType
 * #0100 "หลักประกันสุขภาพ"
 * #1100 "ข้าราชการประจำ"

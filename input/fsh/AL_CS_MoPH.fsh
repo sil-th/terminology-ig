@@ -25,7 +25,7 @@ Alias: $CS_THCC_DeathPregnancy = https://terms.sil-th.org/CodeSystem/cs-thcc-dea
 // Location
 Alias: $CS_THCC_HouseType = https://terms.sil-th.org/CodeSystem/cs-thcc-house-type
 Alias: $CS_THCC_InMunicipality = https://terms.sil-th.org/CodeSystem/cs-thcc-in-municipality
-Alias: $CS_THCC_VillageArea = https://terms.sil-th.org/CodeSystem/cs-thcc-village-area
+Alias: $CS_PCU_VillageArea = https://terms.sil-th.org/CodeSystem/cs-pcu-village-area
 
 // Disability
 Alias: $CS_THCC_DisabilityType = https://terms.sil-th.org/CodeSystem/cs-thcc-disability-type
@@ -128,7 +128,7 @@ Alias: $CS_PCU_ReferOutcome = http://terms.sil-th.org/CodeSystem/cs-pcu-refer-ou
 Alias: $CS_43File_ReferCareProcedure = http://terms.sil-th.org/CodeSystem/cs-43file-refer-care-procedure
 Alias: $CS_Std15_ReferCategory = http://terms.sil-th.org/CodeSystem/cs-std15-refer-category
 Alias: $CS_Std15_ReferReason = http://terms.sil-th.org/CodeSystem/cs-std15-refer-reason
-Alias: $CS_eClaim_ReferReasonEclaim = http://terms.sil-th.org/CodeSystem/cs-eclaim-refer-reason-eclaim
+Alias: $CS_eClaim_ReferReason = http://terms.sil-th.org/CodeSystem/cs-eclaim-refer-reason-eclaim
 Alias: $CS_Std15_ReferStatus = http://terms.sil-th.org/CodeSystem/cs-std15-refer-status
 Alias: $CS_Std15_ReferAnswerType = http://terms.sil-th.org/CodeSystem/cs-std15-refer-answer-type
 Alias: $CS_THCC_ReferThaiPriority = http://terms.sil-th.org/CodeSystem/cs-thcc-refer-thai-priority
