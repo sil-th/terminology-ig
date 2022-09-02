@@ -59,6 +59,7 @@ Alias: $CS_THCC_ServiceHour = http://terms.sil-th.org/CodeSystem/cs-thcc-service
 Alias: $CS_PCU_ServiceLocationType = http://terms.sil-th.org/CodeSystem/cs-pcu-service-location-type
 Alias: $CS_eClaim_ServiceTypeTH = http://terms.sil-th.org/CodeSystem/cs-eclaim-service-type-th
 Alias: $CS_Meta_IpdJourney = http://terms.sil-th.org/CodeSystem/cs-meta-ipd-journey
+Alias: $CS_Meta_ExtendedHL7DiagnosisRole = https://terms.sil-th.org/CodeSystem/cs-meta-extended-hl7-diagnosis-role
 Alias: $CS_43Plus_EncounterDiagnosisRole = http://terms.sil-th.org/CodeSystem/cs-43plus-encounter-diagnosis-role
 
 

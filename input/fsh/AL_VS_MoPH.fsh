@@ -65,8 +65,8 @@ Alias: $VS_THCC_ServiceHour = http://terms.sil-th.org/ValueSet/vs-thcc-service-h
 Alias: $VS_PCU_ServiceLocationType = http://terms.sil-th.org/ValueSet/vs-pcu-service-location-type
 Alias: $VS_eClaim_ServiceTypeTH = http://terms.sil-th.org/ValueSet/vs-eclaim-service-type-th
 Alias: $VS_Meta_IpdJourney = http://terms.sil-th.org/ValueSet/vs-meta-ipd-journey
+Alias: $VS_Meta_ExtendedHL7DiagnosisRole = https://terms.sil-th.org/ValueSet/vs-meta-extended-hl7-diagnosis-role
 Alias: $VS_43Plus_EncounterDiagnosisRole = http://terms.sil-th.org/ValueSet/vs-43plus-encounter-diagnosis-role
-
 
 // Discharge
 Alias: $VS_THCC_DischargeStatus = http://terms.sil-th.org/ValueSet/vs-thcc-discharge-status

@@ -6,6 +6,16 @@ Description: "รหัสสถานะ/สาเหตุการจำห�
 * include codes from system CS_43File_PidRemoveReason
 
 
+ValueSet: VS_Meta_ExtendedHL7DiagnosisRole
+Id: vs-meta-extended-hl7-diagnosis-role
+Title: "Metadata: รหัสบทบาทการวินิจฉัยเพิ่มเติมจาก HL7"
+Description: "รหัสบทบาทการวินิจฉัยเพิ่มเติมจาก HL7 เพื่อใช้ใน 43 แฟ้ม plus"
+* ^url = $VS_Meta_ExtendedHL7DiagnosisRole
+* include codes from system $CS_HL7_DiagRole
+* include codes from system CS_Meta_ExtendedHL7DiagnosisRole
+
+
+
 
 ValueSet: VS_THCC_DeathLocType
 Id: vs-thcc-death-location-type

@@ -9,6 +9,15 @@ Description: "รหัสสถานะ/สาเหตุการจำห�
 * #9 "ไม่จำหน่าย"
 
 
+CodeSystem: CS_Meta_ExtendedHL7DiagnosisRole
+Id: cs-meta-extended-hl7diagnosis-role
+Title: "Metadata: รหัสบทบาทการวินิจฉัยเพิ่มเติมจาก HL7"
+Description: "รหัสบทบาทการวินิจฉัยเพิ่มเติมจาก HL7 เพื่อใช้ใน 43 แฟ้ม plus"
+* ^url = $CS_Meta_ExtendedHL7DiagnosisRole
+* #death "Cause of death"
+
+
+
 CodeSystem: CS_THCC_DeathLocType
 Id: cs-thcc-death-location-type
 Title: "THCC: รหัสสถานที่ตาย"
