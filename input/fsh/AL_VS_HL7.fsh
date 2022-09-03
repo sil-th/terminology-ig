@@ -30,4 +30,5 @@ Alias: $VS_HL7_DataAbsentReason = http://hl7.org/fhir/ValueSet/data-absent-reaso
 
 // From international FHIR community
 Alias: $VS_IPS_MedicineDoseform = http://hl7.org/fhir/uv/ips/ValueSet/medicine-doseform
+Alias: $VS_IPS_AbsentUnknownAllergies = http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-allergies-uv-ips
 Alias: $VS_SNOMEDCT_FormCodes = http://hl7.org/fhir/ValueSet/medication-form-codes

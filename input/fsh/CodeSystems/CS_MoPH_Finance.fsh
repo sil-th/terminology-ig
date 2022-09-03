@@ -1,3 +1,12 @@
+CodeSystem: CS_43Plus_CoverageUse
+Id: cs-43plus-coverage-use
+Title: "43Plus: รหัสการใช้สิทธิ"
+Description: "รหัสการใช้สิทธิ"
+* ^url = $CS_43Plus_CoverageUse
+* #1 "ใช้สิทธิ"
+* #2 "ไม่ใช้สิทธิ ไม่ขอเบิก"
+
+
 CodeSystem: CS_TH_FeeCategory
 Id: cs-th-fee-category
 Title: "TH: หมวดค่าใช้จ่ายบริการสาธารณสุข"

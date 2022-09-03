@@ -27,3 +27,8 @@ Alias: $CS_HL7_DiagServiceCat = http://terminology.hl7.org/CodeSystem/v2-0074
 Alias: $CS_HL7_DoseForm = http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm
 Alias: $CS_HL7_SecurityLebel = http://terminology.hl7.org/CodeSystem/v3-Confidentiality
 Alias: $CS_HL7_DataAbsentReason = http://terminology.hl7.org/CodeSystem/data-absent-reason
+
+
+// From international FHIR community
+Alias: $CS_IPS_AbsentUnknownAllergies = http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips
+

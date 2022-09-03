@@ -1,3 +1,12 @@
+ValueSet: VS_43Plus_CoverageUse
+Id: vs-43plus-coverage-use
+Title: "43Plus: รหัสการใช้สิทธิ"
+Description: "รหัสการใช้สิทธิ"
+* ^url = $VS_43Plus_CoverageUse
+* include codes from system CS_43Plus_CoverageUse
+
+
+
 ValueSet: VS_TH_FeeCategory
 Id: vs-th-fee-category
 Title: "TH: หมวดค่าใช้จ่ายบริการสาธารณสุข"

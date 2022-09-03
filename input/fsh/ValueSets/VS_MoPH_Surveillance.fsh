@@ -14,3 +14,10 @@ Description: "รหัสสาเหตุการป่วย โดย THCC
 * ^url = $VS_THCC_DiseaseCause
 * include codes from system CS_THCC_DiseaseCause
 
+
+ValueSet: VS_PCU_ClnicalStatus
+Id: vs-pcu-clnical-status
+Title: "PCU: รหัสสภาพผู้ป่วย"
+Description: "รหัสสภาพผู้ป่วย โดย PCU"
+* ^url = $VS_PCU_ClnicalStatus
+* include codes from system CS_PCU_ClnicalStatus

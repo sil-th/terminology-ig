@@ -93,3 +93,14 @@ Description: "รหัสสาเหตุการป่วย โดย THCC
 * #987 "คนขี่จักรยานถูกรถยนต์/จักรฯชน"
 * #988 "ตกจากรถยนต์/รถจักรยานยนต์"
 * #989 "ไม่ทราบทุกประเภท"
+
+
+CodeSystem: CS_PCU_ClnicalStatus
+Id: cs-pcu-clnical-status
+Title: "PCU: รหัสสภาพผู้ป่วย"
+Description: "รหัสสภาพผู้ป่วย โดย PCU"
+* ^url = $CS_PCU_ClnicalStatus
+* #1 "หาย"
+* #2 "ตาย"
+* #3 "ยังรักษาอยู่"
+* #9 "ไม่ทราบ"
