@@ -4,10 +4,18 @@
 Alias: $VS_TH_FileList = https://terms.sil-th.org/ValueSet/vs-th-file-list
 
 // Observation List
-Alias: $VS_Meta_NCD = http://terms.sil-th.org/ValueSet/vs-meta-ncd
-Alias: $VS_Meta_Pregnancy = http://terms.sil-th.org/ValueSet/vs-meta-pregnancy
-Alias: $VS_Meta_Neonate = http://terms.sil-th.org/ValueSet/vs-meta-neonate
-Alias: $VS_Meta_ChildDevelopment = http://terms.sil-th.org/ValueSet/vs-meta-child-development
+Alias: $VS_Meta_Accident_ObsList = http://terms.sil-th.org/ValueSet/vs-meta-accident-observations
+Alias: $VS_Meta_Cancer_ObsList = http://terms.sil-th.org/ValueSet/vs-meta-cancer-observations
+Alias: $VS_Meta_ChildDevelopment_ObsList = http://terms.sil-th.org/ValueSet/vs-meta-child-development-observations
+Alias: $VS_Meta_Functional_ObsList = http://terms.sil-th.org/ValueSet/vs-meta-functional-observations
+Alias: $VS_Meta_Lab_ObsList = http://terms.sil-th.org/ValueSet/vs-meta-lab-observations
+Alias: $VS_Meta_NCD_ObsList = http://terms.sil-th.org/ValueSet/vs-meta-ncd-observations
+Alias: $VS_Meta_Neonate_ObsList = http://terms.sil-th.org/ValueSet/vs-meta-neonate-observations
+Alias: $VS_Meta_PhysicalExam_ObsList = http://terms.sil-th.org/ValueSet/vs-meta-physical-observations
+Alias: $VS_Meta_Pregnancy_ObsList = http://terms.sil-th.org/ValueSet/vs-meta-pregnancy-observations
+// Alias: $VS_Meta_Prevention_ObsList = http://terms.sil-th.org/ValueSet/vs-meta-prevention-observations
+Alias: $VS_Meta_Social_ObsList = http://terms.sil-th.org/ValueSet/vs-meta-social-observations
+Alias: $VS_Meta_Vital_ObsList = http://terms.sil-th.org/ValueSet/vs-meta-vital-observations
 
 // Demographic
 Alias: $VS_THCC_Marital = https://terms.sil-th.org/ValueSet/vs-thcc-marital
@@ -112,7 +120,6 @@ Alias: $VS_THCC_NoContraceptive = https://terms.sil-th.org/ValueSet/vs-thcc-no-c
 
 // Pregnancy
 Alias: $VS_PCU_FpCaseType = http://terms.sil-th.org/ValueSet/vs-pcu-fp-case-type
-Alias: $VS_Meta_MeternalAppointmentType = http://terms.sil-th.org/ValueSet/vs-meta-materal-appointment-type
 Alias: $VS_THCC_ContraceptiveMethod = http://terms.sil-th.org/ValueSet/vs-thcc-contraceptive-method
 Alias: $VS_Meta_MiscPregnancyObs = http://terms.sil-th.org/ValueSet/vs-meta-misc-pregnancy-obs
 Alias: $VS_Meta_ScreeningResult = http://terms.sil-th.org/ValueSet/vs-meta-screening-result
@@ -166,6 +173,9 @@ Alias: $VS_43Plus_CancerDxSource = http://terms.sil-th.org/ValueSet/vs-43plus-ca
 Alias: $VS_43Plus_CancerGrade = http://terms.sil-th.org/ValueSet/vs-43plus-cancer-grade
 Alias: $VS_43Plus_CancerStaging = http://terms.sil-th.org/ValueSet/vs-43plus-cancer-staging
 Alias: $VS_eClaim_CancerType = http://terms.sil-th.org/ValueSet/vs-eclaim-cancer-type
+
+// Misc Observation
+Alias: $VS_Meta_MiscObsType = http://terms.sil-th.org/ValueSet/vs-meta-misc-obs-type
 
 
 // Large CodeSystems

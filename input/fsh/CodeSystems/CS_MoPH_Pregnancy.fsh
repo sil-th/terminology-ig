@@ -7,17 +7,17 @@ Description: "รหัสประเภทการวางแผนครอ
 * #1 "รายใหม่"
 
 
-CodeSystem: CS_Meta_MeternalAppointmentType
-Id: cs-meta-materal-appointment-type
-Title: "Metadata: รหัสประเภทการนัดด้านการอนามัยแม่และเด็ก"
-Description: "รหัสประเภทการนัดด้านการอนามัยแม่และเด็ก เพื่อใช้ใน 43 แฟ้ม plus"
-* ^url = $CS_Meta_MeternalAppointmentType
-* #fp "นัดรับบริการวางแผนครอบครัว"
-* #anc "นัดรับบริการ ANC"
-* #labor "นัดตรวจหลังคลอด"
-* #postlabor "นัดตรวจหลังคลอดครั้งที่ 2"
-* #newborn "นัดตรวจหลังคลอด ครั้งต่อไป"
-* #nutrition "นัดตรวจโภชนาการและพัฒนาการ"
+// CodeSystem: CS_Meta_MeternalAppointmentType
+// Id: cs-meta-materal-appointment-type
+// Title: "Metadata: รหัสประเภทการนัดด้านการอนามัยแม่และเด็ก"
+// Description: "รหัสประเภทการนัดด้านการอนามัยแม่และเด็ก เพื่อใช้ใน 43 แฟ้ม plus"
+// * ^url = $CS_Meta_MeternalAppointmentType
+// * #fp "นัดรับบริการวางแผนครอบครัว"
+// * #anc "นัดรับบริการ ANC"
+// * #labor "นัดตรวจหลังคลอด"
+// * #postlabor "นัดตรวจหลังคลอดครั้งที่ 2"
+// * #newborn "นัดตรวจหลังคลอด ครั้งต่อไป"
+// * #nutrition "นัดตรวจโภชนาการและพัฒนาการ"
 
 CodeSystem: CS_THCC_LaborPerformerRole
 Id: cs-thcc-labor-performer-role

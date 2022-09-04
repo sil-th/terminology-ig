@@ -107,7 +107,6 @@ Alias: $CS_THCC_NoContraceptive = https://terms.sil-th.org/CodeSystem/cs-thcc-no
 
 // Pregnancy
 Alias: $CS_PCU_FpCaseType = http://terms.sil-th.org/CodeSystem/cs-pcu-fp-case-type
-Alias: $CS_Meta_MeternalAppointmentType = http://terms.sil-th.org/CodeSystem/cs-meta-materal-appointment-type
 Alias: $CS_THCC_ContraceptiveMethod = http://terms.sil-th.org/CodeSystem/cs-thcc-contraceptive-method
 Alias: $CS_Meta_MiscPregnancyObs = http://terms.sil-th.org/CodeSystem/cs-meta-misc-pregnancy-obs
 Alias: $CS_Meta_ScreeningResult = http://terms.sil-th.org/CodeSystem/cs-meta-screening-result
@@ -161,6 +160,9 @@ Alias: $CS_43Plus_CancerDxSource = http://terms.sil-th.org/CodeSystem/cs-43plus-
 Alias: $CS_43Plus_CancerGrade = http://terms.sil-th.org/CodeSystem/cs-43plus-cancer-grade
 Alias: $CS_43Plus_CancerStaging = http://terms.sil-th.org/CodeSystem/cs-43plus-cancer-staging
 Alias: $CS_eClaim_CancerType = http://terms.sil-th.org/CodeSystem/cs-eclaim-cancer-type
+
+// Misc Observation
+Alias: $CS_Meta_MiscObsType = http://terms.sil-th.org/CodeSystem/cs-meta-misc-obs-type
 
 
 // Large CodeSystems

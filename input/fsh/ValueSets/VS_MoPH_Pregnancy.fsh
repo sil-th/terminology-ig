@@ -6,12 +6,12 @@ Description: "รหัสประเภทการวางแผนครอ
 * include codes from system CS_PCU_FpCaseType
 
 
-ValueSet: VS_Meta_MeternalAppointmentType
-Id: vs-meta-materal-appointment-type
-Title: "Metadata: รหัสประเภทการนัดด้านการอนามัยแม่และเด็ก"
-Description: "รหัสประเภทการนัดด้านการอนามัยแม่และเด็ก เพื่อใช้ใน 43 แฟ้ม plus"
-* ^url = $VS_Meta_MeternalAppointmentType
-* include codes from system CS_Meta_MeternalAppointmentType
+// ValueSet: VS_Meta_MeternalAppointmentType
+// Id: vs-meta-materal-appointment-type
+// Title: "Metadata: รหัสประเภทการนัดด้านการอนามัยแม่และเด็ก"
+// Description: "รหัสประเภทการนัดด้านการอนามัยแม่และเด็ก เพื่อใช้ใน 43 แฟ้ม plus"
+// * ^url = $VS_Meta_MeternalAppointmentType
+// * include codes from system CS_Meta_MeternalAppointmentType
 
 
 ValueSet: VS_THCC_LaborPerformerRole
