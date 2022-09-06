@@ -10,46 +10,11 @@ Description: "รหัสสาเหตุการส่งผู้ป่ว
 * #5 "ตามความต้องการผู้ป่วย"
 
 
-CodeSystem: CS_PCU_ReferOutcome
-Id: cs-pcu-refer-outcome
-Title: "PCU: รหัสผลการส่งต่อไปรับบริการในสถานพยาบาลอื่น"
-Description: "รหัสผลการส่งต่อไปรับบริการในสถานพยาบาลอื่น โดย PCU"
-* ^url = $CS_PCU_ReferOutcome
-* #1 "สถานบริการปลายทางรับการส่งต่อผู้ป่วย"
-* #2 "สถานบริการปลายทางไม่รับการส่งต่อผู้ป่วย"
-* #3 "ผู้ป่วยไม่ไปรับบริการที่สถานพยาบาลปลายทาง"
-* #9 "ไม่ทราบ"
-
-
-CodeSystem: CS_43File_ReferCareProcedure
-Id: cs-43file-refer-care-procedure
-Title: "43File: รหัสแสดงการให้การดูแลหรือปฐมพยาบาลผู้ป่วยขณะส่งต่อผู้ป่วย"
-Description: "รหัสแสดงการให้การดูแลหรือปฐมพยาบาลผู้ป่วยขณะส่งต่อผู้ป่วย โดย 43 แฟ้ม (CARE_REFER)"
-* ^url = $CS_43File_ReferCareProcedure
-* #1 "Airway" "ระบบทางดินหายใจ"
-* #2 "Breathing" "การหายใจ"
-* #3 "IV fluid" "ให้น้ำเกลือ"
-* #4 "Stop bleeding" "ห้ามเลือด"
-* #5 "Splint" "เข้าเฝือก"
-* #6 "Other" "อื่นๆ"
-
-
-CodeSystem: CS_Std15_ReferCategory
-Id: cs-std15-refer-category
-Title: "Std15: รหัสประเภทผู้ป่วยก่อนการส่งต่อ"
-Description: "รหัสประเภทผู้ป่วยก่อนการส่งต่อ โดย e-Refer 15 แฟ้ม"
-* ^url = $CS_Std15_ReferCategory
-* #I "Inpatient (ผู้ป่วยใน)"
-* #O "Outpatient (ผู้ป่วยนอก)"
-* #E "Emergency (ผู้ป่วยฉุกเฉิน)"
-
-
-
-CodeSystem: CS_Std15_ReferReason
-Id: cs-std15-refer-reason
-Title: "Std15: รหัสสาเหตุการส่งต่อผู้ป่วย"
-Description: "รหัสสาเหตุการส่งต่อผู้ป่วย โดย e-Refer 15 แฟ้ม"
-* ^url = $CS_Std15_ReferReason
+CodeSystem: CS_43Plus_ReferReason
+Id: cs-43plus-refer-reason
+Title: "43Plus: รหัสสาเหตุการส่งต่อผู้ป่วย"
+Description: "รหัสสาเหตุการส่งต่อผู้ป่วย โดย 43 แฟ้ม plus"
+* ^url = $CS_43Plus_ReferReason
 * #1 "เพื่อการวินิจฉัยและรักษา"
 * #2 "เพื่อการวินิจฉัย"
 * #3 "เพื่อการรักษาต่อเนื่อง"
@@ -58,6 +23,19 @@ Description: "รหัสสาเหตุการส่งต่อผู้
 * #6 "เพื่อส่งผู้ป่วยกลับไปยังสถานพยาบาลที่ส่งผู้ป่วยมา"
 * #7 "เป็นการตอบกลับการส่งต่อ(ไม่ได้ส่งผู้ป่วย)"
 
+
+
+CodeSystem: CS_Std15_ReferReason
+Id: cs-std15-refer-reason
+Title: "Std15: รหัสสาเหตุการส่งต่อผู้ป่วย"
+Description: "รหัสสาเหตุการส่งต่อผู้ป่วย โดย e-Refer 15 แฟ้ม"
+* ^url = $CS_Std15_ReferReason
+* #1 "เพื่อการวินิจฉัยและการรักษา"
+* #2 "เพื่อการวินิจฉัย"
+* #3 "เพื่อการรักษาและฟื้นฟูต่อเนื่อง"
+* #4 "เพื่อการดูแลต่อใกล้บ้าน"
+* #5 "ตามความต้องการผู้ป่วย"
+* #6 "เพื่อหัตถการ หรือการตรวจวินิจฉัยทางห้องปฎิบัติการเฉพาะเรื่อง"
 
 
 CodeSystem: CS_eClaim_ReferReason
@@ -82,37 +60,14 @@ Description: "รหัสสาเหตุการส่งต่อผู้
 * #1111 "วินิจฉัย รักษา รับไว้รักษาต่อเนื่อง และตามความต้องการของผู้ป่วย"
 
 
-
-
-
-CodeSystem: CS_Std15_ReferStatus
-Id: cs-std15-refer-status
-Title: "Std15: รหัสสถานะของการอ้างอิงการส่งต่อผู้ป่วย"
-Description: "รหัสสถานะของการอ้างอิงการส่งต่อผู้ป่วย โดย e-Refer 15 แฟ้ม"
-* ^url = $CS_Std15_ReferStatus
-* #A "Accepted" "ตอบรับแล้ว"
-* #P "Pending" "รอการตอบรับ"
-* #R "Rejected" "ปฏิเสธ"
-* #E "Expired" "หมดอายุ"
-* #F "Final" "สิ้นสุดการส่งต่อผู้ป่วย"
-* #O "Continuous" "Care นัดรักษาต่อเนื่อง"
-* #C "Cancelled" "ยกเลิก"
-* #V "Revoked" "เลื่อนวันนัดตรวจ หลักจากการตอบรับการส่งต่อแล้ว"
-* #T "TimeRequest" "ตอบรับและรอแจ้งวัดนัดตรวจ"
-* #N "NoticePatient" "ตอบรับและรอแจ้งวันนัดตรวจกับคนไข้"
-* #W "Waiting for acceptance" "รอการตอบรับจากสถานพยาบาลเริ่มแรก"
-* #I "Acceptance from original" "ตอบรับตกลงจากสถานพยาบาลเริ่มแรก"
-* #S "Postpone Request" "ขอเลื่อนวันนัดจากผู้ป่วย"
-
-
-
-CodeSystem: CS_Std15_ReferAnswerType
-Id: cs-std15-refer-answer-type
-Title: "Std15: รหัสประเภทการตอบรับหรือปฎิเสธ อัตโนมัติ"
-Description: "รหัสประเภทการตอบรับหรือปฎิเสธ อัตโนมัติ โดย e-Refer 15 แฟ้ม"
-* ^url = $CS_Std15_ReferAnswerType
-* #1 "Accepted"
-* #2 "Rejected"
+CodeSystem: CS_43File_ReferEncounterClass
+Id: cs-43file-refer-encounter-class
+Title: "43File: รหัสประเภทผู้ป่วยสำหรับการส่งต่อ"
+Description: "รหัสประเภทผู้ป่วยสำหรับการส่งต่อ โดย 43 แฟ้ม (REFER_HISTORY)"
+* ^url = $CS_43File_ReferEncounterClass
+* #1 "ผู้ป่วยทั่วไป"
+* #2 "ผู้ป่วยอุบัติเหตุ"
+* #3 "ผู้ป่วยฉุกเฉิน (ยกเว้นอุบัติเหตุ)"
 
 
 CodeSystem: CS_THCC_ReferThaiPriority
@@ -155,11 +110,77 @@ Description: "รหัสบ่งบอกการรักษากรณี
 * ^url = $CS_eClaim_ReferTypeEclaim
 * #A "อุบัติเหตุ" "Accident / Accident + Emergency"
 * #E "ฉุกเฉิน" "Emergency"
+* #NONE "ไม่เป็น A / E"
 * #I "OP Refer ในจังหวัด"
 * #O "OP Refer ข้ามจังหวัด"
 * #C "ย้ายหน่วยบริการเกิดสิทธิทันที"
 * #Z "บริการเชิงรุก"
-// ว่าง = ไม่เป็น A / E
+
+
+
+CodeSystem: CS_43File_ReferCareProcedure
+Id: cs-43file-refer-care-procedure
+Title: "43File: รหัสแสดงการให้การดูแลหรือปฐมพยาบาลผู้ป่วยขณะส่งต่อผู้ป่วย"
+Description: "รหัสแสดงการให้การดูแลหรือปฐมพยาบาลผู้ป่วยขณะส่งต่อผู้ป่วย โดย 43 แฟ้ม (CARE_REFER)"
+* ^url = $CS_43File_ReferCareProcedure
+* #1 "Airway" "ระบบทางดินหายใจ"
+* #2 "Breathing" "การหายใจ"
+* #3 "IV fluid" "ให้น้ำเกลือ"
+* #4 "Stop bleeding" "ห้ามเลือด"
+* #5 "Splint" "เข้าเฝือก"
+* #6 "Other" "อื่นๆ"
+
+
+CodeSystem: CS_Std15_ReferStatus
+Id: cs-std15-refer-status
+Title: "Std15: รหัสสถานะของการอ้างอิงการส่งต่อผู้ป่วย"
+Description: "รหัสสถานะของการอ้างอิงการส่งต่อผู้ป่วย โดย e-Refer 15 แฟ้ม"
+* ^url = $CS_Std15_ReferStatus
+* #A "Accepted" "ตอบรับแล้ว"
+* #P "Pending" "รอการตอบรับ"
+* #R "Rejected" "ปฏิเสธ"
+* #E "Expired" "หมดอายุ"
+* #F "Final" "สิ้นสุดการส่งต่อผู้ป่วย"
+* #O "Continuous" "Care นัดรักษาต่อเนื่อง"
+* #C "Cancelled" "ยกเลิก"
+* #V "Revoked" "เลื่อนวันนัดตรวจ หลักจากการตอบรับการส่งต่อแล้ว"
+* #T "TimeRequest" "ตอบรับและรอแจ้งวัดนัดตรวจ"
+* #N "NoticePatient" "ตอบรับและรอแจ้งวันนัดตรวจกับคนไข้"
+* #W "Waiting for acceptance" "รอการตอบรับจากสถานพยาบาลเริ่มแรก"
+* #I "Acceptance from original" "ตอบรับตกลงจากสถานพยาบาลเริ่มแรก"
+* #S "Postpone Request" "ขอเลื่อนวันนัดจากผู้ป่วย"
+
+
+CodeSystem: CS_Std15_ReferAnswerType
+Id: cs-std15-refer-answer-type
+Title: "Std15: รหัสประเภทการตอบรับหรือปฎิเสธ อัตโนมัติ"
+Description: "รหัสประเภทการตอบรับหรือปฎิเสธ อัตโนมัติ โดย e-Refer 15 แฟ้ม"
+* ^url = $CS_Std15_ReferAnswerType
+* #1 "Accepted"
+* #2 "Rejected"
+
+
+CodeSystem: CS_PCU_ReferOutcome
+Id: cs-pcu-refer-outcome
+Title: "PCU: รหัสผลการส่งต่อไปรับบริการในสถานพยาบาลอื่น"
+Description: "รหัสผลการส่งต่อไปรับบริการในสถานพยาบาลอื่น โดย PCU"
+* ^url = $CS_PCU_ReferOutcome
+* #1 "สถานบริการปลายทางรับการส่งต่อผู้ป่วย"
+* #2 "สถานบริการปลายทางไม่รับการส่งต่อผู้ป่วย"
+* #3 "ผู้ป่วยไม่ไปรับบริการที่สถานพยาบาลปลายทาง"
+* #9 "ไม่ทราบ"
+
+
+CodeSystem: CS_43File_ReferResult
+Id: cs-43file-refer-result
+Title: "43File: รหัสผลการส่งต่อ"
+Description: "รหัสผลการส่งต่อ โดย 43 แฟ้ม (REFER_RESULT)"
+* ^url = $CS_43File_ReferResult
+* #1 "ตอบรับการส่งต่อ"
+* #2 "ปฏิเสธการส่งต่อ"
+* #3 "เสียชีวิตระหว่างการส่งต่อ"
+* #4 "ไม่พบผู้ป่วย"
+* #5 "อื่น ๆ"
 
 
 
@@ -177,26 +198,3 @@ Description: "รหัสกลุ่มโรคเฉพาะเพื่อ
 * #07 "new born"
 * #99 "อื่นๆ"
 
-
-
-CodeSystem: CS_43File_ReferEncounterClass
-Id: cs-43file-refer-encounter-class
-Title: "43File: รหัสประเภทผู้ป่วยสำหรับการส่งต่อ"
-Description: "รหัสประเภทผู้ป่วยสำหรับการส่งต่อ โดย 43 แฟ้ม (REFER_HISTORY)"
-* ^url = $CS_43File_ReferEncounterClass
-* #1 "ผู้ป่วยทั่วไป"
-* #2 "ผู้ป่วยอุบัติเหตุ"
-* #3 "ผู้ป่วยฉุกเฉิน (ยกเว้นอุบัติเหตุ)"
-
-
-
-CodeSystem: CS_43File_ReferResult
-Id: cs-43file-refer-result
-Title: "43File: รหัสผลการส่งต่อ"
-Description: "รหัสผลการส่งต่อ โดย 43 แฟ้ม (REFER_RESULT)"
-* ^url = $CS_43File_ReferResult
-* #1 "ตอบรับการส่งต่อ"
-* #2 "ปฏิเสธการส่งต่อ"
-* #3 "เสียชีวิตระหว่างการส่งต่อ"
-* #4 "ไม่พบผู้ป่วย"
-* #5 "อื่น ๆ"

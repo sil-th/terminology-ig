@@ -138,20 +138,20 @@ Alias: $VS_THCC_ChildFood = http://terms.sil-th.org/ValueSet/vs-thcc-child-food
 
 // Referral
 Alias: $VS_THCC_ReferReason = http://terms.sil-th.org/ValueSet/vs-thcc-refer-in-reason
-Alias: $VS_PCU_ReferOutcome = http://terms.sil-th.org/ValueSet/vs-pcu-refer-outcome
-Alias: $VS_43File_ReferCareProcedure = http://terms.sil-th.org/ValueSet/vs-43file-refer-care-procedure
-Alias: $VS_Std15_ReferCategory = http://terms.sil-th.org/ValueSet/vs-std15-refer-category
+Alias: $VS_43Plus_ReferReason = http://terms.sil-th.org/CodeSystem/vs-43plus-refer-reason
 Alias: $VS_Std15_ReferReason = http://terms.sil-th.org/ValueSet/vs-std15-refer-reason
 Alias: $VS_eClaim_ReferReason = http://terms.sil-th.org/ValueSet/vs-eclaim-refer-reason
-Alias: $VS_Std15_ReferStatus = http://terms.sil-th.org/ValueSet/vs-std15-refer-status
-Alias: $VS_Std15_ReferAnswerType = http://terms.sil-th.org/ValueSet/vs-std15-refer-answer-type
+Alias: $VS_43File_ReferEncounterClass = http://terms.sil-th.org/ValueSet/vs-43file-refer-encounter-class
 Alias: $VS_THCC_ReferThaiPriority = http://terms.sil-th.org/ValueSet/vs-thcc-refer-thai-priority
 Alias: $VS_eClaim_ReferThaiPriority = http://terms.sil-th.org/ValueSet/vs-eclaim-refer-thai-priority
 Alias: $VS_eClaim_ReferPriorityCode = http://terms.sil-th.org/ValueSet/vs-eclaim-refer-priority-code
 Alias: $VS_eClaim_ReferTypeEclaim = http://terms.sil-th.org/ValueSet/vs-eclaim-refer-type-eclaim
-Alias: $VS_43File_ReferSpecialDisease = http://terms.sil-th.org/ValueSet/vs-43file-refer-special-disease
-Alias: $VS_43File_ReferEncounterClass = http://terms.sil-th.org/ValueSet/vs-43file-refer-encounter-class
+Alias: $VS_43File_ReferCareProcedure = http://terms.sil-th.org/ValueSet/vs-43file-refer-care-procedure
+Alias: $VS_Std15_ReferStatus = http://terms.sil-th.org/ValueSet/vs-std15-refer-status
+Alias: $VS_Std15_ReferAnswerType = http://terms.sil-th.org/ValueSet/vs-std15-refer-answer-type
+Alias: $VS_PCU_ReferOutcome = http://terms.sil-th.org/ValueSet/vs-pcu-refer-outcome
 Alias: $VS_43File_ReferResult = http://terms.sil-th.org/ValueSet/vs-43file-refer-result
+Alias: $VS_43File_ReferSpecialDisease = http://terms.sil-th.org/ValueSet/vs-43file-refer-special-disease
 
 
 // Medication

@@ -125,20 +125,20 @@ Alias: $CS_THCC_ChildFood = http://terms.sil-th.org/CodeSystem/cs-thcc-child-foo
 
 // Referral
 Alias: $CS_THCC_ReferReason = http://terms.sil-th.org/CodeSystem/cs-thcc-refer-in-reason
-Alias: $CS_PCU_ReferOutcome = http://terms.sil-th.org/CodeSystem/cs-pcu-refer-outcome
-Alias: $CS_43File_ReferCareProcedure = http://terms.sil-th.org/CodeSystem/cs-43file-refer-care-procedure
-Alias: $CS_Std15_ReferCategory = http://terms.sil-th.org/CodeSystem/cs-std15-refer-category
+Alias: $CS_43Plus_ReferReason = http://terms.sil-th.org/CodeSystem/cs-43plus-refer-reason
 Alias: $CS_Std15_ReferReason = http://terms.sil-th.org/CodeSystem/cs-std15-refer-reason
 Alias: $CS_eClaim_ReferReason = http://terms.sil-th.org/CodeSystem/cs-eclaim-refer-reason-eclaim
-Alias: $CS_Std15_ReferStatus = http://terms.sil-th.org/CodeSystem/cs-std15-refer-status
-Alias: $CS_Std15_ReferAnswerType = http://terms.sil-th.org/CodeSystem/cs-std15-refer-answer-type
+Alias: $CS_43File_ReferEncounterClass = http://terms.sil-th.org/CodeSystem/cs-43file-refer-encounter-class
 Alias: $CS_THCC_ReferThaiPriority = http://terms.sil-th.org/CodeSystem/cs-thcc-refer-thai-priority
 Alias: $CS_eClaim_ReferThaiPriority = http://terms.sil-th.org/CodeSystem/cs-eclaim-refer-thai-priority
 Alias: $CS_eClaim_ReferPriorityCode = http://terms.sil-th.org/CodeSystem/cs-eclaim-refer-priority-code
 Alias: $CS_eClaim_ReferTypeEclaim = http://terms.sil-th.org/CodeSystem/cs-eclaim-refer-type-eclaim
-Alias: $CS_43File_ReferSpecialDisease = http://terms.sil-th.org/CodeSystem/cs-43file-refer-special-disease
-Alias: $CS_43File_ReferEncounterClass = http://terms.sil-th.org/CodeSystem/cs-43file-refer-encounter-class
+Alias: $CS_43File_ReferCareProcedure = http://terms.sil-th.org/CodeSystem/cs-43file-refer-care-procedure
+Alias: $CS_Std15_ReferStatus = http://terms.sil-th.org/CodeSystem/cs-std15-refer-status
+Alias: $CS_Std15_ReferAnswerType = http://terms.sil-th.org/CodeSystem/cs-std15-refer-answer-type
+Alias: $CS_PCU_ReferOutcome = http://terms.sil-th.org/CodeSystem/cs-pcu-refer-outcome
 Alias: $CS_43File_ReferResult = http://terms.sil-th.org/CodeSystem/cs-43file-refer-result
+Alias: $CS_43File_ReferSpecialDisease = http://terms.sil-th.org/CodeSystem/cs-43file-refer-special-disease
 
 
 // Medication
