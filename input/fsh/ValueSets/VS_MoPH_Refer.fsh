@@ -82,7 +82,7 @@ Title: "43File: รหัสแสดงการให้การดูแล�
 Description: "รหัสแสดงการให้การดูแลหรือปฐมพยาบาลผู้ป่วยขณะส่งต่อผู้ป่วย โดย 43 แฟ้ม (CARE_REFER)"
 * ^url = $VS_43File_ReferCareProcedure
 * include codes from system CS_43File_ReferCareProcedure
-
+* $SCT#19712007 "Patient transfer, to another health care facility"
 
 
 ValueSet: VS_Std15_ReferStatus
