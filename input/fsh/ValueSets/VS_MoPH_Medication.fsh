@@ -15,12 +15,12 @@ Description: "รหัสหมวดรายการยา โดย e-Claim
 
 
 
-ValueSet: VS_THCC_MedOutNLEM
-Id: vs-eclaim-medication-out-nlem
+ValueSet: VS_THCC_MedNedCriteria
+Id: vs-eclaim-medication-ned-criteria
 Title: "eClaim: รหัสเหตุผลการใช้ยานอกบัญชียาหลัก"
 Description: "รหัสเหตุผลการใช้ยานอกบัญชียาหลัก โดย e-Claim 16 แฟ้ม"
-* ^url = $VS_THCC_MedOutNLEM
-* include codes from system CS_eClaim_MedOutNLEM
+* ^url = $VS_THCC_MedNedCriteria
+* include codes from system CS_eClaim_MedNedCriteria
 
 
 

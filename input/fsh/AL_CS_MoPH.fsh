@@ -144,7 +144,7 @@ Alias: $CS_43File_ReferSpecialDisease = http://terms.sil-th.org/CodeSystem/cs-43
 // Medication
 Alias: $CS_Std15_MedicationSource = http://terms.sil-th.org/CodeSystem/cs-std15-medication-source
 Alias: $CS_eClaim_MedicationCategory = http://terms.sil-th.org/CodeSystem/cs-eclaim-medication-category
-Alias: $CS_eClaim_MedOutNLEM = http://terms.sil-th.org/CodeSystem/cs-eclaim-medication-out-nlem
+Alias: $CS_eClaim_MedNedCriteria = http://terms.sil-th.org/CodeSystem/cs-eclaim-medication-ned-criteria
 Alias: $CS_43Plus_MedDelivery = http://terms.sil-th.org/CodeSystem/cs-43plus-medication-delivery
 
 // Procedure

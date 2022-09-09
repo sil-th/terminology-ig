@@ -157,7 +157,7 @@ Alias: $VS_43File_ReferSpecialDisease = http://terms.sil-th.org/ValueSet/vs-43fi
 // Medication
 Alias: $VS_Std15_MedicationSource = http://terms.sil-th.org/ValueSet/vs-std15-medication-source
 Alias: $VS_eClaim_MedicationCategory = http://terms.sil-th.org/ValueSet/vs-eclaim-medication-category
-Alias: $VS_THCC_MedOutNLEM = http://terms.sil-th.org/ValueSet/vs-eclaim-medication-out-nlem
+Alias: $VS_THCC_MedNedCriteria = http://terms.sil-th.org/ValueSet/vs-eclaim-medication-ned-criteria
 Alias: $VS_43Plus_MedDelivery = http://terms.sil-th.org/ValueSet/vs-43plus-medication-delivery
 
 // Procedure

@@ -22,11 +22,11 @@ Description: "รหัสหมวดรายการยา โดย e-Claim
 
 
 
-CodeSystem: CS_eClaim_MedOutNLEM
-Id: cs-eclaim-medication-out-nlem
+CodeSystem: CS_eClaim_MedNedCriteria
+Id: cs-eclaim-medication-ned-criteria
 Title: "eClaim: รหัสเหตุผลการใช้ยานอกบัญชียาหลัก"
 Description: "รหัสเหตุผลการใช้ยานอกบัญชียาหลัก โดย e-Claim 16 แฟ้ม"
-* ^url = $CS_eClaim_MedOutNLEM
+* ^url = $CS_eClaim_MedNedCriteria
 * #EA "เกิดอาการไม่พึงประสงค์จากยาหรือแพ้ยาที่สามารถใช้ได้ในบัญชียาหลักแห่งชาติ"
 * #EB "ผลการรักษาไม่บรรลุเป้าหมายแม้ว่าได้ใช้ยาในบัญชียาหลักแห่งชาติครบตามมาตรฐานการรักษาแล้ว"
 * #EC "ไม่มีกลุ่มยาในบัญชียาหลักแห่งชาติให้ใช้ แต่ผู้ป่วยมีความจำเป็นในการใช้ยานี้ ตามข้อบ่งชี้ที่ได้ขึ้นทะเบียนไว้กับสำนักงานคณะกรรมการอาหารและยา"
