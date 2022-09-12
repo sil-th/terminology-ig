@@ -39,7 +39,7 @@ Alias: $VS_THCC_DeathPregnancy = https://terms.sil-th.org/ValueSet/vs-thcc-death
 // Location
 Alias: $VS_THCC_HouseType = https://terms.sil-th.org/ValueSet/vs-thcc-house-type
 Alias: $VS_THCC_InMunicipality = https://terms.sil-th.org/ValueSet/vs-thcc-in-municipality
-Alias: $VS_THCC_VillageArea = https://terms.sil-th.org/ValueSet/vs-thcc-village-area
+Alias: $VS_PCU_VillageArea = https://terms.sil-th.org/ValueSet/vs-pcu-village-area
 
 // Disability
 Alias: $VS_THCC_DisabilityType = https://terms.sil-th.org/ValueSet/vs-thcc-disability-type
@@ -157,7 +157,7 @@ Alias: $VS_43File_ReferSpecialDisease = http://terms.sil-th.org/ValueSet/vs-43fi
 // Medication
 Alias: $VS_Std15_MedicationSource = http://terms.sil-th.org/ValueSet/vs-std15-medication-source
 Alias: $VS_eClaim_MedicationCategory = http://terms.sil-th.org/ValueSet/vs-eclaim-medication-category
-Alias: $VS_THCC_MedNedCriteria = http://terms.sil-th.org/ValueSet/vs-eclaim-medication-ned-criteria
+Alias: $VS_eClaim_MedNedCriteria = http://terms.sil-th.org/ValueSet/vs-eclaim-medication-ned-criteria
 Alias: $VS_43Plus_MedDelivery = http://terms.sil-th.org/ValueSet/vs-43plus-medication-delivery
 
 // Procedure

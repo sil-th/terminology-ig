@@ -8,3 +8,4 @@ Alias: $VS_24Drug = http://terms.sil-th.org/ValueSet/th-24drug
 Alias: $VS_TH_ICD10TM = http://terms.sil-th.org/ValueSet/vs-th-icd10tm
 Alias: $VS_TH_ICD10TM_Lab = http://terms.sil-th.org/ValueSet/vs-th-icd10tm-lab
 Alias: $VS_TH_FeeCategory = http://terms.sil-th.org/ValueSet/vs-th-fee-category
+Alias: $VS_TH_IdentifierType = http://terms.sil-th.org/ValueSet/vs-th-identifier-type

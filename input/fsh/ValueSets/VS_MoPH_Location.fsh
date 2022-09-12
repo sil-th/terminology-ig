@@ -17,9 +17,9 @@ Description: "รหัสที่ตั้ง ใน/นอกเขตเท�
 
 
 
-ValueSet: VS_THCC_VillageArea
-Id: vs-thcc-village-area
+ValueSet: VS_PCU_VillageArea
+Id: vs-pcu-village-area
 Title: "เขตที่ตั้งของหมู่บ้าน"
 Description:  "เขตที่ตั้งของหมู่บ้าน จาก THCC ซึ่งใช้ในโครงสร้างข้อมูล 43 แฟ้ม"
-* ^url = $VS_THCC_VillageArea
+* ^url = $VS_PCU_VillageArea
 * include codes from system CS_PCU_VillageArea
