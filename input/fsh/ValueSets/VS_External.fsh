@@ -40,3 +40,13 @@ Description: "รหัสหมู่เลือด จาก SNOMED CT"
 * $SCT#278153001 "Blood group B Rh(D) negative"
 * $SCT#278147001 "Blood group O Rh(D) positive"
 * $SCT#278148006 "Blood group O Rh(D) negative"
+
+
+ValueSet: ICDO3
+Id: vs-int-icdo3
+Title: "ICD-O 3"
+Description: "International Classification of Diseases for Oncology, version 3"
+* ^url = $VS_INT_ICDO3
+* ^status = #draft
+* ^publisher = "Standards and Interoperability Lab - Thailand (SIL-TH)"
+* include codes from system $ICDO3
