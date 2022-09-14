@@ -16,6 +16,7 @@ Alias: $VS_HL7_ProviderRole = http://terminology.hl7.org/ValueSet/v2-0443
 Alias: $VS_HL7_AlleryActive = http://terminology.hl7.org/ValueSet/allergyintolerance-clinical
 Alias: $VS_HL7_AllergyVerify = http://terminology.hl7.org/ValueSet/allergyintolerance-verification
 Alias: $VS_HL7_Priority = http://terminology.hl7.org/ValueSet/v3-ActPriority
+Alias: $VS_HL7_BwUnit = http://hl7.org/fhir/ValueSet/ucum-bodyweight
 Alias: $VS_HL7_ObsInterpret = http://hl7.org/fhir/ValueSet/observation-interpretation
 Alias: $VS_HL7_ParticipantType = http://hl7.org/fhir/ValueSet/encounter-participant-type
 Alias: $VS_HL7_AdmitSource = http://terminology.hl7.org/ValueSet/encounter-admit-source
