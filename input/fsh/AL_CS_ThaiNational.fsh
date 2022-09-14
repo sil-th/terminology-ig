@@ -13,3 +13,4 @@ Alias: $CS_TH_IdentifierType = http://terms.sil-th.org/CodeSystem/cs-th-identifi
 
 // Local codes
 Alias: $CS_TH_LocalDrugCode = http://terms.sil-th.org/CodeSystem/cs-th-local-drug-code
+Alias: $CS_TH_LocalProcedureCode = http://terms.sil-th.org/CodeSystem/cs-th-local-procedure-code

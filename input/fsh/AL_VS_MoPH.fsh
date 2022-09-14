@@ -115,7 +115,6 @@ Alias: $VS_THCC_NcdFootExam = http://terms.sil-th.org/ValueSet/vs-thcc-ncd-foot-
 Alias: $VS_THCC_NcdRetinaExam = http://terms.sil-th.org/ValueSet/vs-thcc-ncd-retina-exam
 
 // Woman Health
-Alias: $VS_THCC_Contraceptive = https://terms.sil-th.org/ValueSet/vs-thcc-contraceptive
 Alias: $VS_THCC_NoContraceptive = https://terms.sil-th.org/ValueSet/vs-thcc-no-contraceptive
 
 // Pregnancy
