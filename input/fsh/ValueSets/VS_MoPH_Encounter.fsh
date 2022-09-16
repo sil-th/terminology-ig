@@ -62,3 +62,11 @@ Title: "43Plus: รหัสประเภทการวินิจฉัย"
 Description: "รหัสประเภทการวินิจฉัย โดย 43 แฟ้ม plus"
 * ^url = $VS_43Plus_EncounterDiagnosisRole
 * include codes from system CS_43Plus_EncounterDiagnosisRole
+
+
+ValueSet: VS_Meta_ExtendedHL7DiagnosisRole
+Id: vs-meta-extended-hl7-diagnosis-role
+Title: "Metadata: รหัสบทบาทการวินิจฉัยเพิ่มเติมจากที่มีใน HL7"
+Description: "รหัสบทบาทการวินิจฉัยเพิ่มเติมจากที่มีใน HL7 เพื่อใช้ใน 43 แฟ้ม plus"
+* ^url = $VS_Meta_ExtendedHL7DiagnosisRole
+* include codes from system CS_Meta_ExtendedHL7DiagnosisRole

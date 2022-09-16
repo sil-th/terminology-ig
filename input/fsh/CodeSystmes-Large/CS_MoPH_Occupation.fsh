@@ -3,6 +3,8 @@ Id: cs-thcc-occupation
 Title: "THCC: รหัสอาชีพ"
 Description: "รหัสอาชีพ โดย THCC (ID: 5)"
 * ^url = $CS_THCC_Occupation
+* ^caseSensitive = false
+* ^hierarchyMeaning = $CS_HL7_HierarchyMeaning#classified-with
 * #0110 "ทหารชั้นสัญญาบัตร"
 * #0210 "ทหารชั้นประทวน"
 * #0310 "ทหารยศอื่นๆ"

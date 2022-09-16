@@ -3,6 +3,7 @@ Id: cs-dopa-nameprefix
 Title: "DOPA: รหัสคำนำหน้าชื่อ"
 Description: "รหัสคำนำหน้าชื่อ อ้างอิงตามรหัสกรมการปกครอง"
 * ^url = $CS_DOPA_NamePrefix
+* ^caseSensitive = false
 * #001 "ด.ช." "เด็กชาย"
 * #002 "ด.ญ." "เด็กหญิง"
 * #003 "นาย" "นาย"

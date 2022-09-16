@@ -3,6 +3,7 @@ Id: cs-thcc-refer-in-reason
 Title: "THCC: รหัสสาเหตุการส่งผู้ป่วยมารับบริการ"
 Description: "รหัสสาเหตุการส่งผู้ป่วยมารับบริการ โดย THCC (ID: 80, 84)"
 * ^url = $CS_THCC_ReferReason
+* ^caseSensitive = false
 * #1 "เพื่อการวินิจฉัยและรักษา"
 * #2 "เพื่อการวินิจฉัย"
 * #3 "เพื่อการรักษาและพื้นฟูต่อเนื่อง"
@@ -15,6 +16,7 @@ Id: cs-43plus-refer-reason
 Title: "43Plus: รหัสสาเหตุการส่งต่อผู้ป่วย"
 Description: "รหัสสาเหตุการส่งต่อผู้ป่วย โดย 43 แฟ้ม plus"
 * ^url = $CS_43Plus_ReferReason
+* ^caseSensitive = false
 * #1 "เพื่อการวินิจฉัยและรักษา"
 * #2 "เพื่อการวินิจฉัย"
 * #3 "เพื่อการรักษาต่อเนื่อง"
@@ -30,6 +32,7 @@ Id: cs-std15-refer-reason
 Title: "Std15: รหัสสาเหตุการส่งต่อผู้ป่วย"
 Description: "รหัสสาเหตุการส่งต่อผู้ป่วย โดย e-Refer 15 แฟ้ม"
 * ^url = $CS_Std15_ReferReason
+* ^caseSensitive = false
 * #1 "เพื่อการวินิจฉัยและการรักษา"
 * #2 "เพื่อการวินิจฉัย"
 * #3 "เพื่อการรักษาและฟื้นฟูต่อเนื่อง"
@@ -43,6 +46,7 @@ Id: cs-eclaim-refer-reason-eclaim
 Title: "eClaim: รหัสสาเหตุการส่งต่อผู้ป่วย"
 Description: "รหัสสาเหตุการส่งต่อผู้ป่วย โดย e-Claim 16 แฟ้ม"
 * ^url = $CS_eClaim_ReferReason
+* ^caseSensitive = false
 * #0001 "ตามความต้องการของผู้ป่วย"
 * #0010 "รับไว้รักษาต่อเนื่อง"
 * #0011 "รับไว้รักษาต่อเนื่อง และตามความต้องการของผู้ป่วย"
@@ -65,6 +69,7 @@ Id: cs-43file-refer-encounter-class
 Title: "43File: รหัสประเภทผู้ป่วยสำหรับการส่งต่อ"
 Description: "รหัสประเภทผู้ป่วยสำหรับการส่งต่อ โดย 43 แฟ้ม (REFER_HISTORY)"
 * ^url = $CS_43File_ReferEncounterClass
+* ^caseSensitive = false
 * #1 "ผู้ป่วยทั่วไป"
 * #2 "ผู้ป่วยอุบัติเหตุ"
 * #3 "ผู้ป่วยฉุกเฉิน (ยกเว้นอุบัติเหตุ)"
@@ -75,6 +80,7 @@ Id: cs-thcc-refer-thai-priority
 Title: "THCC: รหัสระดับความเร่งด่วน"
 Description: "รหัสระดับความเร่งด่วน โดย THCC (ID: 127)"
 * ^url = $CS_THCC_ReferThaiPriority
+* ^caseSensitive = false
 * #1 "life threatening"
 * #2 "emergency"
 * #3 "urgent"
@@ -87,6 +93,7 @@ Id: cs-eclaim-refer-thai-priority
 Title: "eClaim: รหัสลำดับความสำคัญของอ้างอิงการส่งต่อผู้ป่วย"
 Description: "รหัสลำดับความสำคัญของอ้างอิงการส่งต่อผู้ป่วย โดย e-Claim 16 แฟ้ม"
 * ^url = $CS_eClaim_ReferThaiPriority
+* ^caseSensitive = false
 * #E "Emergency" "ฉุกเฉิน"
 * #U "Urgent" "เร่งด่วน"
 * #N "Normal" "ปกติ"
@@ -98,6 +105,7 @@ Id: cs-eclaim-refer-priority-code
 Title: "eClaim: รหัสข้อบ่งชี้ของกรณีฉุกเฉินตามเงื่อนไข"
 Description: "รหัสข้อบ่งชี้ของกรณีฉุกเฉินตามเงื่อนไข โดย e-Claim 16 แฟ้ม"
 * ^url = $CS_eClaim_ReferPriorityCode
+* ^caseSensitive = false
 * #1 "ต้องการรักษาเป็นการด่วน"
 * #2 "ต้องผ่าตัดด่วน"
 * #3 "โรคที่คณะกรรมการกำหนด"
@@ -108,6 +116,7 @@ Id: cs-eclaim-refer-type-eclaim
 Title: "eClaim: รหัสบ่งบอกการรักษากรณีอุบัติเหตุ/ฉุกเฉิน"
 Description: "รหัสบ่งบอกการรักษากรณีอุบัติเหตุ/ฉุกเฉิน โดย e-Claim 16 แฟ้ม"
 * ^url = $CS_eClaim_ReferTypeEclaim
+* ^caseSensitive = false
 * #A "อุบัติเหตุ" "Accident / Accident + Emergency"
 * #E "ฉุกเฉิน" "Emergency"
 * #NONE "ไม่เป็น A / E"
@@ -123,6 +132,7 @@ Id: cs-43file-refer-care-procedure
 Title: "43File: รหัสแสดงการให้การดูแลหรือปฐมพยาบาลผู้ป่วยขณะส่งต่อผู้ป่วย"
 Description: "รหัสแสดงการให้การดูแลหรือปฐมพยาบาลผู้ป่วยขณะส่งต่อผู้ป่วย โดย 43 แฟ้ม (CARE_REFER)"
 * ^url = $CS_43File_ReferCareProcedure
+* ^caseSensitive = false
 * #1 "Airway" "ระบบทางดินหายใจ"
 * #2 "Breathing" "การหายใจ"
 * #3 "IV fluid" "ให้น้ำเกลือ"
@@ -136,6 +146,7 @@ Id: cs-std15-refer-status
 Title: "Std15: รหัสสถานะของการอ้างอิงการส่งต่อผู้ป่วย"
 Description: "รหัสสถานะของการอ้างอิงการส่งต่อผู้ป่วย โดย e-Refer 15 แฟ้ม"
 * ^url = $CS_Std15_ReferStatus
+* ^caseSensitive = false
 * #A "Accepted" "ตอบรับแล้ว"
 * #P "Pending" "รอการตอบรับ"
 * #R "Rejected" "ปฏิเสธ"
@@ -156,6 +167,7 @@ Id: cs-std15-refer-answer-type
 Title: "Std15: รหัสประเภทการตอบรับหรือปฎิเสธ อัตโนมัติ"
 Description: "รหัสประเภทการตอบรับหรือปฎิเสธ อัตโนมัติ โดย e-Refer 15 แฟ้ม"
 * ^url = $CS_Std15_ReferAnswerType
+* ^caseSensitive = false
 * #1 "Accepted"
 * #2 "Rejected"
 
@@ -165,6 +177,7 @@ Id: cs-pcu-refer-outcome
 Title: "PCU: รหัสผลการส่งต่อไปรับบริการในสถานพยาบาลอื่น"
 Description: "รหัสผลการส่งต่อไปรับบริการในสถานพยาบาลอื่น โดย PCU"
 * ^url = $CS_PCU_ReferOutcome
+* ^caseSensitive = false
 * #1 "สถานบริการปลายทางรับการส่งต่อผู้ป่วย"
 * #2 "สถานบริการปลายทางไม่รับการส่งต่อผู้ป่วย"
 * #3 "ผู้ป่วยไม่ไปรับบริการที่สถานพยาบาลปลายทาง"
@@ -176,6 +189,7 @@ Id: cs-43file-refer-result
 Title: "43File: รหัสผลการส่งต่อ"
 Description: "รหัสผลการส่งต่อ โดย 43 แฟ้ม (REFER_RESULT)"
 * ^url = $CS_43File_ReferResult
+* ^caseSensitive = false
 * #1 "ตอบรับการส่งต่อ"
 * #2 "ปฏิเสธการส่งต่อ"
 * #3 "เสียชีวิตระหว่างการส่งต่อ"
@@ -189,6 +203,7 @@ Id: cs-43file-refer-special-disease
 Title: "43File: รหัสกลุ่มโรคเฉพาะเพื่อการส่งต่อ"
 Description: "รหัสกลุ่มโรคเฉพาะเพื่อการส่งต่อ โดย 43 แฟ้ม (REFER_HISTORY)"
 * ^url = $CS_43File_ReferSpecialDisease
+* ^caseSensitive = false
 * #01 "STEMI"
 * #02 "Stroke"
 * #03 "trauma"

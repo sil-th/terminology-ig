@@ -3,6 +3,7 @@ Id: cs-th-identifier-type
 Title: "TH: ชนิดการระบุตัวตนในประเทศไทย"
 Description: "ชนิดการระบุตัวตนในประเทศไทย สำหรับประกอบ data type Identifier"
 * ^url = $CS_TH_IdentifierType
+* ^caseSensitive = false
 
 // From Thai national codes
 * #cid "เลขประจำตัวประชาชนไทย"

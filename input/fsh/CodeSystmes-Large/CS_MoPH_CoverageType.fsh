@@ -3,6 +3,7 @@ Id: cs-thcc-coverage-type
 Title: "THCC: รหัสสิทธิการรักษาพยาบาล"
 Description: "รหัสสิทธิการรักษาพยาบาล โดย THCC (ID: 34, 76, 95, 129, 150)"
 * ^url = $CS_THCC_CoverageType
+* ^caseSensitive = false
 * #0100 "หลักประกันสุขภาพ"
 * #1100 "ข้าราชการประจำ"
 * #1200 "ข้าราชการบำนาญ"

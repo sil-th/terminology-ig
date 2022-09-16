@@ -1,5 +1,6 @@
 // From Thai national codes
 Alias: $VS_INT_ISCED1997 = http://terms.sil-th.org/ValueSet/vs-int-isced-97
+Alias: $VS_INT_ICF = http://terms.sil-th.org/ValueSet/vs-int-icf
 Alias: $VS_DOPA_NamePrefix = http://terms.sil-th.org/ValueSet/vs-dopa-nameprefix
 Alias: $VS_DOPA_Location = http://terms.sil-th.org/ValueSet/vs-dopa-location
 Alias: $VS_TMT = http://terms.sil-th.org/ValueSet/th-tmt

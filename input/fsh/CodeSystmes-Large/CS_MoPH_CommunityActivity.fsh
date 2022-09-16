@@ -3,6 +3,7 @@ Id: cs-thcc-community-activity
 Title: "THCC: รหัสกิจกรรมในชุมชน"
 Description: "รหัสกิจกรรมในชุมชน โดย THCC (ID: 207)"
 * ^url = $CS_THCC_CommunityActivity
+* ^caseSensitive = false
 * #2A00 "เก็บตัวอย่าง/ตรวจสารปนเปื้อนในอาหาร ผัก และผลไม้ทุกชนิด"
 * #2A01 "ตรวจร้านค้าของชำ"
 * #2A02 "ตรวจให้คำแนะนำสถานที่ผลิตอาหาร"

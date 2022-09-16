@@ -3,6 +3,7 @@ Id: cs-thcc-rehab-service-type
 Title: "THCC: รหัสบริการฟื้นฟูสภาพ"
 Description: "รหัสบริการฟื้นฟูสภาพ โดย THCC (ID: 162)"
 * ^url = $CS_THCC_RehabServiceType
+* ^caseSensitive = false
 * #5501421 "Intermittent traction, cervical" "การดึงคอด้วยเครื่องดึงแบบไม่ต่อเนื่อง"
 * #5501422 "Static traction, cervical" "การดึงคอด้วยการถ่วงน้ำหนักต่อเนื่อง"
 * #5521421 "Intermittent traction, lumbar" "การดึงหลังด้วยเครื่องดึงแบบไม่ต่อเนื่อง"

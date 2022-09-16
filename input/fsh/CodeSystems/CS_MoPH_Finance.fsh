@@ -3,6 +3,7 @@ Id: cs-43plus-coverage-use
 Title: "43Plus: รหัสการใช้สิทธิ"
 Description: "รหัสการใช้สิทธิ"
 * ^url = $CS_43Plus_CoverageUse
+* ^caseSensitive = false
 * #1 "ใช้สิทธิ"
 * #2 "ไม่ใช้สิทธิ ไม่ขอเบิก"
 
@@ -12,6 +13,7 @@ Id: cs-th-fee-category
 Title: "TH: หมวดค่าใช้จ่ายบริการสาธารณสุข"
 Description: "หมวดค่าใช้จ่ายบริการสาธารณสุข"
 * ^url = $CS_TH_FeeCategory
+* ^caseSensitive = false
 * #1 "หมวดที่ 1 ค่าห้องและค่าอาหาร"
 * #2 "หมวดที่ 2 ค่าอวัยวะเทียมและอุปกรณ์ในการบำบัดรักษาโรค"
 * #3 "หมวดที่ 3 ค่ายาและสารอาหารทางเส้นเลือด"
@@ -35,6 +37,7 @@ Id: cs-eclaim-adp-type
 Title: "eClaim: รหัสบริการที่ยังไม่ได้จัดหมวด (ADP) โดย e-Claim 16 แฟ้ม"
 Description: "รหัสบริการที่ยังไม่ได้จัดหมวด (ADP) โดย e-Claim 16 แฟ้ม"
 * ^url = $CS_eClaim_AdpType
+* ^caseSensitive = false
 * #1 "HC (OPD)"
 * #2 "Instrument (หมวด 2)"
 * #3 "ค่าบริการอื่นๆ ที่ยังไม่ได้จัดหมวด"

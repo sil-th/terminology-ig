@@ -3,6 +3,7 @@ Id: cs-thcc-qualification-issuer
 Title: "THCC: รหัสสภาวิชาชีพ"
 Description: "รหัสสภาวิชาชีพ โดย THCC (ID: 62)"
 * ^url = $CS_THCC_QualificationIssuer
+* ^caseSensitive = false
 * #01 "แพทยสภา"
 * #02 "สภาการพยาบาล"
 * #03 "สภาเภสัชกรรม"
@@ -17,6 +18,7 @@ Id: cs-thcc-individual-provider-type
 Title: "THCC: รหัสประเภทบุคลากรทางการแพทย์และสาธารณสุข"
 Description: "รหัสประเภทบุคลากรทางการแพทย์และสาธารณสุข โดย THCC (ID: 61)"
 * ^url = $CS_THCC_IndividualProviderType
+* ^caseSensitive = false
 * #01 "แพทย์"
 * #011 "แพทย์เวชศาสตร์ครอบครัว (Family Medicine: FM)"
 * #02 "ทันตแพทย์"
@@ -44,6 +46,7 @@ Id: cs-meta-participant-type
 Title: "Metadata: รหัสประเภทแพทย์เพิ่มเติม"
 Description: "รหัสประเภทแพทย์เพิ่มเติม เพื่อใช้ใน 43 แฟ้ม plus"
 * ^url = $CS_Meta_ParticipantType
+* ^caseSensitive = false
 * #PPRF "แพทย์เจ้าของคนไข้"
 * #CON "แพทย์ผู้ให้คำปรึกษา"
 * #REF "แพทย์ผู้ที่ทำการส่งต่อ"
@@ -55,6 +58,7 @@ Id: cs-eclaim-provider-type
 Title: "eClaim: รหัสประเภทสถานพยาบาลที่รักษา"
 Description: "รหัสประเภทสถานพยาบาลที่รักษา โดย e-Claim 16 แฟ้ม"
 * ^url = $CS_eClaim_ProviderType
+* ^caseSensitive = false
 * #1 "Main Contractor"
 * #2 "Sub Contractor"
 * #3 "Supra Contractor"
@@ -67,6 +71,7 @@ Id: cs-meta-provider-type-coverage
 Title: "Metadata: รหัสประเภทสถานพยาบาล ตามสิทธิการรักษา"
 Description: "รหัสประเภทสถานพยาบาล ใช้ประกอบการบันทึกข้อมูลเรื่องสิทธิการรักษา เพื่อใช้ใน 43 แฟ้ม plus"
 * ^url = $CS_Meta_ProviderTypeCoverage
+* ^caseSensitive = false
 * #primary "สถานบริการหลัก"
 * #secondary "สถานบริการรอง"
 * #primary-care "สถานบริการปฐมภูมิ"

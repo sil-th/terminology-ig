@@ -3,6 +3,7 @@ Id: cs-43plus-cancer-dx-source
 Title: "43Plus: รหัสวิธีวินิจฉัยโรคมะเร็ง"
 Description: "รหัสวิธีวินิจฉัยโรคมะเร็ง โดย 43 แฟ้ม plus"
 * ^url = $CS_43Plus_CancerDxSource
+* ^caseSensitive = false
 * #0 "ข้อมูลจากใบมรณบัตร"
 * #1 "ซักประวัติและตรวจร่างกาย ไม่มีการตรวจทางรังสีหรือชิ้น-เนื้อ"
 * #2 "ตรวจ x-ray ส่องกล้อง Endoscope หรือ Ultrasound"
@@ -18,6 +19,7 @@ Id: cs-43plus-cancer-grade
 Title: "43Plus: รหัสระดับความรุนแรงของชิ้นเนื้อ"
 Description: "รหัสระดับความรุนแรงของชิ้นเนื้อ โดย 43 แฟ้ม plus"
 * ^url = $CS_43Plus_CancerGrade
+* ^caseSensitive = false
 * #1 "Grade I Well differentiated, Differentiated Nos"
 * #2 "Grade II Moderately differentiated, Moderately Well differentiated, Intermediate differentiated"
 * #3 "Grade III Poorly differentiated"
@@ -34,6 +36,7 @@ Id: cs-43plus-cancer-staging
 Title: "43Plus: รหัสระยะของโรคมะเร็ง"
 Description: "รหัสระยะของโรคมะเร็ง โดย 43 แฟ้ม plus"
 * ^url = $CS_43Plus_CancerStaging
+* ^caseSensitive = false
 * #1 "ระยะที่ 1"
 * #2 "ระยะที่ 2"
 * #3 "ระยะที่ 3"
@@ -46,6 +49,7 @@ Id: cs-eclaim-cancer-type
 Title: "eClaim: รหัสรายละเอียดเพิ่มเติมกรณีมะเร็ง"
 Description: "รหัสรายละเอียดเพิ่มเติมกรณีมะเร็ง โดย e-Claim 16 แฟ้ม"
 * ^url = $CS_eClaim_CancerType
+* ^caseSensitive = true
 * #Bd "Bladder"
 * #Br "Breast"
 * #Ch "Cholangiocarcinoma"

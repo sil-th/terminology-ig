@@ -3,6 +3,7 @@ Id: cs-thcc-causative-agent
 Title: "THCC: รหัสชนิดของเชื้อโรค"
 Description: "รหัสชนิดของเชื้อโรค โดย THCC (ID: 107)"
 * ^url = $CS_THCC_CausativeAgent
+* ^caseSensitive = false
 * #0011 "Vibrio cholerae  Eltor  Inaba (E.I)"
 * #0012 "Vibrio cholerae  Eltor  Ogawa(E.O)"
 * #0013 "Vibrio cholerae  Eltor  Hikojima (E.H)"

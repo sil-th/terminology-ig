@@ -3,6 +3,8 @@ Id: cs-dopa-location
 Title: "DOPA: รหัสสถานที่"
 Description: "รหัสสถานที่ อ้างอิงตามรหัสกรมการปกครอง"
 * ^url = $CS_DOPA_Location
+* ^caseSensitive = false
+* ^hierarchyMeaning = $CS_HL7_HierarchyMeaning#classified-with
 * #100000 "จังหวัดกรุงเทพมหานคร"
 * #100000 #100100 "จังหวัดกรุงเทพมหานคร เขตพระนคร"
 * #100000 #100100 #100101 "จังหวัดกรุงเทพมหานคร เขตพระนคร แขวงพระบรมมหาราชวัง"
