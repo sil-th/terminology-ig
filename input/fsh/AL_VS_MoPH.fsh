@@ -13,7 +13,6 @@ Alias: $VS_Meta_NCD_ObsList = http://terms.sil-th.org/ValueSet/vs-meta-ncd-obser
 Alias: $VS_Meta_Neonate_ObsList = http://terms.sil-th.org/ValueSet/vs-meta-neonate-observations
 Alias: $VS_Meta_PhysicalExam_ObsList = http://terms.sil-th.org/ValueSet/vs-meta-physical-observations
 Alias: $VS_Meta_Pregnancy_ObsList = http://terms.sil-th.org/ValueSet/vs-meta-pregnancy-observations
-// Alias: $VS_Meta_Prevention_ObsList = http://terms.sil-th.org/ValueSet/vs-meta-prevention-observations
 Alias: $VS_Meta_Social_ObsList = http://terms.sil-th.org/ValueSet/vs-meta-social-observations
 Alias: $VS_Meta_Vital_ObsList = http://terms.sil-th.org/ValueSet/vs-meta-vital-observations
 

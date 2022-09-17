@@ -114,3 +114,12 @@ Title: "THCC: รหัสวัคซีน"
 Description: "รหัสวัคซีน โดย THCC (ID: 198)"
 * ^url = $VS_THCC_VaccineCode
 * include codes from system CS_THCC_VaccineCode
+
+
+
+ValueSet: VS_TH_ICD10TM_Lab
+Id: vs-th-icd10tm-lab
+Title: "THCC: รหัสการตรวจทางห้องปฎิบัติการ ICD-10-TM"
+Description: "รหัสการตรวจทางห้องปฎิบัติการ ICD-10-TM โดย THCC (ID: 125)"
+* ^url = $VS_TH_ICD10TM_Lab
+* include codes from system CS_TH_ICD10TM_Lab

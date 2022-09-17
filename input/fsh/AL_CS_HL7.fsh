@@ -15,6 +15,7 @@ Alias: $CS_HL7_RoleCode = http://terminology.hl7.org/CodeSystem/v3-RoleCode
 Alias: $CS_HL7_ProviderRole = http://terminology.hl7.org/CodeSystem/v2-0443
 Alias: $CS_HL7_AlleryActive = http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical
 Alias: $CS_HL7_AllergyVerify = http://terminology.hl7.org/CodeSystem/allergyintolerance-verification
+Alias: $CS_HL7_AllergySeverity = http://hl7.org/fhir/reaction-event-severity
 Alias: $CS_HL7_Priority = http://terminology.hl7.org/CodeSystem/v3-ActPriority
 Alias: $CS_HL7_ObsInterpret = http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation
 Alias: $CS_HL7_ParticipantType = http://terminology.hl7.org/CodeSystem/v3-ParticipationType
