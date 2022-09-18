@@ -19,14 +19,6 @@ Description: "รหัสมาตรฐานระดับการศึก
 * ^url = $VS_INT_ISCED1997
 * include codes from system CS_INT_ISCED1997
 
-ValueSet: VS_INT_ISCO08
-Id: vs-int-isco-08
-Title: "Inter: รหัสอาชีพ ISCO-08"
-Description: "รหัสอาชีพ ตามระบบ ISCO-08"
-* ^url = $ISCO08
-* ^copyright = "This artifact includes content from International Standard Classification of Occupations (ISCO-08). ISCO-08 is copyright © International Labour Organization (ILO). Terms & Conditions in http://www.ilo.org/global/copyright/lang--en/index.htm."
-* include codes from system CS_INT_ISCO08
-
 ValueSet: VS_THCC_CausativeAgent
 Id: vs-thcc-causative-agent
 Title: "THCC: รหัสชนิดของเชื้อโรค"

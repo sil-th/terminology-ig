@@ -40,4 +40,3 @@ Alias: $ID_LO_ReferDocument =  https://terms.sil-th.org/hcode/5/99999/ReferDoc
 
 // This project identifier system
 Alias: $ID_documentId = https://terms.sil-th.org/documenId
-

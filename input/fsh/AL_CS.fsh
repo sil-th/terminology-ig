@@ -1,3 +1,54 @@
+// From external terminology
+Alias: $SCT = http://snomed.info/sct
+Alias: $ICD10 = http://hl7.org/fhir/sid/icd-10
+Alias: $ICD9CM = http://terminology.hl7.org/CodeSystem/icd9cm
+Alias: $LNC = http://loinc.org
+Alias: $UCUM = http://unitsofmeasure.org
+Alias: $ISO3166 = urn:iso:std:iso:3166
+Alias: $ISCO08 = urn:oid:2.16.840.1.113883.2.9.6.2.7
+Alias: $ISO4217 = urn:iso:std:iso:4217
+Alias: $ICDO3 = http://terminology.hl7.org/CodeSystem/icd-o-3
+Alias: $EDQM = http://standardterms.edqm.eu
+
+
+
+// From terminology.hl7.org
+Alias: $CS_HL7_IdentifierType = http://terminology.hl7.org/CodeSystem/v2-0203
+Alias: $CS_HL7_MaritalStatus = http://terminology.hl7.org/CodeSystem/v3-MaritalStatus
+Alias: $CS_HL7_Religion = http://terminology.hl7.org/CodeSystem/v3-ReligiousAffiliation
+Alias: $CS_HL7_ObservationCat = http://terminology.hl7.org/CodeSystem/observation-category
+Alias: $CS_HL7_RelationshipType = http://terminology.hl7.org/CodeSystem/v3-RoleCode
+Alias: $CS_HL7_ContactRole = http://terminology.hl7.org/CodeSystem/v2-0131
+Alias: $CS_HL7_EncounterClass = http://terminology.hl7.org/CodeSystem/v3-ActCode
+Alias: $CS_HL7_ConditionStatus = http://terminology.hl7.org/CodeSystem/condition-clinical
+Alias: $CS_HL7_ConditionVerification = http://terminology.hl7.org/CodeSystem/condition-ver-status
+Alias: $CS_HL7_ConditionCategory = http://terminology.hl7.org/CodeSystem/condition-category
+Alias: $CS_HL7_DiagRole = http://terminology.hl7.org/CodeSystem/diagnosis-role
+Alias: $CS_HL7_OrgType = http://terminology.hl7.org/CodeSystem/organization-type
+Alias: $CS_HL7_RoleCode = http://terminology.hl7.org/CodeSystem/v3-RoleCode
+Alias: $CS_HL7_ProviderRole = http://terminology.hl7.org/CodeSystem/v2-0443
+Alias: $CS_HL7_AlleryActive = http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical
+Alias: $CS_HL7_AllergyVerify = http://terminology.hl7.org/CodeSystem/allergyintolerance-verification
+Alias: $CS_HL7_AllergySeverity = http://hl7.org/fhir/reaction-event-severity
+Alias: $CS_HL7_Priority = http://terminology.hl7.org/CodeSystem/v3-ActPriority
+Alias: $CS_HL7_ObsInterpret = http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation
+Alias: $CS_HL7_ParticipantType = http://terminology.hl7.org/CodeSystem/v3-ParticipationType
+Alias: $CS_HL7_AdmitSource = http://terminology.hl7.org/CodeSystem/admit-source
+Alias: $CS_HL7_ClaimType = http://terminology.hl7.org/CodeSystem/claim-type
+Alias: $CS_HL7_ProcessPriority = http://terminology.hl7.org/CodeSystem/processpriority
+Alias: $CS_HL7_YesNo = http://terminology.hl7.org/CodeSystem/v2-0532
+Alias: $CS_HL7_ClaimInfoCat = http://terminology.hl7.org/CodeSystem/claiminformationcategory
+Alias: $CS_HL7_DiagServiceCat = http://terminology.hl7.org/CodeSystem/v2-0074
+Alias: $CS_HL7_DoseForm = http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm
+Alias: $CS_HL7_SecurityLebel = http://terminology.hl7.org/CodeSystem/v3-Confidentiality
+Alias: $CS_HL7_DataAbsentReason = http://terminology.hl7.org/CodeSystem/data-absent-reason
+Alias: $CS_HL7_HierarchyMeaning = http://hl7.org/fhir/codesystem-hierarchy-meaning
+
+// From international FHIR community
+Alias: $CS_IPS_AbsentUnknownAllergies = http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips
+
+
+
 // From Thai MOPH codes
 
 // Main File List
@@ -178,3 +229,31 @@ Alias: $CS_THCC_SpecialPPService = https://terms.sil-th.org/CodeSystem/cs-thcc-s
 Alias: $CS_THCC_CommunityActivity = https://terms.sil-th.org/CodeSystem/cs-thcc-community-activity
 Alias: $CS_THCC_CommunityService = https://terms.sil-th.org/CodeSystem/cs-thcc-community-service
 
+
+
+
+// Questionnaire Related
+Alias: $CS_Meta_QnType = https://terms.sil-th.org/CodeSystem/cs-meta-qn-type
+Alias: $CS_QN_Dental = https://terms.sil-th.org/CodeSystem/cs-qn-dental
+Alias: $CS_QN_Home = https://terms.sil-th.org/CodeSystem/cs-qn-home
+Alias: $CS_QN_Village = https://terms.sil-th.org/CodeSystem/cs-qn-village
+
+
+
+// From Thai national codes
+Alias: $CS_INT_ISCED1997 = https://terms.sil-th.org/CodeSystem/cs-int-isced-97
+Alias: $CS_INT_ICF = https://terms.sil-th.org/CodeSystem/cs-int-icf
+Alias: $CS_DOPA_NamePrefix = https://terms.sil-th.org/CodeSystem/cs-dopa-nameprefix
+Alias: $CS_DOPA_Location = https://terms.sil-th.org/CodeSystem/cs-dopa-location
+Alias: $CS_TMT = https://terms.sil-th.org/CodeSystem/cs-th-tmt
+Alias: $CS_TMLT = https://terms.sil-th.org/CodeSystem/cs-th-tmlt
+Alias: $CS_24Drug = https://terms.sil-th.org/CodeSystem/cs-th-24drug
+Alias: $CS_TH_ICD10TM = https://terms.sil-th.org/CodeSystem/cs-th-icd10tm
+Alias: $CS_TH_ICD10TM_Lab = https://terms.sil-th.org/CodeSystem/cs-th-icd10tm-lab
+Alias: $CS_TH_FeeCategory = https://terms.sil-th.org/CodeSystem/cs-th-fee-category
+Alias: $CS_TH_IdentifierType = https://terms.sil-th.org/CodeSystem/cs-th-identifier-type
+
+
+// Local codes
+Alias: $CS_TH_LocalDrugCode = https://terms.sil-th.org/CodeSystem/cs-th-local-drug-code
+Alias: $CS_TH_LocalProcedureCode = https://terms.sil-th.org/CodeSystem/cs-th-local-procedure-code

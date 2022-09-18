@@ -6,6 +6,7 @@ Description: "รหัสหมู่เลือด Rh จาก SNOMED CT"
 * ^url = $VS_SNOMED_Rh
 * ^status = #draft
 * ^publisher = "Standards and Interoperability Lab - Thailand (SIL-TH)"
+* ^copyright = "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the SNOMED International. Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"
 * $SCT#165747007 "RhD positive"
 * $SCT#165746003 "RhD negative"
 
@@ -18,6 +19,7 @@ Description: "รหัสหมู่เลือด ABO จาก SNOMED CT"
 * ^url = $VS_SNOMED_ABO
 * ^status = #draft
 * ^publisher = "Standards and Interoperability Lab - Thailand (SIL-TH)"
+* ^copyright = "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the SNOMED International. Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"
 * $SCT#112144000 "Blood group A"
 * $SCT#165743006 "Blood group AB"
 * $SCT#112149005 "Blood group B"
@@ -32,6 +34,7 @@ Description: "รหัสหมู่เลือด จาก SNOMED CT"
 * ^url = $VS_SNOMED_BloodGroup
 * ^status = #draft
 * ^publisher = "Standards and Interoperability Lab - Thailand (SIL-TH)"
+* ^copyright = "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the SNOMED International. Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"
 * $SCT#278149003 "Blood group A Rh(D) positive"
 * $SCT#278152006 "Blood group A Rh(D) negative"
 * $SCT#278151004 "Blood group AB Rh(D) positive"
@@ -60,6 +63,7 @@ Description: "SNOMED-CT International Release"
 * ^url = $VS_SNOMED_INT
 * ^status = #draft
 * ^publisher = "Standards and Interoperability Lab - Thailand (SIL-TH)"
+* ^copyright = "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the SNOMED International. Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"
 * include codes from system $SCT
 
 
@@ -94,7 +98,7 @@ Description: "รหัสยามาตรฐาน 24 หลัก โดย 
 * ^url = $VS_24Drug
 * ^status = #draft
 * ^publisher = "Standards and Interoperability Lab - Thailand (SIL-TH)"
-* include codes from system $VS_24Drug
+* include codes from system $CS_24Drug
 
 
 

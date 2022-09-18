@@ -1,3 +1,57 @@
+// External ValueSet
+
+Alias: $VS_SNOMED_INT = https://terms.sil-th.org/ValueSet/vs-snomed-int
+Alias: $VS_SNOMED_Rh = https://terms.sil-th.org/ValueSet/vs-snomed-blood-rh
+Alias: $VS_SNOMED_ABO = https://terms.sil-th.org/ValueSet/vs-snomed-blood-abo
+Alias: $VS_SNOMED_BloodGroup = https://terms.sil-th.org/ValueSet/vs-snomed-bloodgroup
+Alias: $VS_LNC = http://hl7.org/fhir/ValueSet/observation-codes
+Alias: $VS_ICD10 = http://hl7.org/fhir/ValueSet/icd-10
+Alias: $VS_INT_ICDO3 = https://terms.sil-th.org/ValueSet/vs-int-icdo3
+Alias: $VS_INT_ISCO08 = https://terms.sil-th.org/ValueSet/vs-int-isco-08
+
+
+
+// From terminology.hl7.org
+Alias: $VS_HL7_IdentifierType = http://hl7.org/fhir/ValueSet/identifier-type
+Alias: $VS_HL7_MaritalStatus = http://hl7.org/fhir/ValueSet/marital-status
+Alias: $VS_HL7_Religion = http://terminology.hl7.org/ValueSet/v3-ReligiousAffiliation
+Alias: $VS_HL7_ObservationCat = http://terminology.hl7.org/ValueSet/observation-category
+Alias: $VS_HL7_RelationshipType = http://hl7.org/fhir/ValueSet/relatedperson-relationshiptype
+Alias: $VS_HL7_ContactRole = http://hl7.org/fhir/ValueSet/patient-contactrelationship
+Alias: $VS_HL7_EncounterClass = http://terminology.hl7.org/ValueSet/v3-ActEncounterCode
+Alias: $VS_HL7_ConditionStatus = http://terminology.hl7.org/ValueSet/condition-clinical
+Alias: $VS_HL7_ConditionVerification = http://terminology.hl7.org/ValueSet/condition-ver-status
+Alias: $VS_HL7_ConditionCategory = http://terminology.hl7.org/ValueSet/condition-category
+Alias: $VS_HL7_DiagRole = http://terminology.hl7.org/ValueSet/diagnosis-role
+Alias: $VS_HL7_OrgType = http://terminology.hl7.org/ValueSet/organization-type
+Alias: $VS_HL7_RoleCode = http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType
+Alias: $VS_HL7_ProviderRole = http://terminology.hl7.org/ValueSet/v2-0443
+Alias: $VS_HL7_AlleryActive = http://terminology.hl7.org/ValueSet/allergyintolerance-clinical
+Alias: $VS_HL7_AllergyVerify = http://terminology.hl7.org/ValueSet/allergyintolerance-verification
+Alias: $VS_HL7_AllergySeverity = http://hl7.org/fhir/ValueSet/reaction-event-severity
+Alias: $VS_HL7_Priority = http://terminology.hl7.org/ValueSet/v3-ActPriority
+Alias: $VS_HL7_BwUnit = http://hl7.org/fhir/ValueSet/ucum-bodyweight
+Alias: $VS_HL7_ObsInterpret = http://hl7.org/fhir/ValueSet/observation-interpretation
+Alias: $VS_HL7_ParticipantType = http://hl7.org/fhir/ValueSet/encounter-participant-type
+Alias: $VS_HL7_AdmitSource = http://terminology.hl7.org/ValueSet/encounter-admit-source
+Alias: $VS_HL7_ClaimType = http://terminology.hl7.org/ValueSet/claim-type
+Alias: $VS_HL7_ProcessPriority = http://terminology.hl7.org/ValueSet/process-priority
+Alias: $VS_HL7_YesNo = http://terminology.hl7.org/ValueSet/v2-0532
+Alias: $VS_HL7_ClaimInfoCat = http://terminology.hl7.org/ValueSet/claim-informationcategory
+Alias: $VS_HL7_DiagServiceCat = http://terminology.hl7.org/ValueSet/v2-0074
+Alias: $VS_HL7_DoseForm = http://terminology.hl7.org/ValueSet/v3-OrderableDrugForm
+Alias: $VS_HL7_SecurityLebel = http://hl7.org/fhir/ValueSet/security-labels
+Alias: $VS_HL7_DataAbsentReason = http://hl7.org/fhir/ValueSet/data-absent-reason
+
+// From international FHIR community
+Alias: $VS_INT_ISO3166 = http://hl7.org/fhir/ValueSet/iso3166-1-3
+Alias: $VS_IPS_MedicineDoseform = http://hl7.org/fhir/uv/ips/ValueSet/medicine-doseform
+Alias: $VS_IPS_AbsentUnknownAllergies = http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-allergies-uv-ips
+Alias: $VS_SNOMEDCT_FormCodes = http://hl7.org/fhir/ValueSet/medication-form-codes
+
+
+
+
 // From Thai MOPH codes
 
 // Main File List
@@ -136,7 +190,7 @@ Alias: $VS_THCC_ChildFood = https://terms.sil-th.org/ValueSet/vs-thcc-child-food
 
 // Referral
 Alias: $VS_THCC_ReferReason = https://terms.sil-th.org/ValueSet/vs-thcc-refer-in-reason
-Alias: $VS_43Plus_ReferReason = https://terms.sil-th.org/CodeSystem/vs-43plus-refer-reason
+Alias: $VS_43Plus_ReferReason = https://terms.sil-th.org/ValueSet/vs-43plus-refer-reason
 Alias: $VS_Std15_ReferReason = https://terms.sil-th.org/ValueSet/vs-std15-refer-reason
 Alias: $VS_eClaim_ReferReason = https://terms.sil-th.org/ValueSet/vs-eclaim-refer-reason
 Alias: $VS_43File_ReferEncounterClass = https://terms.sil-th.org/ValueSet/vs-43file-refer-encounter-class
@@ -190,3 +244,18 @@ Alias: $VS_THCC_SpecialPPService = https://terms.sil-th.org/ValueSet/vs-thcc-spe
 Alias: $VS_THCC_CommunityActivity = https://terms.sil-th.org/ValueSet/vs-thcc-community-activity
 Alias: $VS_THCC_CommunityService = https://terms.sil-th.org/ValueSet/vs-thcc-community-service
 
+
+
+
+// From Thai national codes
+Alias: $VS_INT_ISCED1997 = https://terms.sil-th.org/ValueSet/vs-int-isced-97
+Alias: $VS_INT_ICF = https://terms.sil-th.org/ValueSet/vs-int-icf
+Alias: $VS_DOPA_NamePrefix = https://terms.sil-th.org/ValueSet/vs-dopa-nameprefix
+Alias: $VS_DOPA_Location = https://terms.sil-th.org/ValueSet/vs-dopa-location
+Alias: $VS_TMT = https://terms.sil-th.org/ValueSet/th-tmt
+Alias: $VS_TMLT = https://terms.sil-th.org/ValueSet/th-tmlt
+Alias: $VS_24Drug = https://terms.sil-th.org/ValueSet/th-24drug
+Alias: $VS_TH_ICD10TM = https://terms.sil-th.org/ValueSet/vs-th-icd10tm
+Alias: $VS_TH_ICD10TM_Lab = https://terms.sil-th.org/ValueSet/vs-th-icd10tm-lab
+Alias: $VS_TH_FeeCategory = https://terms.sil-th.org/ValueSet/vs-th-fee-category
+Alias: $VS_TH_IdentifierType = https://terms.sil-th.org/ValueSet/vs-th-identifier-type
