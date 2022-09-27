@@ -1,7 +1,7 @@
 CodeSystem: CS_TH_IdentifierType
 Id: cs-th-identifier-type
-Title: "TH: ชนิดการระบุตัวตนในประเทศไทย"
-Description: "ชนิดการระบุตัวตนในประเทศไทย สำหรับประกอบ data type Identifier"
+Title: "TH: การระบุชนิดของข้อมูลในประเทศไทย"
+Description: "การระบุชนิดของข้อมูลในประเทศไทย สำหรับประกอบ data type Identifier"
 * ^url = $CS_TH_IdentifierType
 * ^caseSensitive = false
 
