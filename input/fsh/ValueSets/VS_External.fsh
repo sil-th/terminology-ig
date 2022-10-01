@@ -55,6 +55,14 @@ Description: "International Classification of Diseases for Oncology, version 3"
 * include codes from system $ICDO3
 
 
+ValueSet: ICD9CMProcedure
+Id: vs-int-icd9cm-procedure
+Title: "ICD-9-CM Procedure Codes"
+* ^url = $VS_INT_ICD9CMProcedure
+* ^status = #draft
+* ^publisher = "Standards and Interoperability Lab - Thailand (SIL-TH)"
+* include codes from system $ICD9CM
+
 
 ValueSet: VS_SNOMED_INT
 Id: vs-snomed-int
