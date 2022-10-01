@@ -16,7 +16,7 @@ Description: "รหัสประเภทบุคลากรทางกา
 
 ValueSet: VS_Meta_ParticipantType
 Id: vs-meta-participant-type
-Title: "ประเภทแพทย์เพิ่มเติม"
+Title: "Metadata: ประเภทแพทย์เพิ่มเติม"
 Description:  "ประเภทแพทย์เพิ่มเติม ตามโครงสร้างข้อมูล 43 แฟ้ม"
 * ^url = $VS_Meta_ParticipantType
 * include codes from system CS_Meta_ParticipantType

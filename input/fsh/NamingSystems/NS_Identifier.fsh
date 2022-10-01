@@ -62,6 +62,24 @@ Usage: #definition
   * value = $ID_DopaHouseNo
   * preferred = true
 
+
+Instance: IDDopaVillageNo
+InstanceOf: NamingSystem
+Title: "รหัสหมู่บ้าน"
+Description: "รหัสหมู่บ้าน ออกโดยกรมการปกครอง"
+Usage: #definition
+* name = "IDDopaVillageNo"
+* status = #active
+* kind = #identifier
+* date = "2022-07-31T19:11:26+07:00"
+* type = $CS_HL7_IdentifierType#U "Unspecified identifier"
+* description = "รหัสหมู่บ้าน ออกโดยกรมการปกครอง"
+* uniqueId[0]
+  * type = #uri
+  * value = $ID_DopaVillageNo
+  * preferred = true
+
+
 Instance: IDThaiDoctor
 InstanceOf: NamingSystem
 Title: "เลขประจำตัวแพทย์"
@@ -172,4 +190,38 @@ Usage: #definition
 * uniqueId[0]
   * type = #uri
   * value = $ID_ThaiNurse
+  * preferred = true
+
+
+Instance: IDThaiHealthVolunteer
+InstanceOf: NamingSystem
+Title: "เลขประจำตัวอาสาสมัครสาธารณสุขประจำหมู่บ้าน (อสม.)"
+Description: "เลขประจำตัวอาสาสมัครสาธารณสุขประจำหมู่บ้าน (อสม.)"
+Usage: #definition
+* name = "IDThaiHealthVolunteer"
+* status = #active
+* kind = #identifier
+* date = "2022-07-31T19:11:26+07:00"
+* type = $CS_HL7_IdentifierType#PRN "Provider number"
+* description = "เลขประจำตัวอาสาสมัครสาธารณสุขประจำหมู่บ้าน (อสม.)"
+* uniqueId[0]
+  * type = #uri
+  * value = $ID_ThaihealthVolunteer
+  * preferred = true
+
+
+Instance: IDThaiDisability
+InstanceOf: NamingSystem
+Title: "เลขบัตรประจำตัวคนพิการ"
+Description: "เลขบัตรประจำตัวคนพิการ"
+Usage: #definition
+* name = "IDThaiDisability"
+* status = #active
+* kind = #identifier
+* date = "2022-07-31T19:11:26+07:00"
+* type = $CS_HL7_IdentifierType#PN "Person number"
+* description = "เลขบัตรประจำตัวคนพิการ"
+* uniqueId[0]
+  * type = #uri
+  * value = $ID_ThaiDisability
   * preferred = true
