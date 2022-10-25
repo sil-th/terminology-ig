@@ -202,6 +202,8 @@ Alias: $CS_eClaim_ProcedureType = https://terms.sil-th.org/CodeSystem/cs-eclaim-
 
 // Finance
 Alias: $CS_43Plus_CoverageUse = https://terms.sil-th.org/CodeSystem/cs-43plus-coverage-use
+Alias: $CS_eClaim_CoverageType = https://terms.sil-th.org/CodeSystem/cs-eclaim-coverage-type
+Alias: $CS_eClaim_ChargeItem = https://terms.sil-th.org/CodeSystem/cs-eclaim-charge-item
 Alias: $CS_eClaim_AdpType = https://terms.sil-th.org/CodeSystem/cs-eclaim-adp-type
 
 
@@ -252,6 +254,7 @@ Alias: $CS_TH_ICD10TM = https://terms.sil-th.org/CodeSystem/cs-th-icd10tm
 Alias: $CS_TH_ICD10TM_Lab = https://terms.sil-th.org/CodeSystem/cs-th-icd10tm-lab
 Alias: $CS_TH_FeeCategory = https://terms.sil-th.org/CodeSystem/cs-th-fee-category
 Alias: $CS_TH_IdentifierType = https://terms.sil-th.org/CodeSystem/cs-th-identifier-type
+Alias: $CS_eClaim_serviceFee = https://terms.sil-th.org/CodeSystem/cs-eclaim-service-fee
 
 
 // Local codes

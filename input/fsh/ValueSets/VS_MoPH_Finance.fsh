@@ -6,6 +6,14 @@ Description: "รหัสการใช้สิทธิ"
 * include codes from system CS_43Plus_CoverageUse
 
 
+ValueSet: VS_eClaim_CoverageType
+Id: vs-eclaim-coverage-use
+Title: "eClaim: รหัสประเภทสิทธิการรักษา"
+Description: "รหัสประเภทสิทธิการรักษา"
+* ^url = $VS_eClaim_CoverageType
+* include codes from system CS_eClaim_CoverageType
+
+
 
 ValueSet: VS_TH_FeeCategory
 Id: vs-th-fee-category
@@ -13,6 +21,14 @@ Title: "TH: หมวดค่าใช้จ่ายบริการสา�
 Description: "หมวดค่าใช้จ่ายบริการสาธารณสุข"
 * ^url = $VS_TH_FeeCategory
 * include codes from system CS_TH_FeeCategory
+
+
+ValueSet: VS_eClaim_ChargeItem
+Id: vs-eclaim-charge-item
+Title: "eClaim: รายการค่าบริการทางการแพทย์"
+Description: "รายการค่าบริการทางการแพทย์"
+* ^url = $VS_eClaim_ChargeItem
+* include codes from system CS_eClaim_ChargeItem
 
 
 ValueSet: VS_eClaim_AdpType

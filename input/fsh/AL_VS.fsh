@@ -219,6 +219,8 @@ Alias: $VS_eClaim_ProcedureType = https://terms.sil-th.org/ValueSet/vs-eclaim-pr
 
 // Finance
 Alias: $VS_43Plus_CoverageUse = https://terms.sil-th.org/ValueSet/vs-43plus-coverage-use
+Alias: $VS_eClaim_CoverageType = https://terms.sil-th.org/ValueSet/vs-eclaim-coverage-use
+Alias: $VS_eClaim_ChargeItem = https://terms.sil-th.org/ValueSet/vs-eclaim-charge-item
 Alias: $VS_eClaim_AdpType = https://terms.sil-th.org/ValueSet/vs-eclaim-adp-type
 
 
@@ -261,3 +263,4 @@ Alias: $VS_TH_ICD10TM = https://terms.sil-th.org/ValueSet/vs-th-icd10tm
 Alias: $VS_TH_ICD10TM_Lab = https://terms.sil-th.org/ValueSet/vs-th-icd10tm-lab
 Alias: $VS_TH_FeeCategory = https://terms.sil-th.org/ValueSet/vs-th-fee-category
 Alias: $VS_TH_IdentifierType = https://terms.sil-th.org/ValueSet/vs-th-identifier-type
+Alias: $VS_eClaim_serviceFee = https://terms.sil-th.org/ValueSet/vs-eclaim-service-fee
