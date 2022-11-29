@@ -20,6 +20,8 @@ Description: "การระบุชนิดของข้อมูลใน
 * #proNurse "เลขใบอนุญาตประกอบวิชาชีพพยาบาล"
 * #disability "เลขประจำตัวคนพิการ"
 * #healthVolun "เลขประจำตัวอาสาสมัครสาธารณสุขประจำหมู่บ้าน (อสม.)"
+* #claimCode "เลข claim code"
+* #referCode "เลขที่ใบส่งต่อ"
 
 // Local identifier system for each provider
 * #localHn "เลข Hospital Number (HN) ของหน่วยบริการ"
@@ -41,4 +43,3 @@ Description: "การระบุชนิดของข้อมูลใน
 * #localLabItem "เลขระบุรายการย่อยในการตรวจทางห้องปฏิบัติการ ของหน่วยบริการ"
 * #localDep "รหัสประจำแผนก ของหน่วยบริการ"
 * #localDevice "เลขระบุเวชภัณฑ์ ของหน่วยบริการ"
-* #claimCode "เลข claim code"

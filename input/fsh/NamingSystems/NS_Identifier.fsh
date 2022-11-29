@@ -241,3 +241,20 @@ Usage: #definition
   * type = #uri
   * value = $ID_NhsoClaimCode
   * preferred = true
+
+
+Instance: IDReferCode
+InstanceOf: NamingSystem
+Title: "เลขที่ใบส่งต่อ"
+Description: "เลขที่ใบส่งต่อ"
+Usage: #definition
+* name = "IDReferCode"
+* status = #active
+* kind = #identifier
+* date = "2022-07-31T19:11:26+07:00"
+* type = $CS_TH_IdentifierType#referCode "เลขที่ใบส่งต่อ"
+* description = "IDReferCode"
+* uniqueId[0]
+  * type = #uri
+  * value = $ID_ReferCode
+  * preferred = true
