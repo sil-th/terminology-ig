@@ -23,5 +23,6 @@
 | [เลขประจำตัวนักกายภาพบำบัด](/NamingSystem/IDThaiPhysio)                                  | https://terms.sil-th.org/id/th-physio-id       | [สภากายภาพบำบัด](https://pt.or.th/PTCouncil/)                                                                                                              |
 | [เลขประจำตัวสัตวแพทย์](/NamingSystem/IDThaiVet)                                          | https://terms.sil-th.org/id/th-vet-id          | [สัตวแพทยสภา](https://www.vetcouncil.or.th/)                                                                                                               |
 | [เลขประจำตัวอาสาสมัครสาธารณสุขประจำหมู่บ้าน (อสม.)](/NamingSystem/IDThaiHealthVolunteer) | https://terms.sil-th.org/id/th-hvolunteer      | [กรมสนับสนุนบริการสุขภาพ กระทรวงสาธารณสุข](https://hss.moph.go.th/)                                                                                        |
+| [เลข claim code สปสปช.](/NamingSystem/IDNhsoClaimCode)                                   | https://terms.sil-th.org/id/th-nhso-claim-code | [สำนักงานหลักประกันสุขภาพแห่งชาติ (สปสช.)](https://www.nhso.go.th/)                                                                                        |
 
 หากมีข้อติชม หรือต้องการแก้ไขประเด็นใด สามารถแจ้งได้ที่ [Standard and Interoperability Lab Thailand](http://sil-th.org)

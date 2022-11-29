@@ -225,3 +225,19 @@ Usage: #definition
   * type = #uri
   * value = $ID_ThaiDisability
   * preferred = true
+
+Instance: IDNhsoClaimCode
+InstanceOf: NamingSystem
+Title: "เลข claim code สปสปช."
+Description: "เลข claim code สปสปช."
+Usage: #definition
+* name = "IDNhsoClaimCode"
+* status = #active
+* kind = #identifier
+* date = "2022-07-31T19:11:26+07:00"
+* type = $CS_TH_IdentifierType#claimCode "เลข claim code"
+* description = "IDNhsoClaimCode"
+* uniqueId[0]
+  * type = #uri
+  * value = $ID_NhsoClaimCode
+  * preferred = true
