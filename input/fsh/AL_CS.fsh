@@ -232,6 +232,13 @@ Alias: $CS_THCC_CommunityActivity = https://terms.sil-th.org/CodeSystem/cs-thcc-
 Alias: $CS_THCC_CommunityService = https://terms.sil-th.org/CodeSystem/cs-thcc-community-service
 
 
+// CHI - CSOP, CIPN, SSI, AIPN
+Alias: $CS_CHI_ReimburserType = https://terms.sil-th.org/CodeSystem/cs-chi-reimburser-type
+Alias: $CS_CHI_ProductCat = https://terms.sil-th.org/CodeSystem/cs-chi-product-cat
+Alias: $CS_CHI_ClaimCondition = https://terms.sil-th.org/CodeSystem/cs-chi-claim-condition
+Alias: $CS_CHI_SubstitutionCode = https://terms.sil-th.org/CodeSystem/cs-chi-substitution-code
+Alias: $CS_CHI_TypeServ = https://terms.sil-th.org/CodeSystem/cs-chi-typeserv
+Alias: $CS_CHI_Clinic = https://terms.sil-th.org/CodeSystem/cs-chi-clinic
 
 
 // Questionnaire Related

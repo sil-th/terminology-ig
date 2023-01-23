@@ -28,7 +28,13 @@ Id: vs-eclaim-provider-type
 Title: "eClaim: รหัสประเภทสถานพยาบาลที่รักษา"
 Description: "รหัสประเภทสถานพยาบาลที่รักษา โดย e-Claim 16 แฟ้ม"
 * ^url = $VS_eClaim_ProviderType
-* include codes from system CS_eClaim_ProviderType
+* $CS_eClaim_ProviderType#1 "Main Contractor"
+* $CS_eClaim_ProviderType#2 "Sub Contractor"
+* $CS_eClaim_ProviderType#3 "Supra Contractor"
+* $CS_eClaim_ProviderType#4 "Excellent"
+* $CS_eClaim_ProviderType#5 "Super tertiary"
+
+
 
 
 ValueSet: VS_Meta_ProviderTypeCoverage

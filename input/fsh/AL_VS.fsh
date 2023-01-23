@@ -249,6 +249,16 @@ Alias: $VS_THCC_CommunityActivity = https://terms.sil-th.org/ValueSet/vs-thcc-co
 Alias: $VS_THCC_CommunityService = https://terms.sil-th.org/ValueSet/vs-thcc-community-service
 
 
+// CHI - CSOP, CIPN, SSI, AIPN
+Alias: $VS_CHI_ReimburserType = https://terms.sil-th.org/ValueSet/vs-chi-reimburser-type
+Alias: $VS_CHI_ProductCat = https://terms.sil-th.org/ValueSet/vs-chi-product-cat
+Alias: $VS_CHI_ClaimCondition = https://terms.sil-th.org/ValueSet/vs-chi-claim-condition
+Alias: $VS_CHI_SubstitutionCode = https://terms.sil-th.org/ValueSet/vs-chi-substitution-code
+Alias: $VS_CHI_ProviderType = https://terms.sil-th.org/ValueSet/vs-chi-provider-type
+Alias: $VS_CHI_TypeServ = https://terms.sil-th.org/ValueSet/vs-chi-typeserv
+Alias: $VS_CHI_TypeIn = https://terms.sil-th.org/ValueSet/vs-chi-typein
+Alias: $VS_CHI_TypeOut = https://terms.sil-th.org/ValueSet/vs-chi-typeout
+Alias: $VS_CHI_Clinic = https://terms.sil-th.org/ValueSet/vs-chi-clinic
 
 
 // From Thai national codes
@@ -256,6 +266,9 @@ Alias: $VS_INT_ISCED1997 = https://terms.sil-th.org/ValueSet/vs-int-isced-97
 Alias: $VS_INT_ICF = https://terms.sil-th.org/ValueSet/vs-int-icf
 Alias: $VS_DOPA_NamePrefix = https://terms.sil-th.org/ValueSet/vs-dopa-nameprefix
 Alias: $VS_DOPA_Location = https://terms.sil-th.org/ValueSet/vs-dopa-location
+Alias: $VS_DOPA_Location_City = https://terms.sil-th.org/ValueSet/vs-dopa-location-city
+Alias: $VS_DOPA_Location_District = https://terms.sil-th.org/ValueSet/vs-dopa-location-district
+Alias: $VS_DOPA_Location_Subdistrict = https://terms.sil-th.org/ValueSet/vs-dopa-location-subdistrict
 Alias: $VS_TMT = https://terms.sil-th.org/ValueSet/th-tmt
 Alias: $VS_TMLT = https://terms.sil-th.org/ValueSet/th-tmlt
 Alias: $VS_24Drug = https://terms.sil-th.org/ValueSet/th-24drug
