@@ -243,6 +243,13 @@ Alias: $CS_CHI_TypeServ = https://terms.sil-th.org/CodeSystem/cs-chi-typeserv
 Alias: $CS_CHI_TypeIn = https://terms.sil-th.org/CodeSystem/cs-chi-typein
 Alias: $CS_CHI_TypeOut = https://terms.sil-th.org/CodeSystem/cs-chi-typeout
 Alias: $CS_CHI_Clinic = https://terms.sil-th.org/CodeSystem/cs-chi-clinic
+Alias: $CS_CHI_IpServiceType = https://terms.sil-th.org/CodeSystem/cs-chi-ip-service-type
+Alias: $CS_CHI_AdmitType = https://terms.sil-th.org/CodeSystem/cs-chi-admit-type
+Alias: $CS_CHI_AdmitSource = https://terms.sil-th.org/CodeSystem/cs-chi-admit-source
+Alias: $CS_CHI_ItemClaimCat = https://terms.sil-th.org/CodeSystem/cs-chi-item-claim-cat
+Alias: $CS_CHI_CoinsuranceCat = https://terms.sil-th.org/CodeSystem/cs-chi-claim-coinsurance-cat
+Alias: $CS_CHI_Marital = https://terms.sil-th.org/CodeSystem/cs-chi-patient-marital
+
 
 
 // Questionnaire Related

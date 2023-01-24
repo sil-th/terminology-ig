@@ -153,3 +153,79 @@ Description: "รหัสแผนกหรือสถานที่ในก
 * #12 "ฉุกเฉิน"
 * #99 "อื่น ๆ"
 
+
+CodeSystem: CS_CHI_IpServiceType
+Id: cs-chi-ip-service-type
+Title: "CHI: รหัสแยกประเภทการรักษากรณีผู้ป่วยใน (ที่มา: สกส. CIPN ClaimAuth)"
+Description: "CHI: รหัสแยกประเภทการรักษากรณีผู้ป่วยใน (ที่มา: สกส. CIPN ClaimAuth)"
+* ^url = $CS_CHI_IpServiceType
+* ^caseSensitive = false
+* #IP "ผู้ป่วยในปกติ"
+* #NA "พักรอจำหน่าย"
+* #OS "ผู้ป่วยในรักษาต่อเนื่องเกิน 180 วัน"
+* #DS "Day Surgery"
+
+
+
+CodeSystem: CS_CHI_AdmitType
+Id: cs-chi-admit-type
+Title: "CHI: รหัสประเภทการรับ admit (ที่มา: สกส. CIPN IPADT)"
+Description: "รหัสประเภทการรับ admit (ที่มา: สกส. CIPN IPADT)"
+* ^url = $CS_CHI_AdmitType
+* ^caseSensitive = false
+* #A "accident"
+* #E "emergency"
+* #C "elective"
+* #L "labor & delivery"
+* #N "newborn"
+* #U "urgent"
+* #O "all other"
+
+
+CodeSystem: CS_CHI_AdmitSource
+Id: cs-chi-admit-source
+Title: "CHI: รหัสที่มาการ admit (ที่มา: สกส. CIPN IPADT)"
+Description: "รหัสที่มาการ admit (ที่มา: สกส. CIPN IPADT)"
+* ^url = $CS_CHI_AdmitSource
+* ^caseSensitive = false
+* #O "OPD ใน รพ."
+* #E "แผนก Emergency"
+* #S "หน่วยบริการอื่น ๆ ใน รพ."
+* #B "เกิดใน รพ."
+* #T "ส่งย้ายจากรพ. อื่น"
+* #R "Refer จากแพทย์/รพ. อื่น"
+
+
+
+CodeSystem: CS_CHI_ItemClaimCat
+Id: cs-chi-item-claim-cat
+Title: "CHI: รหัสประเภทการเบิก (ที่มา: สกส. CIPN IPADT)"
+Description: "รหัสประเภทการเบิก (ที่มา: สกส. CIPN IPADT)"
+* ^url = $CS_CHI_ItemClaimCat
+* ^caseSensitive = false
+* #T "Tariff"
+* #D "DRG"
+* #X "Exempt"
+
+
+CodeSystem: CS_CHI_CoinsuranceCat
+Id: cs-chi-claim-coinsurance-cat
+Title: "CHI: รหัสประเภทค่ารักษา Coinsurance (ที่มา: สกส. CIPN Coinsurance)"
+Description: "รหัสประเภทค่ารักษา Coinsurance (ที่มา: สกส. CIPN Coinsurance)"
+* ^url = $CS_CHI_CoinsuranceCat
+* ^caseSensitive = false
+* #RoomBoard "ค่ารักษาส่วนค่าห้องค่าอาหารที่เบิกได้"
+* #ProfFee "ค่าธรรมเนียมแพทย์ที่ได้เบิกได้"
+* #Other "ค่ารักษาอื่นที่เบิกได้"
+
+
+CodeSystem: CS_CHI_Marital
+Id: cs-chi-patient-marital
+Title: "CHI: รหัสสถานะการสมรส (ที่มา: สกส. CIPN IPADT)"
+Description: "รหัสสถานะการสมรส (ที่มา: สกส. CIPN IPADT)"
+* ^url = $CS_CHI_Marital
+* ^caseSensitive = false
+* #1 "โสด"
+* #2 "คู่"
+* #3 "ม่าย/หย่า"
+* #4 "อื่น ๆ"

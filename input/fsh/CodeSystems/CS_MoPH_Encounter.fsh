@@ -78,6 +78,7 @@ Description: "รหัสชนิดของแผนกที่ผู้ป
 * ^caseSensitive = false
 * #first "รหัสแผนกที่รับผู้ป่วย"
 * #admit "รหัสแผนกที่ส่งผู้ป่วยให้เป็นผู้ป่วยใน (admit clinic)"
+* #main "รหัสแผนกที่รักษาผู้ป่วยเป็นหลัก"
 * #discharge "รหัสแผนกที่จำหน่ายผู้ป่วย (discharge clinic)"
 
 

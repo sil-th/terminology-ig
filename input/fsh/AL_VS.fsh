@@ -261,6 +261,13 @@ Alias: $VS_CHI_TypeServ = https://terms.sil-th.org/ValueSet/vs-chi-typeserv
 Alias: $VS_CHI_TypeIn = https://terms.sil-th.org/ValueSet/vs-chi-typein
 Alias: $VS_CHI_TypeOut = https://terms.sil-th.org/ValueSet/vs-chi-typeout
 Alias: $VS_CHI_Clinic = https://terms.sil-th.org/ValueSet/vs-chi-clinic
+Alias: $VS_CHI_IpServiceType = https://terms.sil-th.org/ValueSet/vs-chi-ip-service-type
+Alias: $VS_CHI_AdmitType = https://terms.sil-th.org/ValueSet/vs-chi-admit-type
+Alias: $VS_CHI_AdmitSource = https://terms.sil-th.org/ValueSet/vs-chi-admit-source
+Alias: $VS_CHI_ItemClaimCat = https://terms.sil-th.org/ValueSet/vs-chi-item-claim-cat
+Alias: $VS_CHI_CoinsuranceCat = https://terms.sil-th.org/ValueSet/vs-chi-claim-coinsurance-cat
+Alias: $VS_CHI_Marital = https://terms.sil-th.org/ValueSet/vs-chi-patient-marital
+Alias: $VS_CHI_DiagnosisRole = https://terms.sil-th.org/ValueSet/vs-chi-encounter-diagnosis-role
 
 
 // From Thai national codes

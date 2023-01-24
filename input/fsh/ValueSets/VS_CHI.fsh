@@ -92,10 +92,86 @@ Description: "รหัสประเภทการสิ้นสุดกา
 
 
 ValueSet: VS_CHI_Clinic
-Id: cs-chi-clinic
+Id: vs-chi-clinic
 Title: "CHI: รหัสแผนกหรือสถานที่ในการให้บริการ  (ที่มา: สกส. CSOP OPServices)"
 Description: "รหัสแผนกหรือสถานที่ในการให้บริการ (ที่มา: สกส. CSOP OPServices)"
 * ^url = $VS_CHI_Clinic
 * ^status = #active
 * ^jurisdiction = urn:iso:std:iso:3166#TH
 * include codes from system $CS_CHI_Clinic
+
+
+ValueSet: VS_CHI_IpServiceType
+Id: vs-chi-ip-service-type
+Title: "CHI: รหัสแยกประเภทการรักษากรณีผู้ป่วยใน (ที่มา: สกส. CIPN ClaimAuth)"
+Description: "CHI: รหัสแยกประเภทการรักษากรณีผู้ป่วยใน (ที่มา: สกส. CIPN ClaimAuth)"
+* ^url = $VS_CHI_IpServiceType
+* ^status = #active
+* ^jurisdiction = urn:iso:std:iso:3166#TH
+* include codes from system $CS_CHI_IpServiceType
+
+
+
+ValueSet: VS_CHI_AdmitType
+Id: vs-chi-admit-type
+Title: "CHI: รหัสประเภทการรับ admit (ที่มา: สกส. CIPN IPADT)"
+Description: "รหัสประเภทการรับ admit (ที่มา: สกส. CIPN IPADT)"
+* ^url = $VS_CHI_AdmitType
+* ^status = #active
+* ^jurisdiction = urn:iso:std:iso:3166#TH
+* include codes from system $CS_CHI_Clinic
+
+
+ValueSet: VS_CHI_AdmitSource
+Id: vs-chi-admit-source
+Title: "CHI: รหัสที่มาการ admit (ที่มา: สกส. CIPN IPADT)"
+Description: "รหัสที่มาการ admit (ที่มา: สกส. CIPN IPADT)"
+* ^url = $VS_CHI_AdmitSource
+* ^status = #active
+* ^jurisdiction = urn:iso:std:iso:3166#TH
+* include codes from system $CS_CHI_AdmitSource
+
+
+ValueSet: VS_CHI_ItemClaimCat
+Id: vs-chi-item-claim-cat
+Title: "CHI: รหัสประเภทการเบิก (ที่มา: สกส. CIPN IPADT)"
+Description: "รหัสประเภทการเบิก (ที่มา: สกส. CIPN IPADT)"
+* ^url = $VS_CHI_ItemClaimCat
+* ^status = #active
+* ^jurisdiction = urn:iso:std:iso:3166#TH
+* include codes from system $CS_CHI_ItemClaimCat
+
+
+ValueSet: VS_CHI_CoinsuranceCat
+Id: vs-chi-claim-coinsurance-cat
+Title: "CHI: รหัสประเภทค่ารักษา Coinsurance (ที่มา: สกส. CIPN Coinsurance)"
+Description: "รหัสประเภทค่ารักษา Coinsurance (ที่มา: สกส. CIPN Coinsurance)"
+* ^url = $VS_CHI_CoinsuranceCat
+* ^status = #active
+* ^jurisdiction = urn:iso:std:iso:3166#TH
+* include codes from system $CS_CHI_CoinsuranceCat
+
+
+
+ValueSet: VS_CHI_Marital
+Id: vs-chi-patient-marital
+Title: "CHI: รหัสสถานะการสมรส (ที่มา: สกส. CIPN IPADT)"
+Description: "CHI: รหัสสถานะการสมรส (ที่มา: สกส. CIPN IPADT)"
+* ^url = $VS_CHI_Marital
+* ^status = #active
+* ^jurisdiction = urn:iso:std:iso:3166#TH
+* include codes from system $CS_CHI_Marital
+
+
+ValueSet: VS_CHI_DiagnosisRole
+Id: vs-chi-encounter-diagnosis-role
+Title: "CHI: รหัสประเภทการวินิจฉัย (ที่มา: สกส. CIPN IPDx)"
+Description: "CHI: รหัสประเภทการวินิจฉัย (ที่มา: สกส. CIPN IPDx)"
+* ^url = $VS_CHI_DiagnosisRole
+* ^status = #active
+* ^jurisdiction = urn:iso:std:iso:3166#TH
+* $CS_43Plus_EncounterDiagnosisRole#1 "PRINCIPLE DX (การวินิจฉัยโรคหลัก)"
+* $CS_43Plus_EncounterDiagnosisRole#2 "CO-MORBIDITY (การวินิจฉัยโรคร่วม)"
+* $CS_43Plus_EncounterDiagnosisRole#3 "COMPLICATION (การวินิจฉัยโรคแทรก)"
+* $CS_43Plus_EncounterDiagnosisRole#4 "OTHER (อื่น ๆ)"
+* $CS_43Plus_EncounterDiagnosisRole#5 "EXTERNAL CAUSE (สาเหตุภายนอก)"
