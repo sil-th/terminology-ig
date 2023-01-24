@@ -42,10 +42,21 @@ ValueSet: VS_CHI_ProviderType
 Id: vs-chi-provider-type
 Title: "CHI: รหัสประเภทสถานพยาบาลที่รักษา"
 Description: "รหัสประเภทสถานพยาบาลที่รักษา โดย CSOP แฟ้ม OPServices"
-* $CS_eClaim_ProviderType#1 "Main Contractor"
-* $CS_eClaim_ProviderType#2 "Sub Contractor"
-* $CS_eClaim_ProviderType#3 "Supra Contractor"
-* $CS_eClaim_ProviderType#9 "Other"
+* ^url = $VS_CHI_ProviderType
+* ^status = #active
+* ^jurisdiction = urn:iso:std:iso:3166#TH
+* include codes from system $CS_CHI_ProviderType
+
+
+
+ValueSet: VS_CHI_ServiceClass
+Id: vs-chi-service-class
+Title: "CHI: รหัสประเภทของบริการ  (ที่มา: สกส. CSOP OPServices)"
+Description: "รหัสประเภทของบริการ  (ที่มา: สกส. CSOP OPServices)"
+* ^url = $VS_CHI_ServiceClass
+* ^status = #active
+* ^jurisdiction = urn:iso:std:iso:3166#TH
+* include codes from system $CS_CHI_ServiceClass
 
 
 ValueSet: VS_CHI_TypeServ
@@ -65,11 +76,8 @@ Description: "รหัสประเภทการให้บริการ
 * ^url = $VS_CHI_TypeIn
 * ^status = #active
 * ^jurisdiction = urn:iso:std:iso:3166#TH
-* $CS_THCC_AdmitSource#1 "มารับบริการเอง"
-* $CS_THCC_AdmitSource#2 "มารับบริการตามนัดหมาย"
-* $CS_THCC_AdmitSource#3 "ได้รับการส่งต่อจากสถานพยาบาลอื่น"
-* $CS_THCC_AdmitSource#4 "ได้รับการส่งตัวจากบริการ EMS"
-* $CS_THCC_AdmitSource#9 "อื่น ๆ"
+* include codes from system $CS_CHI_TypeIn
+
 
 
 ValueSet: VS_CHI_TypeOut
@@ -79,12 +87,8 @@ Description: "รหัสประเภทการสิ้นสุดกา
 * ^url = $VS_CHI_TypeOut
 * ^status = #active
 * ^jurisdiction = urn:iso:std:iso:3166#TH
-* $CS_THCC_DischargeStatus#1 "จำหน่ายกลับบ้าน"
-* $CS_THCC_DischargeStatus#2 "รับไว้รักษาต่อในแผนกผู้ป่วยใน"
-* $CS_THCC_DischargeStatus#3 "ส่งต่อไปยังสถานพยาบาลอื่น"
-* $CS_THCC_DischargeStatus#4 "เสียชีวิต"
-* $CS_THCC_DischargeStatus#8 "หนีกลับ"
-* $CS_THCC_DischargeStatus#9 "อื่น ๆ"
+* include codes from system $CS_CHI_TypeOut
+
 
 
 ValueSet: VS_CHI_Clinic

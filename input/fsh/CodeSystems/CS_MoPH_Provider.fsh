@@ -64,7 +64,7 @@ Description: "รหัสประเภทสถานพยาบาลที
 * #3 "Supra Contractor"
 * #4 "Excellent"
 * #5 "Super tertiary"
-* #9 "Other"
+
 
 CodeSystem: CS_Meta_ProviderTypeCoverage
 Id: cs-meta-provider-type-coverage

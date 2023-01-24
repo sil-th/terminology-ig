@@ -19,7 +19,6 @@ Description: "รหัสประเภทการมารับบริก
 * #3 "ได้รับการส่งต่อจากสถานพยาบาลอื่น"
 * #4 "ได้รับการส่งตัวจากบริการ EMS"
 * #5 "รับบริการสาธารณสุขทางไกล (Telehealth / Telemedicine)"
-* #9 "อื่น ๆ"
 
 
 CodeSystem: CS_THCC_PatientLocationType

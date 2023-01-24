@@ -237,7 +237,11 @@ Alias: $CS_CHI_ReimburserType = https://terms.sil-th.org/CodeSystem/cs-chi-reimb
 Alias: $CS_CHI_ProductCat = https://terms.sil-th.org/CodeSystem/cs-chi-product-cat
 Alias: $CS_CHI_ClaimCondition = https://terms.sil-th.org/CodeSystem/cs-chi-claim-condition
 Alias: $CS_CHI_SubstitutionCode = https://terms.sil-th.org/CodeSystem/cs-chi-substitution-code
+Alias: $CS_CHI_ServiceClass = https://terms.sil-th.org/CodeSystem/cs-chi-service-class
+Alias: $CS_CHI_ProviderType = https://terms.sil-th.org/CodeSystem/cs-chi-provider-type
 Alias: $CS_CHI_TypeServ = https://terms.sil-th.org/CodeSystem/cs-chi-typeserv
+Alias: $CS_CHI_TypeIn = https://terms.sil-th.org/CodeSystem/cs-chi-typein
+Alias: $CS_CHI_TypeOut = https://terms.sil-th.org/CodeSystem/cs-chi-typeout
 Alias: $CS_CHI_Clinic = https://terms.sil-th.org/CodeSystem/cs-chi-clinic
 
 

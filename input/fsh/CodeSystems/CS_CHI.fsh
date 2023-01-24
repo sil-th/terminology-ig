@@ -62,6 +62,34 @@ Description: "รหัสการจ่ายยา generic แทนตาม
 * #9 "เหตุอื่น" "Other"
 
 
+CodeSystem: CS_CHI_ProviderType
+Id: cs-chi-provider-type
+Title: "CHI: รหัสประเภทสถานพยาบาลที่รักษา"
+Description: "รหัสประเภทสถานพยาบาลที่รักษา โดย CSOP แฟ้ม OPServices"
+* ^url = $CS_CHI_ProviderType
+* ^status = #active
+* ^jurisdiction = urn:iso:std:iso:3166#TH
+* #1 "Main Contractor"
+* #2 "Sub Contractor"
+* #3 "Supra Contractor"
+* #9 "Other"
+
+
+CodeSystem: CS_CHI_ServiceClass
+Id: cs-chi-service-class
+Title: "CHI: รหัสประเภทของบริการ  (ที่มา: สกส. CSOP OPServices)"
+Description: "รหัสประเภทของบริการ (ที่มา: สกส. CSOP OPServices)"
+* ^url = $CS_CHI_ServiceClass
+* ^caseSensitive = false
+* #OP "หัตถการ"
+* #EC "การตรวจรักษา"
+* #LB "Lab"
+* #XR "การตรวจวินิจฉัยและรักษาทางรังสีวิทยา"
+* #IV "การตรวจวินิจฉัยด้วยวิธีพิเศษอื่น ๆ"
+* #ZZ "อื่น ๆ"
+
+
+
 CodeSystem: CS_CHI_TypeServ
 Id: cs-chi-typeserv
 Title: "CHI: รหัสประเภทการให้บริการครั้งนี้  (ที่มา: สกส. CSOP OPServices)"
@@ -76,6 +104,33 @@ Description: "รหัสประเภทการให้บริการ
 * #06 "ตรวจสุขภาพทั่วไป"
 * #07 "ตรวจวินิจฉัยทางรังสีวิทยา"
 * #08 "รับการอบรมคงามรู้ในการปฏิบัติตัวสำหรับผู้ป่วยโรคเรื้อรัง"
+
+
+CodeSystem: CS_CHI_TypeIn
+Id: cs-chi-typein
+Title: "CHI: รหัสประเภทการให้บริการครั้งนี้  (ที่มา: สกส. CSOP OPServices)"
+Description: "รหัสประเภทการให้บริการครั้งนี้  (ที่มา: สกส. CSOP OPServices)"
+* ^url = $CS_CHI_TypeIn
+* ^caseSensitive = false
+* #1 "เข้ารับบริการเอง"
+* #2 "เข้ารับบริการตามนัดหมาย"
+* #3 "รับส่งต่อมาจากสถานพยาบาลอื่น"
+* #4 "เข้ารับบริการแบบฉุกเฉิน"
+* #9 "อื่น ๆ"
+
+
+CodeSystem: CS_CHI_TypeOut
+Id: cs-chi-typeout
+Title: "CHI: รหัสประเภทการสิ้นสุดการรับบริการครั้งนี้  (ที่มา: สกส. CSOP OPServices)"
+Description: "รหัสประเภทการสิ้นสุดการรับบริการครั้งนี้  (ที่มา: สกส. CSOP OPServices)"
+* ^url = $CS_CHI_TypeOut
+* ^caseSensitive = false
+* #1 "จำหน่ายกลับบ้าน"
+* #2 "รับไว้รักษาต่อในแผนกผู้ป่วยใน"
+* #3 "ส่งต่อไปยังสถานพยาบาลอื่น"
+* #4 "เสียชีวิต"
+* #5 "หนีกลับ"
+* #9 "อื่น ๆ"
 
 
 CodeSystem: CS_CHI_Clinic
@@ -97,3 +152,4 @@ Description: "รหัสแผนกหรือสถานที่ในก
 * #11 "ทันตกรรม"
 * #12 "ฉุกเฉิน"
 * #99 "อื่น ๆ"
+

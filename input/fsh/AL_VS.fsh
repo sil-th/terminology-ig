@@ -4,7 +4,8 @@ Alias: $VS_SNOMED_INT = https://terms.sil-th.org/ValueSet/vs-snomed-int
 Alias: $VS_SNOMED_Rh = https://terms.sil-th.org/ValueSet/vs-snomed-blood-rh
 Alias: $VS_SNOMED_ABO = https://terms.sil-th.org/ValueSet/vs-snomed-blood-abo
 Alias: $VS_SNOMED_BloodGroup = https://terms.sil-th.org/ValueSet/vs-snomed-bloodgroup
-Alias: $VS_LNC = http://hl7.org/fhir/ValueSet/observation-codes
+Alias: $VS_LNC_Obs = http://hl7.org/fhir/ValueSet/observation-codes
+Alias: $VS_LNC_Report = http://hl7.org/fhir/ValueSet/report-codes
 Alias: $VS_ICD10 = http://hl7.org/fhir/ValueSet/icd-10
 Alias: $VS_INT_ICD9CMProcedure = https://terms.sil-th.org/ValueSet/vs-int-icd9cm-procedure
 Alias: $VS_INT_ICDO3 = https://terms.sil-th.org/ValueSet/vs-int-icdo3
@@ -112,7 +113,7 @@ Alias: $VS_Meta_ProviderTypeCoverage = https://terms.sil-th.org/ValueSet/vs-meta
 // Allergy
 Alias: $VS_Std15_AllergyVerify = https://terms.sil-th.org/ValueSet/vs-std15-allergy-verify 
 Alias: $VS_THCC_AllergyManifest = https://terms.sil-th.org/ValueSet/vs-thcc-allergy-manifest
-Alias: $VS_THCC_AllergyCertainy = https://terms.sil-th.org/ValueSet/vs-thcc-allergy-certainty
+Alias: $VS_THCC_AllergyCertainty = https://terms.sil-th.org/ValueSet/vs-thcc-allergy-certainty
 Alias: $VS_THCC_AllergySeverity = https://terms.sil-th.org/ValueSet/vs-thcc-allergy-severity
 Alias: $VS_THCC_AllergyAssertType = https://terms.sil-th.org/ValueSet/vs-thcc-allergy-assert-type
 
@@ -254,6 +255,7 @@ Alias: $VS_CHI_ReimburserType = https://terms.sil-th.org/ValueSet/vs-chi-reimbur
 Alias: $VS_CHI_ProductCat = https://terms.sil-th.org/ValueSet/vs-chi-product-cat
 Alias: $VS_CHI_ClaimCondition = https://terms.sil-th.org/ValueSet/vs-chi-claim-condition
 Alias: $VS_CHI_SubstitutionCode = https://terms.sil-th.org/ValueSet/vs-chi-substitution-code
+Alias: $VS_CHI_ServiceClass = https://terms.sil-th.org/ValueSet/vs-chi-service-class
 Alias: $VS_CHI_ProviderType = https://terms.sil-th.org/ValueSet/vs-chi-provider-type
 Alias: $VS_CHI_TypeServ = https://terms.sil-th.org/ValueSet/vs-chi-typeserv
 Alias: $VS_CHI_TypeIn = https://terms.sil-th.org/ValueSet/vs-chi-typein

@@ -11,11 +11,8 @@ Id: vs-thcc-admit-source
 Title: "THCC: รหัสประเภทการมารับบริการ"
 Description: "รหัสประเภทการมารับบริการ โดย THCC (ID: 130) Modified"
 * ^url = $VS_THCC_AdmitSource
-* $CS_THCC_AdmitSource#1 "มารับบริการเอง"
-* $CS_THCC_AdmitSource#2 "มารับบริการตามนัดหมาย"
-* $CS_THCC_AdmitSource#3 "ได้รับการส่งต่อจากสถานพยาบาลอื่น"
-* $CS_THCC_AdmitSource#4 "ได้รับการส่งตัวจากบริการ EMS"
-* $CS_THCC_AdmitSource#5 "รับบริการสาธารณสุขทางไกล (Telehealth / Telemedicine)"
+* include codes from system CS_THCC_AdmitSource
+
 
 
 ValueSet: VS_THCC_PatientLocationType

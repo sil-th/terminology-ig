@@ -15,11 +15,11 @@ Description: "รหัสสถานะการแพ้ยา โดย e-Re
 
 
 
-ValueSet: VS_THCC_AllergyCertainy
+ValueSet: VS_THCC_AllergyCertainty
 Id: vs-thcc-allergy-certainty
 Title: "THCC: รหัสระดับความแน่ใจการแพ้ยา"
 Description: "รหัสระดับความแน่ใจการแพ้ยา โดย THCC (ID: 66)"
-* ^url = $VS_THCC_AllergyCertainy
+* ^url = $VS_THCC_AllergyCertainty
 * include codes from system CS_THCC_AllergyCertainty
 
 
