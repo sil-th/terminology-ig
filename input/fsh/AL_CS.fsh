@@ -112,7 +112,7 @@ Alias: $CS_eClaim_ServiceTypeTH = https://terms.sil-th.org/CodeSystem/cs-eclaim-
 Alias: $CS_Meta_IpdJourney = https://terms.sil-th.org/CodeSystem/cs-meta-ipd-journey
 Alias: $CS_Meta_ExtendedHL7DiagnosisRole = https://terms.sil-th.org/CodeSystem/cs-meta-extended-hl7-diagnosis-role
 Alias: $CS_43Plus_EncounterDiagnosisRole = https://terms.sil-th.org/CodeSystem/cs-43plus-encounter-diagnosis-role
-
+Alias: $CS_eClaim_Clinic = https://terms.sil-th.org/CodeSystem/cs-eclaim-clinic
 
 // Discharge
 Alias: $CS_THCC_DischargeStatus = https://terms.sil-th.org/CodeSystem/cs-thcc-discharge-status

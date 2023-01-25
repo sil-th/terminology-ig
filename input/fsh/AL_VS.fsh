@@ -131,6 +131,7 @@ Alias: $VS_eClaim_ServiceTypeTH = https://terms.sil-th.org/ValueSet/vs-eclaim-se
 Alias: $VS_Meta_IpdJourney = https://terms.sil-th.org/ValueSet/vs-meta-ipd-journey
 Alias: $VS_Meta_ExtendedHL7DiagnosisRole = https://terms.sil-th.org/ValueSet/vs-meta-extended-hl7-diagnosis-role
 Alias: $VS_43Plus_EncounterDiagnosisRole = https://terms.sil-th.org/ValueSet/vs-43plus-encounter-diagnosis-role
+Alias: $VS_eClaim_Clinic = https://terms.sil-th.org/ValueSet/vs-eclaim-clinic
 
 // Discharge
 Alias: $VS_THCC_DischargeStatus = https://terms.sil-th.org/ValueSet/vs-thcc-discharge-status

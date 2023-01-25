@@ -71,3 +71,12 @@ Title: "Metadata: รหัสบทบาทการวินิจฉัย�
 Description: "รหัสบทบาทการวินิจฉัยเพิ่มเติมจากที่มีใน HL7 เพื่อใช้ใน 43 แฟ้ม plus"
 * ^url = $VS_Meta_ExtendedHL7DiagnosisRole
 * include codes from system CS_Meta_ExtendedHL7DiagnosisRole
+
+
+
+ValueSet: VS_eClaim_Clinic
+Id: vs-eclaim-clinic
+Title: "eClaim: รหัสคลินิก/แผนกที่รับไว้รักษา"
+Description: "รหัสคลินิก/แผนกที่รับไว้รักษา โดย e-Claim 16 แฟ้ม"
+* ^url = $VS_eClaim_Clinic
+* include codes from system CS_eClaim_Clinic
