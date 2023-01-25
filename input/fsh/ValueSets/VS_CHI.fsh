@@ -175,3 +175,24 @@ Description: "CHI: รหัสประเภทการวินิจฉั�
 * $CS_43Plus_EncounterDiagnosisRole#3 "COMPLICATION (การวินิจฉัยโรคแทรก)"
 * $CS_43Plus_EncounterDiagnosisRole#4 "OTHER (อื่น ๆ)"
 * $CS_43Plus_EncounterDiagnosisRole#5 "EXTERNAL CAUSE (สาเหตุภายนอก)"
+
+
+ValueSet: VS_CHI_AccidentOrEmer
+Id: vs-chi-encounter-accident-emer
+Title: "CHI: รหัสระบุเป็นการรักษากรณีอุบัติเหตุและ/หรือฉุกเฉิน (ที่มา: สกส. SSI IPAEREF)"
+Description: "CHI: รหัสระบุเป็นการรักษากรณีอุบัติเหตุและ/หรือฉุกเฉิน (ที่มา: สกส. SSI IPAEREF)"
+* ^url = $VS_CHI_AccidentOrEmer
+* ^status = #active
+* ^jurisdiction = urn:iso:std:iso:3166#TH
+* $CS_eClaim_ReferTypeEclaim#A "Accident / Accident + Emergency"
+* $CS_eClaim_ReferTypeEclaim#E "Emergency"
+
+
+ValueSet: VS_CHI_ReferPurpose
+Id: vs-chi-refer-purpose
+Title: "CHI: รหัสสาเหตุการส่งต่อผู้ป่วย (ที่มา: สกส. SSI IPAEREF)"
+Description: "CHI: รหัสสาเหตุการส่งต่อผู้ป่วย (ที่มา: สกส. SSI IPAEREF)"
+* ^url = $VS_CHI_ReferPurpose
+* ^status = #active
+* ^jurisdiction = urn:iso:std:iso:3166#TH
+* include codes from system $CS_CHI_ReferPurpose

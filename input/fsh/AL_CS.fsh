@@ -249,6 +249,7 @@ Alias: $CS_CHI_AdmitSource = https://terms.sil-th.org/CodeSystem/cs-chi-admit-so
 Alias: $CS_CHI_ItemClaimCat = https://terms.sil-th.org/CodeSystem/cs-chi-item-claim-cat
 Alias: $CS_CHI_CoinsuranceCat = https://terms.sil-th.org/CodeSystem/cs-chi-claim-coinsurance-cat
 Alias: $CS_CHI_Marital = https://terms.sil-th.org/CodeSystem/cs-chi-patient-marital
+Alias: $CS_CHI_ReferPurpose = https://terms.sil-th.org/CodeSystem/cs-chi-refer-purpose
 
 
 
