@@ -288,4 +288,4 @@ Alias: $VS_TH_ICD10TM = https://terms.sil-th.org/ValueSet/vs-th-icd10tm
 Alias: $VS_TH_ICD10TM_Lab = https://terms.sil-th.org/ValueSet/vs-th-icd10tm-lab
 Alias: $VS_TH_FeeCategory = https://terms.sil-th.org/ValueSet/vs-th-fee-category
 Alias: $VS_TH_IdentifierType = https://terms.sil-th.org/ValueSet/vs-th-identifier-type
-Alias: $VS_eClaim_serviceFee = https://terms.sil-th.org/ValueSet/vs-eclaim-service-fee
+Alias: $VS_TH_CoverageType = https://terms.sil-th.org/ValueSet/vs-th-coverage-type

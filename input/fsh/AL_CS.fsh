@@ -273,7 +273,7 @@ Alias: $CS_TH_ICD10TM = https://terms.sil-th.org/CodeSystem/cs-th-icd10tm
 Alias: $CS_TH_ICD10TM_Lab = https://terms.sil-th.org/CodeSystem/cs-th-icd10tm-lab
 Alias: $CS_TH_FeeCategory = https://terms.sil-th.org/CodeSystem/cs-th-fee-category
 Alias: $CS_TH_IdentifierType = https://terms.sil-th.org/CodeSystem/cs-th-identifier-type
-Alias: $CS_eClaim_serviceFee = https://terms.sil-th.org/CodeSystem/cs-eclaim-service-fee
+Alias: $CS_TH_CoverageType = https://terms.sil-th.org/CodeSystem/cs-th-coverage-type
 
 
 // Local codes
