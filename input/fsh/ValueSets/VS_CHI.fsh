@@ -119,7 +119,7 @@ Description: "รหัสประเภทการรับ admit (ที่�
 * ^url = $VS_CHI_AdmitType
 * ^status = #active
 * ^jurisdiction = urn:iso:std:iso:3166#TH
-* include codes from system $CS_CHI_Clinic
+* include codes from system $CS_CHI_AdmitType
 
 
 ValueSet: VS_CHI_AdmitSource
@@ -196,3 +196,13 @@ Description: "CHI: รหัสสาเหตุการส่งต่อผ�
 * ^status = #active
 * ^jurisdiction = urn:iso:std:iso:3166#TH
 * include codes from system $CS_CHI_ReferPurpose
+
+
+ValueSet: VS_CHI_FeeCategory
+Id: vs-chi-fee-category
+Title: "CHI: หมวดค่าใช้จ่ายบริการสาธารณสุข (ที่มา: สกส. CSOP, CIPN, SSI)"
+Description: "หมวดค่าใช้จ่ายบริการสาธารณสุข (ที่มา: สกส. CSOP, CIPN, SSI)"
+* ^url = $VS_CHI_FeeCategory
+* ^status = #active
+* ^jurisdiction = urn:iso:std:iso:3166#TH
+* include codes from system $CS_CHI_FeeCategory

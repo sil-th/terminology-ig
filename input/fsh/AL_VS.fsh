@@ -271,6 +271,7 @@ Alias: $VS_CHI_Marital = https://terms.sil-th.org/ValueSet/vs-chi-patient-marita
 Alias: $VS_CHI_DiagnosisRole = https://terms.sil-th.org/ValueSet/vs-chi-encounter-diagnosis-role
 Alias: $VS_CHI_AccidentOrEmer = https://terms.sil-th.org/ValueSet/vs-chi-encounter-accident-emer
 Alias: $VS_CHI_ReferPurpose = https://terms.sil-th.org/ValueSet/vs-chi-refer-purpose
+Alias: $VS_CHI_FeeCategory = https://terms.sil-th.org/ValueSet/vs-chi-fee-category
 
 
 // From Thai national codes

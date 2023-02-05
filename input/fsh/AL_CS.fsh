@@ -250,6 +250,7 @@ Alias: $CS_CHI_ItemClaimCat = https://terms.sil-th.org/CodeSystem/cs-chi-item-cl
 Alias: $CS_CHI_CoinsuranceCat = https://terms.sil-th.org/CodeSystem/cs-chi-claim-coinsurance-cat
 Alias: $CS_CHI_Marital = https://terms.sil-th.org/CodeSystem/cs-chi-patient-marital
 Alias: $CS_CHI_ReferPurpose = https://terms.sil-th.org/CodeSystem/cs-chi-refer-purpose
+Alias: $CS_CHI_FeeCategory = https://terms.sil-th.org/CodeSystem/cs-chi-fee-category
 
 
 
