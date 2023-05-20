@@ -5,7 +5,7 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: sil-th.terms.core
 canonical: https://terms.sil-th.org
-version: 0.1.0
+version: 0.1.1
 name: SilTHTerminology
 title: (Draft) SIL-TH Terminology
 status: draft

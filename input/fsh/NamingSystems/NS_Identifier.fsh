@@ -14,6 +14,7 @@ Usage: #definition
   * value = $ID_ThaiCid
   * preferred = true
 
+
 Instance: IDThaiWorkPermit
 InstanceOf: NamingSystem
 Title: "เลขที่ใบอนุญาตทำงานคนต่างด้าว"
@@ -236,7 +237,7 @@ Usage: #definition
 * kind = #identifier
 * date = "2022-07-31T19:11:26+07:00"
 * type = $CS_TH_IdentifierType#claimCode "เลข claim code"
-* description = "IDNhsoClaimCode"
+* description = "เลข claim code สปสปช."
 * uniqueId[0]
   * type = #uri
   * value = $ID_NhsoClaimCode
@@ -253,8 +254,24 @@ Usage: #definition
 * kind = #identifier
 * date = "2022-07-31T19:11:26+07:00"
 * type = $CS_TH_IdentifierType#referCode "เลขที่ใบส่งต่อ"
-* description = "IDReferCode"
+* description = "เลขที่ใบส่งต่อ"
 * uniqueId[0]
   * type = #uri
   * value = $ID_ReferCode
+  * preferred = true
+
+Instance: IDPassport
+InstanceOf: NamingSystem
+Title: "เลขหนังสือเดินทาง"
+Description: "เลขหนังสือเดินทาง สำหรับทุกประเทศ"
+Usage: #definition
+* name = "IDThaiCid"
+* status = #active
+* kind = #identifier
+* date = "2022-07-31T19:11:26+07:00"
+* type = $CS_HL7_IdentifierType#PPN "Passport number"
+* description = "เลขหนังสือเดินทาง ใช้ในกรณีไม่ต้องการระบุประเทศที่ออกเลขหนังสือเดินทาง"
+* uniqueId[0]
+  * type = #uri
+  * value = $ID_Passport
   * preferred = true
