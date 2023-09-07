@@ -3,8 +3,8 @@
 # │  supported properties, see:                                                                    │
 # │  https://fshschool.org/docs/sushi/configuration/#full-configuration                            │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: silth.fhir.terminology
-canonical: https://terms.sil-th.org
+id: silth.fhir.terminology.core
+canonical: https://terms.sil-th.org/core
 version: 0.1.1
 name: SilTHTerminology
 title: SIL-TH Terminology (STU1)

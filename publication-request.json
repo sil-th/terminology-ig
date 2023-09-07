@@ -1,7 +1,7 @@
 {
-  "package-id": "silth.fhir.terminology",
+  "package-id": "silth.fhir.terminology.core",
   "version": "0.1.1",
-  "path": "https://terms.sil-th.org/STU1",
+  "path": "https://terms.sil-th.org/core/STU1",
   "mode": "milestone",
   "status": "trial-use",
   "sequence": "STU1 Release 1",
@@ -10,7 +10,7 @@
   "changes": "change_log.html",
   "first": true,
   "title": "SIL-TH Terminology (STU1)",
-  "ci-build": "https://terms.sil-th.org/",
+  "ci-build": "https://terms.sil-th.org/core",
   "category": "Terminology",
   "introduction": "This is the main entry page for access to the SIL-TH Terminology."
 }
