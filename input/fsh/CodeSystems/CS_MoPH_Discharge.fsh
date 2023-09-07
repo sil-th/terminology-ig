@@ -3,6 +3,8 @@ Id: cs-thcc-discharge-status
 Title: "THCC: รหัสสถานะผู้มารับบริการเมื่อเสร็จสิ้นบริการ"
 Description: "รหัสสถานะผู้มารับบริการเมื่อเสร็จสิ้นบริการ โดย THCC (ID: 82) Modified"
 * ^url = $CS_THCC_DischargeStatus
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #1 "จำหน่ายกลับบ้าน"
 * #2 "รับไว้รักษาต่อในแผนกผู้ป่วยใน"
@@ -19,6 +21,8 @@ Id: cs-thcc-chronic-discharge-reason
 Title: "THCC: รหัสประเภทการจำหน่าย"
 Description: "รหัสประเภทการจำหน่าย ในแฟ้ม Chronic โดย THCC (ID: 33)"
 * ^url = $CS_THCC_ChronicDischargeReason
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #01 "หาย"
 * #02 "ตาย"
@@ -38,6 +42,8 @@ Id: cs-thcc-ipd-discharge-status
 Title: "THCC: รหัสสถานภาพการจำหน่ายผู้ป่วย"
 Description: "รหัสสถานภาพการจำหน่ายผู้ป่วย โดย THCC (ID: 131, 136)"
 * ^url = $CS_THCC_IpdDischargeStatus
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #1 "Complete Recovery"
 * #2 "Improved"
@@ -55,6 +61,8 @@ Id: cs-thcc-ipd-discharge-type
 Title: "THCC: รหัสวิธีการจำหน่ายผู้ป่วย"
 Description: "รหัสวิธีการจำหน่ายผู้ป่วย โดย THCC (ID: 137)"
 * ^url = $CS_THCC_IpdDischargeType
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #1 "With Approval" "จำหน่ายโดยแพทย์อนุญาต"
 * #2 "Against Advice" "ผู้ป่วยขอออกไป ทั้งๆที่แพทย์แนะนำว่าควรรักษาต่อในโรงพยาบาล"

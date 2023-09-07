@@ -3,6 +3,8 @@ Id: cs-meta-social-obs-type
 Title: "Metadata: รหัสชนิดประวัติทางสังคม"
 Description: "รหัสชนิดประวัติทางสังคมต่าง ๆ เพื่อใช้ใน 43 แฟ้ม plus"
 * ^url = $CS_Meta_SocialObsType
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #fstatus "สถานะในครอบครัว"
 * #vstatus "สถานะในชุมชน"
@@ -15,6 +17,8 @@ Id: cs-thcc-status-in-family
 Title: "THCC: รหัสสถานะในครอบครัว"
 Description: "รหัสสถานะในครอบครัว โดย THCC (ID: 10)"
 * ^url = $CS_THCC_StatusInFamily
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #1 "เจ้าบ้าน"
 * #2 "ผู้อาศัย"
@@ -25,6 +29,8 @@ Id: cs-thcc-status-in-village
 Title: "THCC: รหัสสถานะในชุมชน"
 Description: "รหัสสถานะในชุมชน โดย THCC (ID: 11)"
 * ^url = $CS_THCC_StatusInVillage
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #1 "กำนัน ผู้ใหญ่บ้าน"
 * #2 "อสม."

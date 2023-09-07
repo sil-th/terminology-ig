@@ -3,6 +3,8 @@ Id: cs-thcc-vaccine-code
 Title: "THCC: รหัสวัคซีน"
 Description: "รหัสวัคซีน โดย THCC (ID: 198)"
 * ^url = $CS_THCC_VaccineCode
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #010 "BCG" "บีซีจี"
 * #041 "HBV1" "ตับอักเสบบี 1"

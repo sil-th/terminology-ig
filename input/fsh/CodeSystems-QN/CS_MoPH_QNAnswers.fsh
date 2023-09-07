@@ -3,6 +3,8 @@ Id: cs-qn-dental
 Title: "QuestionnaireResponse: รหัสคำตอบสำหรับตอบแบบสำรวจทันตกรรม"
 Description: "รหัสคำตอบสำหรับตอบแบบสำรวจทันตกรรม เพื่อใช้ใน 43 แฟ้ม plus"
 * ^url = $CS_QN_Dental
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #Q01-1 "กลุ่มหญิงตั้งครรภ์"
 * #Q01-2 "กลุ่มเด็กก่อนวัยเรียน (อายุ 0-5 ปี)"
@@ -38,6 +40,8 @@ Id: cs-qn-home
 Title: "QuestionnaireResponse: รหัสคำตอบสำหรับตอบแบบสำรวจบ้าน"
 Description: "รหัสคำตอบสำหรับตอบแบบสำรวจบ้าน เพื่อใช้ใน 43 แฟ้ม plus"
 * ^url = $CS_QN_Home
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #Q01-0 "ไม่มี"
 * #Q01-1 "มี ส้วมนั่งราบ บำบัดด้วยบ่อเกรอะ"
@@ -199,6 +203,8 @@ Id: cs-qn-village
 Title: "QuestionnaireResponse: รหัสคำตอบสำหรับตอบแบบสำรวจหมู่บ้าน"
 Description: "รหัสคำตอบสำหรับตอบแบบสำรวจหมู่บ้าน เพื่อใช้ใน 43 แฟ้ม plus"
 * ^url = $CS_QN_Village
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #Q21-0 "ไม่มี"
 * #Q21-1 "มี"

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Search {{title}} (Current Build)</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="http://www.hl7.org" name="author" />
+    <link href="fhir.css" rel="stylesheet" />
+    <!-- Bootstrap core CSS -->
+    <link
+      href="http://hl7.org/fhir/dist-hist/css/bootstrap.css"
+      rel="stylesheet"
+    />
+    <link
+      href="http://hl7.org/fhir/assets-hist/css/bootstrap-fhir.css"
+      rel="stylesheet"
+    />
+    <!-- Project extras -->
+    <link
+      href="http://hl7.org/fhir/assets-hist/css/project.css"
+      rel="stylesheet"
+    />
+    <link
+      href="http://hl7.org/fhir/assets-hist/css/pygments-manni.css"
+      rel="stylesheet"
+    />
+    <link href="http://hl7.org/fhir/jquery-ui.css" rel="stylesheet" />
+    <!-- Custom CSS-->
+    <link href="assets/css/colors.css" rel="stylesheet" />
+    <link href="assets/css/searchform.css" rel="stylesheet" />
+    <!-- Favicons -->
+    <link href="assets/ico/icon-fhir-144.png" rel="fhir-logo" sizes="144x144" />
+    <link href="assets/ico/icon-fhir-114.png" rel="fhir-logo" sizes="114x114" />
+    <link href="assets/ico/icon-fhir-72.png" rel="fhir-logo" sizes="72x72" />
+    <link href="assets/ico/icon-fhir-57.png" rel="fhir-logo" />
+    <link
+      href="http://hl7.org/fhir/assets-hist/ico/favicon.png"
+      rel="shortcut icon"
+    />
+    <link href="http://hl7.org/fhir/history.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="segment" id="segment-header">
+      <!-- segment-header -->
+      <div class="container">
+        <!-- container -->
+        <a href="https://sil-th.org" id="logo" no-external="true">
+          <img
+            alt="logo SIL-TH"
+            height="40"
+            src="assets/images/SIL-TH-logo.png"
+            width="104"
+          />
+        </a>
+        <div>
+          <a href="http://www.hl7.org/fhir" id="hl7-logo" no-external="true">
+            <img
+              alt="HL7 FHIR"
+              height="30"
+              style="margin-top: 18px"
+              src="assets/images/fhir-logo-www.png"
+            />
+          </a>
+        </div>
+        <div
+          id="ig-status"
+          style="
+            font-size: 20px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            text-align: center;
+          "
+        >
+          <b id="ig-title"> Search {{title}} (Current Build) </b>
+        </div>
+      </div>
+      <div class="container">
+        <!-- container -->
+      </div>
+    </div>
+    <!-- /segment-header -->
+    <div class="segment" id="segment-navbar">
+      <!-- segment-navbar -->
+      <div id="stripe"></div>
+      <div class="container">
+        <!-- container -->
+        <!-- HEADER CONTENT -->
+        <nav class="navbar navbar-inverse">
+          <div class="container">
+            <button
+              class="navbar-toggle"
+              data-target=".navbar-inverse-collapse"
+              data-toggle="collapse"
+              type="button"
+            >
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a
+              class="navbar-brand hidden"
+              href="http://hl7.org/fhir/index.html"
+            >
+              FHIR
+            </a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul class="nav navbar-nav">
+                <li>
+                  <a href="index.html"> Specification </a>
+                </li>
+                <li>
+                  <a href="history.html"> History </a>
+                </li>
+              </ul>
+            </div>
+            <!-- /.nav-collapse -->
+          </div>
+          <!-- /.container -->
+        </nav>
+        <!-- /.navbar -->
+        <!-- /HEADER CONTENT -->
+      </div>
+      <!-- /container -->
+    </div>
+    <!-- /segment-navbar -->
+    <!-- ============BreadCrumb=============== -->
+  </body>
+</html>
+<!-- /container -->
+<!-- /segment-breadcrumb -->
+<div class="segment" id="segment-content">
+  <!-- segment-content -->
+  <div class="container">
+    <!-- container -->
+    <div class="row">
+      <div class="inner-wrapper">
+        <div class="col-12">
+          <h2 style="font-size: 18px; margin: 20px 0">
+            Search {{title}} (Current Build)
+          </h2>
+          <iframe
+            frameborder="0"
+            src="https://duckduckgo.com/search.html?site={{url}}&prefill=Search {{title}}&focus=yes"
+            style="
+              overflow: hidden;
+              margin: 0;
+              padding: 20px 0;
+              width: 408px;
+              height: 80px;
+            "
+          >
+          </iframe>
+          <hr />
+          <p>Note: this search searches the curent build of {{title}}.</p>
+        </div>
+      </div>
+      <!-- /inner-wrapper -->
+    </div>
+    <!-- /row -->
+  </div>
+  <!-- /container -->
+</div>
+<!-- /segment-content -->
+<!-- /inner-wrapper -->
+<!-- /row -->
+<!-- /container -->
+<!-- /segment-content -->
+<div class="segment" id="segment-footer">
+  <!-- segment-footer -->
+  <div class="container">
+    <!-- container -->
+    <div class="inner-wrapper">
+      <p>
+        <span id="ig-footer"> {{title}} </span>
+        <a
+          href="https://sil-th.org"
+          style="color: var(--footer-hyperlink-text-color)"
+        >
+          Standards and Interoperability Lab Thailand (SIL-TH)
+        </a>
+        |
+        <!--  <a style="color: #81BEF7" rel="license"  <href="../license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> -->
+        <a
+          href="http://hl7.org/fhir/license.html"
+          rel="license"
+          style="color: var(--footer-hyperlink-text-color)"
+        >
+          <img alt="CC0" src="cc0.png" style="border-style: none" />
+        </a>
+      </p>
+    </div>
+    <!-- /inner-wrapper -->
+  </div>
+  <!-- /container -->
+</div>
+<!-- /segment-footer -->
+<!-- disqus thread -->
+<!-- disqus -->
+<!-- end disqus -->
+<div class="segment hidden" id="segment-post-footer">
+  <!-- segment-post-footer -->
+  <div class="container">
+    <!-- container -->
+  </div>
+  <!-- /container -->
+</div>
+<!-- /segment-post-footer -->

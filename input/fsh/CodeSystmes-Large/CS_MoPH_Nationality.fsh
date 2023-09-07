@@ -3,6 +3,8 @@ Id: cs-thcc-nationality
 Title: "THCC: รหัสเชื้อชาติ-สัญชาติ"
 Description: "รหัสเชื้อชาติ-สัญชาติ โดย THCC (ID: 6,7)"
 * ^url = $CS_THCC_Nationality
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #002 "โปรตุเกส"
 * #003 "ดัตช์"

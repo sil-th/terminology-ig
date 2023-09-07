@@ -3,23 +3,24 @@
 # │  supported properties, see:                                                                    │
 # │  https://fshschool.org/docs/sushi/configuration/#full-configuration                            │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: sil-th.terms.core
+id: silth.fhir.terminology
 canonical: https://terms.sil-th.org
 version: 0.1.1
 name: SilTHTerminology
-title: (Draft) SIL-TH Terminology
-status: draft
-publisher: Standards and Interoperability Lab - Thailand (SIL-TH)
-jurisdiction: "urn:iso:std:iso:3166#TH"
+title: SIL-TH Terminology (STU1)
+status: active
+publisher:
+  name: Standards and Interoperability Lab - Thailand (SIL-TH)
+  url: https://www.sil-th.org
 description: A terminology registry which an be cited by FHIR artifacts
 license: CC0-1.0
-fhirVersion: 4.3.0
+fhirVersion: 5.0.0
 parameters:
   apply-publisher: true
   apply-contact: true
   show-inherited-invariants: false
-copyrightYear: 2022+
-releaseLabel: ci-build
+copyrightYear: 2023+
+releaseLabel: trial-use
 
 pages:
   index.md:

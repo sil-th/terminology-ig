@@ -3,6 +3,8 @@ Id: cs-thcc-allergy-manifest
 Title: "THCC: รหัสลักษณะอาการแพ้ยาที่พบ"
 Description: "รหัสลักษณะอาการแพ้ยาที่พบ โดย THCC (ID: 68)"
 * ^url = $CS_THCC_AllergyManifest
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #01 "D59.0" "Drug-induced autoimmune hemolytic anemia"
 * #02 "D59.2" "Drug-induced non autoimmune hemolytic anemia"
@@ -51,6 +53,8 @@ Id: cs-std15-allergy-verify
 Title: "Std15: รหัสสถานะการแพ้ยา"
 Description: "รหัสสถานะการแพ้ยา โดย e-Refer 15 แฟ้ม"
 * ^url = $CS_Std15_AllergyVerify
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #1 "แพ้"
 * #2 "ไม่แพ้"
@@ -63,6 +67,8 @@ Id: cs-thcc-allergy-certainty
 Title: "THCC: รหัสระดับความแน่ใจการแพ้ยา"
 Description: "รหัสระดับความแน่ใจการแพ้ยา โดย THCC (ID: 66)"
 * ^url = $CS_THCC_AllergyCertainty
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #1 "certain"
 * #2 "probable"
@@ -77,6 +83,8 @@ Id: cs-thcc-allergy-severity
 Title: "THCC: รหัสระดับความรุนแรงของการแพ้ยา"
 Description: "รหัสระดับความรุนแรงของการแพ้ยา โดย THCC (ID: 67)"
 * ^url = $CS_THCC_AllergySeverity
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #1 "ไม่ร้ายแรง (Non-serious)"
 * #2 "ร้ายแรง - เสียชีวิต (Death)"
@@ -94,6 +102,8 @@ Id: cs-thcc-allergy-assert-type
 Title: "THCC: รหัสผู้ให้ประวัติการแพ้ยา"
 Description: "รหัสผู้ให้ประวัติการแพ้ยา โดย THCC (ID: 69)"
 * ^url = $CS_THCC_AllergyAssertType
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #1 "ผู้ป่วยให้ประวัติเอง"
 * #2 "ผู้ป่วยให้ประวัติจากการให้ข้อมูลของสถานพยาบาลอื่น"

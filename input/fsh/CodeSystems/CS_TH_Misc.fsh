@@ -2,7 +2,9 @@ CodeSystem: CS_TH_CoverageType
 Id: cs-th-coverage-type
 Title: "TH: รหัสประเภทสิทธิการรักษาในประเทศไทย"
 Description: "รหัสประเภทสิทธิการรักษาในประเทศไทย"
-* ^url = $CS_eClaim_CoverageType
+* ^url = $CS_TH_CoverageType
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #UCS "สิทธิ UC"
 * #OFC "ข้าราชการ"

@@ -3,6 +3,8 @@ Id: vs-int-isco-08
 Title: "Inter: รหัสอาชีพ ISCO-08"
 Description: "รหัสอาชีพ ตามระบบ ISCO-08"
 * ^url = $VS_INT_ISCO08
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * ^copyright = "This artifact includes content from International Standard Classification of Occupations (ISCO). ISCO is copyright International Labour Organization (ILO). Terms & Conditions in http://www.ilo.org/global/copyright/lang--en/index.htm"
 * $ISCO08#0 "Armed Forces Occupations"
 * $ISCO08#01 "Commissioned Armed forces Officers"

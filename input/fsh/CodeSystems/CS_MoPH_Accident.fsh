@@ -3,6 +3,8 @@ Id: cs-meta-accident-obs
 Title: "Metadata: รหัสชนิดประวัติการเกิดอุบัติเหตุ"
 Description: "รหัสชนิดประวัติการเกิดอุบัติเหตุ เพื่อใช้ใน 43 แฟ้ม plus"
 * ^url = $CS_Meta_AccidentObs
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #injury "ประเภทผู้บาดเจ็บ (อุบัติเหตุจราจร)"
 * #vehicle "ประเภทยานพาหนะที่เกิดเหตุ"
@@ -19,6 +21,8 @@ Id: cs-thcc-accident-location
 Title: "THCC: รหัสสถานที่เกิดอุบัติเหตุฉุกเฉิน"
 Description: "รหัสสถานที่เกิดอุบัติเหตุฉุกเฉิน โดย THCC (ID: 109)"
 * ^url = $CS_THCC_AccidentLocation
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #01 "ที่บ้าน หรืออาคารที่พัก"
 * #02 "ในสถานที่ทำงาน ยกเว้นโรงงานหรือก่อสร้าง"
@@ -40,6 +44,8 @@ Id: cs-thcc-accident-admit-source
 Title: "THCC: รหัสประเภทการมารับบริการกรณีอุบัติเหตุฉุกเฉิน"
 Description: "รหัสประเภทการมารับบริการกรณีอุบัติเหตุฉุกเฉิน โดย THCC (ID: 110)"
 * ^url = $CS_THCC_AccidentAdmitSource
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #1 "มารับบริการเอง"
 * #2 "ได้รับการส่งตัวโดย First responder"
@@ -56,6 +62,8 @@ Id: cs-thcc-accident-patient-type
 Title: "THCC: รหัสประเภทผู้บาดเจ็บ"
 Description: "รหัสประเภทผู้บาดเจ็บ โดย THCC (ID: 111)"
 * ^url = $CS_THCC_AccidentPatientType
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #1 "ผู้ขับขี่"
 * #2 "ผู้โดยสาร"
@@ -69,6 +77,8 @@ Id: cs-thcc-accident-vehicle
 Title: "THCC: รหัสประเภทยานพาหนะที่เกิดเหตุ"
 Description: "รหัสประเภทยานพาหนะที่เกิดเหตุ โดย THCC (ID: 112)"
 * ^url = $CS_THCC_AccidentVehicle
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #01 "จักรยานและสามล้อถึบ"
 * #02 "จักรยานยนต์"
@@ -91,6 +101,8 @@ Id: cs-thcc-accident-breathing
 Title: "THCC: รหัสชนิดการดูแลการหายใจ"
 Description: "รหัสชนิดการดูแลการหายใจ โดย THCC (ID: 117)"
 * ^url = $CS_THCC_AccidentBreathing
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #1 "มีการดูแลการหายใจก่อนมาถึงเหมาะสม"
 * #2 "ไม่มีการดูแลการหายใจก่อนมาถึง"
@@ -103,6 +115,8 @@ Id: cs-thcc-accident-bleeding
 Title: "THCC: รหัสชนิดการห้ามเลือด"
 Description: "รหัสชนิดการห้ามเลือด โดย THCC (ID: 118)"
 * ^url = $CS_THCC_AccidentBleeding
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #1 "มีการห้ามเลือดก่อนมาถึงเหมาะสม"
 * #2 "ไม่มีการห้ามเลือดก่อนมาถึง"
@@ -115,6 +129,8 @@ Id: cs-thcc-accident-splint
 Title: "THCC: รหัสชนิดการใส่ splint/ slab"
 Description: "รหัสชนิดการใส่ splint/ slab โดย THCC (ID: 119)"
 * ^url = $CS_THCC_AccidentSplint
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #1 "มีการใส่ splint/slab ก่อนมาถึงเหมาะสม"
 * #2 "ไม่มีการใส่ splint/slab ก่อนมาถึง"
@@ -127,6 +143,8 @@ Id: cs-thcc-accident-iv-fluid
 Title: "THCC: รหัสชนิดการให้น้ำเกลือ"
 Description: "รหัสชนิดการให้น้ำเกลือ โดย THCC (ID: 120)"
 * ^url = $CS_THCC_AccidentIVFluid
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #1 "มีการให้ IV fluid ก่อนมาถึงเหมาะสม"
 * #2 "ไม่มีการให้ IV fluid ก่อนมาถึง"
@@ -139,6 +157,8 @@ Id: cs-thcc-accident-priority
 Title: "THCC: รหัสระดับความเร่งด่วน"
 Description: "รหัสระดับความเร่งด่วน โดย THCC (ID: 121)"
 * ^url = $CS_THCC_AccidentPriority
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #1 "life threatening"
 * #2 "emergency"
@@ -153,6 +173,8 @@ Id: cs-thcc-accident-cause-group
 Title: "THCC: รหัสประเภทผู้ป่วยอุบัติเหตุ 19 สาเหตุ"
 Description: "รหัสประเภทผู้ป่วยอุบัติเหตุ 19 สาเหตุ โดย THCC (ID: 108)"
 * ^url = $CS_THCC_AccidentCauseGroup
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #01 "Transport accidents"
 * #02 "Falls"
@@ -180,6 +202,8 @@ Id: cs-eclaim-accident-coverage
 Title: "eClaim: รหัสสิทธิการรักษาอื่นกรณีอุบัติเหตุ"
 Description: "รหัสสิทธิการรักษาอื่นกรณีอุบัติเหตุ โดย e-Claim 16 แฟ้ม"
 * ^url = $CS_eClaim_AccidentCoverage
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #V "ใช้ พรบ. ผู้ประสบภัยจากรถ"
 * #O "ใช้ พรบ. กองทุนเงินทดแทน"

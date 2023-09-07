@@ -3,6 +3,8 @@ Id: cs-thcc-surveillance-group
 Title: "THCC: รหัสกลุ่มอาการที่เฝ้าระวัง"
 Description: "รหัสกลุ่มอาการที่เฝ้าระวัง โดย THCC (ID: 98)"
 * ^url = $CS_THCC_SurvGroup
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #0001 "ไข้ สูงหรือต่ำ ชัก"
 * #0002 "ไข้ เจ็บคอ แผ่นฝ้าสีขาวบนเทา ติดแน่นที่บริเวณทอนซิล ช่องคอ และ/หรือโพรงจมูก กล่องเสียง"
@@ -70,6 +72,8 @@ Id: cs-thcc-disease-cause
 Title: "THCC: รหัสสาเหตุการป่วย"
 Description: "รหัสสาเหตุการป่วย โดย THCC (ID: 106)"
 * ^url = $CS_THCC_DiseaseCause
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #221 "Pneumonia"
 * #222 "Diarrhoea"
@@ -102,6 +106,8 @@ Id: cs-pcu-clnical-status
 Title: "PCU: รหัสสภาพผู้ป่วย"
 Description: "รหัสสภาพผู้ป่วย โดย PCU"
 * ^url = $CS_PCU_ClnicalStatus
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #1 "หาย"
 * #2 "ตาย"

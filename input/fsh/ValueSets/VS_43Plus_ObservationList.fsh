@@ -4,7 +4,8 @@ Title: "Metadata: รหัสการตรวจหรือบริกา�
 Description: "รหัสการตรวจหรือบริการซึ่งเกี่ยวข้องกับอุบัติเหตุ เพื่อใช้ใน 43 แฟ้ม plus"
 * ^url = $VS_Meta_Accident_ObsList
 * ^status = #active
-* ^jurisdiction = urn:iso:std:iso:3166#TH
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * include codes from system CS_Meta_AccidentObs
 * $LNC#11376-1 "Injury location"
 * $LNC#74204-9 "Drug use [NTDS]"
@@ -19,7 +20,8 @@ Title: "Metadata: รหัสการตรวจหรือบริกา�
 Description: "รหัสการตรวจหรือบริการซึ่งเกี่ยวข้องกับมะเร็ง เพื่อใช้ใน 43 แฟ้ม plus"
 * ^url = $VS_Meta_Cancer_ObsList
 * ^status = #active
-* ^jurisdiction = urn:iso:std:iso:3166#TH
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * $LNC#33732-9 "Histology grade [Identifier] in Cancer specimen"
 
 
@@ -29,7 +31,8 @@ Title: "Metadata: รหัสการตรวจหรือบริกา�
 Description: "รหัสการตรวจหรือบริการซึ่งเกี่ยวกับพัฒนาการเด็ก เพื่อใช้ใน 43 แฟ้ม plus"
 * ^url = $VS_Meta_ChildDevelopment_ObsList
 * ^status = #active
-* ^jurisdiction = urn:iso:std:iso:3166#TH
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * $LNC#29463-7 "Body weight"
 * $LNC#34109-9 "Note"
 * $LNC#8302-2 "Body height"
@@ -51,7 +54,8 @@ Title: "Metadata: รหัสการตรวจหรือบริกา�
 Description: "รหัสการตรวจหรือบริการซึ่งเกี่ยวข้องกับสมรรถภาพของร่างกาย เพื่อใช้ใน 43 แฟ้ม plus"
 * ^url = $VS_Meta_Functional_ObsList
 * ^status = #active
-* ^jurisdiction = urn:iso:std:iso:3166#TH
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * include codes from system CS_THCC_FunctionalTest
 * $LNC#75276-6 "Functional status [Interpretation]"
 * $LNC#96761-2 "Total score Barthel Index"
@@ -64,7 +68,8 @@ Title: "Metadata: รหัสการตรวจทางห้องปฏ�
 Description: "รหัสการตรวจทางห้องปฏิบัติการบางส่วน เพื่อใช้ใน 43 แฟ้ม plus"
 * ^url = $VS_Meta_Lab_ObsList
 * ^status = #active
-* ^jurisdiction = urn:iso:std:iso:3166#TH
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * $LNC#10331-7 "Rh [Type] in Blood"
 * $LNC#34532-2 "Blood type and Indirect antibody screen panel - Blood"
 * $LNC#883-9 "ABO group [Type] in Blood"
@@ -85,7 +90,8 @@ Title: "Metadata: รหัสการตรวจหรือบริกา�
 Description: "รหัสการตรวจหรือบริการคัดกรองโรค NCD เพื่อใช้ใน 43 แฟ้ม plus"
 * ^url = $VS_Meta_NCD_ObsList
 * ^status = #active
-* ^jurisdiction = urn:iso:std:iso:3166#TH
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * $LNC#1558-6 "Fasting glucose [Mass/volume] in Serum or Plasma"
 * $LNC#29463-7 "Body weight"
 * $LNC#72166-2 "Tobacco smoking status"
@@ -111,7 +117,8 @@ Title: "Metadata: รหัสการตรวจหรือบริกา�
 Description: "รหัสการตรวจหรือบริการซึ่งเกี่ยวกับทารกแรกคลอด เพื่อใช้ใน 43 แฟ้ม plus"
 * ^url = $VS_Meta_Neonate_ObsList
 * ^status = #active
-* ^jurisdiction = urn:iso:std:iso:3166#TH
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * $LNC#76447-2 "General health"
 * $SCT#226379006 "Food intake"
 * $SCT#249222005 "Neonatal condition"
@@ -127,7 +134,7 @@ Description: "รหัสการตรวจหรือบริการซ
 * $LNC#9272-6 "1 minute Apgar Score"
 * $LNC#9274-2 "5 minute Apgar Score"
 * $SCT#413654009 "Birth asphyxia"
-* $SCT#414955000 "Oral vitamin K prophylaxis given in hospital (situation)"
+* $SCT#414955000 "Oral vitamin K prophylaxis given in hospital"
 
 
 
@@ -139,7 +146,8 @@ Title: "Metadata: รหัสการตรวจร่างกาย"
 Description: "รหัสการตรวจร่างกาย เพื่อใช้ใน 43 แฟ้ม plus"
 * ^url = $VS_Meta_PhysicalExam_ObsList
 * ^status = #active
-* ^jurisdiction = urn:iso:std:iso:3166#TH
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * $LNC#29544-4 "Physical findings"
 * $LNC#32434-3 "General appearance"
 * $LNC#8694-2 "Physical findings of Abdomen"
@@ -159,7 +167,8 @@ Title: "Metadata: รหัสการตรวจหรือบริกา�
 Description: "รหัสการตรวจหรือบริการซึ่งเกี่ยวกับการตั้งครรภ์ เพื่อใช้ใน 43 แฟ้ม plus"
 * ^url = $VS_Meta_Pregnancy_ObsList
 * ^status = #active
-* ^jurisdiction = urn:iso:std:iso:3166#TH
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * $CS_Meta_MiscPregnancyObs#ancperiod "ช่วงของการ ANC ตามโครงสร้างข้อมูล 43 แฟ้ม แฟ้ม ANC"
 * $LNC#11876-0 "Fetal presentation palpation"
 * $LNC#11881-0 "Uterus Fundal height Tape measure"
@@ -222,7 +231,9 @@ Description: "รหัสการตรวจหรือบริการซ
 // Description: "รหัสการตรวจหรือบริการซึ่งเกี่ยวกับการป้องกันควบคุมโรค เพื่อใช้ใน 43 แฟ้ม plus"
 // * ^url = $VS_Meta_Prevention_ObsList
 // * ^status = #active
-// * ^jurisdiction = urn:iso:std:iso:3166#TH
+// * ^meta.profile = $SD_SharableVS
+// ^experimental = false
+// 
 
 
 
@@ -233,7 +244,8 @@ Title: "Metadata: รหัสการตรวจประวัติทา�
 Description: "รหัสการตรวจประวัติทางสังคม เพื่อใช้ใน 43 แฟ้ม plus"
 * ^url = $VS_Meta_Social_ObsList
 * ^status = #active
-* ^jurisdiction = urn:iso:std:iso:3166#TH
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * include codes from system $CS_Meta_SocialObsType
 * $LNC#11341-5 "History of Occupation"
 * $LNC#72166-2 "Tobacco smoking status"
@@ -246,7 +258,8 @@ Title: "Metadata: รหัสการตรวจสัญญาณชีพ"
 Description: "รหัสการตรวจสัญญาณชีพ เพื่อใช้ใน 43 แฟ้ม plus"
 * ^url = $VS_Meta_Vital_ObsList
 * ^status = #active
-* ^jurisdiction = urn:iso:std:iso:3166#TH
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * $LNC#29463-7 "Body weight"
 * $LNC#55286-9 "Physical exam by body areas"
 * $LNC#62409-8 "PhenX - hip circumference protocol"

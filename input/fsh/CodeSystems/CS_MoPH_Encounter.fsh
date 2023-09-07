@@ -3,6 +3,8 @@ Id: cs-43plus-service-priority
 Title: "43Plus: รหัสสถานะความฉุกเฉิน"
 Description: "รหัสสถานะความฉุกเฉิน โดย 43 แฟ้ม plus"
 * ^url = $CS_43Plus_ServicePriority
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #1 "ปกติ"
 * #2 "ฉุกเฉิน"
@@ -13,6 +15,8 @@ Id: cs-thcc-admit-source
 Title: "THCC: รหัสประเภทการมารับบริการ"
 Description: "รหัสประเภทการมารับบริการ โดย THCC (ID: 130) Modified"
 * ^url = $CS_THCC_AdmitSource
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #1 "มารับบริการเอง"
 * #2 "มารับบริการตามนัดหมาย"
@@ -26,6 +30,8 @@ Id: cs-thcc-patient-location-type
 Title: "THCC: รหัสที่ตั้งของที่อยู่ผู้รับบริการ"
 Description: "รหัสที่ตั้งของที่อยู่ผู้รับบริการ โดย THCC (ID: 75)"
 * ^url = $CS_THCC_PatientLocationType
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #1 "ในเขตรับผิดชอบ"
 * #2 "นอกเขตรับผิดชอบ"
@@ -36,6 +42,8 @@ Id: cs-thcc-service-hour
 Title: "THCC: รหัสเวลามารับบริการ"
 Description: "รหัสเวลามารับบริการ โดย THCC (ID: 76)"
 * ^url = $CS_THCC_ServiceHour
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #1 "ในเวลาราชการ"
 * #2 "นอกเวลาราชการ"
@@ -46,6 +54,8 @@ Id: cs-pcu-service-location-type
 Title: "PCU: รหัสสถานที่ที่ให้บริการ"
 Description: "รหัสสถานที่ที่ให้บริการ โดย PCU"
 * ^url = $CS_PCU_ServiceLocationType
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #1 "ในสถานบริการ"
 * #2 "นอกสถานบริการ"
@@ -56,6 +66,8 @@ Id: cs-eclaim-service-type-th
 Title: "eClaim: รหัสประเภทการให้บริการ"
 Description: "รหัสประเภทการให้บริการ โดย e-Claim 16 แฟ้ม"
 * ^url = $CS_eClaim_ServiceTypeTH
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #0 "Refer ในบัญชีเครือข่ายเดียวกัน"
 * #1 "Refer นอกบัญชีเครือข่าย"
@@ -75,6 +87,8 @@ Id: cs-meta-ipd-journey
 Title: "Metadata: รหัสชนิดของแผนกที่ผู้ป่วยในรับบริการ"
 Description: "รหัสชนิดของแผนกที่ผู้ป่วยในรับบริการ เพื่อใช้ใน 43 แฟ้ม plus"
 * ^url = $CS_Meta_IpdJourney
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #first "รหัสแผนกที่รับผู้ป่วย"
 * #admit "รหัสแผนกที่ส่งผู้ป่วยให้เป็นผู้ป่วยใน (admit clinic)"
@@ -89,6 +103,8 @@ Id: cs-43plus-encounter-diagnosis-role
 Title: "43Plus: รหัสประเภทการวินิจฉัย"
 Description: "รหัสประเภทการวินิจฉัย โดย 43 แฟ้ม plus"
 * ^url = $CS_43Plus_EncounterDiagnosisRole
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #1 "PRINCIPLE DX (การวินิจฉัยโรคหลัก)"
 * #2 "CO-MORBIDITY (การวินิจฉัยโรคร่วม)"
@@ -104,6 +120,8 @@ Id: cs-meta-extended-hl7-diagnosis-role
 Title: "Metadata: รหัสบทบาทการวินิจฉัยเพิ่มเติมจาก HL7"
 Description: "รหัสบทบาทการวินิจฉัยเพิ่มเติมจาก HL7 เพื่อใช้ใน 43 แฟ้ม plus"
 * ^url = $CS_Meta_ExtendedHL7DiagnosisRole
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #death "Cause of death"
 
@@ -114,6 +132,8 @@ Id: cs-eclaim-clinic
 Title: "eClaim: รหัสคลินิก/แผนกที่รับไว้รักษา"
 Description: "รหัสคลินิก/แผนกที่รับไว้รักษา โดย e-Claim 16 แฟ้ม"
 * ^url = $CS_eClaim_Clinic
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #00 "หน่วยงานระดับสถานีอนามัยและศูนย์สุขภาพชุมชน"
 * #01 "อายุรกรรม"

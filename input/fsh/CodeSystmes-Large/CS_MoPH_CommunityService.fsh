@@ -3,6 +3,8 @@ Id: cs-thcc-community-service
 Title: "THCC: รหัสการให้บริการสุขภาพระดับบุคคลในชุมชน"
 Description: "รหัสการให้บริการสุขภาพระดับบุคคลในชุมชน โดย THCC (ID: 208)"
 * ^url = $CS_THCC_CommunityService
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #1A000 "เยี่ยมผู้ป่วยโรคความดันโลหิตสูง"
 * #1A001 "เยี่ยมผู้ป่วยโรคเบาหวาน"

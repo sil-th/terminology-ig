@@ -3,6 +3,8 @@ Id: cs-thcc-marital
 Title: "THCC: รหัสสถานะการสมรส"
 Description: "รหัสสถานะการสมรส โดย THCC (ID: 3)"
 * ^url = $CS_THCC_Marital
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #1 "โสด"
 * #2 "คู่"
@@ -18,6 +20,8 @@ Id: cs-thcc-religion
 Title: "THCC: รหัสศาสนา"
 Description: "รหัสศาสนา โดย THCC (ID: 8)"
 * ^url = $CS_THCC_Religion
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #01 "ศาสนาพุทธ" "เถรวาท มหายาน"
 * #02 "ศาสนาอิสลาม" "สุหนี ชีอะห์"
@@ -37,6 +41,8 @@ Id: cs-thcc-education-level
 Title: "THCC: รหัสการศึกษา"
 Description: "รหัสการศึกษา โดย THCC (ID: 9)"
 * ^url = $CS_THCC_EducationLevel
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #00  "ไม่ได้ศึกษา/ไม่มีวุฒิการศึกษา"
 * #01  "ก่อนประถมศึกษา" "ระดับการศึกษา เตรียมอนุบาล,อนุบาล,เด็กเล็ก,ต่ำกว่าประถมศึกษา"
@@ -53,6 +59,8 @@ Id: cs-thcc-foreigner-type
 Title: "THCC: รหัสความเป็นคนต่างด้าว"
 Description: "รหัสความเป็นคนต่างด้าว โดย THCC (ID: 15)"
 * ^url = $CS_THCC_ForeignerType
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #01 "ต่างด้าว(บุคคลที่มีปัญหาสถานะและสิทธิ)ที่ขึ้นทะเบียนกับกระทรวงมหาดไทย ในกลุ่มนักเรียนในสถานศึกษาที่รับสวัสดิการจากรัฐบาลด้านการศึกษา ประเภททะเบียนราษฎร์ ท.ร.38 ก และมีเลขประจำตัวประชาชนที่ขึ้นต้นด้วยเลข 0"
 * #02 "ต่างด้าว(บุคคลที่มีปัญหาสถานะและสิทธิ)ที่ขึ้นทะเบียนกับกระทรวงมหาดไทย ในกลุ่มคนไร้รากเหง้า (กลุ่มบุคคลที่ขาดบุพการีหรือบุพการีทอดทิ้งซึ่งอยู่นอกสถานรับเลี้ยงของรัฐ) และมีเอกสารแบบพิมพ์ประวัติ ที่ไม่มีสถานะทางทะเบียนราษฎร์ ( ท.ร.38 ก.) มีเลขประจำตัวประชาชนที่ขึ้นต้นด้วยเลข 0"
@@ -91,6 +99,8 @@ Id: cs-thcc-person-status
 Title: "THCC: รหัสสถานะบุคคล"
 Description: "รหัสสถานะบุคคล โดย THCC (ID: 16)"
 * ^url = $CS_THCC_PersonStatus
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #1 "มีชื่ออยู่ตามทะเบียนบ้านในเขตรับผิดชอบและอยู่จริง"
 * #2 "มีชื่ออยู่ตามทะเบีบนบ้านในเขตรับผิดชอบแต่ตัวไม่อยู่จริง"

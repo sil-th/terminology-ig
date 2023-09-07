@@ -3,6 +3,8 @@ Id: cs-dopa-location
 Title: "DOPA: รหัสสถานที่"
 Description: "รหัสสถานที่ อ้างอิงตามรหัสกรมการปกครอง"
 * ^url = $CS_DOPA_Location
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * ^hierarchyMeaning = $CS_HL7_HierarchyMeaning#classified-with
 * #10 "กรุงเทพมหานคร"

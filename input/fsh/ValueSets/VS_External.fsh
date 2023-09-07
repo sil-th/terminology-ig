@@ -4,7 +4,9 @@ Id: vs-snomed-blood-rh
 Title: "SNOMED CT Blood Group - Rh"
 Description: "รหัสหมู่เลือด Rh จาก SNOMED CT"
 * ^url = $VS_SNOMED_Rh
-* ^status = #draft
+* ^status = #active
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * ^publisher = "Standards and Interoperability Lab - Thailand (SIL-TH)"
 * ^copyright = "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the SNOMED International. Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"
 * $SCT#165747007 "RhD positive"
@@ -17,7 +19,9 @@ Id: vs-snomed-blood-abo
 Title: "SNOMED CT Blood Group - ABO"
 Description: "รหัสหมู่เลือด ABO จาก SNOMED CT"
 * ^url = $VS_SNOMED_ABO
-* ^status = #draft
+* ^status = #active
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * ^publisher = "Standards and Interoperability Lab - Thailand (SIL-TH)"
 * ^copyright = "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the SNOMED International. Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"
 * $SCT#112144000 "Blood group A"
@@ -32,7 +36,9 @@ Id: vs-snomed-bloodgroup
 Title: "SNOMED CT Blood Group"
 Description: "รหัสหมู่เลือด จาก SNOMED CT"
 * ^url = $VS_SNOMED_BloodGroup
-* ^status = #draft
+* ^status = #active
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * ^publisher = "Standards and Interoperability Lab - Thailand (SIL-TH)"
 * ^copyright = "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the SNOMED International. Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"
 * $SCT#278149003 "Blood group A Rh(D) positive"
@@ -50,7 +56,9 @@ Id: vs-int-icdo3
 Title: "ICD-O 3"
 Description: "International Classification of Diseases for Oncology, version 3"
 * ^url = $VS_INT_ICDO3
-* ^status = #draft
+* ^status = #active
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * ^publisher = "Standards and Interoperability Lab - Thailand (SIL-TH)"
 * include codes from system $ICDO3
 
@@ -58,8 +66,11 @@ Description: "International Classification of Diseases for Oncology, version 3"
 ValueSet: ICD9CMProcedure
 Id: vs-int-icd9cm-procedure
 Title: "ICD-9-CM Procedure Codes"
+Description: "International Classification of Diseases,Ninth Revision, Clinical Modification (ICD-9-CM)"
 * ^url = $VS_INT_ICD9CMProcedure
-* ^status = #draft
+* ^status = #active
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * ^publisher = "Standards and Interoperability Lab - Thailand (SIL-TH)"
 * include codes from system $ICD9CM
 
@@ -69,7 +80,9 @@ Id: vs-snomed-int
 Title: "SNOMED-CT International Release"
 Description: "SNOMED-CT International Release"
 * ^url = $VS_SNOMED_INT
-* ^status = #draft
+* ^status = #active
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * ^publisher = "Standards and Interoperability Lab - Thailand (SIL-TH)"
 * ^copyright = "This artefact includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyrighted material of the SNOMED International. Where an implementation of this artefact makes use of SNOMED CT content, the implementer must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org"
 * include codes from system $SCT
@@ -82,7 +95,9 @@ Id: th-tmt
 Title: "TH: รหัส TMT"
 Description: "Thai Medicines Terminology (TMT)"
 * ^url = $VS_TMT
-* ^status = #draft
+* ^status = #active
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * ^publisher = "Standards and Interoperability Lab - Thailand (SIL-TH)"
 * include codes from system $CS_TMT
 
@@ -93,7 +108,9 @@ Id: th-tmlt
 Title: "TH: รหัส TMLT"
 Description: "Thai Medical Laboratory Terminology (TMLT)"
 * ^url = $VS_TMLT
-* ^status = #draft
+* ^status = #active
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * ^publisher = "Standards and Interoperability Lab - Thailand (SIL-TH)"
 * include codes from system $CS_TMLT
 
@@ -104,7 +121,9 @@ Id: th-24drug
 Title: "TH: รหัสยามาตรฐาน 24 หลัก โดย THCC"
 Description: "รหัสยามาตรฐาน 24 หลัก โดย THCC"
 * ^url = $VS_24Drug
-* ^status = #draft
+* ^status = #active
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * ^publisher = "Standards and Interoperability Lab - Thailand (SIL-TH)"
 * include codes from system $CS_24Drug
 
@@ -115,6 +134,8 @@ Id: vs-th-icd10tm
 Title: "TH: รหัส ICD-10-TM"
 Description: "รหัส ICD-10-TM"
 * ^url = $VS_TH_ICD10TM
-* ^status = #draft
+* ^status = #active
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * ^publisher = "Standards and Interoperability Lab - Thailand (SIL-TH)"
 * include codes from system $CS_TH_ICD10TM

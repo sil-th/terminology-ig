@@ -3,6 +3,8 @@ Id: cs-int-icf
 Title: "Inter: รหัสสภาวะสุขภาพตาม ICF"
 Description: "รหัสสภาวะสุขภาพตาม ICF เพื่อใช้ใน 43 แฟ้ม plus"
 * ^url = $CS_INT_ICF
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #b117.0 "การทำงานด้านสติปัญญาไม่มีความบกพร่อง: ระดับสติปัญญา 70 หรือสูงกว่า (NO)"
 * #b117.1 "การทำงานด้านสติปัญญามีความบกพร่องเล็กน้อย: ระดับสติปัญญา 50 - 69 (MILD)"

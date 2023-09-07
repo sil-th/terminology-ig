@@ -3,6 +3,8 @@ Id: cs-std15-medication-source
 Title: "Std15: รหัสประเภทยาที่ใช้ปัจจุบัน"
 Description: "รหัสประเภทยาที่ใช้ปัจจุบัน โดย e-Refer 15 แฟ้ม"
 * ^url = $CS_Std15_MedicationSource
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #1 "ยาที่ให้จาก รพ.ต้นทาง"
 * #2 "ยาที่ใช้ระหว่างการส่งต่อ"
@@ -15,6 +17,8 @@ Id: cs-eclaim-medication-category
 Title: "eClaim: รหัสหมวดรายการยา"
 Description: "รหัสหมวดรายการยา โดย e-Claim 16 แฟ้ม"
 * ^url = $CS_eClaim_MedicationCategory
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #1 "ใช้ในโรงพยาบาล"
 * #2 "ใช้ที่บ้าน"
@@ -29,6 +33,8 @@ Id: cs-eclaim-medication-ned-criteria
 Title: "eClaim: รหัสเหตุผลการใช้ยานอกบัญชียาหลัก"
 Description: "รหัสเหตุผลการใช้ยานอกบัญชียาหลัก โดย e-Claim 16 แฟ้ม"
 * ^url = $CS_eClaim_MedNedCriteria
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #EA "เกิดอาการไม่พึงประสงค์จากยาหรือแพ้ยาที่สามารถใช้ได้ในบัญชียาหลักแห่งชาติ"
 * #EB "ผลการรักษาไม่บรรลุเป้าหมายแม้ว่าได้ใช้ยาในบัญชียาหลักแห่งชาติครบตามมาตรฐานการรักษาแล้ว"
@@ -46,6 +52,8 @@ Id: cs-43plus-medication-delivery
 Title: "43Plus: รหัสการส่งมอบยา (กรณีจ่ายไปใช้ที่บ้าน)"
 Description: "รหัสการส่งมอบยา (กรณีจ่ายไปใช้ที่บ้าน) ใช้ประกอบโครงสร้าง 43 แฟ้ม plus"
 * ^url = $CS_43Plus_MedDelivery
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #1 "รับที่ counter ยา"
 * #2 "pickup (เดินทางมารับที่จุดจ่าย)"

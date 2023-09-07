@@ -3,6 +3,8 @@ Id: cs-int-isced-97
 Title: "Inter: รหัสระดับการศึกษา ISCED 1997"
 Description: "รหัสมาตรฐานระดับการศึกษา พัฒนาโดยสำนักงานสถิติแห่งชาติ (สสช) โดยอ้างอิงมาตรฐานจำแนกการศึกษาสากล (International Standard Classification of Education: ISCED 1997) ของ UNESCO และนำมาประยุกต์เพิ่มรายละเอียดให้เหมาะสมกับระบบการศึกษาของประเทศไทย"
 * ^url = $CS_INT_ISCED1997
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * ^hierarchyMeaning = $CS_HL7_HierarchyMeaning#classified-with
 * #1 "ระดับก่อนประถมศึกษา"

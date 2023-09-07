@@ -1,0 +1,22 @@
+#segment-header > .container {
+  background-color: var(--ig-header-container-color);
+}
+
+.navbar-inverse {
+  background-color: var(--navbar-bg-color);
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: var(--btn-hover-color);
+}
+
+#segment-footer > .container {
+  background-color: var(--footer-container-bg-color);
+  color: #ffffff;
+}
+
+#logo {
+  margin-top: 12px;
+}

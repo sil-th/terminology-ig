@@ -4,7 +4,8 @@ Title: "CHI: ประเภทผู้เบิก (ที่มา: สกส
 Description: "ประเภทผู้เบิก (ที่มา: สกส. CSOP BillDisp)"
 * ^url = $VS_CHI_ReimburserType
 * ^status = #active
-* ^jurisdiction = urn:iso:std:iso:3166#TH
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * include codes from system $CS_CHI_ReimburserType
 
 
@@ -14,7 +15,8 @@ Title: "CHI: ประเภทยาและเวชภัณฑ์ (ที�
 Description: "ประเภทยาและเวชภัณฑ์ (ที่มา: สกส. CSOP BillDisp)"
 * ^url = $VS_CHI_ProductCat
 * ^status = #active
-* ^jurisdiction = urn:iso:std:iso:3166#TH
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * include codes from system $CS_CHI_ProductCat
 
 
@@ -24,7 +26,8 @@ Title: "CHI: เงื่อนไขกำกับการเบิก (ท�
 Description: "เงื่อนไขกำกับการเบิก (ที่มา: สกส. CSOP BillDisp)"
 * ^url = $VS_CHI_ClaimCondition
 * ^status = #active
-* ^jurisdiction = urn:iso:std:iso:3166#TH
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * include codes from system $CS_CHI_ClaimCondition
 
 
@@ -34,7 +37,8 @@ Title: "CHI: รหัสการจ่ายยา generic แทนตาม�
 Description: "รหัสการจ่ายยา generic แทนตามที่ผู้สั่งยากำหนดไว้ (ที่มา: สกส. CSOP BillDisp)"
 * ^url = $VS_CHI_SubstitutionCode
 * ^status = #active
-* ^jurisdiction = urn:iso:std:iso:3166#TH
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * include codes from system $CS_CHI_SubstitutionCode
 
 
@@ -44,7 +48,8 @@ Title: "CHI: รหัสประเภทสถานพยาบาลที�
 Description: "รหัสประเภทสถานพยาบาลที่รักษา โดย CSOP แฟ้ม OPServices"
 * ^url = $VS_CHI_ProviderType
 * ^status = #active
-* ^jurisdiction = urn:iso:std:iso:3166#TH
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * include codes from system $CS_CHI_ProviderType
 
 
@@ -55,7 +60,8 @@ Title: "CHI: รหัสประเภทของบริการ  (ที�
 Description: "รหัสประเภทของบริการ  (ที่มา: สกส. CSOP OPServices)"
 * ^url = $VS_CHI_ServiceClass
 * ^status = #active
-* ^jurisdiction = urn:iso:std:iso:3166#TH
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * include codes from system $CS_CHI_ServiceClass
 
 
@@ -65,7 +71,8 @@ Title: "CHI: รหัสประเภทการให้บริการ�
 Description: "รหัสประเภทการให้บริการครั้งนี้  (ที่มา: สกส. CSOP OPServices)"
 * ^url = $VS_CHI_TypeServ
 * ^status = #active
-* ^jurisdiction = urn:iso:std:iso:3166#TH
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * include codes from system $CS_CHI_TypeServ
 
 
@@ -75,7 +82,8 @@ Title: "CHI: รหัสประเภทการให้บริการ�
 Description: "รหัสประเภทการให้บริการครั้งนี้  (ที่มา: สกส. CSOP OPServices)"
 * ^url = $VS_CHI_TypeIn
 * ^status = #active
-* ^jurisdiction = urn:iso:std:iso:3166#TH
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * include codes from system $CS_CHI_TypeIn
 
 
@@ -86,7 +94,8 @@ Title: "CHI: รหัสประเภทการสิ้นสุดกา�
 Description: "รหัสประเภทการสิ้นสุดการรับบริการครั้งนี้  (ที่มา: สกส. CSOP OPServices)"
 * ^url = $VS_CHI_TypeOut
 * ^status = #active
-* ^jurisdiction = urn:iso:std:iso:3166#TH
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * include codes from system $CS_CHI_TypeOut
 
 
@@ -97,7 +106,8 @@ Title: "CHI: รหัสแผนกหรือสถานที่ในก�
 Description: "รหัสแผนกหรือสถานที่ในการให้บริการ (ที่มา: สกส. CSOP OPServices)"
 * ^url = $VS_CHI_Clinic
 * ^status = #active
-* ^jurisdiction = urn:iso:std:iso:3166#TH
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * include codes from system $CS_CHI_Clinic
 
 
@@ -107,7 +117,8 @@ Title: "CHI: รหัสแยกประเภทการรักษาก�
 Description: "CHI: รหัสแยกประเภทการรักษากรณีผู้ป่วยใน (ที่มา: สกส. CIPN ClaimAuth)"
 * ^url = $VS_CHI_IpServiceType
 * ^status = #active
-* ^jurisdiction = urn:iso:std:iso:3166#TH
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * include codes from system $CS_CHI_IpServiceType
 
 
@@ -118,7 +129,8 @@ Title: "CHI: รหัสประเภทการรับ admit (ที่�
 Description: "รหัสประเภทการรับ admit (ที่มา: สกส. CIPN IPADT)"
 * ^url = $VS_CHI_AdmitType
 * ^status = #active
-* ^jurisdiction = urn:iso:std:iso:3166#TH
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * include codes from system $CS_CHI_AdmitType
 
 
@@ -128,7 +140,8 @@ Title: "CHI: รหัสที่มาการ admit (ที่มา: สก
 Description: "รหัสที่มาการ admit (ที่มา: สกส. CIPN IPADT)"
 * ^url = $VS_CHI_AdmitSource
 * ^status = #active
-* ^jurisdiction = urn:iso:std:iso:3166#TH
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * include codes from system $CS_CHI_AdmitSource
 
 
@@ -138,7 +151,8 @@ Title: "CHI: รหัสประเภทการเบิก (ที่ม�
 Description: "รหัสประเภทการเบิก (ที่มา: สกส. CIPN IPADT)"
 * ^url = $VS_CHI_ItemClaimCat
 * ^status = #active
-* ^jurisdiction = urn:iso:std:iso:3166#TH
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * include codes from system $CS_CHI_ItemClaimCat
 
 
@@ -148,7 +162,8 @@ Title: "CHI: รหัสประเภทค่ารักษา Coinsurance 
 Description: "รหัสประเภทค่ารักษา Coinsurance (ที่มา: สกส. CIPN Coinsurance)"
 * ^url = $VS_CHI_CoinsuranceCat
 * ^status = #active
-* ^jurisdiction = urn:iso:std:iso:3166#TH
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * include codes from system $CS_CHI_CoinsuranceCat
 
 
@@ -159,7 +174,8 @@ Title: "CHI: รหัสสถานะการสมรส (ที่มา: 
 Description: "CHI: รหัสสถานะการสมรส (ที่มา: สกส. CIPN IPADT)"
 * ^url = $VS_CHI_Marital
 * ^status = #active
-* ^jurisdiction = urn:iso:std:iso:3166#TH
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * include codes from system $CS_CHI_Marital
 
 
@@ -169,7 +185,8 @@ Title: "CHI: รหัสประเภทการวินิจฉัย (�
 Description: "CHI: รหัสประเภทการวินิจฉัย (ที่มา: สกส. CIPN IPDx)"
 * ^url = $VS_CHI_DiagnosisRole
 * ^status = #active
-* ^jurisdiction = urn:iso:std:iso:3166#TH
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * $CS_43Plus_EncounterDiagnosisRole#1 "PRINCIPLE DX (การวินิจฉัยโรคหลัก)"
 * $CS_43Plus_EncounterDiagnosisRole#2 "CO-MORBIDITY (การวินิจฉัยโรคร่วม)"
 * $CS_43Plus_EncounterDiagnosisRole#3 "COMPLICATION (การวินิจฉัยโรคแทรก)"
@@ -183,7 +200,8 @@ Title: "CHI: รหัสระบุเป็นการรักษากร�
 Description: "CHI: รหัสระบุเป็นการรักษากรณีอุบัติเหตุและ/หรือฉุกเฉิน (ที่มา: สกส. SSI IPAEREF)"
 * ^url = $VS_CHI_AccidentOrEmer
 * ^status = #active
-* ^jurisdiction = urn:iso:std:iso:3166#TH
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * $CS_eClaim_ReferTypeEclaim#A "Accident / Accident + Emergency"
 * $CS_eClaim_ReferTypeEclaim#E "Emergency"
 
@@ -194,7 +212,8 @@ Title: "CHI: รหัสสาเหตุการส่งต่อผู้�
 Description: "CHI: รหัสสาเหตุการส่งต่อผู้ป่วย (ที่มา: สกส. SSI IPAEREF)"
 * ^url = $VS_CHI_ReferPurpose
 * ^status = #active
-* ^jurisdiction = urn:iso:std:iso:3166#TH
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * include codes from system $CS_CHI_ReferPurpose
 
 
@@ -204,5 +223,6 @@ Title: "CHI: หมวดค่าใช้จ่ายบริการสา�
 Description: "หมวดค่าใช้จ่ายบริการสาธารณสุข (ที่มา: สกส. CSOP, CIPN, SSI)"
 * ^url = $VS_CHI_FeeCategory
 * ^status = #active
-* ^jurisdiction = urn:iso:std:iso:3166#TH
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * include codes from system $CS_CHI_FeeCategory

@@ -3,6 +3,8 @@ Id: cs-thcc-house-type
 Title: "THCC: รหัสลักษณะที่อยู่"
 Description: "รหัสลักษณะที่อยู่ โดย THCC (ID: 18) Modified"
 * ^url = $CS_THCC_HouseType
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #1 "บ้านเดี่ยว บ้านแฝด"
 * #2 "ทาวน์เฮาส์ ทาวน์โฮม"
@@ -18,6 +20,8 @@ Id: cs-thcc-in-municipality
 Title: "THCC: รหัสที่ตั้ง"
 Description: "รหัสที่ตั้ง ใน/นอกเขตเทศบาล โดย THCC (ID: 40)"
 * ^url = $CS_THCC_InMunicipality
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #1 "ในเขตเทศบาล"
 * #2 "นอกเขตเทศบาล"
@@ -28,6 +32,8 @@ Id: cs-pcu-village-area
 Title: "PCU: รหัสเขตที่ตั้งของหมู่บ้าน"
 Description: "รหัสเขตที่ตั้งของหมู่บ้าน โดย PCU"
 * ^url = $CS_PCU_VillageArea
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #1 "เทศบาล"
 * #2 "อบต."

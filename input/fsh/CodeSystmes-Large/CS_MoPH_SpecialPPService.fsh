@@ -3,6 +3,8 @@ Id: cs-thcc-special-pp-service
 Title: "THCC: รหัสบริการส่งเสริมป้องกันเฉพาะ"
 Description: "รหัสบริการส่งเสริมป้องกันเฉพาะ โดย THCC (ID: 205)"
 * ^url = $CS_THCC_SpecialPPService
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #1B0030 "ตรวจคัดกรองความเสี่ยง/โรคมะเร็งเต้านมได้ผลปกติ ผู้รับบริการเคยตรวจด้วยตนเองได้ผลปกติ"
 * #1B0031 "ตรวจคัดกรองความเสี่ยง/โรคมะเร็งเต้านมได้ผลปกติ ผู้รับบริการเคยตรวจด้วยตนเองได้ผลผิดปกติ"

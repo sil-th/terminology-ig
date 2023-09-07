@@ -3,7 +3,9 @@ Id: vs-dopa-location-subdistrict
 Title: "DOPA: รหัสตำบล ตามมาตรฐาน มอก.1099-2535"
 Description: "รหัสตำบล ตามมาตรฐาน มอก.1099-2535"
 * ^url = $VS_DOPA_Location_Subdistrict
-* ^status = #draft
+* ^status = #active
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * ^publisher = "Standards and Interoperability Lab - Thailand (SIL-TH)"
 * ^copyright = "This value set includes content from TIS-1099-2535, which is copyright © Thai Industrial Standards Institute (TISI)"
 * $CS_DOPA_Location#100101 "พระบรมมหาราชวัง"

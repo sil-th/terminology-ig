@@ -5,28 +5,33 @@
 # See https://github.com/FHIR/sample-ig/blob/master/input/ignoreWarnings.txt for examples
 
 # Suppressed local code
-Error from server: Unable to provide support for code system https://terms.sil-th.org/CodeSystem/cs-th-24drug
-Error from server: Unable to provide support for code system https://terms.sil-th.org/CodeSystem/cs-th-tmlt
-Error from server: Unable to provide support for code system https://terms.sil-th.org/CodeSystem/cs-th-tmt
-Error from server: Unable to provide support for code system https://terms.sil-th.org/CodeSystem/cs-th-icd10tm
-Error from server: Unable to provide support for code system http://terminology.hl7.org/CodeSystem/icd9cm
+Error from http://tx.fhir.org/r4: Unable to provide support for code system https://terms.sil-th.org/CodeSystem/cs-th-24drug
+Error from http://tx.fhir.org/r4: Unable to provide support for code system https://terms.sil-th.org/CodeSystem/cs-th-tmlt
+Error from http://tx.fhir.org/r4: Unable to provide support for code system https://terms.sil-th.org/CodeSystem/cs-th-tmt
+Error from http://tx.fhir.org/r4: Unable to provide support for code system https://terms.sil-th.org/CodeSystem/cs-dopa-location
+The value set include has too many codes to validate (7,437)
+Error from http://tx.fhir.org/r4: Unable to provide support for code system http://terminology.hl7.org/CodeSystem/icd9cm
+Error from http://tx.fhir.org/r4: Unable to provide support for code system http://terminology.hl7.org/CodeSystem/icd-o-3
+Error from http://tx.fhir.org/r4: Unable to provide support for code system https://terms.sil-th.org/CodeSystem/cs-th-icd10tm
+
 
 # Fixed HTML link
-ERROR: /Users/rathpanyowat/Dev/sil-th-terminology-ig/output/identifier-systems.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 188, column 12: The link '/NamingSystem/IDThaiCid' for "เลขประจำตัวประชาชนไทย" cannot be resolved
-ERROR: /Users/rathpanyowat/Dev/sil-th-terminology-ig/output/identifier-systems.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 193, column 12: The link '/NamingSystem/IDThaiWorkPermit' for "เลขที่ใบอนุญาตทำงานคนต่างด้าว" cannot be resolved
-ERROR: /Users/rathpanyowat/Dev/sil-th-terminology-ig/output/identifier-systems.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 198, column 12: The link '/NamingSystem/IDThaiDisability' for "เลขบัตรประจำตัวคนพิการ" cannot be resolved
-ERROR: /Users/rathpanyowat/Dev/sil-th-terminology-ig/output/identifier-systems.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 203, column 12: The link '/NamingSystem/IDHcode' for "เลขรหัสสถานพยาบาล" cannot be resolved
-ERROR: /Users/rathpanyowat/Dev/sil-th-terminology-ig/output/identifier-systems.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 218, column 12: The link '/NamingSystem/IDThaiDoctor' for "เลขประจำตัวแพทย์" cannot be resolved
-ERROR: /Users/rathpanyowat/Dev/sil-th-terminology-ig/output/identifier-systems.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 223, column 12: The link '/NamingSystem/IDThaiDentist' for "เลขประจำตัวทันตแพทย์" cannot be resolved
-ERROR: /Users/rathpanyowat/Dev/sil-th-terminology-ig/output/identifier-systems.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 228, column 12: The link '/NamingSystem/IDThaiNurse' for "เลขประจำตัวพยาบาล" cannot be resolved
-ERROR: /Users/rathpanyowat/Dev/sil-th-terminology-ig/output/identifier-systems.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 233, column 12: The link '/NamingSystem/IDThaiPharmacist' for "เลขประจำตัวเภสัชกร" cannot be resolved
-ERROR: /Users/rathpanyowat/Dev/sil-th-terminology-ig/output/identifier-systems.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 238, column 12: The link '/NamingSystem/IDThaiMedTech' for "เลขประจำตัวนักเทคนิคการแพทย์" cannot be resolved
-ERROR: /Users/rathpanyowat/Dev/sil-th-terminology-ig/output/identifier-systems.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 243, column 12: The link '/NamingSystem/IDThaiPhysio' for "เลขประจำตัวนักกายภาพบำบัด" cannot be resolved
-ERROR: /Users/rathpanyowat/Dev/sil-th-terminology-ig/output/identifier-systems.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 248, column 12: The link '/NamingSystem/IDThaiVet' for "เลขประจำตัวสัตวแพทย์" cannot be resolved
-ERROR: /Users/rathpanyowat/Dev/sil-th-terminology-ig/output/identifier-systems.html#/html/body/div/div/div/div/div/table/tbody/tr/td/a at Line 253, column 12: The link '/NamingSystem/IDThaiHealthVolunteer' for "เลขประจำตัวอาสาสมัครสาธารณสุขประจำหมู่บ้าน (อสม.)" cannot be resolved
-
-# ShareableValueSet
-The ShareableCodeSystem profile says that the experimental element is mandatory, but it is not present. Published code systems SHOULD conform to the ShareableCodeSystem profile
-The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
-The ShareableValueSet profile says that the description element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
-The ShareableValueSet profile says that the experimental element is mandatory, but it is not found. HL7 Published value sets SHALL conform to the ShareableValueSet profile
+The link '/NamingSystem/IDThaiCid' for "เลขประจำตัวประชาชนไทย" cannot be resolved
+The link '/NamingSystem/IDThaiWorkPermit' for "เลขที่ใบอนุญาตทำงานคนต่างด้าว" cannot be resolved
+The link '/NamingSystem/IDThaiDisability' for "เลขบัตรประจำตัวคนพิการ" cannot be resolved
+The link '/NamingSystem/IDHcode' for "เลขรหัสสถานพยาบาล" cannot be resolved
+The link '/NamingSystem/IDThaiDoctor' for "เลขประจำตัวแพทย์" cannot be resolved
+The link '/NamingSystem/IDThaiDentist' for "เลขประจำตัวทันตแพทย์" cannot be resolved
+The link '/NamingSystem/IDThaiNurse' for "เลขประจำตัวพยาบาล" cannot be resolved
+The link '/NamingSystem/IDThaiPharmacist' for "เลขประจำตัวเภสัชกร" cannot be resolved
+The link '/NamingSystem/IDThaiMedTech' for "เลขประจำตัวนักเทคนิคการแพทย์" cannot be resolved
+The link '/NamingSystem/IDThaiPhysio' for "เลขประจำตัวนักกายภาพบำบัด" cannot be resolved
+The link '/NamingSystem/IDThaiVet' for "เลขประจำตัวสัตวแพทย์" cannot be resolved
+The link '/NamingSystem/IDThaiHealthVolunteer' for "เลขประจำตัวอาสาสมัครสาธารณสุขประจำหมู่บ้าน (อสม.)" cannot be resolved
+The link '/NamingSystem/IDNhsoClaimCode' for "เลข claim code สปสปช." cannot be resolved
+The link '/NamingSystem/IDReferCode' for "เลขที่ใบส่งต่อ" cannot be resolved
+The link '/NamingSystem/IDPassport' for "เลขที่หนังสือเดินทาง" cannot be resolved
+Unable to find ImplementationGuide.definition.resource.description for the resource ValueSet/vs-int-icd9cm-procedure. Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide

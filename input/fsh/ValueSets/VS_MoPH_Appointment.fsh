@@ -3,6 +3,8 @@ Id: vs-std15-appoint-service-category
 Title: "Std15: รหัสประเภทการนัด"
 Description: "รหัสประเภทการนัด โดย e-Refer 15 แฟ้ม"
 * ^url = $VS_Std15_AppointServiceCategory
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * include codes from system CS_Std15_AppointServiceCategory
 
 
@@ -12,4 +14,5 @@ Id: vs-thcc-appoint-service-type
 Title: "THCC: รหัสชื่อบริการที่นัดรับ"
 Description: "รหัสชื่อบริการที่นัดรับ โดย THCC (ID: 152)"
 * ^url = $VS_THCC_AppointServiceType
+* ^experimental = false
 * include codes from system CS_THCC_AppointServiceType

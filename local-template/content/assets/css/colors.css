@@ -44,3 +44,12 @@ td {
   padding: 4px;
   border: 1px solid #aaa;
 }
+
+table.grid colgroup col {
+  width: 30% !important;
+}
+
+#hl7-search {
+  float: right;
+  margin: 16px;
+}

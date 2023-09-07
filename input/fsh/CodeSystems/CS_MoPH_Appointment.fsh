@@ -3,6 +3,8 @@ Id: cs-std15-appoint-service-category
 Title: "Std15: รหัสประเภทการนัด"
 Description: "รหัสประเภทการนัด โดย e-Refer 15 แฟ้ม"
 * ^url = $CS_Std15_AppointServiceCategory
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #0001 "ตรวจรักษา"
 * #0002 "Physical Therapy (กายภาพบําบัด)"
@@ -16,6 +18,8 @@ Id: cs-thcc-appoint-service-type
 Title: "THCC: รหัสชื่อบริการที่นัดรับ"
 Description: "รหัสชื่อบริการที่นัดรับ โดย THCC (ID: 152)"
 * ^url = $CS_THCC_AppointServiceType
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #010 "BCG" "บีซีจี"
 * #011 "BCGs" "บีซีจีเอส"

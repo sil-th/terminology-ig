@@ -3,6 +3,8 @@ Id: vs-pcu-fp-case-type
 Title: "PCU: รหัสประเภทการวางแผนครอบครัว"
 Description: "รหัสประเภทการวางแผนครอบครัว โดย PCU"
 * ^url = $VS_PCU_FpCaseType
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * include codes from system CS_PCU_FpCaseType
 
 
@@ -11,6 +13,8 @@ Id: vs-thcc-labor-performer-role
 Title: "THCC: รหัสประเภทของผู้ทำคลอด"
 Description: "รหัสประเภทของผู้ทำคลอด โดย THCC (ID: 185, 191)"
 * ^url = $VS_THCC_LaborPerformerRole
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * include codes from system CS_THCC_LaborPerformerRole
 
 
@@ -20,6 +24,8 @@ Id: vs-thcc-labor-procedure
 Title: "THCC: รหัสวิธีการคลอด/สิ้นสุดการตั้งครรภ์"
 Description: "รหัสวิธีการคลอด/สิ้นสุดการตั้งครรภ์ โดย THCC (ID: 184, 190)"
 * ^url = $VS_THCC_LaborProcedure
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * include codes from system CS_THCC_LaborProcedure
 
 
@@ -30,6 +36,8 @@ Id: vs-thcc-labor-location
 Title: "THCC: รหัสสถานที่คลอด"
 Description: "รหัสสถานที่คลอด โดย THCC (ID: 182, 187)"
 * ^url = $VS_THCC_LaborLocation
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * include codes from system CS_THCC_LaborLocation
 
 
@@ -39,6 +47,8 @@ Id: vs-thcc-contraceptive-method
 Title: "THCC: รหัสวิธีการคุมกำเนิด"
 Description: "รหัสวิธีการคุมกำเนิด โดย THCC (ID: 172)"
 * ^url = $VS_THCC_ContraceptiveMethod
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * include codes from system CS_THCC_ContraceptiveMethod
 
 
@@ -47,6 +57,8 @@ Id: vs-thcc-no-contraceptive
 Title: "THCC: รหัสสาเหตุที่ไม่คุมกำเนิด"
 Description:  "รหัสสาเหตุที่ไม่คุมกำเนิด โดย THCC (ID: 64)"
 * ^url = $VS_THCC_NoContraceptive
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * include codes from system CS_THCC_NoContraceptive
 
 
@@ -55,6 +67,8 @@ Id: vs-meta-misc-pregnancy-obs
 Title: "Metadata: รหัสการตรวจอื่น ๆ เกี่ยวกับอนามัยแม่และเด็ก"
 Description: "รหัสการตรวจอื่น ๆ เกี่ยวกับอนามัยแม่และเด็กที่ไม่มี LOINC code เพื่อใช้ใน 43 แฟ้ม plus"
 * ^url = $VS_Meta_MiscPregnancyObs
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * include codes from system CS_Meta_MiscPregnancyObs
 
 
@@ -63,6 +77,8 @@ Id: vs-meta-screening-result
 Title: "Metadata: รหัสผลการตรวจคัดกรอง"
 Description: "รหัสผลการตรวจคัดกรอง เพื่อใช้ใน 43 แฟ้ม plus"
 * ^url = $VS_Meta_ScreeningResult
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * include codes from system CS_Meta_ScreeningResult
 
 
@@ -72,6 +88,8 @@ Id: vs-pcu-postnatal-breastfeeding
 Title: "PCU: รหัสการไหลของน้ำนมหลังคลอด"
 Description: "รหัสการไหลของน้ำนมหลังคลอด โดย PCU"
 * ^url = $VS_PCU_PostnatalBreastfeeding
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * include codes from system CS_PCU_PostnatalBreastfeeding
 
 
@@ -82,6 +100,8 @@ Id: vs-pcu-postnatal-mens
 Title: "PCU: รหัสประจำเดือนหลังคลอด"
 Description: "รหัสประจำเดือนหลังคลอด โดย PCU"
 * ^url = $VS_PCU_PostnatalMens
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * include codes from system CS_PCU_PostnatalMens
 
 
@@ -91,6 +111,8 @@ Id: vs-pcu-postnatal-perineum
 Title: "PCU: รหัสการตรวจฝีเย็บหลังคลอด"
 Description: "รหัสการตรวจฝีเย็บหลังคลอด โดย PCU"
 * ^url = $VS_PCU_PostnatalPerineum
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * include codes from system CS_PCU_PostnatalPerineum
 
 
@@ -100,5 +122,7 @@ Id: vs-pcu-labor-presentation
 Title: "PCU: รหัสท่าเด็กตอนคลอด"
 Description: "รหัสท่าเด็กตอนคลอด โดย PCU"
 * ^url = $VS_PCU_LaborPresentation
+* ^meta.profile = $SD_SharableVS
+* ^experimental = false
 * include codes from system CS_PCU_LaborPresentation
 

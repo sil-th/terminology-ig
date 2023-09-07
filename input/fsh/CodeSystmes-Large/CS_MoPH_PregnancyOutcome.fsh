@@ -3,6 +3,8 @@ Id: cs-thcc-pregnancy-outcome
 Title: "THCC: รหัสผลการสิ้นสุดการตั้งครรภ์"
 Description: "รหัสผลการสิ้นสุดการตั้งครรภ์ โดย THCC (ID: 181)"
 * ^url = $CS_THCC_PregnancyOutcome
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #O000 "Abdominal pregnancy"
 * #O001 "Tubal pregnancy"

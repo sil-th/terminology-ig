@@ -1,0 +1,16 @@
+{
+  "package-id": "silth.fhir.terminology",
+  "version": "0.1.1",
+  "path": "https://terms.sil-th.org/STU1",
+  "mode": "milestone",
+  "status": "trial-use",
+  "sequence": "STU1 Release 1",
+  "desc": "Initial publication of the SIL-TH Terminology.",
+  "descmd": "Initial publication of the SIL-TH Terminology.",
+  "changes": "change_log.html",
+  "first": true,
+  "title": "SIL-TH Terminology (STU1)",
+  "ci-build": "https://terms.sil-th.org/",
+  "category": "Terminology",
+  "introduction": "This is the main entry page for access to the SIL-TH Terminology."
+}

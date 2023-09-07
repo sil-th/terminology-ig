@@ -3,6 +3,8 @@ Id: cs-th-identifier-type
 Title: "TH: การระบุชนิดของข้อมูลในประเทศไทย"
 Description: "การระบุชนิดของข้อมูลในประเทศไทย สำหรับประกอบ data type Identifier"
 * ^url = $CS_TH_IdentifierType
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 
 // From Thai national codes

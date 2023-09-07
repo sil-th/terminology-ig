@@ -3,6 +3,8 @@ Id: cs-thcc-2digit-lab
 Title: "THCC: รหัสการตรวจทางห้องปฎิบัติการเดิม 2 หลัก"
 Description: "รหัสการตรวจทางห้องปฎิบัติการเดิม 2 หลัก โดย THCC"
 * ^url = $CS_THCC_2DigitLab
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #01 "ตรวจน้ำตาลในเลือด จากหลอดเลือดดำ หลังอดอาหาร"
 * #02 "ตรวจน้ำตาลในเลือด จากหลอดเลือดดำ โดยไม่อดอาหาร"
@@ -33,6 +35,8 @@ Id: cs-th-icd10tm-lab
 Title: "THCC: รหัสการตรวจทางห้องปฎิบัติการ ICD-10-TM"
 Description: "รหัสการตรวจทางห้องปฎิบัติการ ICD-10-TM โดย THCC (ID: 125)"
 * ^url = $CS_TH_ICD10TM_Lab
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #0290201  "Chromosome analysis, breakage study, whole blood" "การวิเคราะห์โครโมโซมเพื่อศึกษาความแตกแยก  จากเลือด"
 * #0290401 "Chromosome analysis, cultured with mitogenic stimulation, whole blood" "การวิเคราะห์โครโมโซมโดยการเพาะเลี้ยงและการกระตุ้นการทำให้เกิด กระบวนการไมโทซิสในเซลล์  จากเลือด"

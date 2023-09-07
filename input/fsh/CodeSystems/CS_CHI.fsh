@@ -3,6 +3,8 @@ Id: cs-chi-reimburser-type
 Title: "CHI: ประเภทผู้เบิก (ที่มา: สกส. CSOP BillDisp)"
 Description: "ประเภทผู้เบิก (ที่มา: สกส. CSOP BillDisp)"
 * ^url = $CS_CHI_ReimburserType
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #HP "สถานพยาบาลนี้"
 * #P0 "ไม่ทราบสถานการณ์เบิก"
@@ -14,6 +16,8 @@ Id: cs-chi-product-cat
 Title: "CHI: ประเภทยาและเวชภัณฑ์ (ที่มา: สกส. CSOP BillDisp)"
 Description: "ประเภทยาและเวชภัณฑ์ (ที่มา: สกส. CSOP BillDisp)"
 * ^url = $CS_CHI_ProductCat
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #1 "ยาแผนปัจจุบันที่เป็นผลิตภัณฑ์ทางการค้า" "คือยาส่วนใหญ่ เป็นยาที่มีผู้ผลิตเพื่อจำหน่ายและขึ้นทะเบียนไว้กับองค์การอาหารและยาเป็นยาแผนปัจจุบัน"
 * #2 "ยาแผนปัจจุบันผลิตใช้เอง" "ยาแผนปัจจุบันที่เป็นเภสัชตำรับของสถานพยาบาลผลิตไว้ใช้เอง ไม่ได้จำหน่ายหรือผลิตให้แก่ร้านขายยาหรือหน่วยบริการสุขภาพอื่น ๆ"
@@ -29,6 +33,8 @@ Id: cs-chi-claim-condition
 Title: "CHI: เงื่อนไขกำกับการเบิก (ที่มา: สกส. CSOP BillDisp)"
 Description: "เงื่อนไขกำกับการเบิก (ที่มา: สกส. CSOP BillDisp)"
 * ^url = $CS_CHI_ClaimCondition
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #OD "ไม่ได้กำหนดเงื่อนไข" "เบิกได้ปกติ ไม่มีเงื่อนไขการเบิกกำหนดไว้"
 * #NR "เบิกไม่ได้"
@@ -49,6 +55,8 @@ Id: cs-chi-substitution-code
 Title: "CHI: รหัสการจ่ายยา generic แทนตามที่ผู้สั่งยากำหนดไว้  (ที่มา: สกส. CSOP BillDisp)"
 Description: "รหัสการจ่ายยา generic แทนตามที่ผู้สั่งยากำหนดไว้ (ที่มา: สกส. CSOP BillDisp)"
 * ^url = $CS_CHI_SubstitutionCode
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #0 "ไม่ต้องจัดยาแทน" "No product selection indicate"
 * #1 "ผู้สั่งไม่ให้จัดยาแทน" "Substitution not allowed by provider"
@@ -67,8 +75,9 @@ Id: cs-chi-provider-type
 Title: "CHI: รหัสประเภทสถานพยาบาลที่รักษา"
 Description: "รหัสประเภทสถานพยาบาลที่รักษา โดย CSOP แฟ้ม OPServices"
 * ^url = $CS_CHI_ProviderType
-* ^status = #active
-* ^jurisdiction = urn:iso:std:iso:3166#TH
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
+* ^caseSensitive = false
 * #1 "Main Contractor"
 * #2 "Sub Contractor"
 * #3 "Supra Contractor"
@@ -80,6 +89,8 @@ Id: cs-chi-service-class
 Title: "CHI: รหัสประเภทของบริการ  (ที่มา: สกส. CSOP OPServices)"
 Description: "รหัสประเภทของบริการ (ที่มา: สกส. CSOP OPServices)"
 * ^url = $CS_CHI_ServiceClass
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #OP "หัตถการ"
 * #EC "การตรวจรักษา"
@@ -95,6 +106,8 @@ Id: cs-chi-typeserv
 Title: "CHI: รหัสประเภทการให้บริการครั้งนี้  (ที่มา: สกส. CSOP OPServices)"
 Description: "รหัสประเภทการให้บริการครั้งนี้ (ที่มา: สกส. CSOP OPServices)"
 * ^url = $CS_CHI_TypeServ
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #01 "พบแพทย์เพื่อวินิจฉัยโรคครั้งแรก"
 * #02 "พบแพทย์ตามนัดเพื่อติดตามการรักษาโรคทั่วไป"
@@ -111,6 +124,8 @@ Id: cs-chi-typein
 Title: "CHI: รหัสประเภทการให้บริการครั้งนี้  (ที่มา: สกส. CSOP OPServices)"
 Description: "รหัสประเภทการให้บริการครั้งนี้  (ที่มา: สกส. CSOP OPServices)"
 * ^url = $CS_CHI_TypeIn
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #1 "เข้ารับบริการเอง"
 * #2 "เข้ารับบริการตามนัดหมาย"
@@ -124,6 +139,8 @@ Id: cs-chi-typeout
 Title: "CHI: รหัสประเภทการสิ้นสุดการรับบริการครั้งนี้  (ที่มา: สกส. CSOP OPServices)"
 Description: "รหัสประเภทการสิ้นสุดการรับบริการครั้งนี้  (ที่มา: สกส. CSOP OPServices)"
 * ^url = $CS_CHI_TypeOut
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #1 "จำหน่ายกลับบ้าน"
 * #2 "รับไว้รักษาต่อในแผนกผู้ป่วยใน"
@@ -138,6 +155,8 @@ Id: cs-chi-clinic
 Title: "CHI: รหัสแผนกหรือสถานที่ในการให้บริการ  (ที่มา: สกส. CSOP OPServices)"
 Description: "รหัสแผนกหรือสถานที่ในการให้บริการ (ที่มา: สกส. CSOP OPServices)"
 * ^url = $CS_CHI_Clinic
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #01 "อายุรกรรม"
 * #02 "ศัลยกรรม"
@@ -159,6 +178,8 @@ Id: cs-chi-ip-service-type
 Title: "CHI: รหัสแยกประเภทการรักษากรณีผู้ป่วยใน (ที่มา: สกส. CIPN ClaimAuth)"
 Description: "CHI: รหัสแยกประเภทการรักษากรณีผู้ป่วยใน (ที่มา: สกส. CIPN ClaimAuth)"
 * ^url = $CS_CHI_IpServiceType
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #IP "ผู้ป่วยในปกติ"
 * #NA "พักรอจำหน่าย"
@@ -172,6 +193,8 @@ Id: cs-chi-admit-type
 Title: "CHI: รหัสประเภทการรับ admit (ที่มา: สกส. CIPN IPADT)"
 Description: "รหัสประเภทการรับ admit (ที่มา: สกส. CIPN IPADT)"
 * ^url = $CS_CHI_AdmitType
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #A "accident"
 * #E "emergency"
@@ -187,6 +210,8 @@ Id: cs-chi-admit-source
 Title: "CHI: รหัสที่มาการ admit (ที่มา: สกส. CIPN IPADT)"
 Description: "รหัสที่มาการ admit (ที่มา: สกส. CIPN IPADT)"
 * ^url = $CS_CHI_AdmitSource
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #O "OPD ใน รพ."
 * #E "แผนก Emergency"
@@ -202,6 +227,8 @@ Id: cs-chi-item-claim-cat
 Title: "CHI: รหัสประเภทการเบิก (ที่มา: สกส. CIPN IPADT)"
 Description: "รหัสประเภทการเบิก (ที่มา: สกส. CIPN IPADT)"
 * ^url = $CS_CHI_ItemClaimCat
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #T "Tariff"
 * #D "DRG"
@@ -213,6 +240,8 @@ Id: cs-chi-claim-coinsurance-cat
 Title: "CHI: รหัสประเภทค่ารักษา Coinsurance (ที่มา: สกส. CIPN Coinsurance)"
 Description: "รหัสประเภทค่ารักษา Coinsurance (ที่มา: สกส. CIPN Coinsurance)"
 * ^url = $CS_CHI_CoinsuranceCat
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #RoomBoard "ค่ารักษาส่วนค่าห้องค่าอาหารที่เบิกได้"
 * #ProfFee "ค่าธรรมเนียมแพทย์ที่ได้เบิกได้"
@@ -224,6 +253,8 @@ Id: cs-chi-patient-marital
 Title: "CHI: รหัสสถานะการสมรส (ที่มา: สกส. CIPN IPADT)"
 Description: "รหัสสถานะการสมรส (ที่มา: สกส. CIPN IPADT)"
 * ^url = $CS_CHI_Marital
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #1 "โสด"
 * #2 "คู่"
@@ -237,6 +268,8 @@ Id: cs-chi-refer-purpose
 Title: "CHI: รหัสสาเหตุการส่งต่อผู้ป่วย (ที่มา: สกส. SSI IPAEREF)"
 Description: "รหัสสาเหตุการส่งต่อผู้ป่วย (ที่มา: สกส. SSI IPAEREF)"
 * ^url = $CS_CHI_ReferPurpose
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #1 "เพื่อวินิจฉัย"
 * #2 "เพื่อรักษา"
@@ -252,6 +285,8 @@ Id: cs-chi-fee-category
 Title: "CHI: หมวดค่าใช้จ่ายบริการสาธารณสุข (ที่มา: สกส. CSOP, CIPN, SSI)"
 Description: "หมวดค่าใช้จ่ายบริการสาธารณสุข (ที่มา: สกส. CSOP, CIPN, SSI)"
 * ^url = $CS_CHI_FeeCategory
+* ^meta.profile = $SD_SharableCS
+* ^experimental = false
 * ^caseSensitive = false
 * #01 "ห้องค่าอาหาร"
 * #02 "อวัยวะเทียมและอุปกรณ์ในการบำบัดฯ"
