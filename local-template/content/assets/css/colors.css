@@ -45,6 +45,46 @@ td {
   border: 1px solid #aaa;
 }
 
+p,
+li,
+td,
+tr,
+table.codes td,
+table.grid td,
+table.grid th,
+div.sidebar h2,
+div.sidebar p,
+div.sidebar ul,
+div.sidebar li {
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.title {
+  margin: 1.5em 0 0.75em 0;
+}
+
 table.grid colgroup col {
   width: 30% !important;
 }
@@ -52,4 +92,21 @@ table.grid colgroup col {
 #hl7-search {
   float: right;
   margin: 16px;
+}
+
+#segment-content {
+  margin-bottom: 40px;
+  min-height: 70vh;
+}
+
+.hierarchy {
+  font-size: 14px;
+}
+
+#tbl-diff-inner table td,
+#tbl-key-inner table td,
+#tbl-snap-inner table td,
+#all-tbl-diff-inner table td {
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
 }

@@ -45,6 +45,7 @@ Alias: $VS_HL7_DoseForm = http://terminology.hl7.org/ValueSet/v3-OrderableDrugFo
 Alias: $VS_HL7_SecurityLebel = http://hl7.org/fhir/ValueSet/security-labels
 Alias: $VS_HL7_DataAbsentReason = http://hl7.org/fhir/ValueSet/data-absent-reason
 Alias: $VS_HL7_SnomedProcedure = http://hl7.org/fhir/ValueSet/procedure-code
+Alias: $VS_HL7_ParticipantRoleType = http://hl7.org/fhir/ValueSet/participation-role-type
 
 // From international FHIR community
 Alias: $VS_INT_ISO3166 = http://hl7.org/fhir/ValueSet/iso3166-1-3

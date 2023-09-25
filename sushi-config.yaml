@@ -5,7 +5,7 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: silth.fhir.terminology.core
 canonical: https://terms.sil-th.org/core
-version: 0.1.1
+version: 0.1.2
 name: SilTHTerminology
 title: SIL-TH Terminology (STU1)
 status: active
@@ -27,6 +27,8 @@ pages:
     title: SIL-TH Terminology
   identifier-systems.md:
     title: รวม Identifier Systems
+  change_log.md:
+    title: Release Notes
 
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
@@ -35,3 +37,4 @@ menu:
   Home: index.html
   Identifier Systems: identifier-systems.html
   Artifacts Summary: artifacts.html
+  Release Notes: change_log.html
