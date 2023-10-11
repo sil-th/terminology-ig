@@ -1,6 +1,6 @@
 {
   "package-id": "silth.fhir.terminology.core",
-  "version": "0.1./",
+  "version": "0.1.2",
   "path": "https://terms.sil-th.org/core/STU1",
   "mode": "technical-correction",
   "status": "trial-use",
